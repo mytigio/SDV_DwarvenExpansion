@@ -1,6 +1,20 @@
 {
     "Format": "2.0.0",
+    "ConfigSchema": {
+        "EnabledMachines": {
+            "AllowValues": "GemPolisher",
+            "AllowMultiple": true,
+            "AllowBlank": true,
+            "Default": "GemPolisher"
+        }
+    },
     "Changes": [
-        // your changes will go here
+        {
+            "Action": "Include",
+            "FromFile": "assets/BigCraftables/GemPolisher/big-craftable.json",
+            "When": {
+                "EnabledMachines": "GemPolisher"
+            }
+        }
     ]
 }
