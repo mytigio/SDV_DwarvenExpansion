@@ -1,0 +1,11 @@
+{
+    "Name": "Dwarven Expansion",
+    "Author": "mytigio",
+    "Version": "1.0.0",
+    "Description": "A 1.6 remake of Dwarvish, adding new mining and dwarven themed items, machines and animals.",
+    "UniqueID": "mytigio.dwarven_expansion",
+    "UpdateKeys": [], // when you release the mod, see https://stardewvalleywiki.com/Modding:Modder_Guide/APIs/Update_checks
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
