@@ -52,34 +52,19 @@
                         {
                             "Id": "Dwarven_Spirits",
                             "Triggers": [
+                                
                                 {
-                                    "Id": "Copper_Ore_Dust",
+                                    "Id": "Ore_Dust",
                                     "Trigger": "ItemPlacedInMachine",
-                                    "RequiredItemId": "{{ModId}}_MineralDust_CopperDust",
-                                    "RequiredCount": 1
-                                },
-                                {
-                                    "Id": "Iron_Ore_Dust",
-                                    "Trigger": "ItemPlacedInMachine",
-                                    "RequiredItemId": "{{ModId}}_MineralDust_IronDust",
-                                    "RequiredCount": 1
-                                },
-                                {
-                                    "Id": "Gold_Ore_Dust",
-                                    "Trigger": "ItemPlacedInMachine",
-                                    "RequiredItemId": "{{ModId}}_MineralDust_GoldDust",
-                                    "RequiredCount": 1
-                                },
-                                {
-                                    "Id": "Iridium_Ore_Dust",
-                                    "Trigger": "ItemPlacedInMachine",
-                                    "RequiredItemId": "{{ModId}}_MineralDust_IridiumDust",
+                                    "RequiredTags": [
+                                        "{{ModId}}_oredust"
+                                    ],
                                     "RequiredCount": 1
                                 }
                             ],
                             "OutputItem": [
                                 {
-                                    "Id": "Iridium_Output",
+                                    "Id": "Dwarven_Spirits",
                                     "ItemId": "{{ModId}}_Drinks_DwarvenSpirits",
                                     "Quality": "0",
                                     "CopyPrice": true,
@@ -87,12 +72,14 @@
                                         {
                                             "ID": "increase_base",
                                             "Modification": "Add",
-                                            "Amount": 25
+                                            "Amount": 25,
+                                            "Condition": "ITEM_CONTEXT_TAG  Input {{ModId}}_oredust"
                                         },
                                         {
                                             "ID": "multiply",
                                             "Modification": "Multiply",
-                                            "Amount": 1.25
+                                            "Amount": 1.25,
+                                            "Condition": "ITEM_CONTEXT_TAG  Input {{ModId}}_oredust"
                                         }
                                     ],
                                     "QualityModifiers": [

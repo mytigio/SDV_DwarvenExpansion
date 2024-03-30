@@ -221,6 +221,51 @@
                             "MinutesUntilReady": "30"
                         },
                         {
+                            "Id": "Carrot_Mash",
+                            "Triggers": [
+                                {
+                                    "Id": "Cave_Carrot",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "78",
+                                    "RequiredCount": 1
+                                },
+                                {
+                                    "Id": "Carrot",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "Carrot",
+                                    "RequiredCount": 1
+                                }
+
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "Iridium_Quality_Input",
+                                    "ItemId": "{{ModId}}_CarrotMash",
+                                    "MinStack": 6,
+                                    "Condition": "ITEM_QUALITY Input 4 4"
+                                },
+                                {
+                                    "Id": "Gold_Quality_Input",
+                                    "ItemId": "{{ModId}}_CarrotMash",
+                                    "MinStack": 4,
+                                    "Condition": "ITEM_QUALITY Input 2 2"
+                                },
+                                {
+                                    "Id": "Silver_Quality_Input",
+                                    "ItemId": "{{ModId}}_CarrotMash",
+                                    "MinStack": 3,
+                                    "Condition": "ITEM_QUALITY Input 1 1"
+                                },
+                                {
+                                    "Id": "Basic_Quality_Input",
+                                    "ItemId": "{{ModId}}_CarrotMash",
+                                    "MinStack": 2,
+                                    "Condition": "ITEM_QUALITY Input 0 0"
+                                }
+                            ],
+                            "MinutesUntilReady": "30"
+                        },
+                        {
                             "Id": "Copper_Cluster",
                             "Triggers": [
                                 {
