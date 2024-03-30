@@ -37,7 +37,32 @@
                     "Texture": "{{InternalAssetKey: assets/Objects/Drinks/spirits.png}}",
                     "SpriteIndex": 0
                 },
-                
+                "{{ModId}}_Drinks_InfusedSpirits": {
+                    "Name": "Infused Dwarven Spirits",
+                    "Description": "Dwarven Spirits infused with the magical energy of the the deep earth.",
+                    "Price": 200,
+                    "Type": "Crafting",
+                    "Category": -26,
+                    "Edibility": 150,
+                    "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id": "loss",
+                            "Duration": 300,
+                            "CustomAttributes": [
+                                {
+                                    "LuckLevel": 2
+                                }
+                                
+                            ]
+                        }
+                    ],
+                    "ContextTags": [
+                        "{{ModId}}"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Drinks/infused_spirits.png}}",
+                    "SpriteIndex": 0
+                },
                 "{{ModId}}_OreCluster_Copper": {
                     "Name": "Copper Cluster",
                     "DisplayName": "Copper Cluster",
@@ -46,6 +71,10 @@
                     "Price": 25,
                     "Category": "-15",
                     "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_orecluster"
+                    ],
                     "Texture": "{{InternalAssetKey: assets/Objects/OreCluster/CopperCluster.png}}",
                     "SpriteIndex": 0
                 },
@@ -57,6 +86,10 @@
                     "Price": 75,
                     "Category": "-15",
                     "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_orecluster"
+                    ],
                     "Texture": "{{InternalAssetKey: assets/Objects/OreCluster/IronCluster.png}}",
                     "SpriteIndex": 0
                 },
@@ -68,6 +101,10 @@
                     "Price": 125,
                     "Category": "-15",
                     "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_orecluster"
+                    ],
                     "Texture": "{{InternalAssetKey: assets/Objects/OreCluster/GoldCluster.png}}",
                     "SpriteIndex": 0
                 },
@@ -79,6 +116,10 @@
                     "Price": 500,
                     "Category": "-15",
                     "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_orecluster"
+                    ],
                     "Texture": "{{InternalAssetKey: assets/Objects/OreCluster/IridiumCluster.png}}",
                     "SpriteIndex": 0
                 },
@@ -90,6 +131,10 @@
                     "Price": 5,
                     "Category": "-15",
                     "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_oredust"
+                    ],
                     "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Copper.png}}",
                     "SpriteIndex": 0
                 },
@@ -101,6 +146,10 @@
                     "Price": 10,
                     "Category": "-15",
                     "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_oredust"
+                    ],
                     "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Iron.png}}",
                     "SpriteIndex": 0
                 },
@@ -112,6 +161,10 @@
                     "Price": 25,
                     "Category": "-15",
                     "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_oredust"
+                    ],
                     "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Gold.png}}",
                     "SpriteIndex": 0
                 },
@@ -123,6 +176,10 @@
                     "Price": 100,
                     "Category": "-15",
                     "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_oredust"
+                    ],
                     "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Iridium.png}}",
                     "SpriteIndex": 0
                 },
@@ -134,6 +191,10 @@
                     "Price": 250,
                     "Category": "-2",
                     "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_gemdust"
+                    ],
                     "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Emerald.png}}",
                     "SpriteIndex": 0
                 },
@@ -145,6 +206,10 @@
                     "Price": 180,
                     "Category": "-2",
                     "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_gemdust"
+                    ],
                     "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Aquamarine.png}}",
                     "SpriteIndex": 0
                 },
@@ -156,6 +221,10 @@
                     "Price": 250,
                     "Category": "-2",
                     "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_gemdust"
+                    ],
                     "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Ruby.png}}",
                     "SpriteIndex": 0
                 },
@@ -167,6 +236,10 @@
                     "Price": 100,
                     "Category": "-2",
                     "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_gemdust"
+                    ],
                     "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Amethyst.png}}",
                     "SpriteIndex": 0
                 },
@@ -178,6 +251,10 @@
                     "Price": 80,
                     "Category": "-2",
                     "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_gemdust"
+                    ],
                     "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Topaz.png}}",
                     "SpriteIndex": 0
                 },
@@ -189,6 +266,10 @@
                     "Price": 200,
                     "Category": "-2",
                     "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_gemdust"
+                    ],
                     "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Jade.png}}",
                     "SpriteIndex": 0
                 },
@@ -200,6 +281,10 @@
                     "Price": 750,
                     "Category": "-2",
                     "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_gemdust"
+                    ],
                     "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Diamond.png}}",
                     "SpriteIndex": 0
                 },
@@ -211,6 +296,10 @@
                     "Price": 200,
                     "Category": "-2",
                     "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_gemdust"
+                    ],
                     "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Gemstone.png}}",
                     "SpriteIndex": 0
                 },
@@ -246,7 +335,7 @@
                         "Entries",
                         "Universal_Neutral"
                     ],
-                    "Value": "{{ModId}}_Drinks_DwarvenSpirits",
+                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
                     "Delimiter": " "
                 },
                 {
@@ -266,7 +355,7 @@
                         "Dwarf",
                         1
                     ],
-                    "Value": "{{ModId}}_Drinks_DwarvenSpirits {{ModId}}_Necklace_Aerinite",
+                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits {{ModId}}_Necklace_Aerinite",
                     "Delimiter": " "
                 },
                 {
@@ -276,7 +365,7 @@
                         "Gus",
                         3
                     ],
-                    "Value": "{{ModId}}_Drinks_DwarvenSpirits",
+                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
                     "Delimiter": " "
                 },
                 {
@@ -286,7 +375,7 @@
                         "Haley",
                         7
                     ],
-                    "Value": "{{ModId}}_Drinks_DwarvenSpirits",
+                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
                     "Delimiter": " "
                 },
                 {
@@ -296,7 +385,7 @@
                         "Jas",
                         5
                     ],
-                    "Value": "{{ModId}}_Drinks_DwarvenSpirit",
+                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirit",
                     "Delimiter": " "
                 },
                 {
@@ -306,7 +395,7 @@
                         "Krobus",
                         7
                     ],
-                    "Value": "{{ModId}}_Drinks_DwarvenSpirits",
+                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
                     "Delimiter": " "
                 },
                 {
@@ -316,7 +405,7 @@
                         "Linus",
                         3
                     ],
-                    "Value": "{{ModId}}_Drinks_DwarvenSpirits",
+                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
                     "Delimiter": " "
                 },
                 {
@@ -336,7 +425,7 @@
                         "Pam",
                         3
                     ],
-                    "Value": "{{ModId}}_Drinks_DwarvenSpirits",
+                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
                     "Delimiter": " "
                 },
                 {
@@ -346,7 +435,7 @@
                         "Penny",
                         7
                     ],
-                    "Value": "{{ModId}}_Drinks_DwarvenSpirits",
+                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
                     "Delimiter": " "
                 },
                 {
@@ -366,7 +455,17 @@
                         "Vincent",
                         5
                     ],
-                    "Value": "{{ModId}}_Drinks_DwarvenSpirit",
+                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirit",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Wizard",
+                        1
+                    ],
+                    "Value": "{{ModId}}_Drinks_InfusedSpirit",
                     "Delimiter": " "
                 },
                 {
