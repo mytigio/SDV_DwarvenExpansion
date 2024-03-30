@@ -2,18 +2,36 @@
     "Format": "2.0.0",
     "ConfigSchema": {
         "EnabledMachines": {
-            "AllowValues": "GemPolisher",
+            "AllowValues": "GemPolisher, Pulverizer, DwarvenStill",
             "AllowMultiple": true,
             "AllowBlank": true,
-            "Default": "GemPolisher"
+            "Default": "GemPolisher, Pulverizer, DwarvenStill"
         }
     },
     "Changes": [
         {
             "Action": "Include",
+            "FromFile": "assets/Objects/objects.json"
+        },
+        {
+            "Action": "Include",
             "FromFile": "assets/BigCraftables/GemPolisher/big-craftable.json",
             "When": {
                 "EnabledMachines": "GemPolisher"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/BigCraftables/Pulverizer/big-craftable.json",
+            "When": {
+                "EnabledMachines": "Pulverizer"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/BigCraftables/DwarvenStill/big-craftable.json",
+            "When": {
+                "EnabledMachines": "DwarvenStill"
             }
         }
     ]

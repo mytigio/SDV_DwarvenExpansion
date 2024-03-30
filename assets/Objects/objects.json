@@ -1,0 +1,385 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_CarrotMash": {
+                    "Name": "Carrot Mash",
+                    "Description": "Mash made from cave carrots and a special cave fungus.",
+                    "Price": 25,
+                    "Type": "Basic",
+                    "Category": -25,
+                    "Edibility": -300,
+                    "Texture": "{{InternalAssetKey: assets/Objects/Misc/carrotMash.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Drinks_DwarvenSpirits": {
+                    "Name": "Dwarven Spirits",
+                    "Description": "Traditional Dwarven Spirits. Why are they green?",
+                    "Price": 50,
+                    "Type": "Crafting",
+                    "Category": -26,
+                    "Edibility": 30,
+                    "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id": "loss",
+                            "Duration": 300,
+                            "CustomAttributes": [
+                                {
+                                    "LuckLevel": 1
+                                }
+                                
+                            ]
+                        }
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Drinks/spirits.png}}",
+                    "SpriteIndex": 0
+                },
+                
+                "{{ModId}}_OreCluster_Copper": {
+                    "Name": "Copper Cluster",
+                    "DisplayName": "Copper Cluster",
+                    "Description": "A cluster of very pure copper ore",
+                    "Type": "Minerals",
+                    "Price": 25,
+                    "Category": "-15",
+                    "Edibility": -300,
+                    "Texture": "{{InternalAssetKey: assets/Objects/OreCluster/CopperCluster.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_OreCluster_Iron": {
+                    "Name": "Iron Cluster",
+                    "DisplayName": "Iron Cluster",
+                    "Description": "A cluster of very pure iron ore",
+                    "Type": "Minerals",
+                    "Price": 75,
+                    "Category": "-15",
+                    "Edibility": -300,
+                    "Texture": "{{InternalAssetKey: assets/Objects/OreCluster/IronCluster.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_OreCluster_Gold": {
+                    "Name": "Gold Cluster",
+                    "DisplayName": "Gold Cluster",
+                    "Description": "A cluster of very pure gold ore",
+                    "Type": "Minerals",
+                    "Price": 125,
+                    "Category": "-15",
+                    "Edibility": -300,
+                    "Texture": "{{InternalAssetKey: assets/Objects/OreCluster/GoldCluster.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_OreCluster_Iridium": {
+                    "Name": "Iridium Cluster",
+                    "DisplayName": "Iridium Cluster",
+                    "Description": "A cluster of very pure Iridium ore",
+                    "Type": "Minerals",
+                    "Price": 500,
+                    "Category": "-15",
+                    "Edibility": -300,
+                    "Texture": "{{InternalAssetKey: assets/Objects/OreCluster/IridiumCluster.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_MineralDust_CopperDust": {
+                    "Name": "Copper Dust",
+                    "DisplayName": "Copper Dust",
+                    "Description": "Dust from ground copper ore.",
+                    "Type": "Minerals",
+                    "Price": 5,
+                    "Category": "-15",
+                    "Edibility": -300,
+                    "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Copper.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_MineralDust_IronDust": {
+                    "Name": "Iron Dust",
+                    "DisplayName": "Iron Dust",
+                    "Description": "Dust from ground iron ore.",
+                    "Type": "Minerals",
+                    "Price": 10,
+                    "Category": "-15",
+                    "Edibility": -300,
+                    "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Iron.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_MineralDust_GoldDust": {
+                    "Name": "Gold Dust",
+                    "DisplayName": "Gold Dust",
+                    "Description": "Dust from ground gold ore.",
+                    "Type": "Minerals",
+                    "Price": 25,
+                    "Category": "-15",
+                    "Edibility": -300,
+                    "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Gold.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_MineralDust_IridiumDust": {
+                    "Name": "Iridium Dust",
+                    "DisplayName": "Iridium Dust",
+                    "Description": "Dust from ground iridium ore.",
+                    "Type": "Minerals",
+                    "Price": 100,
+                    "Category": "-15",
+                    "Edibility": -300,
+                    "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Iridium.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_MineralDust_EmeraldDust": {
+                    "Name": "Emerald Dust",
+                    "DisplayName": "Emerald Dust",
+                    "Description": "Dust from ground emerald.",
+                    "Type": "Minerals",
+                    "Price": 250,
+                    "Category": "-2",
+                    "Edibility": -300,
+                    "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Emerald.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_MineralDust_AquamarineDust": {
+                    "Name": "Aquamarine Dust",
+                    "DisplayName": "Aquamarine Dust",
+                    "Description": "Dust from ground aquamarine.",
+                    "Type": "Minerals",
+                    "Price": 180,
+                    "Category": "-2",
+                    "Edibility": -300,
+                    "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Aquamarine.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_MineralDust_RubyDust": {
+                    "Name": "Ruby Dust",
+                    "DisplayName": "Ruby Dust",
+                    "Description": "Dust from ground ruby.",
+                    "Type": "Minerals",
+                    "Price": 250,
+                    "Category": "-2",
+                    "Edibility": -300,
+                    "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Ruby.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_MineralDust_AmethystDust": {
+                    "Name": "Amethyst Dust",
+                    "DisplayName": "Amethyst Dust",
+                    "Description": "Dust from ground amethyst.",
+                    "Type": "Minerals",
+                    "Price": 100,
+                    "Category": "-2",
+                    "Edibility": -300,
+                    "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Amethyst.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_MineralDust_TopazDust": {
+                    "Name": "Topaz Dust",
+                    "DisplayName": "Topaz Dust",
+                    "Description": "Dust from ground topaz.",
+                    "Type": "Minerals",
+                    "Price": 80,
+                    "Category": "-2",
+                    "Edibility": -300,
+                    "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Topaz.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_MineralDust_JadeDust": {
+                    "Name": "Jade Dust",
+                    "DisplayName": "Jade Dust",
+                    "Description": "Dust from ground Jade.",
+                    "Type": "Minerals",
+                    "Price": 200,
+                    "Category": "-2",
+                    "Edibility": -300,
+                    "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Jade.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_MineralDust_DiamondDust": {
+                    "Name": "Diamond Dust",
+                    "DisplayName": "Diamond Dust",
+                    "Description": "Dust from ground diamond.",
+                    "Type": "Minerals",
+                    "Price": 750,
+                    "Category": "-2",
+                    "Edibility": -300,
+                    "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Diamond.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_MineralDust_GemstoneDust": {
+                    "Name": "Gemstone Dust",
+                    "DisplayName": "Gemstone Dust",
+                    "Description": "Dust from ground gemstones.",
+                    "Type": "Minerals",
+                    "Price": 200,
+                    "Category": "-2",
+                    "Edibility": -300,
+                    "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Gemstone.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Necklace_Aerinite": {
+                    "Name": "Aerinite Necklace",
+                    "DisplayName": "Aerinite Necklace",
+                    "Description": "A finely crafted gold necklace set with a chunk of polished aerinite.",
+                    "Type": "Basic",
+                    "Price": 1125,
+                    "Category": "-26",
+                    "Edibility": -300,
+                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Aerinite/texture.png}}",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [                
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Like"
+                    ],
+                    "Value": "{{ModId}}_Necklace_Aerinite",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Neutral"
+                    ],
+                    "Value": "{{ModId}}_Drinks_DwarvenSpirits",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Hate"
+                    ],
+                    "Value": "{{ModId}}_CarrotMash",
+                    "Delimiter": " "
+                },
+                //#1 = love, #3 = like, #5 = dislike, #7 = hated, #9 = neutral
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Dwarf",
+                        1
+                    ],
+                    "Value": "{{ModId}}_Drinks_DwarvenSpirits {{ModId}}_Necklace_Aerinite",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Gus",
+                        3
+                    ],
+                    "Value": "{{ModId}}_Drinks_DwarvenSpirits",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Haley",
+                        7
+                    ],
+                    "Value": "{{ModId}}_Drinks_DwarvenSpirits",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Jas",
+                        5
+                    ],
+                    "Value": "{{ModId}}_Drinks_DwarvenSpirit",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Krobus",
+                        7
+                    ],
+                    "Value": "{{ModId}}_Drinks_DwarvenSpirits",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Linus",
+                        3
+                    ],
+                    "Value": "{{ModId}}_Drinks_DwarvenSpirits",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Linus",
+                        5
+                    ],
+                    "Value": "{{ModId}}_Necklace_Aerinite",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Pam",
+                        3
+                    ],
+                    "Value": "{{ModId}}_Drinks_DwarvenSpirits",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Penny",
+                        7
+                    ],
+                    "Value": "{{ModId}}_Drinks_DwarvenSpirits",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Pierre",
+                        5
+                    ],
+                    "Value": "{{ModId}}_Necklace_Aerinite",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Vincent",
+                        5
+                    ],
+                    "Value": "{{ModId}}_Drinks_DwarvenSpirit",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Wizard",
+                        3
+                    ],
+                    "Value": "{{ModId}}_Drinks_DwarvenSpirits",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}
