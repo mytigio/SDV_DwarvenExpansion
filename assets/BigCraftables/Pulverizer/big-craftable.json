@@ -513,6 +513,14 @@
                                     "Condition": "ITEM_ID Input 72"
                                 },
                                 {
+                                    "Id": "Prismatic_Dust",
+                                    "ItemId": "{{ModId}}_MineralDust_PrismaticDust",
+                                    "MinStack": 1,
+                                    "CopyPrice": true,
+                                    "PreserveId": "DROP_IN_ID",
+                                    "Condition": "ITEM_ID Input 74"
+                                },
+                                {
                                     "Id": "Gemstone_Dust",
                                     "ItemId": "{{ModId}}_MineralDust_GemstoneDust",
                                     "ObjectDisplayName": "%PRESERVED_DISPLAY_NAME Dust",

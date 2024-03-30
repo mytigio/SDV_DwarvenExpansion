@@ -52,12 +52,19 @@
                         {
                             "Id": "Dwarven_Spirits",
                             "Triggers": [
-                                
                                 {
                                     "Id": "Ore_Dust",
                                     "Trigger": "ItemPlacedInMachine",
                                     "RequiredTags": [
                                         "{{ModId}}_oredust"
+                                    ],
+                                    "RequiredCount": 1
+                                },
+                                {
+                                    "Id": "Ore_Dust",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredTags": [
+                                        "{{ModId}}_gemdust"
                                     ],
                                     "RequiredCount": 1
                                 }
@@ -68,65 +75,10 @@
                                     "ItemId": "{{ModId}}_Drinks_DwarvenSpirits",
                                     "Quality": "0",
                                     "CopyPrice": true,
+                                    "Condition": "ITEM_CONTEXT_TAG  Input {{ModId}}_oredust",
                                     "PriceModifiers": [
                                         {
-                                            "ID": "increase_base",
-                                            "Modification": "Add",
-                                            "Amount": 25,
-                                            "Condition": "ITEM_CONTEXT_TAG  Input {{ModId}}_oredust"
-                                        },
-                                        {
-                                            "ID": "multiply",
-                                            "Modification": "Multiply",
-                                            "Amount": 1.25,
-                                            "Condition": "ITEM_CONTEXT_TAG  Input {{ModId}}_oredust"
-                                        }
-                                    ],
-                                    "QualityModifiers": [
-                                        {
-                                            "ID": "iridium_quality",
-                                            "Modification": "Set",
-                                            "Amount": 4,
-                                            "Condition": "ITEM_ID Input {{ModId}}_MineralDust_IridiumDust"
-                                        },
-                                        {
-                                            "ID": "gold_quality",
-                                            "Modification": "Set",
-                                            "Amount": 2,
-                                            "Condition": "ITEM_ID Input {{ModId}}_MineralDust_GoldDust"
-                                        },
-                                        {
-                                            "ID": "silver_quality",
-                                            "Modification": "Set",
-                                            "Amount": 1,
-                                            "Condition": "ITEM_ID Input {{ModId}}_MineralDust_IronDust"
-                                        }
-                                    ]
-                                }
-                            ],
-                            "UseFirstValidOutput": true,
-                            "MinutesUntilReady": "1400"
-                        },
-                        {
-                            "Id": "Infused_Dwarven_Spirits",
-                            "Triggers": [
-                                {
-                                    "Id": "Gem_Dust",
-                                    "Trigger": "ItemPlacedInMachine",
-                                    "RequiredTags": ["category_gem"],
-                                    "RequiredCount": 1,
-                                    "Condition": "ITEM_ID Input {{ModId}}_MineralDust_EmeraldDust {{ModId}}_MineralDust_AquamarineDust {{ModId}}_MineralDust_RubyDust {{ModId}}_MineralDust_AmethystDust {{ModId}}_MineralDust_TopazDust {{ModId}}_MineralDust_JadeDust {{ModId}}_MineralDust_DiamondDust"
-                                }
-                            ],
-                            "OutputItem": [
-                                {
-                                    "Id": "Iridium_Output",
-                                    "ItemId": "{{ModId}}_Drinks_DwarvenSpirits",
-                                    "Quality": "0",
-                                    "CopyPrice": true,
-                                    "PriceModifiers": [
-                                        {
-                                            "ID": "increase_base",
+                                            "ID": "increase_base_for_carrot_mash",
                                             "Modification": "Add",
                                             "Amount": 25
                                         },
@@ -156,18 +108,56 @@
                                             "Condition": "ITEM_ID Input {{ModId}}_MineralDust_IronDust"
                                         }
                                     ]
+                                },
+                                {
+                                    "Id": "Infused_Dwarven_Spirits",
+                                    "ItemId": "{{ModId}}_Drinks_InfusedSpirits",
+                                    "ObjectDisplayName": "%PRESERVED_DISPLAY_NAME Spirits",
+                                    "Quality": "0",
+                                    "CopyPrice": true,
+                                    "PreserveId": "DROP_IN",
+                                    "Condition": "ITEM_CONTEXT_TAG  Input {{ModId}}_gemdust",
+                                    "PriceModifiers": [
+                                        {
+                                            "ID": "increase_base_for_carrot_mash",
+                                            "Modification": "Add",
+                                            "Amount": 25
+                                        },
+                                        {
+                                            "ID": "multiply",
+                                            "Modification": "Multiply",
+                                            "Amount": 1.50
+                                        }
+                                    ],
+                                    "QualityModifiers": [
+                                        {
+                                            "ID": "iridium_quality",
+                                            "Modification": "Set",
+                                            "Amount": 4,
+                                            "Condition": "ITEM_CONTEXT_TAG Input {{ModId}}_gemquality_perfect"
+                                        },
+                                        {
+                                            "ID": "gold_quality",
+                                            "Modification": "Set",
+                                            "Amount": 2,
+                                            "Condition": "ITEM_CONTEXT_TAG Input {{ModId}}_gemquality_high"
+                                        },
+                                        {
+                                            "ID": "silver_quality",
+                                            "Modification": "Set",
+                                            "Amount": 1,
+                                            "Condition": "ITEM_CONTEXT_TAG Input {{ModId}}_gemquality_medium"
+                                        }
+                                    ]
                                 }
                             ],
                             "UseFirstValidOutput": true,
-                            "MinutesUntilReady": "1400"
-                        },
-                        {
-                            
+                            "DaysUntilReady": "7"
                         }
                     ],
                     "AdditionalConsumedItems": [
                         {
-                            "ItemId": "{{ModId}}__CarrotMash"
+                            "ItemId": "{{ModId}}_CarrotMash"
                         }
                     ],
                     "LoadEffects": [

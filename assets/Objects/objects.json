@@ -6,6 +6,7 @@
             "Entries": {
                 "{{ModId}}_CarrotMash": {
                     "Name": "Carrot Mash",
+                    "DisplayName": "Carrot Mash",
                     "Description": "Mash made from cave carrots and a special cave fungus.",
                     "Price": 25,
                     "Type": "Basic",
@@ -16,6 +17,7 @@
                 },
                 "{{ModId}}_Drinks_DwarvenSpirits": {
                     "Name": "Dwarven Spirits",
+                    "DisplayName": "Dwarven Spirits",
                     "Description": "Traditional Dwarven Spirits. Why are they green?",
                     "Price": 50,
                     "Type": "Crafting",
@@ -26,12 +28,9 @@
                         {
                             "Id": "loss",
                             "Duration": 300,
-                            "CustomAttributes": [
-                                {
-                                    "LuckLevel": 1
-                                }
-                                
-                            ]
+                            "CustomAttributes": {
+                                "LuckLevel": 1
+                            }
                         }
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/Drinks/spirits.png}}",
@@ -39,6 +38,7 @@
                 },
                 "{{ModId}}_Drinks_InfusedSpirits": {
                     "Name": "Infused Dwarven Spirits",
+                    "DisplayName": "Infused Dwarven Spirits",
                     "Description": "Dwarven Spirits infused with the magical energy of the the deep earth.",
                     "Price": 200,
                     "Type": "Crafting",
@@ -49,12 +49,9 @@
                         {
                             "Id": "loss",
                             "Duration": 300,
-                            "CustomAttributes": [
-                                {
-                                    "LuckLevel": 2
-                                }
-                                
-                            ]
+                            "CustomAttributes": {
+                                "LuckLevel": 2
+                            }
                         }
                     ],
                     "ContextTags": [
@@ -193,7 +190,8 @@
                     "Edibility": -300,
                     "ContextTags": [
                         "{{ModId}}",
-                        "{{ModId}}_gemdust"
+                        "{{ModId}}_gemdust",
+                        "{{ModId}}_gemquality_high"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Emerald.png}}",
                     "SpriteIndex": 0
@@ -208,7 +206,8 @@
                     "Edibility": -300,
                     "ContextTags": [
                         "{{ModId}}",
-                        "{{ModId}}_gemdust"
+                        "{{ModId}}_gemdust",
+                        "{{ModId}}_gemquality_medium"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Aquamarine.png}}",
                     "SpriteIndex": 0
@@ -223,7 +222,8 @@
                     "Edibility": -300,
                     "ContextTags": [
                         "{{ModId}}",
-                        "{{ModId}}_gemdust"
+                        "{{ModId}}_gemdust",
+                        "{{ModId}}_gemquality_high"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Ruby.png}}",
                     "SpriteIndex": 0
@@ -238,7 +238,8 @@
                     "Edibility": -300,
                     "ContextTags": [
                         "{{ModId}}",
-                        "{{ModId}}_gemdust"
+                        "{{ModId}}_gemdust",
+                        "{{ModId}}_gemquality_low"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Amethyst.png}}",
                     "SpriteIndex": 0
@@ -253,7 +254,8 @@
                     "Edibility": -300,
                     "ContextTags": [
                         "{{ModId}}",
-                        "{{ModId}}_gemdust"
+                        "{{ModId}}_gemdust",
+                        "{{ModId}}_gemquality_low"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Topaz.png}}",
                     "SpriteIndex": 0
@@ -268,7 +270,8 @@
                     "Edibility": -300,
                     "ContextTags": [
                         "{{ModId}}",
-                        "{{ModId}}_gemdust"
+                        "{{ModId}}_gemdust",
+                        "{{ModId}}_gemquality_medium"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Jade.png}}",
                     "SpriteIndex": 0
@@ -283,7 +286,24 @@
                     "Edibility": -300,
                     "ContextTags": [
                         "{{ModId}}",
-                        "{{ModId}}_gemdust"
+                        "{{ModId}}_gemdust",
+                        "{{ModId}}_gemquality_perfect"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Diamond.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_MineralDust_PrismaticDust": {
+                    "Name": "Prismatic Dust",
+                    "DisplayName": "Prismatic Dust",
+                    "Description": "Dust from ground prismatic shards or made from a multitude of gems.",
+                    "Type": "Minerals",
+                    "Price": 2000,
+                    "Category": "-2",
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_gemdust",
+                        "{{ModId}}_gemquality_perfect"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Diamond.png}}",
                     "SpriteIndex": 0
@@ -293,12 +313,13 @@
                     "DisplayName": "Gemstone Dust",
                     "Description": "Dust from ground gemstones.",
                     "Type": "Minerals",
-                    "Price": 200,
+                    "Price": 80,
                     "Category": "-2",
                     "Edibility": -300,
                     "ContextTags": [
                         "{{ModId}}",
-                        "{{ModId}}_gemdust"
+                        "{{ModId}}_gemdust",
+                        "{{ModId}}_gemquality_low"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Gemstone.png}}",
                     "SpriteIndex": 0
@@ -318,8 +339,15 @@
         },
         {
             "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "Prismatic Dust": "{{ModId}}_MineralDust_DiamondDust 1 {{ModId}}_MineralDust_JadeDust 1 {{ModId}}_MineralDust_TopazDust 1 {{ModId}}_MineralDust_AmethystDust 1 {{ModId}}_MineralDust_RubyDust 1 {{ModId}}_MineralDust_AquamarineDust 1 {{ModId}}_MineralDust_EmeraldDust 1/Home/{{ModId}}_MineralDust_PrismaticDust/true/Mining 10/"
+            }
+        },
+        {
+            "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
-            "TextOperations": [                
+            "TextOperations": [
                 {
                     "Operation": "Append",
                     "Target": [
