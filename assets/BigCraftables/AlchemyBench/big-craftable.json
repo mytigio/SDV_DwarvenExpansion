@@ -146,17 +146,17 @@
                                     "Id": "Potions_FarmersDraught",
                                     "ItemId": "{{ModId}}_Potions_FarmersDraught",
                                     "Quality": "0",
-                                    "Condition": "ITEM_CATEGORY Input category_seeds"
+                                    "Condition": "ITEM_CONTEXT_TAG Input category_seeds"
                                 },
                                 {
                                     "Id": "Potions_FishermansBrew",
                                     "ItemId": "{{ModId}}_Potions_FishermansBrew",
                                     "Quality": "0",
-                                    "Condition": "ITEM_CATEGORY Input category_fish"
+                                    "Condition": "ITEM_CONTEXT_TAG Input category_fish"
                                 },
                                 {
-                                    "Id": "Potions_MinersBrew",
-                                    "ItemId": "{{ModId}}_Potions_MinersBrew",
+                                    "Id": "Potions_MinersDrink",
+                                    "ItemId": "{{ModId}}_Potions_MinersDrink",
                                     "Quality": "0",
                                     "Condition": "ITEM_ID Input 80"
                                 },
@@ -176,7 +176,7 @@
                                     "Id": "Envigorating_Concoction",
                                     "ItemId": "351",
                                     "Quality": "0",
-                                    "ObjectDisplayName": "Envigorating Concotion",
+                                    "ObjectDisplayName": "Envigorating Concoction",
                                     "Condition": "ITEM_ID Input {{ModId}}_MineralDust_EmeraldDust"
                                 },
                                 {
@@ -186,7 +186,6 @@
                                     "ObjectDisplayName": "Healing Draught",
                                     "Condition": "ITEM_ID Input {{ModId}}_MineralDust_RubyDust"
                                 },
-                                ,
                                 {
                                     "Id": "Repellent_Potion",
                                     "ItemId": "772",

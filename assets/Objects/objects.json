@@ -132,7 +132,7 @@
                     "Texture": "{{InternalAssetKey: assets/Objects/Potions/FishermansBrew.png}}",
                     "SpriteIndex": 0
                 },
-                "{{ModId}}_Potions_MinersBrew": {
+                "{{ModId}}_Potions_MinersDrink": {
                     "Name": "Miners Drink",
                     "DisplayName": "Miners Drink",
                     "Description": "The magic of the earth in bottle form, a common morning drink for dwarves.",
@@ -153,7 +153,7 @@
                     "ContextTags": [
                         "{{ModId}}"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Potions/MinersBrew.png}}",
+                    "Texture": "{{InternalAssetKey: assets/Objects/Potions/MinersDrink.png}}",
                     "SpriteIndex": 0
                 },
                 "{{ModId}}_Potions_OnePerfectDay": {
@@ -578,7 +578,7 @@
                         "Entries",
                         "Universal_Dislike"
                     ],
-                    "Value": "{{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_MinersBrew",
+                    "Value": "{{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_MinersDrink",
                     "Delimiter": " "
                 },
                 {
@@ -598,7 +598,7 @@
                         "Clint",
                         3
                     ],
-                    "Value": "{{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_MinersBrew",
+                    "Value": "{{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_MinersDrink",
                     "Delimiter": " "
                 },
                 {
@@ -608,7 +608,7 @@
                         "Dwarf",
                         1
                     ],
-                    "Value": "{{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_MinersBrew {{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits {{ModId}}_Necklace_Aerinite",
+                    "Value": "{{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_MinersDrink {{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits {{ModId}}_Necklace_Aerinite",
                     "Delimiter": " "
                 },
                 {
@@ -638,7 +638,7 @@
                         "Haley",
                         7
                     ],
-                    "Value": "{{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_MinersBrew {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Value": "{{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_MinersDrink {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
                     "Delimiter": " "
                 },
                 {
@@ -668,7 +668,7 @@
                         "Linus",
                         3
                     ],
-                    "Value": "{{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_MinersBrew {{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Value": "{{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_MinersDrink {{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
                     "Delimiter": " "
                 },
                 {
@@ -698,7 +698,7 @@
                         "Penny",
                         7
                     ],
-                    "Value": "{{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_MinersBrew {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Value": "{{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_MinersDrink {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
                     "Delimiter": " "
                 },
                 {
