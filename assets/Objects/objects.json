@@ -60,6 +60,210 @@
                     "Texture": "{{InternalAssetKey: assets/Objects/Drinks/infused_spirits.png}}",
                     "SpriteIndex": 0
                 },
+                "{{ModId}}_Potions_DistilledSunlight": {
+                    "Name": "Distilled Sunlight",
+                    "DisplayName": "Distilled Sunlight",
+                    "Description": "A potion brewed from a captured rays of the noon-day sun.",
+                    "Price": 800,
+                    "Type": "Crafting",
+                    "Category": -26,
+                    "Edibility": 110,
+                    "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id": "loss",
+                            "Duration": 120,
+                            "CustomAttributes": {
+                                "Speed": 3
+                            }
+                        }
+                    ],
+                    "ContextTags": [
+                        "{{ModId}}"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Potions/DistilledSunlight.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Potions_FarmersDraught": {
+                    "Name": "Farmers Draught",
+                    "DisplayName": "Farmers Draught",
+                    "Description": "The essence of growing plants in drinkable form.",
+                    "Price": 350,
+                    "Type": "Crafting",
+                    "Category": -26,
+                    "Edibility": 60,
+                    "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id": "loss",
+                            "Duration": 360,
+                            "CustomAttributes": {
+                                "FarmingLevel": 3
+                            }
+                        }
+                    ],
+                    "ContextTags": [
+                        "{{ModId}}"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Potions/FarmersDraught.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Potions_FishermansBrew": {
+                    "Name": "Fishermans Brew",
+                    "DisplayName": "Fishermans Brew",
+                    "Description": "The magic of the lakes and streams flows through this drink.",
+                    "Price": 200,
+                    "Type": "Crafting",
+                    "Category": -26,
+                    "Edibility": 55,
+                    "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id": "loss",
+                            "Duration": 360,
+                            "CustomAttributes": {
+                                "FishingLevel": 3
+                            }
+                        }
+                    ],
+                    "ContextTags": [
+                        "{{ModId}}"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Potions/FishermansBrew.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Potions_MinersBrew": {
+                    "Name": "Miners Drink",
+                    "DisplayName": "Miners Drink",
+                    "Description": "The magic of the earth in bottle form, a common morning drink for dwarves.",
+                    "Price": 240,
+                    "Type": "Crafting",
+                    "Category": -26,
+                    "Edibility": 55,
+                    "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id": "loss",
+                            "Duration": 360,
+                            "CustomAttributes": {
+                                "MiningLevel": 3
+                            }
+                        }
+                    ],
+                    "ContextTags": [
+                        "{{ModId}}"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Potions/MinersBrew.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Potions_OnePerfectDay": {
+                    "Name": "One Perfect Day",
+                    "DisplayName": "One Perfect Day",
+                    "Description": "This drink has everything, but it is exhorbintly expensive to make.",
+                    "Price": 5000,
+                    "Type": "Crafting",
+                    "Category": -26,
+                    "Edibility": 400,
+                    "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id": "loss",
+                            "Duration": 1080,
+                            "CustomAttributes": {
+                                "FarmingLevel": 3,
+                                "ForagingLevel": 3,
+                                "MiningLevel": 3,
+                                "FishingLevel": 3,
+                                "LuckLevel": 3,
+                                "Attack": 4,
+                                "Defense": 5,
+                                "MagnetRadius": 96,
+                                "Speed": 3,
+                                "MaxStamina": 150,
+                                "MaxHealth": 20
+                            }
+                        }
+                    ],
+                    "ContextTags": [
+                        "{{ModId}}"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Potions/OnePerfectDay.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Potions_ShadowedElixir": {
+                    "Name": "Shadowed Elixir",
+                    "DisplayName": "Shadowed Elixir",
+                    "Description": "A potion infused with dark energy. Helps the adventurous dwarf in battle.",
+                    "Price": 1200,
+                    "Type": "Crafting",
+                    "Category": -26,
+                    "Edibility": 80,
+                    "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id": "loss",
+                            "Duration": 360,
+                            "CustomAttributes": {                                
+                                "Defense": 3,
+                                "MaxStamina": 50,
+                                "MaxHealth": 10
+                            }
+                        }
+                    ],
+                    "ContextTags": [
+                        "{{ModId}}"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Potions/ShadowedElixir.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Potions_SwordsmansElixir": {
+                    "Name": "Swordsmans Elixir",
+                    "DisplayName": "Swordsmans Elixir",
+                    "Description": "A drink dripping with speed and power. A swordsman's best friend.",
+                    "Price": 465,
+                    "Type": "Crafting",
+                    "Category": -26,
+                    "Edibility": 125,
+                    "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id": "loss",
+                            "Duration": 360,
+                            "CustomAttributes": {                                
+                                "Attack": 3                                
+                            }
+                        }
+                    ],
+                    "ContextTags": [
+                        "{{ModId}}"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Potions/ShadowedElixir.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Potions_WoodmansTonic": {
+                    "Name": "Woodmans Tonic",
+                    "DisplayName": "Woodmans Tonic",
+                    "Description": "The magical drink the smells of root and loam.",
+                    "Price": 260,
+                    "Type": "Crafting",
+                    "Category": -26,
+                    "Edibility": 45,
+                    "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id": "loss",
+                            "Duration": 360,
+                            "CustomAttributes": {
+                                "ForagingLevel": 3
+                            }
+                        }
+                    ],
+                    "ContextTags": [
+                        "{{ModId}}"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Potions/WoodmansTonic.png}}",
+                    "SpriteIndex": 0
+                },
                 "{{ModId}}_OreCluster_Copper": {
                     "Name": "Copper Cluster",
                     "DisplayName": "Copper Cluster",
@@ -336,18 +540,20 @@
                     "SpriteIndex": 0
                 }
             }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/CraftingRecipes",
-            "Entries": {
-                "Prismatic Dust": "{{ModId}}_MineralDust_DiamondDust 1 {{ModId}}_MineralDust_JadeDust 1 {{ModId}}_MineralDust_TopazDust 1 {{ModId}}_MineralDust_AmethystDust 1 {{ModId}}_MineralDust_RubyDust 1 {{ModId}}_MineralDust_AquamarineDust 1 {{ModId}}_MineralDust_EmeraldDust 1/Home/{{ModId}}_MineralDust_PrismaticDust/true/Mining 10/"
-            }
-        },
+        },        
         {
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
             "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Lover"
+                    ],
+                    "Value": "{{ModId}}_Potions_OnePerfectDay",
+                    "Delimiter": " "
+                },
                 {
                     "Operation": "Append",
                     "Target": [
@@ -363,7 +569,16 @@
                         "Entries",
                         "Universal_Neutral"
                     ],
-                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Value": "{{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Dislike"
+                    ],
+                    "Value": "{{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_MinersBrew",
                     "Delimiter": " "
                 },
                 {
@@ -380,10 +595,20 @@
                     "Operation": "Append",
                     "Target": [
                         "Fields",
+                        "Clint",
+                        3
+                    ],
+                    "Value": "{{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_MinersBrew",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
                         "Dwarf",
                         1
                     ],
-                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits {{ModId}}_Necklace_Aerinite",
+                    "Value": "{{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_MinersBrew {{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits {{ModId}}_Necklace_Aerinite",
                     "Delimiter": " "
                 },
                 {
@@ -393,7 +618,17 @@
                         "Gus",
                         3
                     ],
-                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Value": "{{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Haley",
+                        3
+                    ],
+                    "Value": "{{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight",
                     "Delimiter": " "
                 },
                 {
@@ -403,7 +638,7 @@
                         "Haley",
                         7
                     ],
-                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Value": "{{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_MinersBrew {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
                     "Delimiter": " "
                 },
                 {
@@ -413,7 +648,7 @@
                         "Jas",
                         5
                     ],
-                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirit",
+                    "Value": "{{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirit",
                     "Delimiter": " "
                 },
                 {
@@ -423,7 +658,7 @@
                         "Krobus",
                         7
                     ],
-                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Value": "{{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
                     "Delimiter": " "
                 },
                 {
@@ -433,7 +668,7 @@
                         "Linus",
                         3
                     ],
-                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Value": "{{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_MinersBrew {{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
                     "Delimiter": " "
                 },
                 {
@@ -453,7 +688,7 @@
                         "Pam",
                         3
                     ],
-                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Value": "{{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
                     "Delimiter": " "
                 },
                 {
@@ -463,7 +698,7 @@
                         "Penny",
                         7
                     ],
-                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Value": "{{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_MinersBrew {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
                     "Delimiter": " "
                 },
                 {
@@ -473,7 +708,17 @@
                         "Pierre",
                         5
                     ],
-                    "Value": "{{ModId}}_Necklace_Aerinite",
+                    "Value": "{{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Necklace_Aerinite",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Robin",
+                        1
+                    ],
+                    "Value": "{{ModId}}_Potions_WoodmansTonic",
                     "Delimiter": " "
                 },
                 {
@@ -483,7 +728,27 @@
                         "Vincent",
                         5
                     ],
-                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirit",
+                    "Value": "{{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirit",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Willy",
+                        1
+                    ],
+                    "Value": "{{ModId}}_Potions_FishermansBrew",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Willy",
+                        9
+                    ],
+                    "Value": "{{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_ShadowedElixir",
                     "Delimiter": " "
                 },
                 {
@@ -493,7 +758,7 @@
                         "Wizard",
                         1
                     ],
-                    "Value": "{{ModId}}_Drinks_InfusedSpirit",
+                    "Value": "{{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit",
                     "Delimiter": " "
                 },
                 {
@@ -505,7 +770,17 @@
                     ],
                     "Value": "{{ModId}}_Drinks_DwarvenSpirits",
                     "Delimiter": " "
-                }
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Wizard",
+                        9
+                    ],
+                    "Value": "{{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_ShadowedElixir",
+                    "Delimiter": " "
+                },
             ]
         }
     ]

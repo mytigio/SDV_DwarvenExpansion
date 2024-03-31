@@ -1,0 +1,182 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "Prismatic Dust": "{{ModId}}_MineralDust_DiamondDust 1 {{ModId}}_MineralDust_JadeDust 1 {{ModId}}_MineralDust_TopazDust 1 {{ModId}}_MineralDust_AmethystDust 1 {{ModId}}_MineralDust_RubyDust 1 {{ModId}}_MineralDust_AquamarineDust 1 {{ModId}}_MineralDust_EmeraldDust 1/Home/{{ModId}}_MineralDust_PrismaticDust/false/Mining 10/"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "Magic Rock Candy": "{{ModId}}_MineralDust_PrismaticDust 3 388 1/25 2/279/false/Mining 10/"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Like"
+                    ],
+                    "Value": "{{ModId}}_Necklace_Aerinite",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Neutral"
+                    ],
+                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Universal_Hate"
+                    ],
+                    "Value": "{{ModId}}_CarrotMash",
+                    "Delimiter": " "
+                },
+                //#1 = love, #3 = like, #5 = dislike, #7 = hated, #9 = neutral
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Dwarf",
+                        1
+                    ],
+                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits {{ModId}}_Necklace_Aerinite",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Gus",
+                        3
+                    ],
+                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Haley",
+                        7
+                    ],
+                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Jas",
+                        5
+                    ],
+                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirit",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Krobus",
+                        7
+                    ],
+                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Linus",
+                        3
+                    ],
+                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Linus",
+                        5
+                    ],
+                    "Value": "{{ModId}}_Necklace_Aerinite",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Pam",
+                        3
+                    ],
+                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Penny",
+                        7
+                    ],
+                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Pierre",
+                        5
+                    ],
+                    "Value": "{{ModId}}_Necklace_Aerinite",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Vincent",
+                        5
+                    ],
+                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirit",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Wizard",
+                        1
+                    ],
+                    "Value": "{{ModId}}_Drinks_InfusedSpirit",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Wizard",
+                        3
+                    ],
+                    "Value": "{{ModId}}_Drinks_DwarvenSpirits",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}
