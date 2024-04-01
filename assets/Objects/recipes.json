@@ -216,6 +216,45 @@
             "When": {
                 "EnabledCookingRecipes": "BugMeatSoup"
             }
-        }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Dwarf",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}_BasicDwarvenRecipies": {
+                    "ID": "{{ModId}}_BasicCookingRecipes",
+                    "ItemId": "RANDOM_ITEMS (O)",
+                    "MaxItems": 3,
+                    "PerItemCondition": "ITEM_CONTEXT_TAG Target {{ModId}}_basic_dwarven_cuisine",
+                    "IsRecipe": true,
+                    "AvoidRepeat": true,
+                    "Price": "300"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Dwarf",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}_FineCookingRecipes": {
+                    "ID": "{{ModId}}_FineCookingRecipes",
+                    "ItemId": "RANDOM_ITEMS (O)",
+                    "MaxItems": 3,
+                    "PerItemCondition": "ITEM_CONTEXT_TAG Target {{ModId}}_fine_dwarven_cuisine",
+                    "Condition": "ANY \"PLAYER_FRIENDSHIP_POINTS Current Dwarf 750\" \"MINE_LOWEST_LEVEL_REACHED 120\"",
+                    "IsRecipe": true,
+                    "AvoidRepeat": true,
+                    "Price": "1000"
+                }
+            }
+        },
     ]
 }
