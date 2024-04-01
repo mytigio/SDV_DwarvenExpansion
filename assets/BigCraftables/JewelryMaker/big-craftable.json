@@ -33,7 +33,7 @@
                 "Items"
             ],
             "Entries": {
-                "{{ModId}}_DwarvenStill": {
+                "{{ModId}}_JewelryMaker": {
                     "ID": "{{ModId}}_JewelryMaker",
                     "ItemId": "(BC){{ModId}}_JewelryMaker",
                     "Condition": "PLAYER_MINING_LEVEL Current 5",
@@ -47,10 +47,10 @@
             "Action": "EditData",
             "Target": "Data/Machines",
             "Entries": {
-                "(BC){{ModId}}_AlchemyBench": {
+                "(BC){{ModId}}_JewelryMaker": {
                     "OutputRules": [
                         {
-                            "Id": "Gemstones",
+                            "Id": "Jewelry",
                             "Triggers": [
                                 {
                                     "Id": "Gems",
@@ -698,18 +698,10 @@
                             "UseFirstValidOutput": true,
                             "DaysUntilReady": "7"
                         }
-                    ],
-                    "ReadyTimeModifiers": [
-                        {
-                            "Id": "OnePerfectDay",
-                            "Modification": "Multiply",
-                            "Amount": 7,
-                            "Condition": "ITEM_ID  Input {{ModId}}_MineralDust_PrismaticDust"
-                        }
-                    ],
+                    ],                    
                     "AdditionalConsumedItems": [
                         {
-                            "ItemId": "(O)336"
+                            "ItemId": "336"
                         }
                     ],
                     "LoadEffects": [
