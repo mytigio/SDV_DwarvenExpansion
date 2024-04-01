@@ -988,6 +988,20 @@
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/Misc/NecklaceMold.png}}",
                     "SpriteIndex": 0
+                },
+                "{{ModId}}_Misc_GoldenChickenStatue": {
+                    "Name": "Golden Chicken Statue",
+                    "DisplayName": "Golden Chicken Statue",
+                    "Description": "A majestic golden chicken statue.",
+                    "Type": "Basic",
+                    "Price": 900,
+                    "Category": "-26",
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Misc/GoldenChickenStatue.png}}",
+                    "SpriteIndex": 0
                 }
             }
         },        

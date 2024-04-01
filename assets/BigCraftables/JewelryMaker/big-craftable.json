@@ -55,7 +55,10 @@
                                 {
                                     "Id": "Gems",
                                     "Trigger": "ItemPlacedInMachine",
-                                    "RequiredTags": ["category_gem", "!crystalarium_banned"],
+                                    "RequiredTags": [
+                                        "category_gem",
+                                        "!crystalarium_banned"
+                                    ],
                                     "RequiredCount": 1
                                 },
                                 {
@@ -697,8 +700,42 @@
                             ],
                             "UseFirstValidOutput": true,
                             "DaysUntilReady": "7"
+                        },
+                        {
+                            "Id": "Misc",
+                            "Triggers": [
+                                {
+                                    "Id": "Misc_GoldenChickenStatue",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)113",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "Misc_GoldenChickenStatue",
+                                    "ItemId": "{{ModId}}_Misc_GoldenChickenStatue",
+                                    "CopyPrice": true,
+                                    "CopyQuality": true,
+                                    "Condition": "ITEM_ID Input (O)113",
+                                    "PriceModifiers": [
+                                        {
+                                            "ID": "increase_base_for_gold_bar",
+                                            "Modification": "Add",
+                                            "Amount": 250
+                                        },
+                                        {
+                                            "ID": "multiply",
+                                            "Modification": "Multiply",
+                                            "Amount": 3.00
+                                        }
+                                    ]
+                                }
+                            ],
+                            "UseFirstvalidOutput": true,
+                            "DaysUntilReady": "3"
                         }
-                    ],                    
+                    ],
                     "AdditionalConsumedItems": [
                         {
                             "ItemId": "336"
