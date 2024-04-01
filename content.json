@@ -8,10 +8,10 @@
             "Default": "GemPolisher, Pulverizer, DwarvenStill, AlchemyBench, JewelryMaker"
         },
         "EnabledCookingRecipes": {
-            "AllowValues": "MagicRockCandy",
+            "AllowValues": "MagicRockCandy, SunshineStew, StonefishSuprise, ShadowedStew, RockCrabSalad, RoastedCaveFish, MashedCarrots, LavaEelPie, IcePipSoup, FriedBatWings, CaveSoup, CaveChowder, CaveCarrotAuGratin, CaveCarrotStew, CaveCarrotSoup, CaveCarrotRoast, CaveCarrotBrulee, Cavatouille, BugMeatStew, BugMeatSoup",
             "AllowMultiple": true,
             "AllowBlank": true,
-            "Default": ""
+            "Default": "MagicRockCandy, SunshineStew, StonefishSuprise, ShadowedStew, RockCrabSalad, RoastedCaveFish, MashedCarrots, LavaEelPie, IcePipSoup, FriedBatWings, CaveSoup, CaveChowder, CaveCarrotAuGratin, CaveCarrotStew, CaveCarrotSoup, CaveCarrotRoast, CaveCarrotBrulee, Cavatouille, BugMeatStew, BugMeatSoup"
         }
     },
     "Changes": [

@@ -11,7 +11,7 @@
             "Action": "EditData",
             "Target": "Data/CraftingRecipes",
             "Entries": {
-                "Prismatic Dust": "330 1/Home/{{ModId}}_Misc_NecklaceMold/false/Mining 5/"
+                "Necklace Mold": "330 1/Home/{{ModId}}_Misc_NecklaceMold/false/Mining 5/"
             },
             "When": {
                 "EnabledMachines": "JewelryMaker"
@@ -21,172 +21,201 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {
-                "Magic Rock Candy": "{{ModId}}_MineralDust_PrismaticDust 3 388 1/25 2/279/false/Mining 10/"
+                "Magic Rock Candy": "{{ModId}}_MineralDust_PrismaticDust 3 388 1/25 2/279/false/Mining 10/",
+            },
+            "When": {
+                "EnabledCookingRecipes": "MagicRockCandy"
             }
         },
         {
             "Action": "EditData",
-            "Target": "Data/NPCGiftTastes",
-            "TextOperations": [
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "Universal_Like"
-                    ],
-                    "Value": "{{ModId}}_Necklace_Aerinite",
-                    "Delimiter": " "
-                },
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "Universal_Neutral"
-                    ],
-                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
-                    "Delimiter": " "
-                },
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "Universal_Hate"
-                    ],
-                    "Value": "{{ModId}}_CarrotMash",
-                    "Delimiter": " "
-                },
-                //#1 = love, #3 = like, #5 = dislike, #7 = hated, #9 = neutral
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Dwarf",
-                        1
-                    ],
-                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits {{ModId}}_Necklace_Aerinite",
-                    "Delimiter": " "
-                },
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Gus",
-                        3
-                    ],
-                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
-                    "Delimiter": " "
-                },
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Haley",
-                        7
-                    ],
-                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
-                    "Delimiter": " "
-                },
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Jas",
-                        5
-                    ],
-                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirit",
-                    "Delimiter": " "
-                },
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Krobus",
-                        7
-                    ],
-                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
-                    "Delimiter": " "
-                },
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Linus",
-                        3
-                    ],
-                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
-                    "Delimiter": " "
-                },
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Linus",
-                        5
-                    ],
-                    "Value": "{{ModId}}_Necklace_Aerinite",
-                    "Delimiter": " "
-                },
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Pam",
-                        3
-                    ],
-                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
-                    "Delimiter": " "
-                },
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Penny",
-                        7
-                    ],
-                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
-                    "Delimiter": " "
-                },
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Pierre",
-                        5
-                    ],
-                    "Value": "{{ModId}}_Necklace_Aerinite",
-                    "Delimiter": " "
-                },
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Vincent",
-                        5
-                    ],
-                    "Value": "{{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirit",
-                    "Delimiter": " "
-                },
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Wizard",
-                        1
-                    ],
-                    "Value": "{{ModId}}_Drinks_InfusedSpirit",
-                    "Delimiter": " "
-                },
-                {
-                    "Operation": "Append",
-                    "Target": [
-                        "Fields",
-                        "Wizard",
-                        3
-                    ],
-                    "Value": "{{ModId}}_Drinks_DwarvenSpirits",
-                    "Delimiter": " "
-                }
-            ]
+            "Target": "Data/CookingRecipes",
+            "Entries": {         
+                "Sunshine Stew": "768 1 412 5 78 5 420 1 157 3/25 2/{{ModId}}_Food_SunshineStew/false/none"
+            },
+            "When": {
+                "EnabledCookingRecipes": "SunshineStew"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {         
+                "Stonefish Suprise": "158 1 412 2 78 2/25 2/{{ModId}}_Food_StonefishSuprise/false/none"
+            },
+            "When": {
+                "EnabledCookingRecipes": "StonefishSuprise"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {         
+                "Shadowed Stew": "769 2 412 5 78 5 422 5 767 6/25 2/{{ModId}}_Food_ShadowedStew/false/none"
+            },
+            "When": {
+                "EnabledCookingRecipes": "ShadowedStew"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {         
+                "Rock Crab Salad": "153 2 717 1/25 2/{{ModId}}_Food_RockCrabSalad/false/none"
+            },
+            "When": {
+                "EnabledCookingRecipes": "RockCrabSalad"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {         
+                "Roasted Cave Fish": "-4 1 157 1 412 1 78 1/25 2/{{ModId}}_Food_RoastedCaveFish/false/none"
+            },
+            "When": {
+                "EnabledCookingRecipes": "RoastedCaveFish"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {         
+                "Mashed Carrots": "78 3/25 2/{{ModId}}_Food_MashedCarrots/false/none"
+            },
+            "When": {
+                "EnabledCookingRecipes": "MashedCarrots"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {         
+                "Lava Eel Pie": "162 1 412 3 78 3 422 1/25 2/{{ModId}}_Food_LavaEelPie/false/none"
+            },
+            "When": {
+                "EnabledCookingRecipes": "LavaEelPie"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {         
+                "Ice Pip Soup": "161 1 412 5 78 5 153 4/25 2/{{ModId}}_Food_IcePipSoup/false/none"
+            },
+            "When": {
+                "EnabledCookingRecipes": "IcePipSoup"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {         
+                "Fried Bat Wings": "767 6 766 1/25 2/{{ModId}}_Food_FriedBatWings/false/none"
+            },
+            "When": {
+                "EnabledCookingRecipes": "FriedBatWings"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {         
+                "Cave Soup": "-4 1 153 3/25 2/{{ModId}}_Food_CaveSoup/false/none"
+            },
+            "When": {
+                "EnabledCookingRecipes": "CaveSoup"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {         
+                "Cave Chowder": "-4 1 153 3 412 1/25 2/{{ModId}}_Food_CaveChowder/false/none"
+            },
+            "When": {
+                "EnabledCookingRecipes": "CaveChowder"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {         
+                "Cave Carrot Au Gratin": "78 3 424 1 -6 2/25 2/{{ModId}}_Food_CaveCarrotAuGratin/false/none"
+            },
+            "When": {
+                "EnabledCookingRecipes": "CaveCarrotAuGratin"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {         
+                "Cave Carrot Stew": "78 3 412 1 404 2 281 1 257 1/25 2/{{ModId}}_Food_CaveCarrotStew/false/none"
+            },
+            "When": {
+                "EnabledCookingRecipes": "CaveCarrotStew"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {         
+                "Cave Carrot Soup": "78 3 404 2/25 2/{{ModId}}_Food_CaveCarrotSoup/false/none"
+            },
+            "When": {
+                "EnabledCookingRecipes": "CaveCarrotSoup"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {         
+                "Cave Carrot Roast": "78 1 766 1 404 2/25 2/{{ModId}}_Food_CaveCarrotRoast/false/none"
+            },
+            "When": {
+                "EnabledCookingRecipes": "CaveCarrotRoast"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {         
+                "Cave Carrot Brulee": "78 1 -6 3/25 2/{{ModId}}_Food_CaveCarrotBrulee/false/none"
+            },
+            "When": {
+                "EnabledCookingRecipes": "CaveCarrotBrulee"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {         
+                "Cavatouille": "78 2 422 2 420 2 412 2 766 1/25 2/{{ModId}}_Food_Cavatouille/false/none"
+            },
+            "When": {
+                "EnabledCookingRecipes": "Cavatouille"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {         
+                "Bug Meat Stew": "684 5 78 2/25 2/{{ModId}}_Food_BugMeatStew/false/none"
+            },
+            "When": {
+                "EnabledCookingRecipes": "BugMeatStew"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {         
+                "Bug Meat Stew": "684 5 766 1/25 2/{{ModId}}_Food_BugMeatSoup/false/none"
+            },
+            "When": {
+                "EnabledCookingRecipes": "BugMeatSoup"
+            }
         }
     ]
 }
