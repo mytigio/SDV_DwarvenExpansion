@@ -33,7 +33,7 @@
                 "Items"
             ],
             "Entries": {
-                "{{ModId}}_GemPolisher": {
+                "{{ModId}}_Pulverizer": {
                     "ID": "{{ModId}}_Pulverizer",
                     "ItemId": "(BC){{ModId}}_Pulverizer",
                     "Condition": "PLAYER_MINING_LEVEL Current 4",

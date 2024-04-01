@@ -490,7 +490,7 @@
                                     "ItemId": "{{ModId}}_Jewelry_N_Gold",
                                     "CopyPrice": true,
                                     "CopyQuality": true,
-                                    "Condition": "ITEM_ID Input {{ModId}}_Jewelry_N_Gold",
+                                    "Condition": "ITEM_ID Input {{ModId}}_Misc_NecklaceMold",
                                     "PriceModifiers": [
                                         {
                                             "ID": "increase_base_for_gold_bar",

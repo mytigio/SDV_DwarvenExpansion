@@ -33,7 +33,7 @@
                 "Items"
             ],
             "Entries": {
-                "{{ModId}}_DwarvenStill": {
+                "{{ModId}}_AlchemyBench": {
                     "ID": "{{ModId}}_AlchemyBench",
                     "ItemId": "(BC){{ModId}}_AlchemyBench",
                     "Condition": "PLAYER_MINING_LEVEL Current 9",
