@@ -1,0 +1,284 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_JewelryMaker": {
+                    "Name": "Dwarven Jewelry Maker",
+                    "DisplayName": "Dwarven Jewelery Maker",
+                    "Description": "A machine that uses ancient dwarven technology to assemble fine jewelery from raw components.",
+                    "Price": 1500,
+                    "Fragility": 0,
+                    "CanBePlacedIndoors": true,
+                    "CanBePlacedOutdoors": true,
+                    "IsLamp": false,
+                    "Texture": "{{InternalAssetKey: assets/BigCraftables/JewelryMaker/texture.png}}",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "Dwarven Jewelry Maker": "335 10 334 2 122 1/Home/{{ModId}}_JewelryMaker/true/Mining 5/"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Dwarf",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}_DwarvenStill": {
+                    "ID": "{{ModId}}_JewelryMaker",
+                    "ItemId": "(BC){{ModId}}_JewelryMaker",
+                    "Condition": "PLAYER_MINING_LEVEL Current 5",
+                    "Price": "1500",
+                    "AvailableStock": 5,
+                    "AvailableStockLimit": "Player"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "Entries": {
+                "(BC){{ModId}}_AlchemyBench": {
+                    "OutputRules": [
+                        {
+                            "Id": "Gemstones",
+                            "Triggers": [
+                                {
+                                    "Id": "Gems",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredTags": ["category_gem", "!crystalarium_banned"],
+                                    "RequiredCount": 1
+                                },
+                                {
+                                    "Id": "Aerinite",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": 541,
+                                    "RequiredCount": 1
+                                },
+                                {
+                                    "Id": "Alamite",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": 538,
+                                    "RequiredCount": 1
+                                },
+                                {
+                                    "Id": "Celestine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": 566,
+                                    "RequiredCount": 1
+                                },
+                                {
+                                    "Id": "Dolomite",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": 543,
+                                    "RequiredCount": 1
+                                },
+                                {
+                                    "Id": "FireOpal",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": 565,
+                                    "RequiredCount": 1
+                                },
+                                {
+                                    "Id": "Flourapatite",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": 545,
+                                    "RequiredCount": 1
+                                },
+                                {
+                                    "Id": "Geminite",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": 546,
+                                    "RequiredCount": 1
+                                },
+                                {
+                                    "Id": "GoldNecklace",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "{{ModId}}_Misc_NecklaceMold",
+                                    "RequiredCount": 1
+                                },
+                                {
+                                    "Id": "Helvite",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": 547,
+                                    "RequiredCount": 1
+                                },
+                                {
+                                    "Id": "Kyanite",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": 550,
+                                    "RequiredCount": 1
+                                },
+                                {
+                                    "Id": "LemonStone",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": 554,
+                                    "RequiredCount": 1
+                                },
+                                {
+                                    "Id": "Malachite",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": 552,
+                                    "RequiredCount": 1
+                                },
+                                {
+                                    "Id": "Obsidian",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": 575,
+                                    "RequiredCount": 1
+                                },
+                                {
+                                    "Id": "Opal",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": 564,
+                                    "RequiredCount": 1
+                                },
+                                {
+                                    "Id": "Orpiment",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": 556,
+                                    "RequiredCount": 1
+                                },
+                                {
+                                    "Id": "StarShards",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": 578,
+                                    "RequiredCount": 1
+                                },
+                                {
+                                    "Id": "Tigerseye",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": 562,
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "OnePerfectDay",
+                                    "ItemId": "{{ModId}}_Potions_OnePerfectDay",
+                                    "Quality": "0",
+                                    "Condition": "ITEM_ID Input {{ModId}}_MineralDust_PrismaticDust"
+                                },
+                                {
+                                    "Id": "Potions_DistilledSunlight",
+                                    "ItemId": "{{ModId}}_Potions_DistilledSunlight",
+                                    "Quality": "0",
+                                    "Condition": "ITEM_ID Input 768"
+                                },
+                                {
+                                    "Id": "Potions_ShadowedElixir",
+                                    "ItemId": "{{ModId}}_Potions_ShadowedElixir",
+                                    "Quality": "0",
+                                    "Condition": "ITEM_ID Input 308"
+                                },
+                                {
+                                    "Id": "Potions_FarmersDraught",
+                                    "ItemId": "{{ModId}}_Potions_FarmersDraught",
+                                    "Quality": "0",
+                                    "Condition": "ITEM_CONTEXT_TAG Input category_seeds"
+                                },
+                                {
+                                    "Id": "Potions_FishermansBrew",
+                                    "ItemId": "{{ModId}}_Potions_FishermansBrew",
+                                    "Quality": "0",
+                                    "Condition": "ITEM_CONTEXT_TAG Input category_fish"
+                                },
+                                {
+                                    "Id": "Potions_MinersDrink",
+                                    "ItemId": "{{ModId}}_Potions_MinersDrink",
+                                    "Quality": "0",
+                                    "Condition": "ITEM_ID Input 80"
+                                },
+                                {
+                                    "Id": "Potions_SwordsmansElixir",
+                                    "ItemId": "{{ModId}}_Potions_SwordsmansElixir",
+                                    "Quality": "0",
+                                    "Condition": "ITEM_ID Input 335"
+                                },
+                                {
+                                    "Id": "Potions_WoodmansTonic",
+                                    "ItemId": "{{ModId}}_Potions_WoodmansTonic",
+                                    "Quality": "0",
+                                    "Condition": "ITEM_ID Input 709"
+                                },
+                                {
+                                    "Id": "Envigorating_Concoction",
+                                    "ItemId": "351",
+                                    "Quality": "0",
+                                    "ObjectDisplayName": "Envigorating Concoction",
+                                    "Condition": "ITEM_ID Input {{ModId}}_MineralDust_EmeraldDust"
+                                },
+                                {
+                                    "Id": "Healing_Draught",
+                                    "ItemId": "773",
+                                    "Quality": "0",
+                                    "ObjectDisplayName": "Healing Draught",
+                                    "Condition": "ITEM_ID Input {{ModId}}_MineralDust_RubyDust"
+                                },
+                                {
+                                    "Id": "Repellent_Potion",
+                                    "ItemId": "772",
+                                    "Quality": "0",
+                                    "ObjectDisplayName": "Repellent Potion",
+                                    "Condition": "ITEM_ID Input 684"
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "DaysUntilReady": "7"
+                        }
+                    ],
+                    "ReadyTimeModifiers": [
+                        {
+                            "Id": "OnePerfectDay",
+                            "Modification": "Multiply",
+                            "Amount": 7,
+                            "Condition": "ITEM_ID  Input {{ModId}}_MineralDust_PrismaticDust"
+                        }
+                    ],
+                    "AdditionalConsumedItems": [
+                        {
+                            "ItemId": "(O)336"
+                        }
+                    ],
+                    "LoadEffects": [
+                        {
+                            "Sounds": [
+                                {
+                                    "Id": "clank",
+                                    "Delay": 0
+                                }
+                            ],
+                            "Frames": [
+                                1
+                            ]
+                        }
+                    ],
+                    "WorkingEffects": [
+                        {
+                            "Sounds": [
+                                {
+                                    "Id": "clank",
+                                    "Delay": 60
+                                }
+                            ],
+                            "Frames": [
+                                1
+                            ]
+                        }
+                    ],
+                    "WorkingEffectChance": 1,
+                    "WobbleWhileWorking": true
+                }
+            }
+        }
+    ]
+}
