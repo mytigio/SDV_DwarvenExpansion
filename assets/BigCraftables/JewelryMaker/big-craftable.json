@@ -163,73 +163,536 @@
                             ],
                             "OutputItem": [
                                 {
-                                    "Id": "OnePerfectDay",
-                                    "ItemId": "{{ModId}}_Potions_OnePerfectDay",
-                                    "Quality": "0",
-                                    "Condition": "ITEM_ID Input {{ModId}}_MineralDust_PrismaticDust"
+                                    "Id": "Jewelry_R_Amethyst",
+                                    "ItemId": "{{ModId}}_Jewelry_R_Amethyst",
+                                    "CopyPrice": true,
+                                    "CopyQuality": true,
+                                    "Condition": "ITEM_ID Input 66",
+                                    "PriceModifiers": [
+                                        {
+                                            "ID": "increase_base_for_gold_bar",
+                                            "Modification": "Add",
+                                            "Amount": 250
+                                        },
+                                        {
+                                            "ID": "multiply",
+                                            "Modification": "Multiply",
+                                            "Amount": 3.00
+                                        }
+                                    ]
                                 },
                                 {
-                                    "Id": "Potions_DistilledSunlight",
-                                    "ItemId": "{{ModId}}_Potions_DistilledSunlight",
-                                    "Quality": "0",
-                                    "Condition": "ITEM_ID Input 768"
+                                    "Id": "Jewelry_R_Aquamarine",
+                                    "ItemId": "{{ModId}}_Jewelry_R_Aquamarine",
+                                    "CopyPrice": true,
+                                    "CopyQuality": true,
+                                    "Condition": "ITEM_ID Input 62",
+                                    "PriceModifiers": [
+                                        {
+                                            "ID": "increase_base_for_gold_bar",
+                                            "Modification": "Add",
+                                            "Amount": 250
+                                        },
+                                        {
+                                            "ID": "multiply",
+                                            "Modification": "Multiply",
+                                            "Amount": 3.00
+                                        }
+                                    ]
                                 },
                                 {
-                                    "Id": "Potions_ShadowedElixir",
-                                    "ItemId": "{{ModId}}_Potions_ShadowedElixir",
-                                    "Quality": "0",
-                                    "Condition": "ITEM_ID Input 308"
+                                    "Id": "Jewelry_R_Diamond",
+                                    "ItemId": "{{ModId}}_Jewelry_R_Diamond",
+                                    "CopyPrice": true,
+                                    "CopyQuality": true,
+                                    "Condition": "ITEM_ID Input 72",
+                                    "PriceModifiers": [
+                                        {
+                                            "ID": "increase_base_for_gold_bar",
+                                            "Modification": "Add",
+                                            "Amount": 250
+                                        },
+                                        {
+                                            "ID": "multiply",
+                                            "Modification": "Multiply",
+                                            "Amount": 3.00
+                                        }
+                                    ]
                                 },
                                 {
-                                    "Id": "Potions_FarmersDraught",
-                                    "ItemId": "{{ModId}}_Potions_FarmersDraught",
-                                    "Quality": "0",
-                                    "Condition": "ITEM_CONTEXT_TAG Input category_seeds"
+                                    "Id": "Jewelry_R_Emerald",
+                                    "ItemId": "{{ModId}}_Jewelry_R_Emerald",
+                                    "CopyPrice": true,
+                                    "CopyQuality": true,
+                                    "Condition": "ITEM_ID Input 60",
+                                    "PriceModifiers": [
+                                        {
+                                            "ID": "increase_base_for_gold_bar",
+                                            "Modification": "Add",
+                                            "Amount": 250
+                                        },
+                                        {
+                                            "ID": "multiply",
+                                            "Modification": "Multiply",
+                                            "Amount": 3.00
+                                        }
+                                    ]
                                 },
                                 {
-                                    "Id": "Potions_FishermansBrew",
-                                    "ItemId": "{{ModId}}_Potions_FishermansBrew",
-                                    "Quality": "0",
-                                    "Condition": "ITEM_CONTEXT_TAG Input category_fish"
+                                    "Id": "Jewelry_R_Jade",
+                                    "ItemId": "{{ModId}}_Jewelry_R_Jade",
+                                    "CopyPrice": true,
+                                    "CopyQuality": true,
+                                    "Condition": "ITEM_ID Input 70",
+                                    "PriceModifiers": [
+                                        {
+                                            "ID": "increase_base_for_gold_bar",
+                                            "Modification": "Add",
+                                            "Amount": 250
+                                        },
+                                        {
+                                            "ID": "multiply",
+                                            "Modification": "Multiply",
+                                            "Amount": 3.00
+                                        }
+                                    ]
                                 },
                                 {
-                                    "Id": "Potions_MinersDrink",
-                                    "ItemId": "{{ModId}}_Potions_MinersDrink",
-                                    "Quality": "0",
-                                    "Condition": "ITEM_ID Input 80"
+                                    "Id": "Jewelry_R_Ruby",
+                                    "ItemId": "{{ModId}}_Jewelry_R_Ruby",
+                                    "CopyPrice": true,
+                                    "CopyQuality": true,
+                                    "Condition": "ITEM_ID Input 64",
+                                    "PriceModifiers": [
+                                        {
+                                            "ID": "increase_base_for_gold_bar",
+                                            "Modification": "Add",
+                                            "Amount": 250
+                                        },
+                                        {
+                                            "ID": "multiply",
+                                            "Modification": "Multiply",
+                                            "Amount": 3.00
+                                        }
+                                    ]
                                 },
                                 {
-                                    "Id": "Potions_SwordsmansElixir",
-                                    "ItemId": "{{ModId}}_Potions_SwordsmansElixir",
-                                    "Quality": "0",
-                                    "Condition": "ITEM_ID Input 335"
+                                    "Id": "Jewelry_R_Topaz",
+                                    "ItemId": "{{ModId}}_Jewelry_R_Topaz",
+                                    "CopyPrice": true,
+                                    "CopyQuality": true,
+                                    "Condition": "ITEM_ID Input 68",
+                                    "PriceModifiers": [
+                                        {
+                                            "ID": "increase_base_for_gold_bar",
+                                            "Modification": "Add",
+                                            "Amount": 250
+                                        },
+                                        {
+                                            "ID": "multiply",
+                                            "Modification": "Multiply",
+                                            "Amount": 3.00
+                                        }
+                                    ]
                                 },
                                 {
-                                    "Id": "Potions_WoodmansTonic",
-                                    "ItemId": "{{ModId}}_Potions_WoodmansTonic",
-                                    "Quality": "0",
-                                    "Condition": "ITEM_ID Input 709"
+                                    "Id": "Jewelry_N_Aerinite",
+                                    "ItemId": "{{ModId}}_Jewelry_N_Aerinite",
+                                    "CopyPrice": true,
+                                    "CopyQuality": true,
+                                    "Condition": "ITEM_ID Input 541",
+                                    "PriceModifiers": [
+                                        {
+                                            "ID": "increase_base_for_gold_bar",
+                                            "Modification": "Add",
+                                            "Amount": 250
+                                        },
+                                        {
+                                            "ID": "multiply",
+                                            "Modification": "Multiply",
+                                            "Amount": 3.00
+                                        }
+                                    ]
                                 },
                                 {
-                                    "Id": "Envigorating_Concoction",
-                                    "ItemId": "351",
-                                    "Quality": "0",
-                                    "ObjectDisplayName": "Envigorating Concoction",
-                                    "Condition": "ITEM_ID Input {{ModId}}_MineralDust_EmeraldDust"
+                                    "Id": "Jewelry_N_Alamite",
+                                    "ItemId": "{{ModId}}_Jewelry_N_Alamite",
+                                    "CopyPrice": true,
+                                    "CopyQuality": true,
+                                    "Condition": "ITEM_ID Input 538",
+                                    "PriceModifiers": [
+                                        {
+                                            "ID": "increase_base_for_gold_bar",
+                                            "Modification": "Add",
+                                            "Amount": 250
+                                        },
+                                        {
+                                            "ID": "multiply",
+                                            "Modification": "Multiply",
+                                            "Amount": 3.00
+                                        }
+                                    ]
                                 },
                                 {
-                                    "Id": "Healing_Draught",
-                                    "ItemId": "773",
-                                    "Quality": "0",
-                                    "ObjectDisplayName": "Healing Draught",
-                                    "Condition": "ITEM_ID Input {{ModId}}_MineralDust_RubyDust"
+                                    "Id": "Jewelry_N_Celestine",
+                                    "ItemId": "{{ModId}}_Jewelry_N_Celestine",
+                                    "CopyPrice": true,
+                                    "CopyQuality": true,
+                                    "Condition": "ITEM_ID Input 566",
+                                    "PriceModifiers": [
+                                        {
+                                            "ID": "increase_base_for_gold_bar",
+                                            "Modification": "Add",
+                                            "Amount": 250
+                                        },
+                                        {
+                                            "ID": "multiply",
+                                            "Modification": "Multiply",
+                                            "Amount": 3.00
+                                        }
+                                    ]
                                 },
                                 {
-                                    "Id": "Repellent_Potion",
-                                    "ItemId": "772",
-                                    "Quality": "0",
-                                    "ObjectDisplayName": "Repellent Potion",
-                                    "Condition": "ITEM_ID Input 684"
+                                    "Id": "_Jewelry_N_Dolomite",
+                                    "ItemId": "{{ModId}}_Jewelry_N_Dolomite",
+                                    "CopyPrice": true,
+                                    "CopyQuality": true,
+                                    "Condition": "ITEM_ID Input 543",
+                                    "PriceModifiers": [
+                                        {
+                                            "ID": "increase_base_for_gold_bar",
+                                            "Modification": "Add",
+                                            "Amount": 250
+                                        },
+                                        {
+                                            "ID": "multiply",
+                                            "Modification": "Multiply",
+                                            "Amount": 3.00
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": "_Jewelry_N_EarthCrystal",
+                                    "ItemId": "{{ModId}}_Jewelry_N_EarthCrystal",
+                                    "CopyPrice": true,
+                                    "CopyQuality": true,
+                                    "Condition": "ITEM_ID Input 86",
+                                    "PriceModifiers": [
+                                        {
+                                            "ID": "increase_base_for_gold_bar",
+                                            "Modification": "Add",
+                                            "Amount": 250
+                                        },
+                                        {
+                                            "ID": "multiply",
+                                            "Modification": "Multiply",
+                                            "Amount": 3.00
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": "Jewelry_N_FireOpal",
+                                    "ItemId": "{{ModId}}_Jewelry_N_FireOpal",
+                                    "CopyPrice": true,
+                                    "CopyQuality": true,
+                                    "Condition": "ITEM_ID Input 565",
+                                    "PriceModifiers": [
+                                        {
+                                            "ID": "increase_base_for_gold_bar",
+                                            "Modification": "Add",
+                                            "Amount": 250
+                                        },
+                                        {
+                                            "ID": "multiply",
+                                            "Modification": "Multiply",
+                                            "Amount": 3.00
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": "Jewelry_N_FireQuartz",
+                                    "ItemId": "{{ModId}}_Jewelry_N_FireQuartz",
+                                    "CopyPrice": true,
+                                    "CopyQuality": true,
+                                    "Condition": "ITEM_ID Input 82",
+                                    "PriceModifiers": [
+                                        {
+                                            "ID": "increase_base_for_gold_bar",
+                                            "Modification": "Add",
+                                            "Amount": 250
+                                        },
+                                        {
+                                            "ID": "multiply",
+                                            "Modification": "Multiply",
+                                            "Amount": 3.00
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": "Jewelry_N_Fluorapatite",
+                                    "ItemId": "{{ModId}}_Jewelry_N_Fluorapatite",
+                                    "CopyPrice": true,
+                                    "CopyQuality": true,
+                                    "Condition": "ITEM_ID Input 545",
+                                    "PriceModifiers": [
+                                        {
+                                            "ID": "increase_base_for_gold_bar",
+                                            "Modification": "Add",
+                                            "Amount": 250
+                                        },
+                                        {
+                                            "ID": "multiply",
+                                            "Modification": "Multiply",
+                                            "Amount": 3.00
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": "Jewelry_N_FrozenTear",
+                                    "ItemId": "{{ModId}}_Jewelry_N_FrozenTear",
+                                    "CopyPrice": true,
+                                    "CopyQuality": true,
+                                    "Condition": "ITEM_ID Input 84",
+                                    "PriceModifiers": [
+                                        {
+                                            "ID": "increase_base_for_gold_bar",
+                                            "Modification": "Add",
+                                            "Amount": 250
+                                        },
+                                        {
+                                            "ID": "multiply",
+                                            "Modification": "Multiply",
+                                            "Amount": 3.00
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": "Jewelry_N_Geminite",
+                                    "ItemId": "{{ModId}}_Jewelry_N_Geminite",
+                                    "CopyPrice": true,
+                                    "CopyQuality": true,
+                                    "Condition": "ITEM_ID Input 546",
+                                    "PriceModifiers": [
+                                        {
+                                            "ID": "increase_base_for_gold_bar",
+                                            "Modification": "Add",
+                                            "Amount": 250
+                                        },
+                                        {
+                                            "ID": "multiply",
+                                            "Modification": "Multiply",
+                                            "Amount": 3.00
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": "Jewelry_N_Gold",
+                                    "ItemId": "{{ModId}}_Jewelry_N_Gold",
+                                    "CopyPrice": true,
+                                    "CopyQuality": true,
+                                    "Condition": "ITEM_ID Input {{ModId}}_Jewelry_N_Gold",
+                                    "PriceModifiers": [
+                                        {
+                                            "ID": "increase_base_for_gold_bar",
+                                            "Modification": "Add",
+                                            "Amount": 250
+                                        },
+                                        {
+                                            "ID": "multiply",
+                                            "Modification": "Multiply",
+                                            "Amount": 3.00
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": "Jewelry_N_Helvite",
+                                    "ItemId": "{{ModId}}_Jewelry_N_Helvite",
+                                    "CopyPrice": true,
+                                    "CopyQuality": true,
+                                    "Condition": "ITEM_ID Input 547",
+                                    "PriceModifiers": [
+                                        {
+                                            "ID": "increase_base_for_gold_bar",
+                                            "Modification": "Add",
+                                            "Amount": 250
+                                        },
+                                        {
+                                            "ID": "multiply",
+                                            "Modification": "Multiply",
+                                            "Amount": 3.00
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": "Jewelry_N_Kyanite",
+                                    "ItemId": "{{ModId}}_Jewelry_N_Kyanite",
+                                    "CopyPrice": true,
+                                    "CopyQuality": true,
+                                    "Condition": "ITEM_ID Input 550",
+                                    "PriceModifiers": [
+                                        {
+                                            "ID": "increase_base_for_gold_bar",
+                                            "Modification": "Add",
+                                            "Amount": 250
+                                        },
+                                        {
+                                            "ID": "multiply",
+                                            "Modification": "Multiply",
+                                            "Amount": 3.00
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": "Jewelry_N_LemonStone",
+                                    "ItemId": "{{ModId}}_Jewelry_N_LemonStone",
+                                    "CopyPrice": true,
+                                    "CopyQuality": true,
+                                    "Condition": "ITEM_ID Input 554",
+                                    "PriceModifiers": [
+                                        {
+                                            "ID": "increase_base_for_gold_bar",
+                                            "Modification": "Add",
+                                            "Amount": 250
+                                        },
+                                        {
+                                            "ID": "multiply",
+                                            "Modification": "Multiply",
+                                            "Amount": 3.00
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": "Jewelry_N_Malachite",
+                                    "ItemId": "{{ModId}}_Jewelry_N_Malachite",
+                                    "CopyPrice": true,
+                                    "CopyQuality": true,
+                                    "Condition": "ITEM_ID Input 552",
+                                    "PriceModifiers": [
+                                        {
+                                            "ID": "increase_base_for_gold_bar",
+                                            "Modification": "Add",
+                                            "Amount": 250
+                                        },
+                                        {
+                                            "ID": "multiply",
+                                            "Modification": "Multiply",
+                                            "Amount": 3.00
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": "Jewelry_N_Obsidian",
+                                    "ItemId": "{{ModId}}_Jewelry_N_Obsidian",
+                                    "CopyPrice": true,
+                                    "CopyQuality": true,
+                                    "Condition": "ITEM_ID Input 575",
+                                    "PriceModifiers": [
+                                        {
+                                            "ID": "increase_base_for_gold_bar",
+                                            "Modification": "Add",
+                                            "Amount": 250
+                                        },
+                                        {
+                                            "ID": "multiply",
+                                            "Modification": "Multiply",
+                                            "Amount": 3.00
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": "Jewelry_N_Opal",
+                                    "ItemId": "{{ModId}}_Jewelry_N_Opal",
+                                    "CopyPrice": true,
+                                    "CopyQuality": true,
+                                    "Condition": "ITEM_ID Input 564",
+                                    "PriceModifiers": [
+                                        {
+                                            "ID": "increase_base_for_gold_bar",
+                                            "Modification": "Add",
+                                            "Amount": 250
+                                        },
+                                        {
+                                            "ID": "multiply",
+                                            "Modification": "Multiply",
+                                            "Amount": 3.00
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": "Jewelry_N_Orpiment",
+                                    "ItemId": "{{ModId}}_Jewelry_N_Orpiment",
+                                    "CopyPrice": true,
+                                    "CopyQuality": true,
+                                    "Condition": "ITEM_ID Input 556",
+                                    "PriceModifiers": [
+                                        {
+                                            "ID": "increase_base_for_gold_bar",
+                                            "Modification": "Add",
+                                            "Amount": 250
+                                        },
+                                        {
+                                            "ID": "multiply",
+                                            "Modification": "Multiply",
+                                            "Amount": 3.00
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": "Jewelry_N_Quartz",
+                                    "ItemId": "{{ModId}}_Jewelry_N_Quartz",
+                                    "CopyPrice": true,
+                                    "CopyQuality": true,
+                                    "Condition": "ITEM_ID Input 80",
+                                    "PriceModifiers": [
+                                        {
+                                            "ID": "increase_base_for_gold_bar",
+                                            "Modification": "Add",
+                                            "Amount": 250
+                                        },
+                                        {
+                                            "ID": "multiply",
+                                            "Modification": "Multiply",
+                                            "Amount": 3.00
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": "Jewelry_N_StarShards",
+                                    "ItemId": "{{ModId}}_Jewelry_N_StarShards",
+                                    "CopyPrice": true,
+                                    "CopyQuality": true,
+                                    "Condition": "ITEM_ID Input 578",
+                                    "PriceModifiers": [
+                                        {
+                                            "ID": "increase_base_for_gold_bar",
+                                            "Modification": "Add",
+                                            "Amount": 250
+                                        },
+                                        {
+                                            "ID": "multiply",
+                                            "Modification": "Multiply",
+                                            "Amount": 3.00
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": "Jewelry_N_Tigerseye",
+                                    "ItemId": "{{ModId}}_Jewelry_N_Tigerseye",
+                                    "CopyPrice": true,
+                                    "CopyQuality": true,
+                                    "Condition": "ITEM_ID Input 562",
+                                    "PriceModifiers": [
+                                        {
+                                            "ID": "increase_base_for_gold_bar",
+                                            "Modification": "Add",
+                                            "Amount": 250
+                                        },
+                                        {
+                                            "ID": "multiply",
+                                            "Modification": "Multiply",
+                                            "Amount": 3.00
+                                        }
+                                    ]
                                 }
                             ],
                             "UseFirstValidOutput": true,

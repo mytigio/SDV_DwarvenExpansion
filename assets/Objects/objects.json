@@ -974,6 +974,20 @@
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/R_Topaz.png}}",
                     "SpriteIndex": 0
+                },
+                "{{ModId}}_Misc_NecklaceMold": {
+                    "Name": "Necklace Mold",
+                    "DisplayName": "Necklace Mold",
+                    "Description":  "A clay mold to make basic necklaces.",
+                    "Type": "Basic",
+                    "Price": 20,
+                    "Category": "-20",
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Misc/NecklaceMold.png}}",
+                    "SpriteIndex": 0
                 }
             }
         },        
