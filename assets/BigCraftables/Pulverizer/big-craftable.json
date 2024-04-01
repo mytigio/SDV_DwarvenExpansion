@@ -116,7 +116,21 @@
                                 },
                                 {
                                     "Id": "Mineral_Output",
-                                    "RandomItemId": ["571", "574", "568", "569", "542", "556", "555", "576", "552", "549", "566", "548", "538"],
+                                    "RandomItemId": [
+                                        "571",
+                                        "574",
+                                        "568",
+                                        "569",
+                                        "542",
+                                        "556",
+                                        "555",
+                                        "576",
+                                        "552",
+                                        "549",
+                                        "566",
+                                        "548",
+                                        "538"
+                                    ],
                                     "MinStack": 1
                                 }
                             ],
@@ -235,7 +249,6 @@
                                     "RequiredItemId": "Carrot",
                                     "RequiredCount": 1
                                 }
-
                             ],
                             "OutputItem": [
                                 {
@@ -435,7 +448,10 @@
                                 {
                                     "Id": "Gem",
                                     "Trigger": "ItemPlacedInMachine",
-                                    "RequiredTags": ["category_gem"],
+                                    "RequiredTags": [
+                                        "category_gem",
+                                        "!{{ModId}}_jewelry"
+                                    ],
                                     "RequiredCount": 1
                                 }
                             ],

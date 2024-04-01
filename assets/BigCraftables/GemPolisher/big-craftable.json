@@ -56,7 +56,8 @@
                                     "Id": "Gem",
                                     "Trigger": "ItemPlacedInMachine",
                                     "RequiredTags": [
-                                        "category_gem"
+                                        "category_gem",
+                                        "!{{ModId}}_jewelry"
                                     ],
                                     "Condition": "ITEM_QUALITY Input 0 1"
                                 }
@@ -85,7 +86,8 @@
                                     "Id": "Gem",
                                     "Trigger": "ItemPlacedInMachine",
                                     "RequiredTags": [
-                                        "category_gem"
+                                        "category_gem",
+                                        "!{{ModId}}_jewelry"
                                     ],
                                     "Condition": "ITEM_QUALITY Input 2 2"
                                 }
