@@ -9,6 +9,16 @@
         },
         {
             "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "Prismatic Dust": "330 1/Home/{{ModId}}_Misc_NecklaceMold/false/Mining 5/"
+            },
+            "When": {
+                "EnabledMachines": "JewelryMaker"
+            }
+        },
+        {
+            "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {
                 "Magic Rock Candy": "{{ModId}}_MineralDust_PrismaticDust 3 388 1/25 2/279/false/Mining 10/"

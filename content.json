@@ -2,10 +2,10 @@
     "Format": "2.0.0",
     "ConfigSchema": {
         "EnabledMachines": {
-            "AllowValues": "GemPolisher, Pulverizer, DwarvenStill, AlchemyBench",
+            "AllowValues": "GemPolisher, Pulverizer, DwarvenStill, AlchemyBench, JewelryMaker",
             "AllowMultiple": true,
             "AllowBlank": true,
-            "Default": "GemPolisher, Pulverizer, DwarvenStill, AlchemyBench"
+            "Default": "GemPolisher, Pulverizer, DwarvenStill, AlchemyBench, JewelryMaker"
         }
     },
     "Changes": [
@@ -43,6 +43,13 @@
             "FromFile": "assets/BigCraftables/AlchemyBench/big-craftable.json",
             "When": {
                 "EnabledMachines": "AlchemyBench"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/BigCraftables/JewelryMaker/big-craftable.json",
+            "When": {
+                "EnabledMachines": "JewelryMaker"
             }
         }
     ]
