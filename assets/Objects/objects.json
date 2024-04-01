@@ -1002,6 +1002,416 @@
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/Misc/GoldenChickenStatue.png}}",
                     "SpriteIndex": 0
+                },
+                "{{ModId}}_Food_SunshineStew": {
+                    "Name": "Sunshine Stew",
+                    "DisplayName": "Sunshine Stew",
+                    "Description": "A thin stew embued with the essence of the Sun for a refreshing kick!",
+                    "Type": "Cooking",
+                    "Category": "-7",
+                    "Price": 732,
+                    "Edibility": 70,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_dwarven_cuisine",
+                        "{{ModId}}_fine_dwarven_cuisine"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Food/SunshineStew.png}}",
+                    "SpriteIndex": 0,
+                    "Buffs": [
+                        {
+                            "Id": "eat",
+                            "Duration": 1200,
+                            "CustomAttributes": {
+                                "Speed": 1
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_Food_StonefishSuprise": {
+                    "Name": "Stonefish Suprise",
+                    "DisplayName": "Stonefish Suprise",
+                    "Description": "Grilled Stonefish served over sauteed root vegitables.",
+                    "Type": "Cooking",
+                    "Category": "-7",
+                    "Price": 539,
+                    "Edibility": 43,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_dwarven_cuisine",
+                        "{{ModId}}_fine_dwarven_cuisine"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Food/StonefishSuprise.png}}",
+                    "SpriteIndex": 0,
+                    "Buffs": [
+                        {
+                            "Id": "eat",
+                            "Duration": 600,
+                            "CustomAttributes": {
+                                "Defense": 2
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_Food_ShadowedStew": {
+                    "Name": "Shadowed Stew",
+                    "DisplayName": "Shadowed Stew",
+                    "Description": "A viscous stew cooked with the vile essence of the Shadow People.",
+                    "Type": "Cooking",
+                    "Category": "-7",
+                    "Price": 2107,
+                    "Edibility": 299,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_dwarven_cuisine",
+                        "{{ModId}}_fine_dwarven_cuisine"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Food/ShadowedStew.png}}",
+                    "SpriteIndex": 0,
+                    "Buffs": [
+                        {
+                            "Id": "eat",
+                            "Duration": 600,
+                            "CustomAttributes": {
+                                "MiningLevel": 3,
+                                "Defense": 3,
+                                "Attack": 3,
+                                "MaxHealth": -20
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_Food_RockCrabSalad": {
+                    "Name": "Rock Crab Salad",
+                    "DisplayName": "Rock Crab Salad",
+                    "Description": "A delcious algea and rock crab salad.",
+                    "Type": "Cooking",
+                    "Category": "-7",
+                    "Price": 143,
+                    "Edibility": 28,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_dwarven_cuisine",
+                        "{{ModId}}_basic_dwarven_cuisine"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Food/RockCrabSalad.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Food_RoastedCaveFish": {
+                    "Name": "Roasted Cave Fish",
+                    "DisplayName": "Roasted Cave Fish",
+                    "Description": "Roasted fish on a bed of white algae and root vegitables.",
+                    "Type": "Cooking",
+                    "Category": "-7",
+                    "Price": 182,
+                    "Edibility": 50,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_dwarven_cuisine",
+                        "{{ModId}}_basic_dwarven_cuisine"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Food/RoastedCaveFish.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Food_MashedCarrots": {
+                    "Name": "Mashed Carrots",
+                    "DisplayName": "Mashed Carrots",
+                    "Description": "Cave Carrots boiled and mashed. Serve with a thick gravey for added flavor!",
+                    "Type": "Cooking",
+                    "Category": "-7",
+                    "Price": 83,
+                    "Edibility": 40,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_dwarven_cuisine",
+                        "{{ModId}}_basic_dwarven_cuisine"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Food/MashedCarrots.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Food_LavaEelPie": {
+                    "Name": "Lava Eel Pie",
+                    "DisplayName": "Lava Eel Pie",
+                    "Description": "A self-cooking eel pie!  Perfect for travelers!",
+                    "Type": "Cooking",
+                    "Category": "-7",
+                    "Price": 1359,
+                    "Edibility": 150,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_dwarven_cuisine",
+                        "{{ModId}}_fine_dwarven_cuisine"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Food/LavaEelPie.png}}",
+                    "SpriteIndex": 0,
+                    "Buffs": [
+                        {
+                            "Id": "eat",
+                            "Duration": 180,
+                            "CustomAttributes": {
+                                "Speed": 2,
+                                "LuckLevel": 2,
+                                "MagnetRadius": 64
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_Food_IcePipSoup": {
+                    "Name": "Ice Pip Soup",
+                    "DisplayName": "Ice Pip Soup",
+                    "Description": "A gazpacho served with with Ice Pips to chill and flavor the soup. Refreshing!",
+                    "Type": "Cooking",
+                    "Category": "-7",
+                    "Price": 1139,
+                    "Edibility": 160,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_dwarven_cuisine",
+                        "{{ModId}}_fine_dwarven_cuisine"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Food/IcePipSoup.png}}",
+                    "SpriteIndex": 0,
+                    "Buffs": [
+                        {
+                            "Id": "eat",
+                            "Duration": 600,
+                            "CustomAttributes": {
+                                "MaxStamina": 75
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_Food_FriedBatWings": {
+                    "Name": "Fried Bat Wings",
+                    "DisplayName": "Fried Bat Wings",
+                    "Description": "Bland, stringey and tough. Bat Wings fried in oily slime.  A favorite of Dwarvish children the land over!",
+                    "Type": "Cooking",
+                    "Category": "-7",
+                    "Price": 171,
+                    "Edibility": 11,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_dwarven_cuisine",
+                        "{{ModId}}_basic_dwarven_cuisine"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Food/FriedBatWings.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Food_CaveSoup": {
+                    "Name": "Cave Soup",
+                    "DisplayName": "Cave Soup",
+                    "Description": "Algae and Fish Soup. Thin but flavorful.",
+                    "Type": "Cooking",
+                    "Category": "-7",
+                    "Price": 99,
+                    "Edibility": 33,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_dwarven_cuisine",
+                        "{{ModId}}_basic_dwarven_cuisine"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Food/CaveSoup.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Food_CaveChowder": {
+                    "Name": "Cave Chowder",
+                    "DisplayName": "Cave Chowder",
+                    "Description": "A thick fish chowder with winter root for substance.  Traditional lunch of dwarvish mining families.",
+                    "Type": "Cooking",
+                    "Category": "-7",
+                    "Price": 176,
+                    "Edibility": 44,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_dwarven_cuisine",
+                        "{{ModId}}_fine_dwarven_cuisine"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Food/CaveChowder.png}}",
+                    "SpriteIndex": 0,
+                    "Buffs": [
+                        {
+                            "Id": "eat",
+                            "Duration": 180,
+                            "CustomAttributes": {
+                                "MiningLevel": 1,
+                                "MagnetRadius": 32
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_Food_CaveCarrotAuGratin": {
+                    "Name": "Cave Carrot Au Gratin",
+                    "DisplayName": "Cave Carrot Au Gratin",
+                    "Description": "A side dish of sliced cave carrots traditionally preparred with a molerat milk cheese reduction.",
+                    "Type": "Cooking",
+                    "Category": "-7",
+                    "Price": 578,
+                    "Edibility": 128,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_dwarven_cuisine",
+                        "{{ModId}}_fine_dwarven_cuisine"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Food/CaveCarrotAuGratin.png}}",
+                    "SpriteIndex": 0,
+                    "Buffs": [
+                        {
+                            "Id": "eat",
+                            "Duration": 180,
+                            "CustomAttributes": {
+                                "MiningLevel": 1
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_Food_CaveCarrotStew": {
+                    "Name": "Cave Carrot Stew",
+                    "DisplayName": "Cave Carrot Stew",
+                    "Description": "A rich Cave Carrot and Mushroom Stew. Hardy and filling.",
+                    "Type": "Cooking",
+                    "Category": "-7",
+                    "Price": 589,
+                    "Edibility": 126,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_dwarven_cuisine",
+                        "{{ModId}}_fine_dwarven_cuisine"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Food/CaveCarrotStew.png}}",
+                    "SpriteIndex": 0,
+                    "Buffs": [
+                        {
+                            "Id": "eat",
+                            "Duration": 180,
+                            "CustomAttributes": {
+                                "MagnetRadius": 32
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_Food_CaveCarrotSoup": {
+                    "Name": "Cave Carrot Soup",
+                    "DisplayName": "Cave Carrot Soup",
+                    "Description": "A basic cave carrot and mushroom soup.",
+                    "Type": "Cooking",
+                    "Category": "-7",
+                    "Price": 171,
+                    "Edibility": 73,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_dwarven_cuisine",
+                        "{{ModId}}_basic_dwarven_cuisine"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Food/CaveCarrotSoup.png}}",
+                    "SpriteIndex": 0,
+                    "Buffs": [
+                        {
+                            "Id": "eat",
+                            "Duration": 180,
+                            "CustomAttributes": {
+                                "MagnetRadius": 16
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_Food_CaveCarrotRoast": {
+                    "Name": "Cave Carrot Roast",
+                    "DisplayName": "Cave Carrot Roast",
+                    "Description": "A basic dish of roasted cave carrot with a mushroom and slime glaze.",
+                    "Type": "Cooking",
+                    "Category": "-7",
+                    "Price": 121,
+                    "Edibility": 36,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_dwarven_cuisine",
+                        "{{ModId}}_basic_dwarven_cuisine"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Food/CaveCarrotRoast.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Food_CaveCarrotBrulee": {
+                    "Name": "Cave Carrot Brulee",
+                    "DisplayName": "Cave Carrot Brulee",
+                    "Description": "A dish made from a thick molerat milk based creme, infused with shredded cave carrot and toasted to perfection.",
+                    "Type": "Cooking",
+                    "Category": "-7",
+                    "Price": 440,
+                    "Edibility": 63,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_dwarven_cuisine",
+                        "{{ModId}}_basic_dwarven_cuisine"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Food/CaveCarrotBrulee.png}}",
+                    "SpriteIndex": 0,
+                    "Buffs": [
+                        {
+                            "Id": "eat",
+                            "Duration": 180,
+                            "CustomAttributes": {
+                                "LuckLevel": 1
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_Food_Cavatouille": {
+                    "Name": "Cavatouille",
+                    "DisplayName": "Cavatouille",
+                    "Description": "Root Vegitables and Mushrooms sauteed in a Slime reduction.  An example of fine Dwarvish dining.",
+                    "Type": "Cooking",
+                    "Category": "-7",
+                    "Price": 930,
+                    "Edibility": 103,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_dwarven_cuisine",
+                        "{{ModId}}_fine_dwarven_cuisine"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Food/Cavatouille.png}}",
+                    "SpriteIndex": 0,
+                    "Buffs": [
+                        {
+                            "Id": "eat",
+                            "Duration": 1200,
+                            "CustomAttributes": {
+                                "MiningLevel": 1,
+                                "MagnetRadius": 32
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_Food_BugMeatStew": {
+                    "Name": "Bug Meat Stew",
+                    "DisplayName": "Bug Meat Stew",
+                    "Description": "A basic dish of roasted cave carrot with a mushroom and slime glaze.",
+                    "Type": "Cooking",
+                    "Category": "-7",
+                    "Price": 99,
+                    "Edibility": 32,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_dwarven_cuisine",
+                        "{{ModId}}_basic_dwarven_cuisine"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Food/BugMeatStew.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Food_BugMeatSoup": {
+                    "Name": "Bug Meat Soup",
+                    "DisplayName": "Bug Meat Soup",
+                    "Description": "An oily soup fortified with gooey hunks of bug meat.",
+                    "Type": "Cooking",
+                    "Category": "-7",
+                    "Price": 50,
+                    "Edibility": 10,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_dwarven_cuisine",
+                        "{{ModId}}_basic_dwarven_cuisine"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Food/BugMeatSoup.png}}",
+                    "SpriteIndex": 0
                 }
             }
         },        
@@ -1024,7 +1434,7 @@
                         "Entries",
                         "Universal_Like"
                     ],
-                    "Value": "{{ModId}}_Jewelry_R_Topaz {{ModId}}_Jewelry_R_Ruby {{ModId}}_Jewelry_R_Jade {{ModId}}_Jewelry_R_Emerald {{ModId}}_Jewelry_R_Aquamarine {{ModId}}_Jewelry_R_Amethyst {{ModId}}_Jewelry_N_Celestine {{ModId}}_Jewelry_N_Aerinite {{ModId}}_Jewelry_N_Alamite",
+                    "Value": "{{ModId}}_Food_SunshineStew {{ModId}}_Jewelry_R_Topaz {{ModId}}_Jewelry_R_Ruby {{ModId}}_Jewelry_R_Jade {{ModId}}_Jewelry_R_Emerald {{ModId}}_Jewelry_R_Aquamarine {{ModId}}_Jewelry_R_Amethyst {{ModId}}_Jewelry_N_Celestine {{ModId}}_Jewelry_N_Aerinite {{ModId}}_Jewelry_N_Alamite",
                     "Delimiter": " "
                 },
                 {
@@ -1033,7 +1443,7 @@
                         "Entries",
                         "Universal_Neutral"
                     ],
-                    "Value": "{{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Value": "{{ModId}}_Food_MashedCarrots {{ModId}}_Food_CaveChowder {{ModId}}_Food_CaveCarrotStew {{ModId}}_Food_CaveCarrotSoup {{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
                     "Delimiter": " "
                 },
                 {
@@ -1042,7 +1452,7 @@
                         "Entries",
                         "Universal_Dislike"
                     ],
-                    "Value": "{{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_MinersDrink",
+                    "Value": "{{ModId}}_Food_StonefishSuprise {{ModId}}_Food_ShadowedStew {{ModId}}_Food_RockCrabSalad {{ModId}}_Food_RoastedCaveFish {{ModId}}_Food_LavaEelPie {{ModId}}_Food_IcePipSoup {{ModId}}_Food_CaveSoup {{ModId}}_Food_CaveCarrotAuGratin {{ModId}}_Food_CaveCarrotRoast {{ModId}}_Food_CaveCarrotBrulee {{ModId}}_Food_Cavatouille {{ModId}}_Food_BugMeatStew {{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_MinersDrink",
                     "Delimiter": " "
                 },
                 {
@@ -1051,7 +1461,7 @@
                         "Entries",
                         "Universal_Hate"
                     ],
-                    "Value": "{{ModId}}_CarrotMash",
+                    "Value": "{{ModId}}_Food_FriedBatWings {{ModId}}_Food_BugMeatSoup {{ModId}}_CarrotMash",
                     "Delimiter": " "
                 },
                 //#1 = love, #3 = like, #5 = dislike, #7 = hated, #9 = neutral
@@ -1062,7 +1472,7 @@
                         "Clint",
                         1
                     ],
-                    "Value": "{{ModId}}_Jewelry_R_Topaz {{ModId}}_Jewelry_R_Ruby {{ModId}}_Jewelry_R_Jade {{ModId}}_Jewelry_R_Emerald {{ModId}}_Jewelry_R_Aquamarine {{ModId}}_Jewelry_R_Amethyst",
+                    "Value": "{{ModId}}_Food_ShadowedStew {{ModId}}_Food_RockCrabSalad {{ModId}}_Food_RoastedCaveFish {{ModId}}_Jewelry_R_Topaz {{ModId}}_Jewelry_R_Ruby {{ModId}}_Jewelry_R_Jade {{ModId}}_Jewelry_R_Emerald {{ModId}}_Jewelry_R_Aquamarine {{ModId}}_Jewelry_R_Amethyst",
                     "Delimiter": " "
                 },
                 {
@@ -1072,7 +1482,7 @@
                         "Clint",
                         3
                     ],
-                    "Value": "{{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_MinersDrink",
+                    "Value": "{{ModId}}_Food_LavaEelPie {{ModId}}_Food_CaveSoup {{ModId}}_Food_CaveChowder {{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_MinersDrink",
                     "Delimiter": " "
                 },
                 {
@@ -1082,7 +1492,7 @@
                         "Dwarf",
                         1
                     ],
-                    "Value": "{{ModId}}_Jewelry_R_Topaz {{ModId}}_Jewelry_R_Ruby {{ModId}}_Jewelry_R_Jade {{ModId}}_Jewelry_R_Emerald {{ModId}}_Jewelry_R_Aquamarine {{ModId}}_Jewelry_R_Amethyst {{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_MinersDrink {{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Value": "{{ModId}}_Food_SunshineStew {{ModId}}_Food_StonefishSuprise {{ModId}}_Food_ShadowedStew {{ModId}}_Food_RockCrabSalad {{ModId}}_Food_RoastedCaveFish {{ModId}}_Food_MashedCarrots {{ModId}}_Food_LavaEelPie {{ModId}}_Food_IcePipSoup {{ModId}}_Food_FriedBatWings {{ModId}}_Food_CaveSoup {{ModId}}_Food_CaveChowder {{ModId}}_Food_CaveCarrotAuGratin {{ModId}}_Food_CaveCarrotStew {{ModId}}_Food_CaveCarrotSoup {{ModId}}_Food_CaveCarrotRoast {{ModId}}_Food_CaveCarrotBrulee {{ModId}}_Food_Cavatouille {{ModId}}_Food_BugMeatStew {{ModId}}_Food_BugMeatSoup {{ModId}}_Jewelry_R_Topaz {{ModId}}_Jewelry_R_Ruby {{ModId}}_Jewelry_R_Jade {{ModId}}_Jewelry_R_Emerald {{ModId}}_Jewelry_R_Aquamarine {{ModId}}_Jewelry_R_Amethyst {{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_MinersDrink {{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
                     "Delimiter": " "
                 },
                 {
@@ -1092,7 +1502,17 @@
                         "Gus",
                         3
                     ],
-                    "Value": "{{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Value": "{{ModId}}_Food_StonefishSuprise {{ModId}}_Food_RockCrabSalad {{ModId}}_Food_LavaEelPie {{ModId}}_Food_IcePipSoup {{ModId}}_Food_CaveChowder {{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Haley",
+                        1
+                    ],
+                    "Value": "{{ModId}}_Food_SunshineStew",
                     "Delimiter": " "
                 },
                 {
@@ -1102,7 +1522,7 @@
                         "Haley",
                         3
                     ],
-                    "Value": "{{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight",
+                    "Value": "{{ModId}}_Food_StonefishSuprise {{ModId}}_Food_ShadowedStew {{ModId}}_Food_RockCrabSalad {{ModId}}_Food_LavaEelPie {{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight",
                     "Delimiter": " "
                 },
                 {
@@ -1112,7 +1532,17 @@
                         "Haley",
                         7
                     ],
-                    "Value": "{{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_MinersDrink {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Value": "{{ModId}}_Food_RoastedCaveFish {{ModId}}_Food_IcePipSoup {{ModId}}_Food_CaveSoup {{ModId}}_Food_CaveChowder {{ModId}}_Food_CaveCarrotAuGratin {{ModId}}_Food_CaveCarrotStew {{ModId}}_Food_CaveCarrotSoup {{ModId}}_Food_CaveCarrotBrulee {{ModId}}_Food_Cavatouille {{ModId}}_Food_BugMeatStew {{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_MinersDrink {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Jas",
+                        3
+                    ],
+                    "Value": "{{ModId}}_Food_StonefishSuprise {{ModId}}_Food_FriedBatWings",
                     "Delimiter": " "
                 },
                 {
@@ -1122,7 +1552,27 @@
                         "Jas",
                         5
                     ],
-                    "Value": "{{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirit",
+                    "Value": "{{ModId}}_Food_SunshineStew {{ModId}}_Food_LavaEelPie {{ModId}}_Food_CaveChowder {{ModId}}_Food_CaveCarrotStew {{ModId}}_Food_CaveCarrotSoup {{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirit",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Krobus",
+                        1
+                    ],
+                    "Value": "{{ModId}}_Food_SunshineStew {{ModId}}_Food_StonefishSuprise {{ModId}}_Food_RoastedCaveFish {{ModId}}_Food_LavaEelPie {{ModId}}_Food_IcePipSoup {{ModId}}_Food_FriedBatWings {{ModId}}_Food_CaveSoup {{ModId}}_Food_Cavatouille",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Krobus",
+                        3
+                    ],
+                    "Value": "{{ModId}}_Food_MashedCarrots {{ModId}}_Food_CaveChowder {{ModId}}_Food_CaveCarrotAuGratin {{ModId}}_Food_CaveCarrotStew {{ModId}}_Food_CaveCarrotSoup {{ModId}}_Food_CaveCarrotRoast {{ModId}}_Food_CaveCarrotBrulee {{ModId}}_Food_BugMeatStew {{ModId}}_Food_BugMeatSoup",
                     "Delimiter": " "
                 },
                 {
@@ -1132,7 +1582,7 @@
                         "Krobus",
                         7
                     ],
-                    "Value": "{{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Value": "{{ModId}}_Food_ShadowedStew {{ModId}}_Food_RockCrabSalad {{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
                     "Delimiter": " "
                 },
                 {
@@ -1142,7 +1592,7 @@
                         "Linus",
                         3
                     ],
-                    "Value": "{{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_MinersDrink {{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Value": "{{ModId}}_Food_StonefishSuprise {{ModId}}_Food_ShadowedStew {{ModId}}_Food_RockCrabSalad {{ModId}}_Food_RoastedCaveFish {{ModId}}_Food_MashedCarrots {{ModId}}_Food_IcePipSoup {{ModId}}_Food_FriedBatWings {{ModId}}_Food_CaveSoup {{ModId}}_Food_CaveChowder {{ModId}}_Food_CaveCarrotAuGratin {{ModId}}_Food_CaveCarrotStew {{ModId}}_Food_CaveCarrotSoup {{ModId}}_Food_CaveCarrotRoast {{ModId}}_Food_CaveCarrotBrulee {{ModId}}_Food_Cavatouille {{ModId}}_Food_BugMeatStew {{ModId}}_Food_BugMeatSoup {{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_MinersDrink {{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
                     "Delimiter": " "
                 },
                 {
@@ -1162,7 +1612,7 @@
                         "Pam",
                         3
                     ],
-                    "Value": "{{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Value": "{{ModId}}_Food_StonefishSuprise {{ModId}}_Food_RoastedCaveFish {{ModId}}_Food_LavaEelPie {{ModId}}_Food_CaveChowder {{ModId}}_Food_CaveCarrotAuGratin {{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
                     "Delimiter": " "
                 },
                 {
@@ -1172,7 +1622,7 @@
                         "Penny",
                         7
                     ],
-                    "Value": "{{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_MinersDrink {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Value": "{{ModId}}_Food_SunshineStew {{ModId}}_Food_LavaEelPie {{ModId}}_Food_IcePipSoup {{ModId}}_Food_CaveChowder {{ModId}}_Food_CaveCarrotStew {{ModId}}_Food_CaveCarrotSoup {{ModId}}_Food_BugMeatStew {{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_MinersDrink {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
                     "Delimiter": " "
                 },
                 {
@@ -1182,7 +1632,7 @@
                         "Pierre",
                         5
                     ],
-                    "Value": "{{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Jewelry_N_Aerinite",
+                    "Value": "{{ModId}}_Food_SunshineStew {{ModId}}_Food_CaveChowder {{ModId}}_Food_CaveCarrotStew {{ModId}}_Food_CaveCarrotSoup {{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Jewelry_N_Aerinite",
                     "Delimiter": " "
                 },
                 {
@@ -1192,7 +1642,17 @@
                         "Robin",
                         1
                     ],
-                    "Value": "{{ModId}}_Potions_WoodmansTonic",
+                    "Value": "{{ModId}}_Food_LavaEelPie {{ModId}}_Potions_WoodmansTonic",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Vincent",
+                        3
+                    ],
+                    "Value": "{{ModId}}_Food_ShadowedStew {{ModId}}_Food_LavaEelPie {{ModId}}_Food_FriedBatWings",
                     "Delimiter": " "
                 },
                 {
@@ -1202,7 +1662,7 @@
                         "Vincent",
                         5
                     ],
-                    "Value": "{{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirit",
+                    "Value": "{{ModId}}_Food_SunshineStew {{ModId}}_Food_CaveChowder {{ModId}}_Food_CaveCarrotStew {{ModId}}_Food_CaveCarrotSoup {{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirit",
                     "Delimiter": " "
                 },
                 {
@@ -1212,7 +1672,7 @@
                         "Willy",
                         1
                     ],
-                    "Value": "{{ModId}}_Potions_FishermansBrew",
+                    "Value": "{{ModId}}_Food_StonefishSuprise {{ModId}}_Food_RoastedCaveFish {{ModId}}_Food_LavaEelPie {{ModId}}_Food_IcePipSoup {{ModId}}_Food_CaveCarrotStew {{ModId}}_Potions_FishermansBrew",
                     "Delimiter": " "
                 },
                 {
@@ -1222,7 +1682,7 @@
                         "Willy",
                         9
                     ],
-                    "Value": "{{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_ShadowedElixir",
+                    "Value": "{{ModId}}_Food_SunshineStew {{ModId}}_Food_FriedBatWings {{ModId}}_Food_CaveSoup {{ModId}}_Food_CaveChowder {{ModId}}_Food_CaveCarrotAuGratin {{ModId}}_Food_CaveCarrotRoast {{ModId}}_Food_CaveCarrotBrulee {{ModId}}_Food_BugMeatStew {{ModId}}_Food_BugMeatSoup {{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_ShadowedElixir",
                     "Delimiter": " "
                 },
                 {
@@ -1232,7 +1692,7 @@
                         "Wizard",
                         1
                     ],
-                    "Value": "{{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit",
+                    "Value": "{{ModId}}_Food_SunshineStew {{ModId}}_Food_RoastedCaveFish {{ModId}}_Food_LavaEelPie {{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit",
                     "Delimiter": " "
                 },
                 {
@@ -1242,7 +1702,7 @@
                         "Wizard",
                         3
                     ],
-                    "Value": "{{ModId}}_Drinks_DwarvenSpirits",
+                    "Value": "{{ModId}}_Food_ShadowedStew {{ModId}}_Food_CaveSoup {{ModId}}_Food_CaveChowder {{ModId}}_Food_CaveCarrotAuGratin {{ModId}}_Food_CaveCarrotStew {{ModId}}_Food_CaveCarrotSoup {{ModId}}_Food_CaveCarrotRoast {{ModId}}_Food_CaveCarrotBrulee {{ModId}}_Food_Cavatouille {{ModId}}_Drinks_DwarvenSpirits",
                     "Delimiter": " "
                 },
                 {
@@ -1252,7 +1712,7 @@
                         "Wizard",
                         9
                     ],
-                    "Value": "{{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_ShadowedElixir",
+                    "Value": "{{ModId}}_Food_StonefishSuprise {{ModId}}_Food_IcePipSoup {{ModId}}_Food_FriedBatWings {{ModId}}_Food_BugMeatStew {{ModId}}_Food_BugMeatSoup {{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_ShadowedElixir",
                     "Delimiter": " "
                 },
             ]
