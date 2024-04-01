@@ -528,7 +528,7 @@
                     "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Gemstone.png}}",
                     "SpriteIndex": 0
                 },
-                "{{ModId}}_Necklace_Aerinite": {
+                "{{ModId}}_Jewelry_N_Aerinite": {
                     "Name": "Aerinite Necklace",
                     "DisplayName": "Aerinite Necklace",
                     "Description": "A finely crafted gold necklace set with a chunk of polished aerinite.",
@@ -536,7 +536,443 @@
                     "Price": 1125,
                     "Category": "-26",
                     "Edibility": -300,
-                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Aerinite/texture.png}}",
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_jewelry",
+                        "category_minerals"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Aerinite.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Jewelry_N_Alamite": {
+                    "Name": "Alamite Necklace",
+                    "DisplayName": "Alamite Necklace",
+                    "Description": "A finely crafted gold necklace set with a chunk of polished alamite.",
+                    "Type": "Basic",
+                    "Price": 1200,
+                    "Category": "-26",
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_jewelry",
+                        "category_minerals"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Alamite.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Jewelry_N_Celestine": {
+                    "Name": "Celestine Necklace",
+                    "DisplayName": "Celestine Necklace",
+                    "Description": "A finely crafted gold necklace set with a chunk of polished celestine.",
+                    "Type": "Basic",
+                    "Price": 1125,
+                    "Category": "-26",
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_jewelry",
+                        "category_minerals"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Celestine.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Jewelry_N_Dolomite": {
+                    "Name": "Dolomite Necklace",
+                    "DisplayName": "Dolomite Necklace",
+                    "Description": "A finely crafted gold necklace set with a chunk of polished dolomite.",
+                    "Type": "Basic",
+                    "Price": 1650,
+                    "Category": "-26",
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_jewelry",
+                        "category_minerals"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Dolomite.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Jewelry_N_EarthCrystal": {
+                    "Name": "Earth Crystal Necklace",
+                    "DisplayName": "Earth Crystal Necklace",
+                    "Description": "A finely crafted gold necklace set with a chunk of polished earth crystal.",
+                    "Type": "Basic",
+                    "Price": 900,
+                    "Category": "-26",
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_jewelry",
+                        "category_gem"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_EarthCrystal.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Jewelry_N_FireOpal": {
+                    "Name": "Fire Opal Necklace",
+                    "DisplayName": "Fire Opal Necklace",
+                    "Description": "A finely crafted gold necklace set with a chunk of polished fire opal.",
+                    "Type": "Basic",
+                    "Price": 1800,
+                    "Category": "-26",
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_jewelry",
+                        "category_minerals"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_FireOpal.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Jewelry_N_FireQuartz": {
+                    "Name": "Fire Quartz Necklace",
+                    "DisplayName": "Fire Quartz Necklace",
+                    "Description": "A finely crafted gold necklace set with a chunk of polished fire quartz.",
+                    "Type": "Basic",
+                    "Price": 1050,
+                    "Category": "-26",
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_jewelry",
+                        "category_gem"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_FireQuartz.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Jewelry_N_Fluorapatite": {
+                    "Name": "Fluorapatite Necklace",
+                    "DisplayName": "Fluorapatite Necklace",
+                    "Description": "A finely crafted gold necklace set with a chunk of polished fluorapatite.",
+                    "Type": "Basic",
+                    "Price": 1350,
+                    "Category": "-26",
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_jewelry",
+                        "category_minerals"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Fluorapatite.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Jewelry_N_FrozenTear": {
+                    "Name": "Frozen Tear Necklace",
+                    "DisplayName": "Frozen Tear Necklace",
+                    "Description": "A finely crafted gold necklace set with a chunk of polished frozen tear.",
+                    "Type": "Basic",
+                    "Price": 975,
+                    "Category": "-26",
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_jewelry",
+                        "category_gem"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_FrozenTear.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Jewelry_N_Geminite": {
+                    "Name": "Geminite Necklace",
+                    "DisplayName": "Geminite Necklace",
+                    "Description": "A finely crafted gold necklace set with a chunk of polished geminite.",
+                    "Type": "Basic",
+                    "Price": 1200,
+                    "Category": "-26",
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_jewelry",
+                        "category_minerals"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Geminite.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Jewelry_N_Gold": {
+                    "Name": "Gold Necklace",
+                    "DisplayName": "Gold Necklace",
+                    "Description": "A finely crafted gold necklace.",
+                    "Type": "Basic",
+                    "Price": 810,
+                    "Category": "-26",
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_jewelry"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Gold.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Jewelry_N_Helvite": {
+                    "Name": "Helvite Necklace",
+                    "DisplayName": "Helvite Necklace",
+                    "Description": "A finely crafted gold necklace set with a chunk of polished helvite.",
+                    "Type": "Basic",
+                    "Price": 2100,
+                    "Category": "-26",
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_jewelry",
+                        "category_minerals"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Helvite.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Jewelry_N_Kyanite": {
+                    "Name": "Kyanite Necklace",
+                    "DisplayName": "Kyanite Necklace",
+                    "Description": "A finely crafted gold necklace set with a chunk of polished kyanite.",
+                    "Type": "Basic",
+                    "Price": 1500,
+                    "Category": "-26",
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_jewelry",
+                        "category_minerals"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Kyanite.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Jewelry_N_LemonStone": {
+                    "Name": "Lemon Stone Necklace",
+                    "DisplayName": "Lemon Stone Necklace",
+                    "Description": "A finely crafted gold necklace set with a chunk of polished lemon stone.",
+                    "Type": "Basic",
+                    "Price": 1500,
+                    "Category": "-26",
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_jewelry",
+                        "category_minerals"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_LemonStone.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Jewelry_N_Malachite": {
+                    "Name": "Malachite Necklace",
+                    "DisplayName": "Malachite Necklace",
+                    "Description": "A finely crafted gold necklace set with a chunk of polished malachite.",
+                    "Type": "Basic",
+                    "Price": 1500,
+                    "Category": "-26",
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_jewelry",
+                        "category_minerals"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Malachite.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Jewelry_N_Obsidian": {
+                    "Name": "Obsidian Necklace",
+                    "DisplayName": "Obsidian Necklace",
+                    "Description": "A finely crafted gold necklace set with a chunk of polished obsidian.",
+                    "Type": "Basic",
+                    "Price": 1350,
+                    "Category": "-26",
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_jewelry",
+                        "category_minerals"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Obsidian.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Jewelry_N_Opal": {
+                    "Name": "Opal Necklace",
+                    "DisplayName": "Opal Necklace",
+                    "Description": "A finely crafted gold necklace set with a chunk of polished opal.",
+                    "Type": "Basic",
+                    "Price": 1200,
+                    "Category": "-26",
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_jewelry",
+                        "category_minerals"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Opal.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Jewelry_N_Orpiment": {
+                    "Name": "Orpiment Necklace",
+                    "DisplayName": "Orpiment Necklace",
+                    "Description": "A finely crafted gold necklace set with a chunk of polished orpiment.",
+                    "Type": "Basic",
+                    "Price": 990,
+                    "Category": "-26",
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_jewelry",
+                        "category_minerals"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Orpiment.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Jewelry_N_Quartz": {
+                    "Name": "Quartz Necklace",
+                    "DisplayName": "Quartz Necklace",
+                    "Description": "A finely crafted gold necklace set with a chunk of polished quartz.",
+                    "Type": "Basic",
+                    "Price": 825,
+                    "Category": "-26",
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_jewelry",
+                        "category_gem"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Quartz.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Jewelry_N_StarShards": {
+                    "Name": "Star Shards Necklace",
+                    "DisplayName": "Star Shards Necklace",
+                    "Description": "A finely crafted gold necklace set with a chunk of polished star shard.",
+                    "Type": "Basic",
+                    "Price": 2250,
+                    "Category": "-26",
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_jewelry",
+                        "category_minerals"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_StarShards.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Jewelry_N_Tigerseye": {
+                    "Name": "Tigerseye Necklace",
+                    "DisplayName": "Tigerseye Necklace",
+                    "Description": "A finely crafted gold necklace set with a chunk of polished tigerseye.",
+                    "Type": "Basic",
+                    "Price": 1575,
+                    "Category": "-26",
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_jewelry",
+                        "category_minerals"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Tigerseye.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Jewelry_R_Amethyst": {
+                    "Name": "Gold Amethyst Ring",
+                    "DisplayName": "Gold Amethyst Ring",
+                    "Description":  "A finely crafted amethyst ring set in a gold band.",
+                    "Type": "Basic",
+                    "Price": 1050,
+                    "Category": "-26",
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_jewelry",
+                        "category_gem"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/R_Amethyst.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Jewelry_R_Aquamarine": {
+                    "Name": "Gold Aquamarine Ring",
+                    "DisplayName": "Gold Aquamarine Ring",
+                    "Description":  "A finely crafted aquamarine ring set in a gold band.",
+                    "Type": "Basic",
+                    "Price": 1290,
+                    "Category": "-26",
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_jewelry",
+                        "category_gem"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/R_Aquamarine.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Jewelry_R_Diamond": {
+                    "Name": "Gold Diamond Ring",
+                    "DisplayName": "Gold Diamond Ring",
+                    "Description":  "A finely crafted diamond ring set in a gold band.",
+                    "Type": "Basic",
+                    "Price": 3000,
+                    "Category": "-26",
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_jewelry",
+                        "category_gem"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/R_Diamond.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Jewelry_R_Emerald": {
+                    "Name": "Gold Emerald Ring",
+                    "DisplayName": "Gold Emerald Ring",
+                    "Description":  "A finely crafted emerald ring set in a gold band.",
+                    "Type": "Basic",
+                    "Price": 1500,
+                    "Category": "-26",
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_jewelry",
+                        "category_gem"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/R_Emerald.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Jewelry_R_Jade": {
+                    "Name": "Gold Jade Ring",
+                    "DisplayName": "Gold Jade Ring",
+                    "Description":  "A finely crafted jade ring set in a gold band.",
+                    "Type": "Basic",
+                    "Price": 1350,
+                    "Category": "-26",
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_jewelry",
+                        "category_gem"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/R_Jade.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Jewelry_R_Ruby": {
+                    "Name": "Gold Ruby Ring",
+                    "DisplayName": "Gold Ruby Ring",
+                    "Description":  "A finely crafted ruby ring set in a gold band.",
+                    "Type": "Basic",
+                    "Price": 1500,
+                    "Category": "-26",
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_jewelry",
+                        "category_gem"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/R_Ruby.png}}",
+                    "SpriteIndex": 0
+                },
+                "{{ModId}}_Jewelry_R_Topaz": {
+                    "Name": "Gold Topaz Ring",
+                    "DisplayName": "Gold Topaz Ring",
+                    "Description":  "A finely crafted topaz ring set in a gold band.",
+                    "Type": "Basic",
+                    "Price": 990,
+                    "Category": "-26",
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_jewelry",
+                        "category_gem"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/R_Topaz.png}}",
                     "SpriteIndex": 0
                 }
             }
@@ -549,9 +985,9 @@
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Universal_Lover"
+                        "Universal_Love"
                     ],
-                    "Value": "{{ModId}}_Potions_OnePerfectDay",
+                    "Value": "{{ModId}}_Jewelry_R_Diamond {{ModId}}_Potions_OnePerfectDay",
                     "Delimiter": " "
                 },
                 {
@@ -560,7 +996,7 @@
                         "Entries",
                         "Universal_Like"
                     ],
-                    "Value": "{{ModId}}_Necklace_Aerinite",
+                    "Value": "{{ModId}}_Jewelry_R_Topaz {{ModId}}_Jewelry_R_Ruby {{ModId}}_Jewelry_R_Jade {{ModId}}_Jewelry_R_Emerald {{ModId}}_Jewelry_R_Aquamarine {{ModId}}_Jewelry_R_Amethyst {{ModId}}_Jewelry_N_Celestine {{ModId}}_Jewelry_N_Aerinite {{ModId}}_Jewelry_N_Alamite",
                     "Delimiter": " "
                 },
                 {
@@ -596,6 +1032,16 @@
                     "Target": [
                         "Fields",
                         "Clint",
+                        1
+                    ],
+                    "Value": "{{ModId}}_Jewelry_R_Topaz {{ModId}}_Jewelry_R_Ruby {{ModId}}_Jewelry_R_Jade {{ModId}}_Jewelry_R_Emerald {{ModId}}_Jewelry_R_Aquamarine {{ModId}}_Jewelry_R_Amethyst",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Clint",
                         3
                     ],
                     "Value": "{{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_MinersDrink",
@@ -608,7 +1054,7 @@
                         "Dwarf",
                         1
                     ],
-                    "Value": "{{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_MinersDrink {{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits {{ModId}}_Necklace_Aerinite",
+                    "Value": "{{ModId}}_Jewelry_R_Topaz {{ModId}}_Jewelry_R_Ruby {{ModId}}_Jewelry_R_Jade {{ModId}}_Jewelry_R_Emerald {{ModId}}_Jewelry_R_Aquamarine {{ModId}}_Jewelry_R_Amethyst {{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_MinersDrink {{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
                     "Delimiter": " "
                 },
                 {
@@ -678,7 +1124,7 @@
                         "Linus",
                         5
                     ],
-                    "Value": "{{ModId}}_Necklace_Aerinite",
+                    "Value": "{{ModId}}_Jewelry_N_Aerinite",
                     "Delimiter": " "
                 },
                 {
@@ -708,7 +1154,7 @@
                         "Pierre",
                         5
                     ],
-                    "Value": "{{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Necklace_Aerinite",
+                    "Value": "{{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Jewelry_N_Aerinite",
                     "Delimiter": " "
                 },
                 {
