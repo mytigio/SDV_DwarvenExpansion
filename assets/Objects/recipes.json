@@ -21,7 +21,7 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {
-                "Magic Rock Candy": "{{ModId}}_MineralDust_PrismaticDust 3 388 1/25 2/279/false/Mining 10/",
+                "Magic Rock Candy": "{{ModId}}_MineralDust_PrismaticDust 3 388 1/25 2/279/Mining 10/"
             },
             "When": {
                 "EnabledCookingRecipes": "MagicRockCandy"
@@ -31,7 +31,7 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {         
-                "Sunshine Stew": "768 1 412 5 78 5 420 1 157 3/25 2/{{ModId}}_Food_SunshineStew/false/none"
+                "Sunshine Stew": "768 1 412 5 78 5 420 1 157 3/25 2/{{ModId}}_Food_SunshineStew/none"
             },
             "When": {
                 "EnabledCookingRecipes": "SunshineStew"
@@ -41,7 +41,7 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {         
-                "Stonefish Suprise": "158 1 412 2 78 2/25 2/{{ModId}}_Food_StonefishSuprise/false/none"
+                "Stonefish Suprise": "158 1 412 2 78 2/25 2/{{ModId}}_Food_StonefishSuprise/none"
             },
             "When": {
                 "EnabledCookingRecipes": "StonefishSuprise"
@@ -51,7 +51,7 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {         
-                "Shadowed Stew": "769 2 412 5 78 5 422 5 767 6/25 2/{{ModId}}_Food_ShadowedStew/false/none"
+                "Shadowed Stew": "769 2 412 5 78 5 422 5 767 6/25 2/{{ModId}}_Food_ShadowedStew/none"
             },
             "When": {
                 "EnabledCookingRecipes": "ShadowedStew"
@@ -61,7 +61,7 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {         
-                "Rock Crab Salad": "153 2 717 1/25 2/{{ModId}}_Food_RockCrabSalad/false/none"
+                "Rock Crab Salad": "153 2 717 1/25 2/{{ModId}}_Food_RockCrabSalad/none"
             },
             "When": {
                 "EnabledCookingRecipes": "RockCrabSalad"
@@ -71,7 +71,7 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {         
-                "Roasted Cave Fish": "-4 1 157 1 412 1 78 1/25 2/{{ModId}}_Food_RoastedCaveFish/false/none"
+                "Roasted Cave Fish": "-4 1 157 1 412 1 78 1/25 2/{{ModId}}_Food_RoastedCaveFish/none"
             },
             "When": {
                 "EnabledCookingRecipes": "RoastedCaveFish"
@@ -81,7 +81,7 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {         
-                "Mashed Carrots": "78 3/25 2/{{ModId}}_Food_MashedCarrots/false/none"
+                "Mashed Carrots": "78 3/25 2/{{ModId}}_Food_MashedCarrots/default"
             },
             "When": {
                 "EnabledCookingRecipes": "MashedCarrots"
@@ -91,7 +91,7 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {         
-                "Lava Eel Pie": "162 1 412 3 78 3 422 1/25 2/{{ModId}}_Food_LavaEelPie/false/none"
+                "Lava Eel Pie": "162 1 412 3 78 3 422 1/25 2/{{ModId}}_Food_LavaEelPie/none"
             },
             "When": {
                 "EnabledCookingRecipes": "LavaEelPie"
@@ -101,7 +101,7 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {         
-                "Ice Pip Soup": "161 1 412 5 78 5 153 4/25 2/{{ModId}}_Food_IcePipSoup/false/none"
+                "Ice Pip Soup": "161 1 412 5 78 5 153 4/25 2/{{ModId}}_Food_IcePipSoup/none"
             },
             "When": {
                 "EnabledCookingRecipes": "IcePipSoup"
@@ -111,7 +111,7 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {         
-                "Fried Bat Wings": "767 6 766 1/25 2/{{ModId}}_Food_FriedBatWings/false/none"
+                "Fried Bat Wings": "767 6 766 1/25 2/{{ModId}}_Food_FriedBatWings/default"
             },
             "When": {
                 "EnabledCookingRecipes": "FriedBatWings"
@@ -121,7 +121,7 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {         
-                "Cave Soup": "-4 1 153 3/25 2/{{ModId}}_Food_CaveSoup/false/none"
+                "Cave Soup": "-4 1 153 3/25 2/{{ModId}}_Food_CaveSoup/none"
             },
             "When": {
                 "EnabledCookingRecipes": "CaveSoup"
@@ -131,7 +131,7 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {         
-                "Cave Chowder": "-4 1 153 3 412 1/25 2/{{ModId}}_Food_CaveChowder/false/none"
+                "Cave Chowder": "-4 1 153 3 412 1/25 2/{{ModId}}_Food_CaveChowder/none"
             },
             "When": {
                 "EnabledCookingRecipes": "CaveChowder"
@@ -141,7 +141,7 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {         
-                "Cave Carrot Au Gratin": "78 3 424 1 -6 2/25 2/{{ModId}}_Food_CaveCarrotAuGratin/false/none"
+                "Cave Carrot Au Gratin": "78 3 424 1 -6 2/25 2/{{ModId}}_Food_CaveCarrotAuGratin/none"
             },
             "When": {
                 "EnabledCookingRecipes": "CaveCarrotAuGratin"
@@ -151,7 +151,7 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {         
-                "Cave Carrot Stew": "78 3 412 1 404 2 281 1 257 1/25 2/{{ModId}}_Food_CaveCarrotStew/false/none"
+                "Cave Carrot Stew": "78 3 412 1 404 2 281 1 257 1/25 2/{{ModId}}_Food_CaveCarrotStew/none"
             },
             "When": {
                 "EnabledCookingRecipes": "CaveCarrotStew"
@@ -161,7 +161,7 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {         
-                "Cave Carrot Soup": "78 3 404 2/25 2/{{ModId}}_Food_CaveCarrotSoup/false/none"
+                "Cave Carrot Soup": "78 3 404 2/25 2/{{ModId}}_Food_CaveCarrotSoup/none"
             },
             "When": {
                 "EnabledCookingRecipes": "CaveCarrotSoup"
@@ -171,7 +171,7 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {         
-                "Cave Carrot Roast": "78 1 766 1 404 2/25 2/{{ModId}}_Food_CaveCarrotRoast/false/none"
+                "Cave Carrot Roast": "78 1 766 1 404 2/25 2/{{ModId}}_Food_CaveCarrotRoast/none"
             },
             "When": {
                 "EnabledCookingRecipes": "CaveCarrotRoast"
@@ -181,7 +181,7 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {         
-                "Cave Carrot Brulee": "78 1 -6 3/25 2/{{ModId}}_Food_CaveCarrotBrulee/false/none"
+                "Cave Carrot Brulee": "78 1 -6 3/25 2/{{ModId}}_Food_CaveCarrotBrulee/none"
             },
             "When": {
                 "EnabledCookingRecipes": "CaveCarrotBrulee"
@@ -191,7 +191,7 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {         
-                "Cavatouille": "78 2 422 2 420 2 412 2 766 1/25 2/{{ModId}}_Food_Cavatouille/false/none"
+                "Cavatouille": "78 2 422 2 420 2 412 2 766 1/25 2/{{ModId}}_Food_Cavatouille/none"
             },
             "When": {
                 "EnabledCookingRecipes": "Cavatouille"
@@ -201,7 +201,7 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {         
-                "Bug Meat Stew": "684 5 78 2/25 2/{{ModId}}_Food_BugMeatStew/false/none"
+                "Bug Meat Stew": "684 5 78 2/25 2/{{ModId}}_Food_BugMeatStew/none"
             },
             "When": {
                 "EnabledCookingRecipes": "BugMeatStew"
@@ -211,7 +211,7 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {         
-                "Bug Meat Stew": "684 5 766 1/25 2/{{ModId}}_Food_BugMeatSoup/false/none"
+                "Bug Meat Soup": "684 5 766 1/25 2/{{ModId}}_Food_BugMeatSoup/default"
             },
             "When": {
                 "EnabledCookingRecipes": "BugMeatSoup"
@@ -228,11 +228,11 @@
                 "{{ModId}}_BasicDwarvenRecipies": {
                     "ID": "{{ModId}}_BasicCookingRecipes",
                     "ItemId": "RANDOM_ITEMS (O)",
-                    "MaxItems": 3,
-                    "PerItemCondition": "ITEM_CONTEXT_TAG Target {{ModId}}_basic_dwarven_cuisine",
+                    "MaxItems": 1,
+                    "PerItemCondition": "ITEM_CONTEXT_TAG Target {{ModId}}_basic_dwarven_cuisine, !PLAYER_HAS_COOKING_RECIPE Current Target",
                     "IsRecipe": true,
                     "AvoidRepeat": true,
-                    "Price": "300"
+                    "Price": "1000"
                 }
             }
         },
@@ -247,12 +247,12 @@
                 "{{ModId}}_FineCookingRecipes": {
                     "ID": "{{ModId}}_FineCookingRecipes",
                     "ItemId": "RANDOM_ITEMS (O)",
-                    "MaxItems": 3,
-                    "PerItemCondition": "ITEM_CONTEXT_TAG Target {{ModId}}_fine_dwarven_cuisine",
+                    "MaxItems": 1,
+                    "PerItemCondition": "ITEM_CONTEXT_TAG Target {{ModId}}_fine_dwarven_cuisine, !PLAYER_HAS_COOKING_RECIPE Current Target",
                     "Condition": "ANY \"PLAYER_FRIENDSHIP_POINTS Current Dwarf 750\" \"MINE_LOWEST_LEVEL_REACHED 120\"",
                     "IsRecipe": true,
                     "AvoidRepeat": true,
-                    "Price": "1000"
+                    "Price": "2500"
                 }
             }
         },
