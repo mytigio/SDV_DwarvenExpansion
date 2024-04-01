@@ -6,6 +6,12 @@
             "AllowMultiple": true,
             "AllowBlank": true,
             "Default": "GemPolisher, Pulverizer, DwarvenStill, AlchemyBench, JewelryMaker"
+        },
+        "EnabledCookingRecipes": {
+            "AllowValues": "MagicRockCandy",
+            "AllowMultiple": true,
+            "AllowBlank": true,
+            "Default": ""
         }
     },
     "Changes": [
