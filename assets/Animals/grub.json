@@ -1,10 +1,71 @@
 {
-    "Changes": [
-        {
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_Animals_GrubLarva": {
+					"Name": "Grub Larva",
+					"DisplayName": "Grub Larva",
+					"Description": "A small mass of wriggling larva.  Left in an incubation chamber these will grow into grubs.",
+					"Type": "Basic",
+					"Category": "-20",
+					"Price": 15,
+					"Edibility": -300,
+					"ContextTags": [
+						"{{ModId}}"
+					],
+					"Texture": "{{InternalAssetKey: assets/Animals/GrubLarva.png}}",
+					"SpriteIndex": 0
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Monsters",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Grub",
+						6
+					],
+					"Value": "{{ModId}}_Animals_GrubLarva .10",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Fly",
+						6
+					],
+					"Value": "{{ModId}}_Animals_GrubLarva .10",
+					"Delimiter": " "
+				}
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Universal_Hate"
+					],
+					"Value": "{{ModId}}_Animals_GrubLarva",
+					"Delimiter": " "
+				}
+			]
+		},
+		{
 			"Action": "EditData",
 			"Target": "Data/FarmAnimals",
-            "Entries": {
-                "{{ModId}}_FarmGrub": {
+			"Entries": {
+				"{{ModId}}_FarmGrub": {
 					"DisplayName": "Grub",
 					"House": "Coop",
 					"Gender": "MaleOrFemale",
@@ -12,18 +73,18 @@
 					"SellPrice": 800,
 					"ShopTexture": "{{InternalAssetKey: assets/Animals/animalShopImages.png}}",
 					"ShopSourceRect": {
-					  "X": 0,
-					  "Y": 0,
-					  "Width": 32,
-					  "Height": 16
+						"X": 0,
+						"Y": 0,
+						"Width": 32,
+						"Height": 16
 					},
 					"ShopDisplayName": "Grub",
 					"ShopDescription": "Grubs have a short life span, but keep their population constant.  The result for the aspiring grub farmer is a steady supply of slightly revolting meat!",
-                    "ShopMissingBuildingDescription": "Grubs might just be bugs, but they still need a place to live out of the elements if you plan to farm them.",
-                    "RequiredBuilding": "Coop",
+					"ShopMissingBuildingDescription": "Grubs might just be bugs, but they still need a place to live out of the elements if you plan to farm them.",
+					"RequiredBuilding": "Coop",
 					"UnlockCondition": "MINE_LOWEST_LEVEL_REACHED 1",
 					"EggItemIds": [
-					  "{{ModId}}_Animals_GrubLarva"
+						"{{ModId}}_Animals_GrubLarva"
 					],
 					"IncubationTime": 1440,
 					"IncubatorParentSheetOffset": 1,
@@ -34,26 +95,26 @@
 					"HarvestType": "DropOvernight",
 					"HarvestTool": null,
 					"ProduceItemIds": [
-                        {
-                            "Id": "Larva",
-                            "ItemId": "{{ModId}}_Animals_GrubLarva",
-                            "Condition": "RANDOM 0.6"
-                        },
-                        {
-                            "Id": "Default",
-                            "ItemId": "684"
-                        }
+						{
+							"Id": "Larva",
+							"ItemId": "{{ModId}}_Animals_GrubLarva",
+							"Condition": "RANDOM 0.6"
+						},
+						{
+							"Id": "Default",
+							"ItemId": "684"
+						}
 					],
 					"DeluxeProduceItemIds": [
-                        {
-                            "Id": "Larva",
-                            "ItemId": "{{ModId}}_Animals_GrubLarva",
-                            "Condition": "RANDOM 0.4"
-                        },
-                        {
-                            "Id": "Default",
-                            "ItemId": "684"
-                        }
+						{
+							"Id": "Larva",
+							"ItemId": "{{ModId}}_Animals_GrubLarva",
+							"Condition": "RANDOM 0.4"
+						},
+						{
+							"Id": "Default",
+							"ItemId": "684"
+						}
 					],
 					"ProduceOnMature": true,
 					"FriendshipForFasterProduce": -1,
@@ -72,12 +133,12 @@
 					"SpriteWidth": 16,
 					"SpriteHeight": 16,
 					"EmoteOffset": {
-					  "X": 0,
-					  "Y": -16
+						"X": 0,
+						"Y": -16
 					},
 					"SwimOffset": {
-					  "X": 0,
-					  "Y": 112
+						"X": 0,
+						"Y": 112
 					},
 					"Skins": null,
 					"ShadowWhenBabySwims": null,
@@ -98,5 +159,5 @@
 				}
 			}
 		}
-    ]
+	]
 }
