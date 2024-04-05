@@ -10,6 +10,12 @@
         "EnabledCookingRecipes": {
             "AllowValues": "true, false",
             "Default": "true"
+        },
+        "EnabledAnimals": {
+            "AllowValues": "Grub,CopperCrab,IronCrab,GoldCrab,IridiumCrab,Molerat",
+            "AllowMultiple": true,
+            "AllowBlank": true,
+            "Default": "Grub,CopperCrab,IronCrab,GoldCrab,IridiumCrab,Molerat"
         }
     },
     "Changes": [
@@ -23,7 +29,10 @@
         },
         {
             "Action": "Include",
-            "FromFile": "assets/Animals/animals.json"
+            "FromFile": "assets/Animals/grub.json",
+            "When": {
+                "EnabledMachines": "Grub"
+            }
         },
         {
             "Action": "Include",
