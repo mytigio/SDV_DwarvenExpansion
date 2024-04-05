@@ -1,53 +1,102 @@
 {
     "Changes": [
         {
-            "Action": "EditData",
-            "Target": "Data/FarmAnimals",
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
             "Entries": {
                 "{{ModId}}_FarmGrub": {
-                    "DisplayName": "Grub",
-                    "House": "Coop",
-                    "Gender": "MaleOrFemale",
-                    "PurchasePrice": 400,
-                    "ShopTexture": "{{InternalAssetKey: assets/Animals/animalShopImages.png",
-                    "ShopSourceRect": {
-                        "X": 0,
-                        "Y": 0,
-                        "Width": 32,
-                        "Height": 16
-                    },
-                    "RequiredBuilding": "Coop",
-                    "UnlockCondition": "MINE_LOWEST_LEVEL_REACHED 1",
-                    "ShopDescription": "Grubs have a short life span, but keep their population constant.  The result for the aspiring grub farmer is a steady supply of slightly revolting meat!",
+					"DisplayName": "Grub",
+					"House": "Coop",
+					"Gender": "MaleOrFemale",
+					"PurchasePrice": 400,
+					"SellPrice": 800,
+					"ShopTexture": "{{InternalAssetKey: assets/Animals/animalShopImages.png}}",
+					"ShopSourceRect": {
+					  "X": 0,
+					  "Y": 0,
+					  "Width": 32,
+					  "Height": 16
+					},
+					"ShopDisplayName": "Grub",
+					"ShopDescription": "Grubs have a short life span, but keep their population constant.  The result for the aspiring grub farmer is a steady supply of slightly revolting meat!",
                     "ShopMissingBuildingDescription": "Grubs might just be bugs, but they still need a place to live out of the elements if you plan to farm them.",
-                    "EggItemIds": "{{ModId}}_Animals_GrubLarva",
-                    "IncubationTime": 4500,
-                    "BirthText": "The larva are growing!",
-                    "DaysToMature": 2,
-                    "ProductItemIds": [
+                    "RequiredBuilding": "Coop",
+					"UnlockCondition": "MINE_LOWEST_LEVEL_REACHED 1",
+					"EggItemIds": [
+					  "{{ModId}}_Animals_GrubLarva"
+					],
+					"IncubationTime": 1440,
+					"IncubatorParentSheetOffset": 1,
+					"BirthText": "The larva are growing!",
+					"DaysToMature": 0,
+					"CanGetPregnant": false,
+					"DaysToProduce": 0,
+					"HarvestType": "DropOvernight",
+					"HarvestTool": null,
+					"ProduceItemIds": [
                         {
                             "Id": "Larva",
                             "ItemId": "{{ModId}}_Animals_GrubLarva",
-                            "Condition": "SYNCED_CHOICE day grubdrop 1 4 1"
+                            "Condition": "RANDOM 0.6"
                         },
                         {
                             "Id": "Default",
-                            "ItemId": "(O)684",
-                            "Condition": "SYNCED_CHOICE day grubdrop 1 4 2 3 4"
+                            "ItemId": "684"
                         }
-                    ],
-                    "DaysToProduce": 1,
-                    "ProduceOnMature": true,
-                    "HarvestType": "DropOvernight",
-                    "Sound": "cavedrip",
-                    "BabySound": "cavedrip",
-                    "Texture": "{{InternalAssetKey: assets/Animals/FarmGrub.png",
-                    "CanSwim": true,
-                    "GrassEatAmount": 1,
-                    "HappinessDrain": 0,
-                    "SellPrice": "800"
-                }
-            }
-        }
+					],
+					"DeluxeProduceItemIds": [
+                        {
+                            "Id": "Larva",
+                            "ItemId": "{{ModId}}_Animals_GrubLarva",
+                            "Condition": "RANDOM 0.4"
+                        },
+                        {
+                            "Id": "Default",
+                            "ItemId": "684"
+                        }
+					],
+					"ProduceOnMature": true,
+					"FriendshipForFasterProduce": -1,
+					"DeluxeProduceMinimumFriendship": 200,
+					"DeluxeProduceCareDivisor": 1200.0,
+					"DeluxeProduceLuckMultiplier": 0.0,
+					"ProfessionForHappinessBoost": -1,
+					"ProfessionForQualityBoost": -1,
+					"ProfessionForFasterProduce": -1,
+					"Sound": "cavedrip",
+					"BabySound": null,
+					"Texture": "{{InternalAssetKey: assets/Animals/FarmGrub.png}}",
+					"HarvestedTexture": null,
+					"BabyTexture": "{{InternalAssetKey: assets/Animals/FarmGrub.png}}",
+					"UseFlippedRightForLeft": false,
+					"SpriteWidth": 16,
+					"SpriteHeight": 16,
+					"EmoteOffset": {
+					  "X": 0,
+					  "Y": -16
+					},
+					"SwimOffset": {
+					  "X": 0,
+					  "Y": 112
+					},
+					"Skins": null,
+					"ShadowWhenBabySwims": null,
+					"ShadowWhenBaby": null,
+					"ShadowWhenAdultSwims": null,
+					"ShadowWhenAdult": null,
+					"CanSwim": true,
+					"BabiesFollowAdults": true,
+					"GrassEatAmount": 1,
+					"HappinessDrain": 7,
+					"UpDownPetHitboxTileSize": "1, 1",
+					"LeftRightPetHitboxTileSize": "1, 1",
+					"BabyUpDownPetHitboxTileSize": "1, 1",
+					"BabyLeftRightPetHitboxTileSize": "1, 1",
+					"StatToIncrementOnProduce": [],
+					"ShowInSummitCredits": false,
+					"CustomFields": null
+				}
+			}
+		}
     ]
 }

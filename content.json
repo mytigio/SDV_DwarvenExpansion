@@ -23,6 +23,10 @@
         },
         {
             "Action": "Include",
+            "FromFile": "assets/Animals/animals.json"
+        },
+        {
+            "Action": "Include",
             "FromFile": "assets/BigCraftables/GemPolisher/big-craftable.json",
             "When": {
                 "EnabledMachines": "GemPolisher"
