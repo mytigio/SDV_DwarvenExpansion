@@ -31,7 +31,78 @@
             "Action": "Include",
             "FromFile": "assets/Animals/grub.json",
             "When": {
-                "EnabledMachines": "Grub"
+                "EnabledAnimals": "Grub"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Animals/nakedmolerat.json",
+            "When": {
+                "EnabledAnimals": "Molerat"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Animals/coppercrab.json",
+            "When": {
+                "EnabledAnimals": "CopperCrab"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Animals/ironcrab.json",
+            "When": {
+                "EnabledAnimals": "IronCrab"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Animals/goldcrab.json",
+            "When": {
+                "EnabledAnimals": "GoldCrab"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Animals/iridiumcrab.json",
+            "When": {
+                "EnabledAnimals": "IridiumCrab"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "Fields": {
+                "Coop": {
+                    "AllowAnimalPregnancy": true
+                }
+            },
+            "When": {
+                "EnabledAnimals": "CopperCrab,IronCrab,GoldCrab,IridiumCrab"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "Fields": {
+                "Big Coop": {
+                    "AllowAnimalPregnancy": true
+                }
+            },
+            "When": {
+                "EnabledAnimals": "CopperCrab,IronCrab,GoldCrab,IridiumCrab"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "Fields": {
+                "Deluxe Coop": {
+                    "AllowAnimalPregnancy": true
+                }
+            },
+            "When": {
+                "EnabledAnimals": "CopperCrab,IronCrab,GoldCrab,IridiumCrab"
             }
         },
         {

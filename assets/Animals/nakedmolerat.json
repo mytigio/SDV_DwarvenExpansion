@@ -1,0 +1,90 @@
+{
+	"Changes": [		
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"Entries": {
+				"{{ModId}}_GiantNakedMoleRat": {
+					"DisplayName": "Giant Naked Molerat",
+					"House": "Barn",
+					"Gender": "MaleOrFemale",
+					"PurchasePrice": 600,
+					"SellPrice": 1200,
+					"ShopTexture": "{{InternalAssetKey: assets/Animals/animalShopImages.png}}",
+					"ShopSourceRect": {
+						"X": 0,
+						"Y": 80,
+						"Width": 32,
+						"Height": 16
+					},
+					"ShopDisplayName": "Giant Naked Molerat",
+					"ShopDescription": "The giant naked molerat is the cornerstone of dwarven aggriculture, being one of the few subterranian mammels domesticated.",
+					"ShopMissingBuildingDescription": "No home available for this molerat.",
+					"RequiredBuilding": "Barn",
+					"UnlockCondition": "PLAYER_HEARTS ANY Dwarf 3",
+					"EggItemIds": null,
+					"IncubationTime": -1,
+					"IncubatorParentSheetOffset": 1,
+					"BirthText": "A cute wrinkley baby molerat was born.",
+					"DaysToMature": 3,
+					"CanGetPregnant": true,
+					"DaysToProduce": 1,
+					"HarvestType": "HarvestWithTool",
+					"HarvestTool": "Milk Pail",
+					"ProduceItemIds": [
+						{
+							"Id": "Default",
+							"ItemId": "184"
+						}
+					],
+					"DeluxeProduceItemIds": [
+						{
+							"Id": "Default",
+							"ItemId": "184"
+						}
+					],
+					"ProduceOnMature": false,
+					"FriendshipForFasterProduce": -1,
+					"DeluxeProduceMinimumFriendship": 200,
+					"DeluxeProduceCareDivisor": 1200.0,
+					"DeluxeProduceLuckMultiplier": 0.0,
+					"ProfessionForHappinessBoost": 3,
+					"ProfessionForQualityBoost": 3,
+					"ProfessionForFasterProduce": -1,
+					"Sound": "rabbit",
+					"BabySound": "rabbit",
+					"Texture": "{{InternalAssetKey: assets/Animals/NakedMoleRat.png}}",
+					"HarvestedTexture": null,
+					"BabyTexture": "{{InternalAssetKey: assets/Animals/NakedMoleRatBaby.png}}",
+					"UseFlippedRightForLeft": false,
+					"SpriteWidth": 32,
+					"SpriteHeight": 32,
+					"EmoteOffset": {
+						"X": 0,
+						"Y": -16
+					},
+					"SwimOffset": {
+						"X": 0,
+						"Y": 112
+					},
+					"Skins": null,
+					"ShadowWhenBabySwims": null,
+					"ShadowWhenBaby": null,
+					"ShadowWhenAdultSwims": null,
+					"ShadowWhenAdult": null,
+					"CanSwim": false,
+					"BabiesFollowAdults": true,
+					"GrassEatAmount": 1,
+					"HappinessDrain": 7,
+					"UpDownPetHitboxTileSize": "1, 1",
+					"LeftRightPetHitboxTileSize": "1, 1",
+					"BabyUpDownPetHitboxTileSize": "1, 1",
+					"BabyLeftRightPetHitboxTileSize": "1, 1",
+					"StatToIncrementOnProduce": [],
+					"ShowInSummitCredits": false,
+					"CustomFields": null
+				}
+			}
+		}
+	]
+}

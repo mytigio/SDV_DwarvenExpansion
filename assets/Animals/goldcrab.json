@@ -4,18 +4,18 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Entries": {
-				"{{ModId}}_Animals_GrubLarva": {
-					"Name": "Grub Larva",
-					"DisplayName": "Grub Larva",
-					"Description": "A small mass of wriggling larva.  Left in an incubation chamber these will grow into grubs.",
+				"{{ModId}}_Animals_CrabEgg_Gold": {
+					"Name": "Gold Crab Egg",
+					"DisplayName": "Gold Crab Egg",
+					"Description": "A hard rock-like egg. Slightly gold in color.",
 					"Type": "Basic",
 					"Category": "-20",
-					"Price": 15,
-					"Edibility": -300,
+					"Price": 90,
+					"Edibility": -20,
 					"ContextTags": [
 						"{{ModId}}"
 					],
-					"Texture": "{{InternalAssetKey: assets/Animals/GrubLarva.png}}",
+					"Texture": "{{InternalAssetKey: assets/Animals/GoldCrabEgg.png}}",
 					"SpriteIndex": 0
 				}
 			}
@@ -27,21 +27,11 @@
 				{
 					"Operation": "Append",
 					"Target": [
-                        "Fields",
-						"Grub",
-						6
-					],
-					"Value": "{{ModId}}_Animals_GrubLarva .10",
-					"Delimiter": " "
-				},
-				{
-					"Operation": "Append",
-					"Target": [
 						"Fields",
-						"Fly",
+						"Lava Crab",
 						6
 					],
-					"Value": "{{ModId}}_Animals_GrubLarva .10",
+					"Value": "{{ModId}}_Animals_CrabEgg_Gold .05",
 					"Delimiter": " "
 				}
 			]
@@ -56,7 +46,7 @@
 						"Entries",
 						"Universal_Hate"
 					],
-					"Value": "{{ModId}}_Animals_GrubLarva",
+					"Value": "{{ModId}}_Animals_CrabEgg_Gold",
 					"Delimiter": " "
 				}
 			]
@@ -65,58 +55,58 @@
 			"Action": "EditData",
 			"Target": "Data/FarmAnimals",
 			"Entries": {
-				"{{ModId}}_FarmGrub": {
-					"DisplayName": "Grub",
+				"{{ModId}}_GoldCrab": {
+					"DisplayName": "Gold Crab",
 					"House": "Coop",
 					"Gender": "MaleOrFemale",
-					"PurchasePrice": 400,
-					"SellPrice": 800,
+					"PurchasePrice": 800,
+					"SellPrice": 1600,
 					"ShopTexture": "{{InternalAssetKey: assets/Animals/animalShopImages.png}}",
 					"ShopSourceRect": {
 						"X": 0,
-						"Y": 0,
+						"Y": 48,
 						"Width": 32,
 						"Height": 16
 					},
-					"ShopDisplayName": "Grub",
-					"ShopDescription": "Grubs have a short life span, but keep their population constant.  The result for the aspiring grub farmer is a steady supply of slightly revolting meat!",
-					"ShopMissingBuildingDescription": "Grubs might just be bugs, but they still need a place to live out of the elements if you plan to farm them.",
-					"RequiredBuilding": "Coop",
-					"UnlockCondition": "MINE_LOWEST_LEVEL_REACHED 1",
+					"ShopDisplayName": "Gold Crab",
+					"ShopDescription": "Adults grow ore on their shell, which can be scrapped off with a set of shears. Happy rock crabs produce extreamly pure metal.",
+					"ShopMissingBuildingDescription": "No home available for this crab.",
+					"RequiredBuilding": "Deluxe Coop",
+					"UnlockCondition": "MINE_LOWEST_LEVEL_REACHED 100",
 					"EggItemIds": [
-						"{{ModId}}_Animals_GrubLarva"
+						"{{ModId}}_Animals_CrabEgg_Gold"
 					],
-					"IncubationTime": 1440,
+					"IncubationTime": 8640,
 					"IncubatorParentSheetOffset": 1,
-					"BirthText": "The larva are growing!",
-					"DaysToMature": 0,
-					"CanGetPregnant": false,
-					"DaysToProduce": 0,
-					"HarvestType": "DropOvernight",
-					"HarvestTool": null,
+					"BirthText": "A crab was born.",
+					"DaysToMature": 3,
+					"CanGetPregnant": true,
+					"DaysToProduce": 2,
+					"HarvestType": "HarvestWithTool",
+					"HarvestTool": "Shears",
 					"ProduceItemIds": [
 						{
 							"Id": "Larva",
-							"ItemId": "{{ModId}}_Animals_GrubLarva",
-							"Condition": "RANDOM 0.6"
+							"ItemId": "{{ModId}}_Animals_CrabEgg_Gold",
+							"Condition": "RANDOM 0.2"
 						},
 						{
 							"Id": "Default",
-							"ItemId": "684"
+							"ItemId": "384"
 						}
 					],
-					"DeluxeProduceItemIds": [
+					"DeluxeProduceItemIds": [	
 						{
 							"Id": "Larva",
-							"ItemId": "{{ModId}}_Animals_GrubLarva",
-							"Condition": "RANDOM 0.4"
-						},
+							"ItemId": "{{ModId}}_Animals_CrabEgg_Gold",
+							"Condition": "RANDOM 0.3"
+						},					
 						{
 							"Id": "Default",
-							"ItemId": "684"
+							"ItemId": "{{ModId}}_OreCluster_Gold"
 						}
 					],
-					"ProduceOnMature": true,
+					"ProduceOnMature": false,
 					"FriendshipForFasterProduce": -1,
 					"DeluxeProduceMinimumFriendship": 200,
 					"DeluxeProduceCareDivisor": 1200.0,
@@ -124,11 +114,11 @@
 					"ProfessionForHappinessBoost": -1,
 					"ProfessionForQualityBoost": -1,
 					"ProfessionForFasterProduce": -1,
-					"Sound": "cavedrip",
-					"BabySound": null,
-					"Texture": "{{InternalAssetKey: assets/Animals/FarmGrub.png}}",
-					"HarvestedTexture": null,
-					"BabyTexture": "{{InternalAssetKey: assets/Animals/FarmGrub.png}}",
+					"Sound": "stoneCrack",
+					"BabySound": "stoneCrack",
+					"Texture": "{{InternalAssetKey: assets/Animals/GoldCrabFarmAnimal.png}}",
+					"HarvestedTexture": "{{InternalAssetKey: assets/Animals/GoldCrabFarmAnimalSheared.png}}",
+					"BabyTexture": "{{InternalAssetKey: assets/Animals/GoldCrabFarmAnimalBaby.png}}",
 					"UseFlippedRightForLeft": false,
 					"SpriteWidth": 16,
 					"SpriteHeight": 16,
@@ -145,7 +135,7 @@
 					"ShadowWhenBaby": null,
 					"ShadowWhenAdultSwims": null,
 					"ShadowWhenAdult": null,
-					"CanSwim": true,
+					"CanSwim": false,
 					"BabiesFollowAdults": true,
 					"GrassEatAmount": 1,
 					"HappinessDrain": 7,
