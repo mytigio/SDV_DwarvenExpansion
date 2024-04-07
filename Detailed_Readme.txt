@@ -1,0 +1,213 @@
+[center][size=6]Dwarven﻿﻿[/size][size=6] Expansion[/size][/center]
+A recreation of my Dwarvish mod for Stardew Valley using the expanded modding features available in 1.6
+
+[size=5]New Machines[/size]
+
+[size=4]Dwarven Gem Polisher[/size]
+Improves the quality of gems to increase their value.
+Useful both to increase profit from gems found in the mines as well as to create better quality gems for higher quality jewelry.
+
+[size=4]Dwarven Jewelry Making Machine[/size]
+Turns gems or minerals and gold into fine jewelry.
+Turns gemstones and minerals into an artisan good that can be sold for drasticly increased profits.
+
+[size=3]Recipes[/size]
+Uses a single gold bar as a base material
+[list]
+[*] 1 Chicken Statue - creates a gilded chicken statue
+[*] 1 Gem (diamond, emerald, ruby, jade, aquamarine, amethyst, topaz): Creates a gold ring based on the gem used. Quality is based on quality of the input gem.
+[*]Aerinite - Creates Necklace based on the input mineral
+[*]Alamite  - Creates Necklace based on the input mineral
+[*]Celestine  - Creates Necklace based on the input mineral
+[*]Dolomite  - Creates Necklace based on the input mineral
+[*]Earth Crystal  - Creates Necklace based on the input mineral
+[*]Fire Opal  - Creates Necklace based on the input mineral
+[*]Fire Quartz  - Creates Necklace based on the input mineral
+[*]Fluorapatite  - Creates Necklace based on the input mineral
+[*]Frozen Tear  - Creates Necklace based on the input mineral
+[*]Geminite  - Creates Necklace based on the input mineral
+[*]Gold  - Creates Necklace based on the input mineral
+[*]Helvite  - Creates Necklace based on the input mineral
+[*]Kyanite  - Creates Necklace based on the input mineral
+[*]Lemon Stone  - Creates Necklace based on the input mineral
+[*]Malachite  - Creates Necklace based on the input mineral
+[*]Obsidian  - Creates Necklace based on the input mineral
+[*]Opal  - Creates Necklace based on the input mineral
+[*]Orpiment  - Creates Necklace based on the input mineral
+[*]Quartz  - Creates Necklace based on the input mineral
+[*]Star Shard  - Creates Necklace based on the input mineral
+[*]Tigerseye  - Creates Necklace based on the input mineral
+[/list]
+
+[size=4]Dwarven Pulverizer[/size]
+Breaks down ore clusters into useful ore, allows you to recycle stone into useful products and can pulverize ore and gems into a fine powder that can be used to brew spirits and make potions.
+
+[size=3]Recipes[/size]
+[list]
+[*]40 Stone - add 40 stone to the pulverizer for a chance at ore, gems, minerals, coal, etc.
+[*]Ore Clusters - pulverize ore clusters (obtained from rock crabs) into a higher quantity of regular ore.  The amount of ore you get is based on the qualty of the ore cluster.
+[*]Cave Carrots - pulverize cave carrots to make a cave carrot mash.  The mash can then be used with various dusts to make dwarven spirits.
+[*]Ore - pulverize ore to make ore dust (copper, iron, gold or iridium).  Ore dust can be used with cave carrot mash to make Dwarven Spirits in a Dwarven Still.
+[*]Gems - pulverize various gemstones to create gem dust.  Gem dust has the same value as the gem it is made from (so if you pulverize one by mistake you dont lose money), but gem dust can also be used with cave carrot mash in a still to produce "Infused Dwarven Spirits".
+[*]Golden Mask, Pumkin and Tablet - pulverize these artifacts to product gold ore.
+[*]Rusty Spur - pulverize this artifact to product copper ore.
+[/list]
+[size=4]Dwarven Still[/size]
+Brew dwarven spirits and infuse them with the magic of the earth using gem dust.
+These spirits can be drank or used as the base for powerful dwarven potions made at the alchemy bench.
+
+[size=3]Recipes[/size]
+Uses "Cave Carrot Mash" (made in a Dwarven Pulverizer) as a base material.
+[list]
+[*]Ore Dust (Copper, Iron, Gold, Iridium) makes Dwarven Spirits.  The ore type determines the quality of the output.
+[*]Gem Dust (Topaz, Amethyst, Aquamarine, Diamond, Emerald, Ruby, Jade) makes Infused Dwarven Spirits.  The gem type determines the quality of the output.
+[/list]
+
+[size=4]Alchemy Bench[/size]
+Turns infused dwarven spirits and various ingredients into potions to improve skills, combat ability, health, energy, etc.
+Uses 
+
+[size=3]Recipes[/size]
+Uses 'Infused Dwarven Spirits" as a base material for all recipes.
+[list]
+[*]One Perfect Day - improve all skills and attributes for 1 full day.  Requires Prismatic Dust as an input item. (made from 1 gem dust of each of the 7 types).
+[*]Shadowed Elixer - improved combat defense skills - Add 3 Void Mayo to the alchemy bench.
+[*]Distilled Sunlight - improves speed drastically - Add 10 solar essence to the alchemy bench.
+[*]Farmers Draught - improves the farming skill - add 15 seeds to the bench.
+[*]Miners Drink - improves the mining skill - Add 5 quarts to the bench
+[*]Fishermans Brew - improves the fishing skill - Add 3 fish to the bench
+[*]Woodmans Tonic - improves the foraging skill - Add 5 hardwood to the bench
+[*]Swordsmans Elixir - improves the combat skill - Add 2 iron bars to the bench
+[*]Envigorating Concotion - Restores large amount of energy - Add emerald dust to the bench
+[*]Healthing Draught - Restores large amount of health - Add ruby dust to the bench
+[*]Repellent Potion - Makes some monsters flee your presence - Add 100 bug meat to the bench
+[/list]
+
+[size=5]New Animals[/size]
+
+[size=4]Farm Grub[/size]
+A large grub.  These grubs can be grown and harvested for their meat.  Useful for creating dwarven meals or fishing bait.
+[size=3]Obtain[/size]
+Can be purchased from Marnie or hatched from Grub Larva found in the mines.
+[size=3]Drops[/size]
+Drops bug meat or grub larva each day.
+
+[size=4]Copper Crab[/size]
+A mature rock crab.  These crabs filter copper out of their food and the copper grows into thick deposits on their shell which can be scrapped off.  As the crabs age, these deposits can grow into large pure copper clusters, which are broken down in a pulverizer into a large quantity of copper ore.
+[size=3]Obtain[/size]
+Can be purchased from Marnie or hatched from copper crab eggs found in the mines.
+[size=3]Drops[/size]
+Can be sheared for copper ore, copper ore clusters or occasionally a matching crab egg.
+
+[size=4]Iron Crab[/size]
+A mature rock crab.  These crabs filter iron out of their food and the iron grows into thick deposits on their shell which can be scrapped off.  As the crabs age, these deposits can grow into large pure iron clusters, which are broken down in a pulverizer into a large quantity of iron ore.
+[size=3]Obtain[/size]
+Can be purchased from Marnie or hatched from iron crab eggs found in the mines.
+[size=3]Drops[/size]
+Can be sheared for iron ore, iron ore clusters or occasionally a matching crab egg.
+
+[size=4]Gold Crab[/size]
+A mature lava crab.  These crabs filter gold out of their food and the gold grows into thick deposits on their shell which can be scrapped off.  As the crabs age, these deposits can grow into large pure gold clusters, which are broken down in a pulverizer into a large quantity of gold ore.
+[size=3]Obtain[/size]
+Can be purchased from Marnie or hatched from gold crab eggs found in the mines.
+[size=3]Drops[/size]
+Can be sheared for gold ore, gold ore clusters or occasionally a matching crab egg.
+
+[size=4]Iridium Crab[/size]
+A mature iridium crab.  These crabs filter iridium out of their food and the iridium grows into thick deposits on their shell which can be scrapped off.  As the crabs age, these deposits can grow into large pure iridium clusters, which are broken down in a pulverizer into a large quantity of iridium ore.
+[size=3]Obtain[/size]
+Can be purchased from Marnie or hatched from iridium crab eggs found in the mines.
+[size=3]Drops[/size]
+Can be sheared for iridium ore, iridium ore clusters or occasionally a matching crab egg.
+
+[size=4]Giant Naked Molerat[/size]
+A giant naked molerat.  These molerats are one of the few subterranian mammels dwarves were able to domesticate.  They are used to harvest a thin milk, used frequently in dwarven cooking.
+[size=3]Obtain[/size]
+Can be purchased from Marnie after you have befriended the dwarf.
+[size=3]Drops[/size]
+Can be milked each day.
+
+[size=5]New Items[/size]
+
+[size=4]Food / Cooking Recipes[/size]
+Several new cooking recipes have been added themed around ingredients sourced from the mines:
+[list]
+[*]Bug Meat Soup
+[*]Bug Meat Stew
+[*]Cavatouille
+[*]Cave Carrot Au Gratin
+[*]Cave Carrot Brulee
+[*]Cave Carrot Roast
+[*]Cave Carrot Soup
+[*]Cave Carrot Stew
+[*]Cave Chowder
+[*]Cave Soup
+[*]Fried Bat Wings
+[*]Ice Pip Soup
+[*]Lava Eel Pie
+[*]Mashed Carrots
+[*]Roaded Cave Fish
+[*]Rock Crab Salad
+[*]Shadowed Stew
+[*]Stonefish Suprise
+[*]Sunshine Stew
+[*]Magic Rock Candy - create magic rock candy by hardening prismatic dust on a stick!
+[/list]
+[size=4]Drinks[/size]
+These new drinks are created in the Dwarven Still
+[list]
+[*]Dwarven Spirits - made by distilling ore dust and a cave carrot mash into a strong alcohol.
+[*]Infused Dwarven Spirits - made by distilling gem dust and cave carrot mash into a strong alcohol.
+[/list]
+[size=4]Potions[/size]
+These potions can be made at the alchemy bench.
+[list]
+[*]Distilled Sunlight
+[*]Farmers Draught
+[*]Fishermans Brew
+[*]Miners Drink
+[*]One Perfect Day
+[*]Shadowed Elixir
+[*]Swordsmans Elixir
+[*]Woodmans Tonic
+[/list]
+[size=4]Jewelry[/size]
+These are new artisan goods that can be crafted and sold for profit at the Jewlry Making Machine
+[size=3]Necklaces[/size]
+[list]
+[*]Aerinite Necklace
+[*]Alamite Necklace
+[*]Celestine Necklace
+[*]Dolomite Necklace
+[*]Earth Crystal Necklace
+[*]Fire Opal Necklace
+[*]Fire Quartz Necklace
+[*]Fluorapatite Necklace
+[*]Frozen Tear Necklace
+[*]Geminite Necklace
+[*]Gold Necklace
+[*]Helvite Necklace
+[*]Kyanite Necklace
+[*]Lemon Stone Necklace
+[*]Malachite Necklace
+[*]Obsidian Necklace
+[*]Opal Necklace
+[*]Orpiment Necklace
+[*]Quartz Necklace
+[*]Sar Shard Necklace
+[*]Tigerseye Necklace
+[/list]
+[size=3]Rings[/size]
+[list]
+[*]Amethyst Gold Ring
+[*]Aquamarine Gold Ring
+[*]Diamond Gold Ring
+[*]Emerald Gold Ring
+[*]Jade Gold Ring
+[*]Ruby Gold Ring
+[*]Topaz Gold Ring
+[/list]
+#[size=3]Miscellanous[/size]
+[list]
+[*]Gold Chicken Statue - Gild a chicken statue for fun and profit!
+[/list]

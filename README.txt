@@ -1,0 +1,151 @@
+[center][size=6]Dwarven﻿﻿[/size][size=6] Expansion[/size][/center]
+A recreation of my Dwarvish mod for Stardew Valley using the expanded modding features available in 1.6
+
+[size=5]New Machines[/size]
+
+[size=4]Dwarven Gem Polisher[/size]
+Improves the quality of gems to increase their value.
+Useful both to increase profit from gems found in the mines as well as to create better quality gems for higher quality jewelry.
+
+[size=4]Dwarven Jewelry Making Machine[/size]
+Turns gems or minerals and gold into fine jewelry.
+Turns gemstones and minerals into an artisan good that can be sold for drasticly increased profits.
+
+[size=4]Dwarven Pulverizer[/size]
+Breaks down ore clusters into useful ore, allows you to recycle stone into useful products and can pulverize ore and gems into a fine powder that can be used to brew spirits and make potions.
+
+[size=4]Dwarven Still[/size]
+Brew dwarven spirits and infuse them with the magic of the earth using gem dust.
+These spirits can be drank or used as the base for powerful dwarven potions made at the alchemy bench.
+
+[size=4]Alchemy Bench[/size]
+Turns infused dwarven spirits and various ingredients into potions to improve skills, combat ability, health, energy, etc.
+
+[size=5]New Animals[/size]
+
+[size=4]Farm Grub[/size]
+A large grub.  These grubs can be grown and harvested for their meat.  Useful for creating dwarven meals or fishing bait.
+[size=3]Obtain[/size]
+Can be purchased from Marnie or hatched from Grub Larva found in the mines.
+[size=3]Drops[/size]
+Drops bug meat or grub larva each day.
+
+[size=4]Copper Crab[/size]
+A mature rock crab.  These crabs filter copper out of their food and the copper grows into thick deposits on their shell which can be scrapped off.  As the crabs age, these deposits can grow into large pure copper clusters, which are broken down in a pulverizer into a large quantity of copper ore.
+[size=3]Obtain[/size]
+Can be purchased from Marnie or hatched from copper crab eggs found in the mines.
+[size=3]Drops[/size]
+Can be sheared for copper ore or copper ore clusters.
+
+[size=4]Iron Crab[/size]
+A mature rock crab.  These crabs filter iron out of their food and the iron grows into thick deposits on their shell which can be scrapped off.  As the crabs age, these deposits can grow into large pure iron clusters, which are broken down in a pulverizer into a large quantity of iron ore.
+[size=3]Obtain[/size]
+Can be purchased from Marnie or hatched from iron crab eggs found in the mines.
+[size=3]Drops[/size]
+Can be sheared for iron ore or iron ore clusters.
+
+[size=4]Gold Crab[/size]
+A mature lava crab.  These crabs filter gold out of their food and the gold grows into thick deposits on their shell which can be scrapped off.  As the crabs age, these deposits can grow into large pure gold clusters, which are broken down in a pulverizer into a large quantity of gold ore.
+[size=3]Obtain[/size]
+Can be purchased from Marnie or hatched from gold crab eggs found in the mines.
+[size=3]Drops[/size]
+Can be sheared for gold ore or gold ore clusters.
+
+[size=4]Iridium Crab[/size]
+A mature iridium crab.  These crabs filter iridium out of their food and the iridium grows into thick deposits on their shell which can be scrapped off.  As the crabs age, these deposits can grow into large pure iridium clusters, which are broken down in a pulverizer into a large quantity of iridium ore.
+[size=3]Obtain[/size]
+Can be purchased from Marnie or hatched from iridium crab eggs found in the mines.
+[size=3]Drops[/size]
+Can be sheared for iridium ore or iridium ore clusters.
+
+[size=4]Giant Naked Molerat[/size]
+A giant naked molerat.  These molerats are one of the few subterranian mammels dwarves were able to domesticate.  They are used to harvest a thin milk, used frequently in dwarven cooking.
+[size=3]Obtain[/size]
+Can be purchased from Marnie after you have befriended the dwarf.
+[size=3]Drops[/size]
+Can be milked each day.
+
+[size=5]New Items[/size]
+
+[size=4]Food / Cooking Recipes[/size]
+Several new cooking recipes have been added themed around ingredients sourced from the mines:
+[list]
+[*]Bug Meat Soup
+[*]Bug Meat Stew
+[*]Cavatouille
+[*]Cave Carrot Au Gratin
+[*]Cave Carrot Brulee
+[*]Cave Carrot Roast
+[*]Cave Carrot Soup
+[*]Cave Carrot Stew
+[*]Cave Chowder
+[*]Cave Soup
+[*]Fried Bat Wings
+[*]Ice Pip Soup
+[*]Lava Eel Pie
+[*]Mashed Carrots
+[*]Roaded Cave Fish
+[*]Rock Crab Salad
+[*]Shadowed Stew
+[*]Stonefish Suprise
+[*]Sunshine Stew
+[*]Magic Rock Candy - create magic rock candy by hardening prismatic dust on a stick!
+[/list]
+[size=4]Drinks[/size]
+These new drinks are created in the Dwarven Still
+[list]
+[*]Dwarven Spirits - made by distilling ore dust and a cave carrot mash into a strong alcohol.
+[*]Infused Dwarven Spirits - made by distilling gem dust and cave carrot mash into a strong alcohol.
+[/list]
+[size=4]Potions[/size]
+These potions can be made at the alchemy bench.
+[list]
+[*]Distilled Sunlight
+[*]Farmers Draught
+[*]Fishermans Brew
+[*]Miners Drink
+[*]One Perfect Day
+[*]Shadowed Elixir
+[*]Swordsmans Elixir
+[*]Woodmans Tonic
+[/list]
+[size=4]Jewelry[/size]
+These are new artisan goods that can be crafted and sold for profit at the Jewlry Making Machine
+[size=3]Necklaces[/size]
+[list]
+[*]Aerinite Necklace
+[*]Alamite Necklace
+[*]Celestine Necklace
+[*]Dolomite Necklace
+[*]Earth Crystal Necklace
+[*]Fire Opal Necklace
+[*]Fire Quartz Necklace
+[*]Fluorapatite Necklace
+[*]Frozen Tear Necklace
+[*]Geminite Necklace
+[*]Gold Necklace
+[*]Helvite Necklace
+[*]Kyanite Necklace
+[*]Lemon Stone Necklace
+[*]Malachite Necklace
+[*]Obsidian Necklace
+[*]Opal Necklace
+[*]Orpiment Necklace
+[*]Quartz Necklace
+[*]Sar Shard Necklace
+[*]Tigerseye Necklace
+[/list]
+[size=3]Rings[/size]
+[list]
+[*]Amethyst Gold Ring
+[*]Aquamarine Gold Ring
+[*]Diamond Gold Ring
+[*]Emerald Gold Ring
+[*]Jade Gold Ring
+[*]Ruby Gold Ring
+[*]Topaz Gold Ring
+[/list]
+#[size=3]Miscellanous[/size]
+[list]
+[*]Gold Chicken Statue - Gild a chicken statue for fun and profit!
+[/list]
