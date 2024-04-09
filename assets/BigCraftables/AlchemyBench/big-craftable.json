@@ -6,8 +6,8 @@
             "Entries": {
                 "{{ModId}}_AlchemyBench": {
                     "Name": "Dwarven Alchemy Bench",
-                    "DisplayName": "Dwarven Alchemy Bench",
-                    "Description": "Use dwarvish alchemy to create powerful concoctions. The foundation for all dwarven potions is Infused Dwarven Spirits",
+                    "DisplayName": "{{i18n:AlchemyBench.DisplayName}}",
+                    "Description": "{{i18n:AlchemyBench.Description}}",
                     "Price": 0,
                     "Fragility": 0,
                     "CanBePlacedIndoors": true,
@@ -176,21 +176,21 @@
                                     "Id": "Envigorating_Concoction",
                                     "ItemId": "351",
                                     "Quality": "0",
-                                    "ObjectDisplayName": "Envigorating Concoction",
+                                    "ObjectDisplayName": "{{i18n:AlchemyBench.Output.Envigorating_Concoction.ObjectDisplayName}}",
                                     "Condition": "ITEM_ID Input {{ModId}}_MineralDust_EmeraldDust"
                                 },
                                 {
                                     "Id": "Healing_Draught",
                                     "ItemId": "773",
                                     "Quality": "0",
-                                    "ObjectDisplayName": "Healing Draught",
+                                    "ObjectDisplayName": "{{i18n:AlchemyBench.Output.Healing_Draught.ObjectDisplayName}}",
                                     "Condition": "ITEM_ID Input {{ModId}}_MineralDust_RubyDust"
                                 },
                                 {
                                     "Id": "Repellent_Potion",
                                     "ItemId": "772",
                                     "Quality": "0",
-                                    "ObjectDisplayName": "Repellent Potion",
+                                    "ObjectDisplayName": "{{i18n:AlchemyBench.Output.Repellent_Potion.ObjectDisplayName}}",
                                     "Condition": "ITEM_ID Input 684"
                                 }
                             ],

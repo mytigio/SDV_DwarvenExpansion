@@ -1,0 +1,67 @@
+{
+    "Animals_CrabEgg_Iridium.DisplayName": "Iridium Crab Egg",
+    "Animals_CrabEgg_Iridium.Description": "A hard rock-like egg. Slightly purple in color.",
+    "IridiumCrab.DisplayName": "Iridium Crab",
+    "IridiumCrab.ShopDisplayName": "Iridium Crab",
+    "IridiumCrab.ShopDescription": "Adults grow ore on their shell, which can be scrapped off with a set of shears. Happy rock crabs produce extreamly pure metal.",
+    "IridiumCrab.ShopMissingBuildingDescription": "No home available for this crab.",
+    "IridiumCrab.BirthText": "A crab was born.",
+    
+    "Animals_CrabEgg_Gold.DisplayName": "Gold Crab Egg",
+    "Animals_CrabEgg_Gold.Description": "A hard rock-like egg. Slightly gold in color.",
+    "GoldCrab.DisplayName": "Gold Crab",
+    "GoldCrab.ShopDisplayName": "Gold Crab",
+    "GoldCrab.ShopDescription": "Adults grow ore on their shell, which can be scrapped off with a set of shears. Happy rock crabs produce extreamly pure metal.",
+    "GoldCrab.ShopMissingBuildingDescription": "No home available for this crab.",
+    "GoldCrab.BirthText": "A crab was born.",
+    
+    "Animals_CrabEgg_Iron.DisplayName": "Iron Crab Egg",
+    "Animals_CrabEgg_Iron.Description": "A hard rock-like egg. Slightly gray in color.",
+    "IronCrab.DisplayName": "Iron Crab",
+    "IronCrab.ShopDisplayName": "Iron Crab",
+    "IronCrab.ShopDescription": "Adults grow ore on their shell, which can be scrapped off with a set of shears. Happy rock crabs produce extreamly pure metal.",
+    "IronCrab.ShopMissingBuildingDescription": "No home available for this crab.",
+    "IronCrab.BirthText": "A crab was born.",
+    
+    "Animals_CrabEgg_Copper.DisplayName": "Copper Crab Egg",
+    "Animals_CrabEgg_Copper.Description": "A hard rock-like egg. Slightly gray in color.",
+    "CopperCrab.DisplayName": "Copper Crab",
+    "CopperCrab.ShopDisplayName": "Copper Crab",
+    "CopperCrab.ShopDescription": "Adults grow ore on their shell, which can be scrapped off with a set of shears. Happy rock crabs produce extreamly pure metal.",
+    "CopperCrab.ShopMissingBuildingDescription": "No home available for this crab.",
+    "CopperCrab.BirthText": "A crab was born.",
+    
+    "Animals_GrubLarva.DisplayName": "Grub Larva",
+    "Animals_GrubLarva.Description": "A small mass of wriggling larva.  Left in an incubation chamber these will grow into grubs.",
+    "FarmGrub.DisplayName": "Grub",
+    "FarmGrub.ShopDisplayName": "Grub",
+    "FarmGrub.ShopDescription": "Grubs have a short life span, but keep their population constant.  The result for the aspiring grub farmer is a steady supply of slightly revolting meat!",
+    "FarmGrub.ShopMissingBuildingDescription": "Grubs might just be bugs, but they still need a place to live out of the elements if you plan to farm them.",
+    "FarmGrub.BirthText": "The larva are growing!",
+
+    "GiantNakedMoleRat.DisplayName": "Giant Naked Molerat",
+    "GiantNakedMoleRat.ShopDisplayName": "Giant Naked Molerat",
+    "GiantNakedMoleRat.ShopDescription": "The giant naked molerat is the cornerstone of dwarven aggriculture, being one of the few subterranian mammels domesticated.",
+    "GiantNakedMoleRat.ShopMissingBuildingDescription": "No home available for this molerat.",
+    "GiantNakedMoleRat.BirthText": "A cute wrinkley baby molerat was born.",
+
+    "AlchemyBench.DisplayName": "Dwarven Alchemy Bench",
+    "AlchemyBench.Description": "Use dwarvish alchemy to create powerful concoctions. The foundation for all dwarven potions is Infused Dwarven Spirits",
+    "AlchemyBench.Output.Envigorating_Concoction.ObjectDisplayName": "Envigorating Concoction",
+    "AlchemyBench.Output.Healing_Draught.ObjectDisplayName": "Healing Draught",
+    "AlchemyBench.Output.Repellent_Potion.ObjectDisplayName": "Repellent Potion",
+    
+    "DwarvenStill.DisplayName": "Dwarven Still",
+    "DwarvenStill.Description": "Distill spirits in the traditional dwarven way! With rocks, fermented mushrooms, rotting bug meat and molding cave carrots.",
+    "DwarvenStill.Output.Infused_Dwarven_Spirits.ObjectDisplayName": "{0} Spirits",
+
+    "GemPolisher.DisplayName": "Dwarven Gem Polisher",
+    "GemPolisher.Description": "Polishes cut gems to increase luster and sell price.",
+
+    "JewelryMaker.DisplayName": "Dwarven Jewelry Maker",
+    "JewelryMaker.Description": "A machine that uses ancient dwarven technology to assemble fine jewelery from raw components.",
+
+    "Pulverizer.DisplayName": "Dwarven Pulverizer",
+    "Pulverizer.Description": "Used to pulverize things like carrots, stone, ore clusters, gems and old artifacts.",
+    "Pulverizer.Output.Gemstone_Dust.ObjectDisplayName": "{0} Dust"
+}

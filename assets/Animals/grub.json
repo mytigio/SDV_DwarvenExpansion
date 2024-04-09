@@ -6,8 +6,8 @@
 			"Entries": {
 				"{{ModId}}_Animals_GrubLarva": {
 					"Name": "Grub Larva",
-					"DisplayName": "Grub Larva",
-					"Description": "A small mass of wriggling larva.  Left in an incubation chamber these will grow into grubs.",
+					"DisplayName": "{{i18n:Animals_GrubLarva.DisplayName}}",
+					"Description": "{{i18n:Animals_GrubLarva.Description}}",
 					"Type": "Basic",
 					"Category": "-20",
 					"Price": 15,
@@ -66,7 +66,7 @@
 			"Target": "Data/FarmAnimals",
 			"Entries": {
 				"{{ModId}}_FarmGrub": {
-					"DisplayName": "Grub",
+					"DisplayName": "{{i18n:FarmGrub.DisplayName}}",
 					"House": "Coop",
 					"Gender": "MaleOrFemale",
 					"PurchasePrice": 400,
@@ -78,9 +78,9 @@
 						"Width": 32,
 						"Height": 16
 					},
-					"ShopDisplayName": "Grub",
-					"ShopDescription": "Grubs have a short life span, but keep their population constant.  The result for the aspiring grub farmer is a steady supply of slightly revolting meat!",
-					"ShopMissingBuildingDescription": "Grubs might just be bugs, but they still need a place to live out of the elements if you plan to farm them.",
+					"ShopDisplayName": "{{i18n:FarmGrub.ShopDisplayName}}",
+					"ShopDescription": "{{i18n:FarmGrub.ShopDescription}}",
+					"ShopMissingBuildingDescription": "{{i18n:FarmGrub.ShopMissingBuildingDescription}}",
 					"RequiredBuilding": "Coop",
 					"UnlockCondition": "MINE_LOWEST_LEVEL_REACHED 1",
 					"EggItemIds": [
@@ -88,7 +88,7 @@
 					],
 					"IncubationTime": 1440,
 					"IncubatorParentSheetOffset": 1,
-					"BirthText": "The larva are growing!",
+					"BirthText": "{{i18n:FarmGrub.BirthText}}",
 					"DaysToMature": 0,
 					"CanGetPregnant": false,
 					"DaysToProduce": 0,

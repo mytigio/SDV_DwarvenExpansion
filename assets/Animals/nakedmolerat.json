@@ -5,7 +5,7 @@
 			"Target": "Data/FarmAnimals",
 			"Entries": {
 				"{{ModId}}_GiantNakedMoleRat": {
-					"DisplayName": "Giant Naked Molerat",
+					"DisplayName": "{{i18n:GiantNakedMoleRat.DisplayName}}",
 					"House": "Barn",
 					"Gender": "MaleOrFemale",
 					"PurchasePrice": 600,
@@ -17,15 +17,15 @@
 						"Width": 32,
 						"Height": 16
 					},
-					"ShopDisplayName": "Giant Naked Molerat",
-					"ShopDescription": "The giant naked molerat is the cornerstone of dwarven aggriculture, being one of the few subterranian mammels domesticated.",
-					"ShopMissingBuildingDescription": "No home available for this molerat.",
+					"ShopDisplayName": "{{i18n:GiantNakedMoleRat.ShopDisplayName}}",
+					"ShopDescription": "{{i18n:GiantNakedMoleRat.ShopDescription}}",
+					"ShopMissingBuildingDescription": "{{i18n:GiantNakedMoleRat.ShopMissingBuildingDescription}}",
 					"RequiredBuilding": "Barn",
 					"UnlockCondition": "PLAYER_HEARTS ANY Dwarf 3",
 					"EggItemIds": null,
 					"IncubationTime": -1,
 					"IncubatorParentSheetOffset": 1,
-					"BirthText": "A cute wrinkley baby molerat was born.",
+					"BirthText": "{{i18n:GiantNakedMoleRat.BirthText}}",
 					"DaysToMature": 3,
 					"CanGetPregnant": true,
 					"DaysToProduce": 1,

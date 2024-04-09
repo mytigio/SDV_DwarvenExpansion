@@ -6,8 +6,8 @@
 			"Entries": {
 				"{{ModId}}_Animals_CrabEgg_Iridium": {
 					"Name": "Iridium Crab Egg",
-					"DisplayName": "Iridium Crab Egg",
-					"Description": "A hard rock-like egg. Slightly purple in color.",
+					"DisplayName": "{{i18n:Animals_CrabEgg_Iridium.DisplayName}}",
+					"Description": "{{i18n:Animals_CrabEgg_Iridium.Description}}",
 					"Type": "Basic",
 					"Category": "-20",
 					"Price": 180,
@@ -56,7 +56,7 @@
 			"Target": "Data/FarmAnimals",
 			"Entries": {
 				"{{ModId}}_IridiumCrab": {
-					"DisplayName": "Iridium Crab",
+					"DisplayName": "{{i18n:IridiumCrab.DisplayName}}",
 					"House": "Coop",
 					"Gender": "MaleOrFemale",
 					"PurchasePrice": 1600,
@@ -68,9 +68,9 @@
 						"Width": 32,
 						"Height": 16
 					},
-					"ShopDisplayName": "Iridium Crab",
-					"ShopDescription": "Adults grow ore on their shell, which can be scrapped off with a set of shears. Happy rock crabs produce extreamly pure metal.",
-					"ShopMissingBuildingDescription": "No home available for this crab.",
+					"ShopDisplayName": "{{i18n:IridiumCrab.ShopDisplayName}}",
+					"ShopDescription": "{{i18n:IridiumCrab.ShopDescription}}",
+					"ShopMissingBuildingDescription": "{{i18n:IridiumCrab.ShopMissingBuildingDescription}}",
 					"RequiredBuilding": "Deluxe Coop",
 					"UnlockCondition": "MINE_LOWEST_LEVEL_REACHED 120",
 					"EggItemIds": [
@@ -78,7 +78,7 @@
 					],
 					"IncubationTime": 8640,
 					"IncubatorParentSheetOffset": 1,
-					"BirthText": "A crab was born.",
+					"BirthText": "{{i18n:IridiumCrab.BirthText}}",
 					"DaysToMature": 3,
 					"CanGetPregnant": true,
 					"DaysToProduce": 2,

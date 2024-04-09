@@ -6,8 +6,8 @@
 			"Entries": {
 				"{{ModId}}_Animals_CrabEgg_Copper": {
 					"Name": "Copper Crab Egg",
-					"DisplayName": "Copper Crab Egg",
-					"Description": "A hard rock-like egg. Slightly copper in color.",
+					"DisplayName": "{{i18n:Animals_CrabEgg_Copper.DisplayName}}",
+					"Description": "{{i18n:Animals_CrabEgg_Copper.Description}}",
 					"Type": "Basic",
 					"Category": "-20",
 					"Price": 15,
@@ -56,7 +56,7 @@
 			"Target": "Data/FarmAnimals",
 			"Entries": {
 				"{{ModId}}_CopperCrab": {
-					"DisplayName": "Copper Crab",
+					"DisplayName": "{{i18n:CopperCrab.DisplayName}}",
 					"House": "Coop",
 					"Gender": "MaleOrFemale",
 					"PurchasePrice": 400,
@@ -68,9 +68,9 @@
 						"Width": 32,
 						"Height": 16
 					},
-					"ShopDisplayName": "Copper Crab",
-					"ShopDescription": "Adults grow ore on their shell, which can be scrapped off with a set of shears. Happy rock crabs produce extreamly pure metal.",
-					"ShopMissingBuildingDescription": "No home available for this crab.",
+					"ShopDisplayName": "{{i18n:CopperCrab.ShopDisplayName}}",
+					"ShopDescription": "{{i18n:CopperCrab.ShopDescription}}",
+					"ShopMissingBuildingDescription": "{{i18n:CopperCrab.ShopMissingBuildingDescription}}",
 					"RequiredBuilding": "Coop",
 					"UnlockCondition": "MINE_LOWEST_LEVEL_REACHED 20",
 					"EggItemIds": [
@@ -78,7 +78,7 @@
 					],
 					"IncubationTime": 4320,
 					"IncubatorParentSheetOffset": 1,
-					"BirthText": "A crab was born.",
+					"BirthText": "{{i18n:CopperCrab.BirthText}}",
 					"DaysToMature": 3,
 					"CanGetPregnant": true,
 					"DaysToProduce": 1,

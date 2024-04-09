@@ -6,8 +6,8 @@
             "Entries": {
                 "{{ModId}}_DwarvenStill": {
                     "Name": "Dwarven Still",
-                    "DisplayName": "Dwarven Still",
-                    "Description": "Distill spirits in the traditional dwarven way! With rocks, fermented mushrooms, rotting bug meat and molding cave carrots.",
+                    "DisplayName": "{{i18n:DwarvenStill.DisplayName}}",
+                    "Description": "{{i18n:DwarvenStill.Description}}",
                     "Price": 0,
                     "Fragility": 0,
                     "CanBePlacedIndoors": true,
@@ -41,6 +41,13 @@
                     "AvailableStock": 5,
                     "AvailableStockLimit": "Player"
                 }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/Objects",
+            "Entries": {
+                "{{ModId}}_Infused_Spirits_Object_Display_Name": "{{i18n:DwarvenStill.Output.Infused_Dwarven_Spirits.ObjectDisplayName}}"
             }
         },
         {
@@ -112,7 +119,7 @@
                                 {
                                     "Id": "Infused_Dwarven_Spirits",
                                     "ItemId": "{{ModId}}_Drinks_InfusedSpirits",
-                                    "ObjectDisplayName": "%PRESERVED_DISPLAY_NAME Spirits",
+                                    "ObjectDisplayName": "[LocalizedText Strings/Objects:{{ModId}}_Infused_Spirits_Object_Display_Name %PRESERVED_DISPLAY_NAME Spirits]",
                                     "Quality": "0",
                                     "CopyPrice": true,
                                     "PreserveId": "DROP_IN",

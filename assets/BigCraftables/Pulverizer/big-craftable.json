@@ -6,8 +6,8 @@
             "Entries": {
                 "{{ModId}}_Pulverizer": {
                     "Name": "Dwarven Pulverizer",
-                    "DisplayName": "Dwarven Pulverizer",
-                    "Description": "Used to pulverize things like stone, ore clusters, gems and old artifacts.",
+                    "DisplayName": "{{i18n:Pulverizer.DisplayName}}",
+                    "Description": "{{i18n:Pulverizer.Description}}",
                     "Price": 0,
                     "Fragility": 0,
                     "CanBePlacedIndoors": true,
@@ -41,6 +41,13 @@
                     "AvailableStock": 5,
                     "AvailableStockLimit": "Player"
                 }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/Objects",
+            "Entries": {
+                "{{ModId}}_Gemstone_Dust_Object_Display_Name": "{{i18n:Pulverizer.Output.Gemstone_Dust.ObjectDisplayName}}"
             }
         },
         {
@@ -539,7 +546,7 @@
                                 {
                                     "Id": "Gemstone_Dust",
                                     "ItemId": "{{ModId}}_MineralDust_GemstoneDust",
-                                    "ObjectDisplayName": "%PRESERVED_DISPLAY_NAME Dust",
+                                    "ObjectDisplayName": "[LocalizedText Strings/Objects:{{ModId}}_Gemstone_Dust_Object_Display_Name %PRESERVED_DISPLAY_NAME Spirits]",
                                     "MinStack": 1,
                                     "CopyPrice": true,
                                     "PreserveId": "DROP_IN"

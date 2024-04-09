@@ -6,8 +6,8 @@
 			"Entries": {
 				"{{ModId}}_Animals_CrabEgg_Iron": {
 					"Name": "Iron Crab Egg",
-					"DisplayName": "Iron Crab Egg",
-					"Description": "A hard rock-like egg. Slightly gray in color.",
+					"DisplayName": "{{i18n:Animals_CrabEgg_Iron.DisplayName}}",
+					"Description": "{{i18n:Animals_CrabEgg_Iron.Description}}",
 					"Type": "Basic",
 					"Category": "-20",
 					"Price": 45,
@@ -56,7 +56,7 @@
 			"Target": "Data/FarmAnimals",
 			"Entries": {
 				"{{ModId}}_IronCrab": {
-					"DisplayName": "Iron Crab",
+					"DisplayName": "{{i18n:IronCrab.DisplayName}}",
 					"House": "Coop",
 					"Gender": "MaleOrFemale",
 					"PurchasePrice": 600,
@@ -68,9 +68,9 @@
 						"Width": 32,
 						"Height": 16
 					},
-					"ShopDisplayName": "Iron Crab",
-					"ShopDescription": "Adults grow ore on their shell, which can be scrapped off with a set of shears. Happy rock crabs produce extreamly pure metal.",
-					"ShopMissingBuildingDescription": "No home available for this crab.",
+					"ShopDisplayName": "{{i18n:IronCrab.ShopDisplayName}}",
+					"ShopDescription": "{{i18n:IronCrab.ShopDescription}}",
+					"ShopMissingBuildingDescription": "{{i18n:IronCrab.ShopMissingBuildingDescription}}",
 					"RequiredBuilding": "Big Coop",
 					"UnlockCondition": "MINE_LOWEST_LEVEL_REACHED 60",
 					"EggItemIds": [
@@ -78,7 +78,7 @@
 					],
 					"IncubationTime": 8640,
 					"IncubatorParentSheetOffset": 1,
-					"BirthText": "A crab was born.",
+					"BirthText": "{{i18n:IronCrab.BirthText}}",
 					"DaysToMature": 3,
 					"CanGetPregnant": true,
 					"DaysToProduce": 1,

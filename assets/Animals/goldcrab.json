@@ -6,8 +6,8 @@
 			"Entries": {
 				"{{ModId}}_Animals_CrabEgg_Gold": {
 					"Name": "Gold Crab Egg",
-					"DisplayName": "Gold Crab Egg",
-					"Description": "A hard rock-like egg. Slightly gold in color.",
+					"DisplayName": "{{i18n:Animals_CrabEgg_Gold.DisplayName}}",
+					"Description": "{{i18n:Animals_CrabEgg_Gold.Description}}",
 					"Type": "Basic",
 					"Category": "-20",
 					"Price": 90,
@@ -56,7 +56,7 @@
 			"Target": "Data/FarmAnimals",
 			"Entries": {
 				"{{ModId}}_GoldCrab": {
-					"DisplayName": "Gold Crab",
+					"DisplayName": "{{i18n:GoldCrab.DisplayName}}",
 					"House": "Coop",
 					"Gender": "MaleOrFemale",
 					"PurchasePrice": 800,
@@ -68,9 +68,9 @@
 						"Width": 32,
 						"Height": 16
 					},
-					"ShopDisplayName": "Gold Crab",
-					"ShopDescription": "Adults grow ore on their shell, which can be scrapped off with a set of shears. Happy rock crabs produce extreamly pure metal.",
-					"ShopMissingBuildingDescription": "No home available for this crab.",
+					"ShopDisplayName": "{{i18n:GoldCrab.ShopDisplayName}}",
+					"ShopDescription": "{{i18n:GoldCrab.ShopDescription}}",
+					"ShopMissingBuildingDescription": "{{i18n:GoldCrab.ShopMissingBuildingDescription}}",
 					"RequiredBuilding": "Deluxe Coop",
 					"UnlockCondition": "MINE_LOWEST_LEVEL_REACHED 100",
 					"EggItemIds": [
@@ -78,7 +78,7 @@
 					],
 					"IncubationTime": 8640,
 					"IncubatorParentSheetOffset": 1,
-					"BirthText": "A crab was born.",
+					"BirthText": "{{i18n:GoldCrab.BirthText}}",
 					"DaysToMature": 3,
 					"CanGetPregnant": true,
 					"DaysToProduce": 2,

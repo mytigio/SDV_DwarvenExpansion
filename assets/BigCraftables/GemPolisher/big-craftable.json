@@ -6,8 +6,8 @@
             "Entries": {
                 "{{ModId}}_GemPolisher": {
                     "Name": "Dwarven Gem Polisher",
-                    "DisplayName": "Dwarven Gem Polisher",
-                    "Description": "Polishes cut gems to increase luster and sell price.",
+                    "DisplayName": "{{i18n:GemPolisher.DisplayName}}",
+                    "Description": "{{i18n:GemPolisher.Description}}",
                     "Price": 0,
                     "Fragility": 0,
                     "CanBePlacedIndoors": true,

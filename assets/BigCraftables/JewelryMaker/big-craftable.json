@@ -6,8 +6,8 @@
             "Entries": {
                 "{{ModId}}_JewelryMaker": {
                     "Name": "Dwarven Jewelry Maker",
-                    "DisplayName": "Dwarven Jewelery Maker",
-                    "Description": "A machine that uses ancient dwarven technology to assemble fine jewelery from raw components.",
+                    "DisplayName": "{{i18n:JewelryMaker.DisplayName}}",
+                    "Description": "{{i18n:JewelryMaker.Description}}",
                     "Price": 1500,
                     "Fragility": 0,
                     "CanBePlacedIndoors": true,
