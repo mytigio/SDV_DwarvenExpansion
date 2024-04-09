@@ -203,7 +203,7 @@
                         {
                             "Id": "loss",
                             "Duration": 360,
-                            "CustomAttributes": {                                
+                            "CustomAttributes": {
                                 "Defense": 3,
                                 "MaxStamina": 50,
                                 "MaxHealth": 10
@@ -229,8 +229,8 @@
                         {
                             "Id": "loss",
                             "Duration": 360,
-                            "CustomAttributes": {                                
-                                "Attack": 3                                
+                            "CustomAttributes": {
+                                "Attack": 3
                             }
                         }
                     ],
@@ -334,6 +334,8 @@
                     "Edibility": -300,
                     "ContextTags": [
                         "{{ModId}}",
+                        "{{ModId}}_mineraldust",
+                        "not_museum_donatable",
                         "{{ModId}}_oredust"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Copper.png}}",
@@ -349,6 +351,8 @@
                     "Edibility": -300,
                     "ContextTags": [
                         "{{ModId}}",
+                        "{{ModId}}_mineraldust",
+                        "not_museum_donatable",
                         "{{ModId}}_oredust"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Iron.png}}",
@@ -364,6 +368,8 @@
                     "Edibility": -300,
                     "ContextTags": [
                         "{{ModId}}",
+                        "{{ModId}}_mineraldust",
+                        "not_museum_donatable",
                         "{{ModId}}_oredust"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Gold.png}}",
@@ -379,6 +385,8 @@
                     "Edibility": -300,
                     "ContextTags": [
                         "{{ModId}}",
+                        "{{ModId}}_mineraldust",
+                        "not_museum_donatable",
                         "{{ModId}}_oredust"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Iridium.png}}",
@@ -394,6 +402,8 @@
                     "Edibility": -300,
                     "ContextTags": [
                         "{{ModId}}",
+                        "{{ModId}}_mineraldust",
+                        "not_museum_donatable",
                         "{{ModId}}_gemdust",
                         "{{ModId}}_gemquality_high"
                     ],
@@ -410,6 +420,8 @@
                     "Edibility": -300,
                     "ContextTags": [
                         "{{ModId}}",
+                        "{{ModId}}_mineraldust",
+                        "not_museum_donatable",
                         "{{ModId}}_gemdust",
                         "{{ModId}}_gemquality_medium"
                     ],
@@ -426,6 +438,8 @@
                     "Edibility": -300,
                     "ContextTags": [
                         "{{ModId}}",
+                        "{{ModId}}_mineraldust",
+                        "not_museum_donatable",
                         "{{ModId}}_gemdust",
                         "{{ModId}}_gemquality_high"
                     ],
@@ -442,6 +456,8 @@
                     "Edibility": -300,
                     "ContextTags": [
                         "{{ModId}}",
+                        "{{ModId}}_mineraldust",
+                        "not_museum_donatable",
                         "{{ModId}}_gemdust",
                         "{{ModId}}_gemquality_low"
                     ],
@@ -458,6 +474,8 @@
                     "Edibility": -300,
                     "ContextTags": [
                         "{{ModId}}",
+                        "{{ModId}}_mineraldust",
+                        "not_museum_donatable",
                         "{{ModId}}_gemdust",
                         "{{ModId}}_gemquality_low"
                     ],
@@ -474,6 +492,8 @@
                     "Edibility": -300,
                     "ContextTags": [
                         "{{ModId}}",
+                        "{{ModId}}_mineraldust",
+                        "not_museum_donatable",
                         "{{ModId}}_gemdust",
                         "{{ModId}}_gemquality_medium"
                     ],
@@ -490,6 +510,8 @@
                     "Edibility": -300,
                     "ContextTags": [
                         "{{ModId}}",
+                        "{{ModId}}_mineraldust",
+                        "not_museum_donatable",
                         "{{ModId}}_gemdust",
                         "{{ModId}}_gemquality_perfect"
                     ],
@@ -506,6 +528,8 @@
                     "Edibility": -300,
                     "ContextTags": [
                         "{{ModId}}",
+                        "{{ModId}}_mineraldust",
+                        "not_museum_donatable",
                         "{{ModId}}_gemdust",
                         "{{ModId}}_gemquality_perfect"
                     ],
@@ -522,6 +546,8 @@
                     "Edibility": -300,
                     "ContextTags": [
                         "{{ModId}}",
+                        "{{ModId}}_mineraldust",
+                        "not_museum_donatable",
                         "{{ModId}}_gemdust",
                         "{{ModId}}_gemquality_low"
                     ],
@@ -1414,7 +1440,7 @@
                     "SpriteIndex": 0
                 }
             }
-        },        
+        },
         {
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",

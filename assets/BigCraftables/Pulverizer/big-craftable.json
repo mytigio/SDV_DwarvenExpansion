@@ -457,6 +457,7 @@
                                     "Trigger": "ItemPlacedInMachine",
                                     "RequiredTags": [
                                         "category_gem",
+                                        "!{{ModId}}_mineraldust",
                                         "!{{ModId}}_jewelry"
                                     ],
                                     "RequiredCount": 1
