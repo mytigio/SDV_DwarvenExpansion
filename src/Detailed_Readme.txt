@@ -113,6 +113,7 @@ Can buy from Clint after you reach foraging level 8.
 [list]
 [*]40 Wood - produces 10 to 20 charcoal over the course of 12 hours.
 [*]20 Hardwood - produces 20 to 40 charcoal over the course of 12 hours.
+[/list]
 
 [size=5]New Animals[/size]
 
