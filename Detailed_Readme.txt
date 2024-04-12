@@ -83,6 +83,14 @@ Uses 'Infused Dwarven Spirits" as a base material for all recipes.
 [*]Repellent Potion - Makes some monsters flee your presence - Add 100 bug meat to the bench
 [/list]
 
+[size=4]Slow-Burn Charcoal Kiln[/size]
+A more efficient charcoal kiln that uses a longer lower heat burn to reduce waste and produce more coal per wood at the expense of time.  Harder woods burn more efficiently and produce more coal.
+
+[size=3]Recipes[/size]
+[list]
+[*]40 Wood - produces 10 to 20 charcoal over the course of 12 hours.
+[*]20 Hardwood - produces 20 to 40 charcoal over the course of 12 hours.
+
 [size=5]New Animals[/size]
 
 [size=4]Farm Grub[/size]

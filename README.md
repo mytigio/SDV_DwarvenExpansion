@@ -21,6 +21,9 @@ These spirits can be drank or used as the base for powerful dwarven potions made
 ### Alchemy Bench
 Turns infused dwarven spirits and various ingredients into potions to improve skills, combat ability, health, energy, etc.
 
+### Slow-Burn Charcoal Kiln
+A more efficient charcoal kiln that uses a longer lower heat burn to reduce waste and produce more coal per wood at the expense of time.  Harder woods burn more efficiently and produce more coal.
+
 ## New Animals
 
 ### Farm Grub
