@@ -2,10 +2,10 @@
     "Format": "2.0.0",
     "ConfigSchema": {
         "EnabledMachines": {
-            "AllowValues": "GemPolisher, Pulverizer, DwarvenStill, AlchemyBench, JewelryMaker",
+            "AllowValues": "GemPolisher, Pulverizer, DwarvenStill, AlchemyBench, JewelryMaker, SlowburnCharcoalKiln",
             "AllowMultiple": true,
             "AllowBlank": true,
-            "Default": "GemPolisher, Pulverizer, DwarvenStill, AlchemyBench, JewelryMaker"
+            "Default": "GemPolisher, Pulverizer, DwarvenStill, AlchemyBench, JewelryMaker, SlowburnCharcoalKiln"
         },
         "EnabledCookingRecipes": {
             "AllowValues": "true, false",
@@ -110,6 +110,13 @@
             "FromFile": "assets/BigCraftables/GemPolisher/big-craftable.json",
             "When": {
                 "EnabledMachines": "GemPolisher"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/BigCraftables/SlowburnCharcoalKiln/big-craftable.json",
+            "When": {
+                "EnabledMachines": "SlowburnCharcoalKiln"
             }
         },
         {

@@ -50,7 +50,7 @@
                 "(BC){{ModId}}_Pulverizer": {
                     "OutputRules": [
                         {
-                            "Id": "Stone_Recycling",
+                            "Id": "Default",
                             "Triggers": [
                                 {
                                     "Id": "Wood_Input",
