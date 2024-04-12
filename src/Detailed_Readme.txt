@@ -7,9 +7,17 @@ A recreation of my Dwarvish mod for Stardew Valley using the expanded modding fe
 Improves the quality of gems to increase their value.
 Useful both to increase profit from gems found in the mines as well as to create better quality gems for higher quality jewelry.
 
+[size=3]Unlock[/size]
+Unlock recipe at mining level 2.
+Can buy from Dwarf after you reach mining level 2.
+
 [size=4]Dwarven Jewelry Making Machine[/size]
 Turns gems or minerals and gold into fine jewelry.
 Turns gemstones and minerals into an artisan good that can be sold for drasticly increased profits.
+
+[size=3]Unlock[/size]
+Unlock recipe at mining level 5.
+Can buy from Dwarf after you reach mining level 5.
 
 [size=3]Recipes[/size]
 Uses a single gold bar as a base material
@@ -42,6 +50,10 @@ Uses a single gold bar as a base material
 [size=4]Dwarven Pulverizer[/size]
 Breaks down ore clusters into useful ore, allows you to recycle stone into useful products and can pulverize ore and gems into a fine powder that can be used to brew spirits and make potions.
 
+[size=3]Unlock[/size]
+Unlock recipe at mining level 4.
+Can buy from Dwarf after you reach mining level 4.
+
 [size=3]Recipes[/size]
 [list]
 [*]40 Stone - add 40 stone to the pulverizer for a chance at ore, gems, minerals, coal, etc.
@@ -52,9 +64,14 @@ Breaks down ore clusters into useful ore, allows you to recycle stone into usefu
 [*]Golden Mask, Pumkin and Tablet - pulverize these artifacts to product gold ore.
 [*]Rusty Spur - pulverize this artifact to product copper ore.
 [/list]
+
 [size=4]Dwarven Still[/size]
 Brew dwarven spirits and infuse them with the magic of the earth using gem dust.
 These spirits can be drank or used as the base for powerful dwarven potions made at the alchemy bench.
+
+[size=3]Unlock[/size]
+Unlock recipe at mining level 6.
+Can buy from Dwarf after you reach mining level 6.
 
 [size=3]Recipes[/size]
 Uses "Cave Carrot Mash" (made in a Dwarven Pulverizer) as a base material.
@@ -66,6 +83,10 @@ Uses "Cave Carrot Mash" (made in a Dwarven Pulverizer) as a base material.
 [size=4]Alchemy Bench[/size]
 Turns infused dwarven spirits and various ingredients into potions to improve skills, combat ability, health, energy, etc.
 Uses 
+
+[size=3]Unlock[/size]
+Unlock recipe at mining level 9.
+Can buy from Dwarf after you reach mining level 9.
 
 [size=3]Recipes[/size]
 Uses 'Infused Dwarven Spirits" as a base material for all recipes.
@@ -85,7 +106,9 @@ Uses 'Infused Dwarven Spirits" as a base material for all recipes.
 
 [size=4]Slow-Burn Charcoal Kiln[/size]
 A more efficient charcoal kiln that uses a longer lower heat burn to reduce waste and produce more coal per wood at the expense of time.  Harder woods burn more efficiently and produce more coal.
-
+[size=3]Unlock[/size]
+Unlock recipe at foraging level 8.
+Can buy from Clint after you reach foraging level 8.
 [size=3]Recipes[/size]
 [list]
 [*]40 Wood - produces 10 to 20 charcoal over the course of 12 hours.
