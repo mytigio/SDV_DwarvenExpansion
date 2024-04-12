@@ -219,3 +219,12 @@ These are new artisan goods that can be crafted and sold for profit at the Jewlr
 [list]
 [*]Gold Chicken Statue - Gild a chicken statue for fun and profit!
 [/list]
+
+[size=5]Translations[/size]
+The following contributers have included translation files for the mod.  If you're interested in providing a translations, please create a i18n file and create a pull request on github: https://github.com/mytigio/SDV_DwarvenExpansion
+[list]
+[*]lcy1998666 - Chinese
+[*]migue2982 - Spanish
+[/list]
+Github Repository
+https://github.com/mytigio/SDV_DwarvenExpansion

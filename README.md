@@ -48,77 +48,85 @@ A giant naked molerat.  These molerats are one of the few subterranian mammels d
 
 ### Food / Cooking Recipes
 Several new cooking recipes have been added themed around ingredients sourced from the mines:
-Bug Meat Soup
-Bug Meat Stew
-Cavatouille
-Cave Carrot Au Gratin
-Cave Carrot Brulee
-Cave Carrot Roast
-Cave Carrot Soup
-Cave Carrot Stew
-Cave Chowder
-Cave Soup
-Fried Bat Wings
-Ice Pip Soup
-Lava Eel Pie
-Mashed Carrots
-Roaded Cave Fish
-Rock Crab Salad
-Shadowed Stew
-Stonefish Suprise
-Sunshine Stew
-Magic Rock Candy - create magic rock candy by hardening prismatic dust on a stick!
+- Bug Meat Soup
+- Bug Meat Stew
+- Cavatouille
+- Cave Carrot Au Gratin
+- Cave Carrot Brulee
+- Cave Carrot Roast
+- Cave Carrot Soup
+- Cave Carrot Stew
+- Cave Chowder
+- Cave Soup
+- Fried Bat Wings
+- Ice Pip Soup
+- Lava Eel Pie
+- Mashed Carrots
+- Roaded Cave Fish
+- Rock Crab Salad
+- Shadowed Stew
+- Stonefish Suprise
+- Sunshine Stew
+- Magic Rock Candy - create magic rock candy by hardening prismatic dust on a stick!
 
 ### Drinks
 These new drinks are created in the Dwarven Still
-Dwarven Spirits - made by distilling ore dust and a cave carrot mash into a strong alcohol.
-Infused Dwarven Spirits - made by distilling gem dust and cave carrot mash into a strong alcohol.
+- Dwarven Spirits - made by distilling ore dust and a cave carrot mash into a strong alcohol.
+- Infused Dwarven Spirits - made by distilling gem dust and cave carrot mash into a strong alcohol.
 
 ### Potions
 These potions can be made at the alchemy bench.
-Distilled Sunlight
-Farmers Draught
-Fishermans Brew
-Miners Drink
-One Perfect Day
-Shadowed Elixir
-Swordsmans Elixir
-Woodmans Tonic
+- Distilled Sunlight
+- Farmers Draught
+- Fishermans Brew
+- Miners Drink
+- One Perfect Day
+- Shadowed Elixir
+- Swordsmans Elixir
+- Woodmans Tonic
 
 ### Jewelry
 These are new artisan goods that can be crafted and sold for profit at the Jewlry Making Machine
 #### Necklaces
-Aerinite Necklace
-Alamite Necklace
-Celestine Necklace
-Dolomite Necklace
-Earth Crystal Necklace
-Fire Opal Necklace
-Fire Quartz Necklace
-Fluorapatite Necklace
-Frozen Tear Necklace
-Geminite Necklace
-Gold Necklace
-Helvite Necklace
-Kyanite Necklace
-Lemon Stone Necklace
-Malachite Necklace
-Obsidian Necklace
-Opal Necklace
-Orpiment Necklace
-Quartz Necklace
-Sar Shard Necklace
-Tigerseye Necklace
+- Aerinite Necklace
+- Alamite Necklace
+- Celestine Necklace
+- Dolomite Necklace
+- Earth Crystal Necklace
+- Fire Opal Necklace
+- Fire Quartz Necklace
+- Fluorapatite Necklace
+- Frozen Tear Necklace
+- Geminite Necklace
+- Gold Necklace
+- Helvite Necklace
+- Kyanite Necklace
+- Lemon Stone Necklace
+- Malachite Necklace
+- Obsidian Necklace
+- Opal Necklace
+- Orpiment Necklace
+- Quartz Necklace
+- Star Shard Necklace
+- Tigerseye Necklace
 
 #### Rings
-Amethyst Gold Ring
-Aquamarine Gold Ring
-Diamond Gold Ring
-Emerald Gold Ring
-Jade Gold Ring
-Ruby Gold Ring
-Topaz Gold Ring
+- Amethyst Gold Ring
+- Aquamarine Gold Ring
+- Diamond Gold Ring
+- Emerald Gold Ring
+- Jade Gold Ring
+- Ruby Gold Ring
+- Topaz Gold Ring
 
 #### Miscellanous
 Gold Chicken Statue - Gild a chicken statue for fun and profit!
 
+## Translations
+The following contributers have included translation files for the mod.  If you're interested in providing a translations, please create a i18n file and create a pull request on github: https://github.com/mytigio/SDV_DwarvenExpansion
+
+- lcy1998666 - Chinese
+- migue2982 - Spanish
+
+Github Repository
+https://github.com/mytigio/SDV_DwarvenExpansion
