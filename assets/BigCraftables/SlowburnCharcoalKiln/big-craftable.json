@@ -47,7 +47,7 @@
             "Action": "EditData",
             "Target": "Data/Machines",
             "Entries": {
-                "(BC){{ModId}}_Pulverizer": {
+                "(BC){{ModId}}_SlowburnCharcoalKiln": {
                     "OutputRules": [
                         {
                             "Id": "Default",
@@ -78,7 +78,7 @@
                                     "ItemId": "382",
                                     "MinStack": 20,
                                     "MaxStack": 40,
-                                    "Condition": "ITEM_ID Input 388"
+                                    "Condition": "ITEM_ID Input 709"
                                 }
                             ],
                             "MinutesUntilReady": "720"
