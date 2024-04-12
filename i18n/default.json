@@ -65,6 +65,9 @@
     "Pulverizer.Description": "Used to pulverize things like carrots, stone, ore clusters, gems and old artifacts.",
     "Pulverizer.Output.Gemstone_Dust.ObjectDisplayName": "{0} Dust",
 
+    "SlowburnCharcoalKiln.DisplayName": "Slow-Burn Charcoal Kiln",
+    "SlowburnCharcoalKiln.Description": "Reduces waste by reducing heat and burning the fuel for a longer period.",
+
     "CarrotMash.DisplayName": "Carrot Mash",
     "CarrotMash.Description": "Mash made from cave carrots and a special cave fungus.",
 
