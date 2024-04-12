@@ -119,42 +119,42 @@ Can buy from Clint after you reach foraging level 8.
 [size=4]Farm Grub[/size]
 A large grub.  These grubs can be grown and harvested for their meat.  Useful for creating dwarven meals or fishing bait.
 [size=3]Obtain[/size]
-Can be purchased from Marnie or hatched from Grub Larva found in the mines.
+Can be purchased from Marnie once you've reached level 1 in the mines or hatched from Grub Larva found in the mines.
 [size=3]Drops[/size]
 Drops bug meat or grub larva each day.
 
 [size=4]Copper Crab[/size]
 A mature rock crab.  These crabs filter copper out of their food and the copper grows into thick deposits on their shell which can be scrapped off.  As the crabs age, these deposits can grow into large pure copper clusters, which are broken down in a pulverizer into a large quantity of copper ore.
 [size=3]Obtain[/size]
-Can be purchased from Marnie or hatched from copper crab eggs found in the mines.
+Can be purchased from Marnie once you've reached level 20 in the mines or hatched from copper crab eggs found in the mines.
 [size=3]Drops[/size]
 Can be sheared for copper ore, copper ore clusters or occasionally a matching crab egg.
 
 [size=4]Iron Crab[/size]
 A mature rock crab.  These crabs filter iron out of their food and the iron grows into thick deposits on their shell which can be scrapped off.  As the crabs age, these deposits can grow into large pure iron clusters, which are broken down in a pulverizer into a large quantity of iron ore.
 [size=3]Obtain[/size]
-Can be purchased from Marnie or hatched from iron crab eggs found in the mines.
+Can be purchased from Marnie once you've reached level 60 in the mines or hatched from iron crab eggs found in the mines.
 [size=3]Drops[/size]
 Can be sheared for iron ore, iron ore clusters or occasionally a matching crab egg.
 
 [size=4]Gold Crab[/size]
 A mature lava crab.  These crabs filter gold out of their food and the gold grows into thick deposits on their shell which can be scrapped off.  As the crabs age, these deposits can grow into large pure gold clusters, which are broken down in a pulverizer into a large quantity of gold ore.
 [size=3]Obtain[/size]
-Can be purchased from Marnie or hatched from gold crab eggs found in the mines.
+Can be purchased from Marnie once you've reached level 100 in the mines or hatched from gold crab eggs found in the mines dropped by lava crabs.
 [size=3]Drops[/size]
 Can be sheared for gold ore, gold ore clusters or occasionally a matching crab egg.
 
 [size=4]Iridium Crab[/size]
 A mature iridium crab.  These crabs filter iridium out of their food and the iridium grows into thick deposits on their shell which can be scrapped off.  As the crabs age, these deposits can grow into large pure iridium clusters, which are broken down in a pulverizer into a large quantity of iridium ore.
 [size=3]Obtain[/size]
-Can be purchased from Marnie or hatched from iridium crab eggs found in the mines.
+Can be purchased from Marnie once you've reached level 120 in the mines or hatched from iridium crab egg dropped by iridium crabs in the skull caverns.
 [size=3]Drops[/size]
 Can be sheared for iridium ore, iridium ore clusters or occasionally a matching crab egg.
 
 [size=4]Giant Naked Molerat[/size]
 A giant naked molerat.  These molerats are one of the few subterranian mammels dwarves were able to domesticate.  They are used to harvest a thin milk, used frequently in dwarven cooking.
 [size=3]Obtain[/size]
-Can be purchased from Marnie after you have befriended the dwarf.
+Can be purchased from Marnie after you have reached 3 hearts with the Dwarf.
 [size=3]Drops[/size]
 Can be milked each day.
 
