@@ -24,6 +24,12 @@
             "Default": "Grub,CopperCrab,IronCrab,GoldCrab,IridiumCrab,Molerat"
         }
     },
+    "CustomLocations": [
+        {
+            "Name": "mytigio.dwarven_expansion_Locations_CoopCave",
+            "FromMapFile": "assets/Maps/CoopCave/SmallCoopCave.tmx"
+        }
+    ],
     "Changes": [
         {
             "Action": "Include",
@@ -50,6 +56,20 @@
         {
             "Action": "Include",
             "FromFile": "assets/Buildings/CaveCoop/building.json",
+            "When": {
+                "EnabledBuildings": "CaveCoop"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Buildings/BigCaveCoop/building.json",
+            "When": {
+                "EnabledBuildings": "CaveCoop"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Buildings/DeluxeCaveCoop/building.json",
             "When": {
                 "EnabledBuildings": "CaveCoop"
             }

@@ -69,7 +69,13 @@
     "SlowburnCharcoalKiln.Description": "Reduces waste by reducing heat and burning the fuel for a longer period.",
 
     "CaveCoop.Name": "Small Cave",
-    "CaveCoop.Description": "A man-made cave. Damp and dark, perfect for crabs or other subterranian creatures.",
+    "CaveCoop.Description": "A small man-made cave. Damp and dark, perfect for crabs or other subterranian creatures.",
+
+    "BigCaveCoop.Name": "Cave",
+    "BigCaveCoop.Description": "A man-made cave.  Damp and dark, perfect for crabs and other subterranian creatures. Comes equipped with an incubator for crab eggs.",
+
+    "DeluxeCaveCoop.Name": "Large Cave",
+    "DeluxeCaveCoop.Description": "A large man-made cave.  Damp and dark, perfect for crabs and other subterranian creatures. Comes equipped with an incubator for crab eggs and an auto feeding chute.",
 
     "CarrotMash.DisplayName": "Carrot Mash",
     "CarrotMash.Description": "Mash made from cave carrots and a special cave fungus.",

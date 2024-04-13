@@ -4,10 +4,10 @@
 			"Action": "EditData",
 			"Target": "Data/Buildings",
 			"Entries": {
-				"{{ModId}}_CaveCoop": {
-					"Name": "{{i18n:CaveCoop.Name}}",
-					"Description": "{{i18n:CaveCoop.Description}}",
-					"Texture": "{{InternalAssetKey: assets/Buildings/CaveCoop/texture.png}}",
+				"{{ModId}}_BigCaveCoop": {
+					"Name": "{{i18n:BigCaveCoop.Name}}",
+					"Description": "{{i18n:BigCaveCoop.Description}}",
+					"Texture": "{{InternalAssetKey: assets/Buildings/BigCaveCoop/texture.png}}",
 					"SourceRect": {
 						"X": 0,
 						"Y": 0,
@@ -27,14 +27,15 @@
 					},
 					"UpgradeSignTile": "2, 2",
 					"UpgradeSignHeight": 18.0,
+					"BuildingToUpgrade": "{{ModId}}_CaveCoop",
 					"Builder": "Robin",
 					"BuildCondition": null,
 					"BuildDays": 3,
-					"BuildCost": 4000,
+					"BuildCost": 8000,
 					"BuildMaterials": [
 						{
 							"ItemId": "(O)390",
-							"Amount": 300
+							"Amount": 500
 						},
 						{
 							"ItemId": "(O)388",
@@ -42,7 +43,7 @@
 						},
 						{
 							"ItemId": "(O)330",
-							"Amount": 15
+							"Amount": 30
 						}
 					],
 					"MagicalConstruction": false,
