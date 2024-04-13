@@ -7,6 +7,12 @@
             "AllowBlank": true,
             "Default": "GemPolisher, Pulverizer, DwarvenStill, AlchemyBench, JewelryMaker, SlowburnCharcoalKiln"
         },
+        "EnabledBuildings": {
+            "AllowValues": "CaveCoop",
+            "AllowMultiple": true,
+            "AllowBlank": true,
+            "Default": "CaveCoop"
+        },
         "EnabledCookingRecipes": {
             "AllowValues": "true, false",
             "Default": "true"
@@ -39,6 +45,13 @@
             "FromFile": "assets/Animals/nakedmolerat.json",
             "When": {
                 "EnabledAnimals": "Molerat"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Buildings/CaveCoop/building.json",
+            "When": {
+                "EnabledBuildings": "CaveCoop"
             }
         },
         {

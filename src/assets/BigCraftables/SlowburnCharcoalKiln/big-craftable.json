@@ -29,7 +29,7 @@
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
-                "Clint",
+                "Blacksmith",
                 "Items"
             ],
             "Entries": {

@@ -68,6 +68,9 @@
     "SlowburnCharcoalKiln.DisplayName": "Slow-Burn Charcoal Kiln",
     "SlowburnCharcoalKiln.Description": "Reduces waste by reducing heat and burning the fuel for a longer period.",
 
+    "CaveCoop.Name": "Small Cave",
+    "CaveCoop.Description": "A man-made cave. Damp and dark, perfect for crabs or other subterranian creatures.",
+
     "CarrotMash.DisplayName": "Carrot Mash",
     "CarrotMash.Description": "Mash made from cave carrots and a special cave fungus.",
 
