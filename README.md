@@ -44,6 +44,11 @@ A mature lava crab.  These crabs filter iridium out of their food and the iridiu
 ### Giant Naked Molerat
 A giant naked molerat.  These molerats are one of the few subterranian mammels dwarves were able to domesticate.  They are used to harvest a thin milk, used frequently in dwarven cooking.
 
+## New Buildings
+
+### Cave/Medium Cave/Large Cave
+A farm animal building to house Grubs and Crabs. Level 2 and 3 come with an incubator to pupate grub larva and hatch crab eggs.  Level 3 comes with a feeding chute system that will keep the feeding troughs around the building full.
+
 ## New Items
 
 ### Food / Cooking Recipes

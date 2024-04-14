@@ -159,6 +159,16 @@ Can be purchased from Marnie after you have reached 3 hearts with the Dwarf.
 [size=3]Drops[/size]
 Can be milked each day.
 
+[size=5]New Buildings[/size]
+
+[size=4]Cave / Medium Cave / Large Cave[/size]
+A new animal house to house grubs and crabs.
+The medium cave also has an incubator for hatching grubs and crabs.
+The large cave has a chute system to keep troughs full for the animals inside.
+
+[size=3]Obtain[/size]
+Can be constructed by Robin. Medium and Large caves are upgraded from the basic cave.
+
 [size=5]New Items[/size]
 
 [size=4]Food / Cooking Recipes[/size]
