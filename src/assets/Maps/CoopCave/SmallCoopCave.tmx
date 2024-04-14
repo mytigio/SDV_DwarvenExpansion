@@ -7,18 +7,23 @@
  </properties>
  <tileset firstgid="1" name="cave" tilewidth="16" tileheight="16" tilecount="288" columns="16">
   <image source="Mines/.mine" width="256" height="288"/>
+  <tile id="204">
+   <properties>
+    <property name="Passable" value="0"/>
+    <property name="Trough" value="T"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="289" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
   <image source=".paths" width="64" height="256"/>
  </tileset>
- <tileset firstgid="353" source="coop.tsx"/>
  <layer id="1" name="Back" width="12" height="14">
   <data encoding="csv">
 139,139,139,139,139,139,139,139,139,139,139,139,
 139,139,139,139,139,139,139,139,139,139,139,139,
 139,139,139,139,139,139,139,139,139,139,139,139,
 139,139,219,219,219,219,219,219,219,219,219,219,
-219,219,219,187,235,386,386,386,386,186,219,219,
+219,219,219,187,235,205,205,205,205,186,219,219,
 139,235,235,236,139,170,139,139,139,234,186,219,
 139,139,140,139,139,139,141,139,155,139,234,235,
 139,139,139,139,139,139,139,139,171,172,139,139,

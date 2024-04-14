@@ -30,8 +30,8 @@
 					"BuildingToUpgrade": "{{ModId}}_CaveCoop",
 					"Builder": "Robin",
 					"BuildCondition": null,
-					"BuildDays": 3,
-					"BuildCost": 8000,
+					"BuildDays": 2,
+					"BuildCost": 12000,
 					"BuildMaterials": [
 						{
 							"ItemId": "(O)390",

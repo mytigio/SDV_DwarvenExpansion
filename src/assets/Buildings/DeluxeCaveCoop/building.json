@@ -30,8 +30,8 @@
 					"BuildingToUpgrade": "{{ModId}}_BigCaveCoop",
 					"Builder": "Robin",
 					"BuildCondition": null,
-					"BuildDays": 3,
-					"BuildCost": 12000,
+					"BuildDays": 2,
+					"BuildCost": 22000,
 					"BuildMaterials": [
 						{
 							"ItemId": "(O)390",
