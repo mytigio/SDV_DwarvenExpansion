@@ -57,7 +57,7 @@
 			"Entries": {
 				"{{ModId}}_GoldCrab": {
 					"DisplayName": "{{i18n:GoldCrab.DisplayName}}",
-					"House": "Coop",
+					"House": "{{ModId}}_CaveCoop",
 					"Gender": "MaleOrFemale",
 					"PurchasePrice": 800,
 					"SellPrice": 1600,
@@ -71,7 +71,7 @@
 					"ShopDisplayName": "{{i18n:GoldCrab.ShopDisplayName}}",
 					"ShopDescription": "{{i18n:GoldCrab.ShopDescription}}",
 					"ShopMissingBuildingDescription": "{{i18n:GoldCrab.ShopMissingBuildingDescription}}",
-					"RequiredBuilding": "Deluxe Coop",
+					"RequiredBuilding": "{{ModId}}_BigCaveCoop",
 					"UnlockCondition": "MINE_LOWEST_LEVEL_REACHED 100",
 					"EggItemIds": [
 						"{{ModId}}_Animals_CrabEgg_Gold"

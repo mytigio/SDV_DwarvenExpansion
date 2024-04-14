@@ -28,6 +28,14 @@
         {
             "Name": "mytigio.dwarven_expansion_Locations_CoopCave",
             "FromMapFile": "assets/Maps/CoopCave/SmallCoopCave.tmx"
+        },
+        {
+            "Name": "mytigio.dwarven_expansion_Locations_BigCoopCave",
+            "FromMapFile": "assets/Maps/CoopCave/BigCoopCave.tmx"
+        },
+        {
+            "Name": "mytigio.dwarven_expansion_Locations_DeluxeCoopCave",
+            "FromMapFile": "assets/Maps/CoopCave/DeluxeCoopCave.tmx"
         }
     ],
     "Changes": [

@@ -67,7 +67,7 @@
 			"Entries": {
 				"{{ModId}}_FarmGrub": {
 					"DisplayName": "{{i18n:FarmGrub.DisplayName}}",
-					"House": "Coop",
+					"House": "{{ModId}}_CaveCoop",
 					"Gender": "MaleOrFemale",
 					"PurchasePrice": 400,
 					"SellPrice": 800,
@@ -81,7 +81,7 @@
 					"ShopDisplayName": "{{i18n:FarmGrub.ShopDisplayName}}",
 					"ShopDescription": "{{i18n:FarmGrub.ShopDescription}}",
 					"ShopMissingBuildingDescription": "{{i18n:FarmGrub.ShopMissingBuildingDescription}}",
-					"RequiredBuilding": "Coop",
+					"RequiredBuilding": "{{ModId}}_CaveCoop",
 					"UnlockCondition": "MINE_LOWEST_LEVEL_REACHED 1",
 					"EggItemIds": [
 						"{{ModId}}_Animals_GrubLarva"

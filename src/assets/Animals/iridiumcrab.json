@@ -57,7 +57,7 @@
 			"Entries": {
 				"{{ModId}}_IridiumCrab": {
 					"DisplayName": "{{i18n:IridiumCrab.DisplayName}}",
-					"House": "Coop",
+					"House": "{{ModId}}_CaveCoop",
 					"Gender": "MaleOrFemale",
 					"PurchasePrice": 1600,
 					"SellPrice": 3200,
@@ -71,7 +71,7 @@
 					"ShopDisplayName": "{{i18n:IridiumCrab.ShopDisplayName}}",
 					"ShopDescription": "{{i18n:IridiumCrab.ShopDescription}}",
 					"ShopMissingBuildingDescription": "{{i18n:IridiumCrab.ShopMissingBuildingDescription}}",
-					"RequiredBuilding": "Deluxe Coop",
+					"RequiredBuilding": "{{ModId}}_DeluxeCaveCoop",
 					"UnlockCondition": "MINE_LOWEST_LEVEL_REACHED 120",
 					"EggItemIds": [
 						"{{ModId}}_Animals_CrabEgg_Iridium"

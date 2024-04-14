@@ -57,7 +57,7 @@
 			"Entries": {
 				"{{ModId}}_CopperCrab": {
 					"DisplayName": "{{i18n:CopperCrab.DisplayName}}",
-					"House": "Coop",
+					"House": "{{ModId}}_CaveCoop",
 					"Gender": "MaleOrFemale",
 					"PurchasePrice": 400,
 					"SellPrice": 800,
@@ -71,7 +71,7 @@
 					"ShopDisplayName": "{{i18n:CopperCrab.ShopDisplayName}}",
 					"ShopDescription": "{{i18n:CopperCrab.ShopDescription}}",
 					"ShopMissingBuildingDescription": "{{i18n:CopperCrab.ShopMissingBuildingDescription}}",
-					"RequiredBuilding": "Coop",
+					"RequiredBuilding": "{{ModId}}_CaveCoop",
 					"UnlockCondition": "MINE_LOWEST_LEVEL_REACHED 20",
 					"EggItemIds": [
 						"{{ModId}}_Animals_CrabEgg_Copper"

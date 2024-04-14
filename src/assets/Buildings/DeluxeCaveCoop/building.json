@@ -26,7 +26,7 @@
 						"Y": 3
 					},
 					"UpgradeSignTile": "2, 2",
-					"UpgradeSignHeight": 18.0,
+					"UpgradeSignHeight": 28.0,
 					"BuildingToUpgrade": "{{ModId}}_BigCaveCoop",
 					"Builder": "Robin",
 					"BuildCondition": null,
@@ -66,14 +66,33 @@
 					"AnimalDoorCloseDuration": 0.3125,
 					"AnimalDoorCloseSound": "doorCreakReverse",
 					"NonInstancedIndoorLocation": null,
-					"IndoorMap": "{{ModId}}_Locations_CoopCave",
+					"IndoorMap": "{{ModId}}_Locations_DeluxeCoopCave",
 					"IndoorMapType": "StardewValley.AnimalHouse",
-					"MaxOccupants": 4,
+					"MaxOccupants": 12,
 					"ValidOccupantTypes": [
-						"Coop"
+						"{{ModId}}_CaveCoop",
+						"{{ModId}}_BigCaveCoop",
+						"{{ModId}}_DeluxeCaveCoop"
 					],
 					"AllowAnimalPregnancy": true,
-					"IndoorItemMoves": null,
+					"IndoorItemMoves": [
+						{
+							"Id": "Default_ClearSpot_EggIncubator",
+							"Source": {
+								"X": 2,
+								"Y": 5
+							},
+							"Destination": {
+								"X": 14,
+								"Y": 8
+							},
+							"Size": {
+								"X": 1,
+								"Y": 1
+							},
+							"UnlessItemId": "(BC)101"
+						}
+					],
 					"IndoorItems": [
 						{
 							"Id": "Default_FeedHopper",
@@ -81,6 +100,15 @@
 							"Tile": {
 								"X": 4,
 								"Y": 4
+							},
+							"Indestructible": true
+						},
+						{
+							"Id": "Default_Incubator",
+							"ItemId": "(BC)101",
+							"Tile": {
+								"X": 2,
+								"Y": 5
 							},
 							"Indestructible": true
 						}
