@@ -64,10 +64,19 @@
     "Pulverizer.DisplayName": "矮人粉碎机",
     "Pulverizer.Description": "用于粉碎萝卜、石头、矿簇、宝石和古物等物品。",
     "Pulverizer.Output.Gemstone_Dust.ObjectDisplayName": "{0}粉尘",
+
+    "SlowburnCharcoalKiln.DisplayName": 慢烧煤炭窑"，
+    "SlowburnCharcoalKiln.Description": "通过低温和长时间烧制来减少浪费。"，
     
-    "SlowburnCharcoalKiln.DisplayName": "慢烧煤炭窑",
-    "SlowburnCharcoalKiln.Description": "通过低温和长时间烧制来减少浪费。",
+    "CaveCoop.Name": "地穴",
+    "CaveCoop.Description": "一个小的人造地穴。地下生物的完美住所。",
+
+    "BigCaveCoop.Name": "大地穴",
+    "BigCaveCoop.Description": "一个人造地穴。地下生物的完美住所。附带一个孵化器。",
     
+    "DeluxeCaveCoop.Name": "高级地穴",
+    "DeluxeCaveCoop.Description": "一个巨大的人造地穴。地下生物的完美住所。附带一个孵化器和喂料斗。",
+        
     "CarrotMash.DisplayName": "萝卜糊",
     "CarrotMash.Description": "由山洞萝卜和一种特殊的山洞真菌制成的泥糊。",
 
