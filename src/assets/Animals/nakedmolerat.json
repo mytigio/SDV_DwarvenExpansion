@@ -103,7 +103,7 @@
 					"StatToIncrementOnProduce": [],
 					"ShowInSummitCredits": false,
 					"CustomFields": {
-						"MeatIndex": "(O){{ModId}}_Meat_Molerat"
+						"meatIndex": "{{ModId}}_Meat_Molerat"
 					}
 				}
 			}

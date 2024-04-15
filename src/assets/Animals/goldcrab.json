@@ -146,7 +146,7 @@
 					"StatToIncrementOnProduce": [],
 					"ShowInSummitCredits": false,
 					"CustomFields": {
-						"MeatIndex": "717"
+						"meatIndex": "717"
 					}
 				}
 			}
