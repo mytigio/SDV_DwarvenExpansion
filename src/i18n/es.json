@@ -44,6 +44,8 @@
     "GiantNakedMoleRat.ShopDescription": "La rata topo gigante es la piedra angular de la agricultura enana, siendo uno de los pocos mamelucos subterráneos domesticados.",
     "GiantNakedMoleRat.ShopMissingBuildingDescription": "No hay casa disponible para este topo.",
     "GiantNakedMoleRat.BirthText": "Nació una linda cría de rata topo arrugada.",
+    "Meat_Molerat.DisplayName": "Molerat Meat",
+    "Meat_Molerat.Description": "A light, slightly dry meat.",
 
     "AlchemyBench.DisplayName": "Banco de Alquimia Enano",
     "AlchemyBench.Description": "Usa la alquimia enana para crear brebajes poderosos. La base de todas las pociones enanas son los espíritus enanos infundidos",
@@ -64,6 +66,18 @@
     "Pulverizer.DisplayName": "Pulverizador Enano",
     "Pulverizer.Description": "Se utiliza para pulverizar cosas como zanahorias, piedra, cúmulos de mineral, gemas y artefactos antiguos.",
     "Pulverizer.Output.Gemstone_Dust.ObjectDisplayName": "{0} Dust",
+
+    "SlowburnCharcoalKiln.DisplayName": "Slow-Burn Charcoal Kiln",
+    "SlowburnCharcoalKiln.Description": "Reduces waste by reducing heat and burning the fuel for a longer period.",
+
+    "CaveCoop.Name": "Cave",
+    "CaveCoop.Description": "A small man-made cave.  Perfect for subterranian creatures.",
+
+    "BigCaveCoop.Name": "Medium Cave",
+    "BigCaveCoop.Description": "A man-made cave.  Perfect for subterranian creatures. Includes an incubator.",
+
+    "DeluxeCaveCoop.Name": "Large Cave",
+    "DeluxeCaveCoop.Description": "A large man-made cave.  Perfect for subterranian creatures. Includes an incubator and feeding chute.",
 
     "CarrotMash.DisplayName": "Puré de Zanahorias Cavernarias",
     "CarrotMash.Description": "Puré elaborado con zanahorias cavernaria y un hongo especial de las cavernas.",

@@ -155,7 +155,9 @@
 					"BabyLeftRightPetHitboxTileSize": "1, 1",
 					"StatToIncrementOnProduce": [],
 					"ShowInSummitCredits": false,
-					"CustomFields": null
+					"CustomFields": {
+						"MeatIndex": "684"
+					}
 				}
 			}
 		}
