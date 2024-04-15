@@ -1,5 +1,25 @@
 {
-	"Changes": [		
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_Meat_Molerat": {
+                    "Name": "Molerat Meat",
+                    "DisplayName": "{{i18n:Meat_Molerat.DisplayName}}",
+                    "Description": "{{i18n:Meat_Molerat.Description}}",
+                    "Type": "Cooking",
+                    "Category": "-14",
+                    "Price": 80,
+                    "Edibility": 10,
+                    "ContextTags": [
+                        "{{ModId}}"
+                    ],
+                    "Texture": "{{InternalAssetKey: assets/Animals/MoleratMeat.png}}",
+                    "SpriteIndex": 0
+                }
+			}
+		},       	
 		{
 			"Action": "EditData",
 			"Target": "Data/FarmAnimals",
@@ -82,7 +102,9 @@
 					"BabyLeftRightPetHitboxTileSize": "1, 1",
 					"StatToIncrementOnProduce": [],
 					"ShowInSummitCredits": false,
-					"CustomFields": null
+					"CustomFields": {
+						"meatIndex": "{{ModId}}_Meat_Molerat"
+					}
 				}
 			}
 		}

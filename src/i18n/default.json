@@ -44,6 +44,8 @@
     "GiantNakedMoleRat.ShopDescription": "The giant naked molerat is the cornerstone of dwarven aggriculture, being one of the few subterranian mammels domesticated.",
     "GiantNakedMoleRat.ShopMissingBuildingDescription": "No home available for this molerat.",
     "GiantNakedMoleRat.BirthText": "A cute wrinkley baby molerat was born.",
+    "Meat_Molerat.DisplayName": "Molerat Meat",
+    "Meat_Molerat.Description": "A light, slightly dry meat.",
 
     "AlchemyBench.DisplayName": "Dwarven Alchemy Bench",
     "AlchemyBench.Description": "Use dwarvish alchemy to create powerful concoctions. The foundation for all dwarven potions is Infused Dwarven Spirits",
