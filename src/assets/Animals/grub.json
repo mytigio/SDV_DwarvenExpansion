@@ -9,7 +9,7 @@
 					"DisplayName": "{{i18n:Animals_GrubLarva.DisplayName}}",
 					"Description": "{{i18n:Animals_GrubLarva.Description}}",
 					"Type": "Basic",
-					"Category": "-20",
+					"Category": "-14",
 					"Price": 15,
 					"Edibility": -300,
 					"ContextTags": [
@@ -31,7 +31,7 @@
 						"Grub",
 						6
 					],
-					"Value": "{{ModId}}_Animals_GrubLarva .10",
+					"Value": "{{ModId}}_Animals_GrubLarva .05",
 					"Delimiter": " "
 				},
 				{
@@ -41,7 +41,7 @@
 						"Fly",
 						6
 					],
-					"Value": "{{ModId}}_Animals_GrubLarva .10",
+					"Value": "{{ModId}}_Animals_GrubLarva .05",
 					"Delimiter": " "
 				}
 			]
