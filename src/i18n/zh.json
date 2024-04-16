@@ -25,8 +25,8 @@
     
     "Animals_CrabEgg_Copper.DisplayName": "铜蟹蛋",
     "Animals_CrabEgg_Copper.Description": "像石头一样坚硬的蛋。略带黄色。",
-    "CopperCrab.DisplayName": "Copper Crab",
-    "CopperCrab.ShopDisplayName": "Copper Crab",
+    "CopperCrab.DisplayName": "铜蟹",
+    "CopperCrab.ShopDisplayName": "桐蟹",
     "CopperCrab.ShopDescription": "成体在壳上长出矿石，用一把剪刀就可以把它们剪掉。快乐的石蟹能产生极其纯净的金属。",
     "CopperCrab.ShopMissingBuildingDescription": "没有住所供石蟹居住",
     "CopperCrab.BirthText": "一只石蟹出生了。",
@@ -44,8 +44,8 @@
     "GiantNakedMoleRat.ShopDescription": "巨型裸鼹是矮人群居的基石，是为数不多的被驯化的地下哺乳动物之一。",
     "GiantNakedMoleRat.ShopMissingBuildingDescription": "没有住所供鼹鼠居住。",
     "GiantNakedMoleRat.BirthText": "一只可爱的小鼹鼠出生了。",
-    "Meat_Molerat.DisplayName": "Molerat Meat",
-    "Meat_Molerat.Description": "A light, slightly dry meat.",
+    "Meat_Molerat.DisplayName": "鼹鼠肉",
+    "Meat_Molerat.Description": "一块稍微有些干巴巴的白肉。",
 
     "AlchemyBench.DisplayName": "矮人炼金桌",
     "AlchemyBench.Description": "使用矮人炼金术来制造强大的调合物。注入矮人烈酒是所有矮人药剂的基础。",
