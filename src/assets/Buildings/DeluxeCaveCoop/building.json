@@ -90,7 +90,7 @@
 								"X": 1,
 								"Y": 1
 							},
-							"UnlessItemId": "(BC)101"
+							"UnlessItemId": "(BC){{ModId}}_CaveIncubator"
 						}
 					],
 					"IndoorItems": [
@@ -105,7 +105,7 @@
 						},
 						{
 							"Id": "Default_Incubator",
-							"ItemId": "(BC)101",
+							"ItemId": "(BC){{ModId}}_CaveIncubator",
 							"Tile": {
 								"X": 2,
 								"Y": 5

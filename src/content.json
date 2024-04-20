@@ -162,6 +162,13 @@
         },
         {
             "Action": "Include",
+            "FromFile": "assets/BigCraftables/CaveIncubator/big-craftable.json",
+            "When": {
+                "EnabledBuildings": "CaveCoop"
+            }
+        },
+        {
+            "Action": "Include",
             "FromFile": "assets/BigCraftables/Pulverizer/big-craftable.json",
             "When": {
                 "EnabledMachines": "Pulverizer"
