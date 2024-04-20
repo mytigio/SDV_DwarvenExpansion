@@ -70,6 +70,9 @@
     "SlowburnCharcoalKiln.DisplayName": "Slow-Burn Charcoal Kiln",
     "SlowburnCharcoalKiln.Description": "Reduces waste by reducing heat and burning the fuel for a longer period.",
 
+    "ImprovedMushroomBox.DisplayName": "Improved Mushroom Box",
+    "ImprovedMushroomBox.Description": "A growing box for mushrooms.  Will produce a steady supply of mushrooms.  Does not operate outdoors.",
+
     "CaveCoop.Name": "Cave",
     "CaveCoop.Description": "A small man-made cave.  Perfect for subterranian creatures.",
 

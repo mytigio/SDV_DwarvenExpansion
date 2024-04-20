@@ -2,10 +2,10 @@
     "Format": "2.0.0",
     "ConfigSchema": {
         "EnabledMachines": {
-            "AllowValues": "GemPolisher, Pulverizer, DwarvenStill, AlchemyBench, JewelryMaker, SlowburnCharcoalKiln",
+            "AllowValues": "GemPolisher, Pulverizer, DwarvenStill, AlchemyBench, JewelryMaker, SlowburnCharcoalKiln, ImprovedMushroomBox",
             "AllowMultiple": true,
             "AllowBlank": true,
-            "Default": "GemPolisher, Pulverizer, DwarvenStill, AlchemyBench, JewelryMaker, SlowburnCharcoalKiln"
+            "Default": "GemPolisher, Pulverizer, DwarvenStill, AlchemyBench, JewelryMaker, SlowburnCharcoalKiln, ImprovedMushroomBox"
         },
         "EnabledBuildings": {
             "AllowValues": "CaveCoop",
@@ -186,6 +186,13 @@
             "FromFile": "assets/BigCraftables/JewelryMaker/big-craftable.json",
             "When": {
                 "EnabledMachines": "JewelryMaker"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/BigCraftables/ImprovedMushroomBox/big-craftable.json",
+            "When": {
+                "EnabledMachines": "ImprovedMushroomBox"
             }
         }
     ]
