@@ -115,6 +115,21 @@ Can buy from Clint after you reach foraging level 8.
 [*]20 Hardwood - produces 20 to 40 charcoal over the course of 12 hours.
 [/list]
 
+[size=4]Improved Mushroom Box[/size]
+A crystalarium-like mushroom box.  Grows a steady supply of whatever mushroom is placed into it.  Better mushrooms take longer to grow.  Does not produce if placed outdoors.
+[size=3]Unlock[/size]
+Unlock recipe at mining level 7
+[size=3]Recipes[/size]
+[list]
+[*]Common Mushroom - produces 1 common mushroom per day.
+[*]Red Mushroom - produces 1 red mushroom every 2 days.
+[*]Morel - produces 1 morel mushroom every 3 days.
+[*]Chantelle - produces 1 chantelle mushroom every 3 days.
+[*]Purple Mushroom - produces 1 purple mushroom every 4 days.
+[*]Magma Cap - produces 1 magma cap  every 6 days.
+[*]Other edible mushrooms - produces 1 mushroom of the type placed in every 3 days.  Works with mushrooms that have the "edible mushroom" tag.
+[/list]
+
 [size=5]New Animals[/size]
 
 [size=4]Farm Grub[/size]

@@ -24,6 +24,9 @@ Turns infused dwarven spirits and various ingredients into potions to improve sk
 ### Slow-Burn Charcoal Kiln
 A more efficient charcoal kiln that uses a longer lower heat burn to reduce waste and produce more coal per wood at the expense of time.  Harder woods burn more efficiently and produce more coal.
 
+### Improved Mushroom Box
+A crystalarium-like mushroom box.  Grows a steady supply of whatever mushroom is placed into it.  Better mushrooms take longer to grow.  Does not produce if placed outdoors.
+
 ## New Animals
 
 ### Farm Grub
