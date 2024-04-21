@@ -1,7 +1,7 @@
 {
     "Name": "Dwarven Expansion",
     "Author": "mytigio",
-    "Version": "1.0.6",
+    "Version": "1.0.7",
     "Description": "A 1.6 remake of Dwarvish, adding new mining and dwarven themed items, machines and animals.",
     "UniqueID": "mytigio.dwarven_expansion",
     "UpdateKeys": ["Nexus:22021"],
