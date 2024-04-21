@@ -73,6 +73,9 @@
     "ImprovedMushroomBox.DisplayName": "Improved Mushroom Box",
     "ImprovedMushroomBox.Description": "A growing box for mushrooms.  Will produce a steady supply of mushrooms.  Does not operate outdoors.",
     
+    "CaveIncubator.DisplayName": "Incubator",
+    "CaveIncubator.Description": "A safe place while crab eggs and grub grow to full size.",
+    
     "CaveCoop.Name": "Cave",
     "CaveCoop.Description": "A small man-made cave.  Perfect for subterranian creatures.",
 
