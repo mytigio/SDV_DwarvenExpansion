@@ -44,8 +44,8 @@
     "GiantNakedMoleRat.ShopDescription": "La rata topo gigante es la piedra angular de la agricultura enana, siendo uno de los pocos mamelucos subterráneos domesticados.",
     "GiantNakedMoleRat.ShopMissingBuildingDescription": "No hay casa disponible para este topo.",
     "GiantNakedMoleRat.BirthText": "Nació una linda cría de rata topo arrugada.",
-    "Meat_Molerat.DisplayName": "Molerat Meat",
-    "Meat_Molerat.Description": "A light, slightly dry meat.",
+    "Meat_Molerat.DisplayName": "Carne de Rata Topo",
+    "Meat_Molerat.Description": "Una carne ligera y algo seca.",
 
     "AlchemyBench.DisplayName": "Banco de Alquimia Enano",
     "AlchemyBench.Description": "Usa la alquimia enana para crear brebajes poderosos. La base de todas las pociones enanas son los espíritus enanos infundidos",
@@ -55,7 +55,7 @@
     
     "DwarvenStill.DisplayName": "Destilador Enano",
     "DwarvenStill.Description": "¡Destila bebidas espirituosas a la manera tradicional de los enanos! Con piedras, hongos fermentados, carne de insecto podrida y zanahorias de cueva moldeadas",
-    "DwarvenStill.Output.Infused_Dwarven_Spirits.ObjectDisplayName": "{0} Spirits",
+    "DwarvenStill.Output.Infused_Dwarven_Spirits.ObjectDisplayName": "{0} Licores",
 
     "GemPolisher.DisplayName": "Pulidor de Gemas Enano",
     "GemPolisher.Description": "Pule gemas talladas para aumentar el brillo y el precio de venta.",
@@ -65,25 +65,19 @@
 
     "Pulverizer.DisplayName": "Pulverizador Enano",
     "Pulverizer.Description": "Se utiliza para pulverizar cosas como zanahorias, piedra, cúmulos de mineral, gemas y artefactos antiguos.",
-    "Pulverizer.Output.Gemstone_Dust.ObjectDisplayName": "{0} Dust",
+    "Pulverizer.Output.Gemstone_Dust.ObjectDisplayName": "{0} Polvo",
 
-    "SlowburnCharcoalKiln.DisplayName": "Slow-Burn Charcoal Kiln",
-    "SlowburnCharcoalKiln.Description": "Reduces waste by reducing heat and burning the fuel for a longer period.",
+    "SlowburnCharcoalKiln.DisplayName": "Horno de carbón de combustión lenta",
+    "SlowburnCharcoalKiln.Description": "Reduce los residuos al disminuir el calor y quemar el combustible durante más tiempo.",
 
-    "ImprovedMushroomBox.DisplayName": "Improved Mushroom Box",
-    "ImprovedMushroomBox.Description": "A growing box for mushrooms.  Will produce a steady supply of mushrooms.  Does not operate outdoors.",
-    
-    "CaveIncubator.DisplayName": "Incubator",
-    "CaveIncubator.Description": "A safe place while crab eggs and grub grow to full size.",
-    
-    "CaveCoop.Name": "Cave",
-    "CaveCoop.Description": "A small man-made cave.  Perfect for subterranian creatures.",
+    "CaveCoop.Name": "Cueva",
+    "CaveCoop.Description": "Una pequeña cueva artificial. Perfecta para criaturas subterráneas.",
 
-    "BigCaveCoop.Name": "Medium Cave",
-    "BigCaveCoop.Description": "A man-made cave.  Perfect for subterranian creatures. Includes an incubator.",
+    "BigCaveCoop.Name": "Cueva mediana",
+    "BigCaveCoop.Description": "Una cueva mediana artificial. Perfecta para criaturas subterráneas. Incluye una incubadora.",
 
-    "DeluxeCaveCoop.Name": "Large Cave",
-    "DeluxeCaveCoop.Description": "A large man-made cave.  Perfect for subterranian creatures. Includes an incubator and feeding chute.",
+    "DeluxeCaveCoop.Name": "Cueva grande",
+    "DeluxeCaveCoop.Description": "Una gran cueva artificial. Perfecta para criaturas subterráneas. Incluye una incubadora y un conducto de alimentación.",
 
     "CarrotMash.DisplayName": "Puré de Zanahorias Cavernarias",
     "CarrotMash.Description": "Puré elaborado con zanahorias cavernaria y un hongo especial de las cavernas.",
