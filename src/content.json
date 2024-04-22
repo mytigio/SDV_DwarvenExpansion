@@ -8,10 +8,10 @@
             "Default": "GemPolisher, Pulverizer, DwarvenStill, AlchemyBench, JewelryMaker, SlowburnCharcoalKiln, ImprovedMushroomBox"
         },
         "EnabledBuildings": {
-            "AllowValues": "CaveCoop",
+            "AllowValues": "CaveCoop, CaveShed",
             "AllowMultiple": true,
             "AllowBlank": true,
-            "Default": "CaveCoop"
+            "Default": "CaveCoop, CaveShed"
         },
         "EnabledCookingRecipes": {
             "AllowValues": "true, false",
@@ -80,6 +80,13 @@
             "FromFile": "assets/Buildings/DeluxeCaveCoop/building.json",
             "When": {
                 "EnabledBuildings": "CaveCoop"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Buildings/CaveShed/building.json",
+            "When": {
+                "EnabledBuildings": "CaveShed"
             }
         },
         {

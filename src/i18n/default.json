@@ -85,6 +85,9 @@
     "DeluxeCaveCoop.Name": "Large Cave",
     "DeluxeCaveCoop.Description": "A large man-made cave.  Perfect for subterranian creatures. Includes an incubator and feeding chute.",
 
+    "CaveShed.DisplayName": "Root Cellar",
+    "CaveShed.Description": "A large underground room.  Traditionally used to store root vegitables.",
+
     "CarrotMash.DisplayName": "Carrot Mash",
     "CarrotMash.Description": "Mash made from cave carrots and a special cave fungus.",
 
