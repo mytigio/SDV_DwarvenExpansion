@@ -70,6 +70,12 @@
     "SlowburnCharcoalKiln.DisplayName": "Horno de carbón de combustión lenta",
     "SlowburnCharcoalKiln.Description": "Reduce los residuos al disminuir el calor y quemar el combustible durante más tiempo.",
 
+    "ImprovedMushroomBox.DisplayName": "Improved Mushroom Box",
+    "ImprovedMushroomBox.Description": "A growing box for mushrooms.  Will produce a steady supply of mushrooms.  Does not operate outdoors.",
+
+    "CaveIncubator.DisplayName": "Incubator",
+    "CaveIncubator.Description": "A safe place while crab eggs and grub grow to full size.",
+
     "CaveCoop.Name": "Cueva",
     "CaveCoop.Description": "Una pequeña cueva artificial. Perfecta para criaturas subterráneas.",
 
