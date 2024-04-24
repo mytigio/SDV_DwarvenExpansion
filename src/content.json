@@ -36,6 +36,10 @@
         {
             "Name": "mytigio.dwarven_expansion_Locations_DeluxeCoopCave",
             "FromMapFile": "assets/Maps/CoopCave/DeluxeCoopCave.tmx"
+        },
+        {
+            "Name": "mytigio.dwarven_expansion_Locations_ShedCave",
+            "FromMapFile": "assets/Maps/ShedCave/ShedCave.tmx"
         }
     ],
     "Changes": [

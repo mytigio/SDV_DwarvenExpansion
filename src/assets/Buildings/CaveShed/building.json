@@ -58,7 +58,7 @@
 					"AnimalDoorCloseDuration": 0.0,
 					"AnimalDoorCloseSound": null,
 					"NonInstancedIndoorLocation": null,
-					"IndoorMap": "Shed",
+					"IndoorMap": "{{ModId}}_Locations_ShedCave",
 					"IndoorMapType": "StardewValley.Shed",
 					"MaxOccupants": 20,
 					"ValidOccupantTypes": [],
