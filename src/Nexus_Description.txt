@@ -78,6 +78,10 @@ A new animal house to house grubs and crabs.
 The medium cave also has an incubator for hatching grubs and crabs.
 The large cave has a chute system to keep troughs full for the animals inside.
 
+[size=4]Root Cellar / Large Root Cellar[/size]
+A large underground room.  Often used for storing root vegitables.
+Can be used as a space to process or store goods, similar to a shed.
+
 [size=5]New Items[/size]
 
 [size=4]Food / Cooking Recipes[/size]
