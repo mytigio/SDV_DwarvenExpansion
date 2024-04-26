@@ -84,7 +84,13 @@
     
     "DeluxeCaveCoop.Name": "高级地穴",
     "DeluxeCaveCoop.Description": "一个巨大的人造地穴。地下生物的完美住所。附带一个孵化器和喂料斗。",
-        
+
+    "CaveShed.Name": "根菜地窖",
+    "CaveShed.Description": "一个地窖。传统上用来储存根茎类蔬菜。",
+
+    "LargeCaveShed.Name": "大根菜地窖",
+    "LargeCaveShed.Description": "一个大地窖。传统上用来储存根茎类蔬菜。",
+
     "CarrotMash.DisplayName": "萝卜糊",
     "CarrotMash.Description": "由山洞萝卜和一种特殊的山洞真菌制成的泥糊。",
 

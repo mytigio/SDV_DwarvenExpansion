@@ -274,7 +274,8 @@
                     "Edibility": -300,
                     "ContextTags": [
                         "{{ModId}}",
-                        "{{ModId}}_orecluster"
+                        "{{ModId}}_orecluster",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/OreCluster/CopperCluster.png}}",
                     "SpriteIndex": 0
@@ -289,7 +290,8 @@
                     "Edibility": -300,
                     "ContextTags": [
                         "{{ModId}}",
-                        "{{ModId}}_orecluster"
+                        "{{ModId}}_orecluster",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/OreCluster/IronCluster.png}}",
                     "SpriteIndex": 0
@@ -304,7 +306,8 @@
                     "Edibility": -300,
                     "ContextTags": [
                         "{{ModId}}",
-                        "{{ModId}}_orecluster"
+                        "{{ModId}}_orecluster",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/OreCluster/GoldCluster.png}}",
                     "SpriteIndex": 0
@@ -319,7 +322,8 @@
                     "Edibility": -300,
                     "ContextTags": [
                         "{{ModId}}",
-                        "{{ModId}}_orecluster"
+                        "{{ModId}}_orecluster",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/OreCluster/IridiumCluster.png}}",
                     "SpriteIndex": 0
@@ -533,7 +537,7 @@
                         "{{ModId}}_gemdust",
                         "{{ModId}}_gemquality_perfect"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Diamond.png}}",
+                    "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Gemstone.png}}",
                     "SpriteIndex": 0
                 },
                 "{{ModId}}_MineralDust_GemstoneDust": {

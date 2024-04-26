@@ -8,10 +8,10 @@
             "Default": "GemPolisher, Pulverizer, DwarvenStill, AlchemyBench, JewelryMaker, SlowburnCharcoalKiln, ImprovedMushroomBox"
         },
         "EnabledBuildings": {
-            "AllowValues": "CaveCoop",
+            "AllowValues": "CaveCoop, CaveShed",
             "AllowMultiple": true,
             "AllowBlank": true,
-            "Default": "CaveCoop"
+            "Default": "CaveCoop, CaveShed"
         },
         "EnabledCookingRecipes": {
             "AllowValues": "true, false",
@@ -36,6 +36,14 @@
         {
             "Name": "mytigio.dwarven_expansion_Locations_DeluxeCoopCave",
             "FromMapFile": "assets/Maps/CoopCave/DeluxeCoopCave.tmx"
+        },
+        {
+            "Name": "mytigio.dwarven_expansion_Locations_ShedCave",
+            "FromMapFile": "assets/Maps/ShedCave/ShedCave.tmx"
+        },
+        {
+            "Name": "mytigio.dwarven_expansion_Locations_LargeShedCave",
+            "FromMapFile": "assets/Maps/ShedCave/LargeShedCave.tmx"
         }
     ],
     "Changes": [
@@ -80,6 +88,20 @@
             "FromFile": "assets/Buildings/DeluxeCaveCoop/building.json",
             "When": {
                 "EnabledBuildings": "CaveCoop"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Buildings/CaveShed/building.json",
+            "When": {
+                "EnabledBuildings": "CaveShed"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Buildings/LargeCaveShed/building.json",
+            "When": {
+                "EnabledBuildings": "CaveShed"
             }
         },
         {

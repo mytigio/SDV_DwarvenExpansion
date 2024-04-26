@@ -73,8 +73,8 @@
     "ImprovedMushroomBox.DisplayName": "Improved Mushroom Box",
     "ImprovedMushroomBox.Description": "A growing box for mushrooms.  Will produce a steady supply of mushrooms.  Does not operate outdoors.",
 
-    "CaveIncubator.DisplayName": "Incubator",
-    "CaveIncubator.Description": "A safe place while crab eggs and grub grow to full size.",
+    "CaveIncubator.DisplayName": "Incubadora",
+    "CaveIncubator.Description": "Un lugar seguro mientras los huevos de cangrejo y las larvas crecen hasta su tamaño completo.",
 
     "CaveCoop.Name": "Cueva",
     "CaveCoop.Description": "Una pequeña cueva artificial. Perfecta para criaturas subterráneas.",
@@ -84,6 +84,12 @@
 
     "DeluxeCaveCoop.Name": "Cueva grande",
     "DeluxeCaveCoop.Description": "Una gran cueva artificial. Perfecta para criaturas subterráneas. Incluye una incubadora y un conducto de alimentación.",
+
+    "CaveShed.Name": "Bodega de Raíces",
+    "CaveShed.Description": "Una gran habitación subterránea. Tradicionalmente utilizada para almacenar vegetales de raíz.",
+
+    "LargeCaveShed.Name": "Gran sótano de raíces",
+    "LargeCaveShed.Description": "Una habitación subterránea más grande. Tradicionalmente utilizada para almacenar verduras de raíz.",
 
     "CarrotMash.DisplayName": "Puré de Zanahorias Cavernarias",
     "CarrotMash.Description": "Puré elaborado con zanahorias cavernaria y un hongo especial de las cavernas.",
