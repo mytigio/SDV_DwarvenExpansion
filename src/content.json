@@ -40,6 +40,10 @@
         {
             "Name": "mytigio.dwarven_expansion_Locations_ShedCave",
             "FromMapFile": "assets/Maps/ShedCave/ShedCave.tmx"
+        },
+        {
+            "Name": "mytigio.dwarven_expansion_Locations_LargeShedCave",
+            "FromMapFile": "assets/Maps/ShedCave/LargeShedCave.tmx"
         }
     ],
     "Changes": [
@@ -89,6 +93,13 @@
         {
             "Action": "Include",
             "FromFile": "assets/Buildings/CaveShed/building.json",
+            "When": {
+                "EnabledBuildings": "CaveShed"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Buildings/LargeCaveShed/building.json",
             "When": {
                 "EnabledBuildings": "CaveShed"
             }

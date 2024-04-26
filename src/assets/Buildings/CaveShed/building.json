@@ -29,15 +29,15 @@
 					"UpgradeSignHeight": 28.0,
 					"Builder": "Robin",
 					"BuildCondition": null,
-					"BuildDays": 0,
-					"BuildCost": 0,
+					"BuildDays": 3,
+					"BuildCost": 12000,
 					"BuildMaterials": [
 						{
 							"ItemId": "(O)390",
 							"Amount": 300
 						}
 					],
-					"MagicalConstruction": true,
+					"MagicalConstruction": false,
 					"BuildMenuDrawOffset": {
 						"X": 0,
 						"Y": 0

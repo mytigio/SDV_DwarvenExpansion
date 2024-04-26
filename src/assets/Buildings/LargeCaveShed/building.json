@@ -4,7 +4,7 @@
 			"Action": "EditData",
 			"Target": "Data/Buildings",
 			"Entries": {
-				"{{ModId}}_CaveShed": {
+				"{{ModId}}_LargeCaveShed": {
 					"Name": "{{i18n:LargeCaveShed.Name}}",
 					"Description": "{{i18n:LargeCaveShed.Description}}",
 					"Texture": "{{InternalAssetKey: assets/Buildings/LargeCaveShed/texture.png}}",
@@ -27,17 +27,22 @@
 					},
 					"UpgradeSignTile": "2, 2",
 					"UpgradeSignHeight": 28.0,
+					"BuildingToUpgrade": "{{ModId}}_CaveShed",
 					"Builder": "Robin",
 					"BuildCondition": null,
-					"BuildDays": 0,
-					"BuildCost": 0,
+					"BuildDays": 3,
+					"BuildCost": 18000,
 					"BuildMaterials": [
 						{
 							"ItemId": "(O)390",
-							"Amount": 300
+							"Amount": 600
+						},
+						{
+							"ItemId": "(O)388",
+							"Amount": 200
 						}
 					],
-					"MagicalConstruction": true,
+					"MagicalConstruction": false,
 					"BuildMenuDrawOffset": {
 						"X": 0,
 						"Y": 0
@@ -58,7 +63,7 @@
 					"AnimalDoorCloseDuration": 0.0,
 					"AnimalDoorCloseSound": null,
 					"NonInstancedIndoorLocation": null,
-					"IndoorMap": "{{ModId}}_Locations_ShedCave",
+					"IndoorMap": "{{ModId}}_Locations_LargeShedCave",
 					"IndoorMapType": "StardewValley.Shed",
 					"MaxOccupants": 20,
 					"ValidOccupantTypes": [],
