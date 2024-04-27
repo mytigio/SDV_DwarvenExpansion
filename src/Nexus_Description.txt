@@ -86,11 +86,12 @@ Can be used as a space to process or store goods, similar to a shed. Floors and 
 [size=5]New Items[/size]
 
 [size=4]Tools[/size]
+
 [size=3]Dwarven Pickaxe[/size]
 A dwarven pickaxe, made of a magically blended iridium ore it is as powerful as iridium, but much lighter weight.  
-It can be be swung faster and does not tire the user.  As this pickaxe naturally has the efficient property, it does
-not benefit from the efficiency enchantment.
-Can be purchased from Dwarf once you have 6 hearts or more with them.
+It can be be swung faster and does not tire the user.  
+
+As this pickaxe naturally has the efficient property, it does not benefit from the efficiency enchantment.
 
 [size=4]Crafting Recipes[/size]
 [size=3]Prismatic Dust[/size]
@@ -101,14 +102,11 @@ Made with clay to form a necklace mold.  Used to craft gold necklaces in a jewel
 
 [size=3]Transmute[/size]
 Allows configuration of the base game transmutation recipes to allow Transmute (Fe) and Transmute (Au) to be unlocked at another mining level or require different input costs.
-
-Adds new transmutation recipes (all costs, outputs and levels are configurable):
-[ist]
- [*]Iron -> Copper (1 Iron Bar produces 2 Copper Bars. Unlocked at mining 3)
- [*]Gold -> Iron (1 Gold Bar produces 2 Iron Bars. Unlocked at mining 5)
- [*]Iridium -> Gold (1 Iridium Bar produces 3 Gold Bars. Unlocked at mining 7)
- [*]Gold -> Iridium (5 Gold Bars to make 1 Iridium Bar. Unlocked at mining 8)
-[/list]
+Adds new transmutation recipes:
+Gold -> Iridium (5 gold bars to make 1 iridium bar. Unlocked at mining 8)
+Iron -> Copper (1 Iron produces 2 Copper. Unlocked at mining 3)
+Gold -> Iron (1 Gold produces 2 Iron. Unlocked at mining 5)
+Iridium -> Gold (1 Iridium produces 3 Gold. Unlocked at mining 7)
 
 [size=4]Food / Cooking Recipes[/size]
 Several new cooking recipes have been added themed around ingredients sourced from the mines:
