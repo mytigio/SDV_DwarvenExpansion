@@ -1,4 +1,7 @@
 {
+    "Tools.DwarvenPickaxe.DisplayName": "Dwarven Pickaxe",
+    "Tools.DwarvenPickaxe.Description": "An efficient, lightweight pickaxe. Dwarven magic naturally gives this tool the Efficient property.",
+
     "Animals_CrabEgg_Iridium.DisplayName": "铱蟹蛋",
     "Animals_CrabEgg_Iridium.Description": "像石头一样坚硬的蛋。略带紫色。",
     "IridiumCrab.DisplayName": "铱蟹",
