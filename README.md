@@ -77,11 +77,11 @@ Made with clay to form a necklace mold.  Used to craft gold necklaces in a jewel
 #### Transmute
 Allows configuration of the base game transmutation recipes to allow Transmute (Fe) and Transmute (Au) to be unlocked at another mining level or require different input costs.
 
-Adds new transmutation recipes:
- - Gold -> Iridium (5 gold bars to make 1 iridium bar. Unlocked at mining 8)
- - Iron -> Copper (1 Iron produces 2 Copper. Unlocked at mining 3)
- - Gold -> Iron (1 Gold produces 2 Iron. Unlocked at mining 5)
- - Iridium -> Gold (1 Iridium produces 3 Gold. Unlocked at mining 7)
+Adds new transmutation recipes (all costs, outputs and levels are configurable):
+ - Iron -> Copper (1 Iron Bar produces 2 Copper Bars. Unlocked at mining 3)
+ - Gold -> Iron (1 Gold Bar produces 2 Iron Bars. Unlocked at mining 5)
+ - Iridium -> Gold (1 Iridium Bar produces 3 Gold Bars. Unlocked at mining 7)
+ - Gold -> Iridium (5 Gold Bars to make 1 Iridium Bar. Unlocked at mining 8)
 
 ### Food / Cooking Recipes
 Several new cooking recipes have been added themed around ingredients sourced from the mines:
