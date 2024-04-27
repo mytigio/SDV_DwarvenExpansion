@@ -1,0 +1,31 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Tools",
+            "Entries": {
+                "{{ModId}}_DwarvenPickaxe": {
+                    "ClassName": "Pickaxe",
+                    "Name": "Dwarven Pickaxe",
+                    "AttachmentSlots": -1,
+                    "SalePrice": 50000,
+                    "DisplayName": "{{i18n:Tools.DwarvenPickaxe.DisplayName}}",
+                    "Description": "{{i18n:Tools.DwarvenPickaxe.Description}}",
+                    "Texture": "TileSheets\\tools",
+                    "SpriteIndex": 154,
+                    "MenuSpriteIndex": 180,
+                    "UpgradeLevel": 4,
+                    "ApplyUpgradeLevelToDisplayName": false,
+                    "UpgradeFrom": null,
+                    "CanBeLostOnDeath": false,
+                    "SetProperties": {
+                        "IsEfficient": true,
+                        "AnimationSpeedModifier": 0.8
+                    },
+                    "ModData": null,
+                    "CustomFields": null
+                  }
+            }
+        }
+    ]
+}

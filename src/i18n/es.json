@@ -1,4 +1,7 @@
 {
+    "Tools.DwarvenPickaxe.DisplayName": "Dwarven Pickaxe",
+    "Tools.DwarvenPickaxe.Description": "An efficient, lightweight pickaxe. Dwarven magic naturally gives this tool the Efficient property.",
+    
     "Animals_CrabEgg_Iridium.DisplayName": "Huevo de Cangrejo de Iridio",
     "Animals_CrabEgg_Iridium.Description": "Un huevo duro parecido a una roca. De color ligeramente morado.",
     "IridiumCrab.DisplayName": "Cangrejo de Iridio",
