@@ -1,22 +1,22 @@
 {
-    "Tools.DwarvenPickaxe.DisplayName": "矮人鹤嘴镐",
-    "Tools.DwarvenPickaxe.Description": "高效、轻便的镐。矮人魔法自然赋予这个工具高效的属性。",
+    "Tools.DwarvenPickaxe.DisplayName": "矮人十字镐",
+    "Tools.DwarvenPickaxe.Description": "一把高效又轻便的镐。矮人魔法自然而然的赋予了这个工具高效的属性。",
 
-    "Dialog.Dwarf.Reaction.PickAxe_Event_1": "I hope it serves you well human.",
-    "Dialog.Dwarf.Reaction.PickAxe_Event_2": "He doesn't need it any longer, and I have my own. Take it.",
-    "Dialog.Dwarf.Reaction.PickAxe_Event_3": "Because it is better then your human tools.",
+    "Dialog.Dwarf.Reaction.PixeAxe_Event_1": "我希望它对你有用，人类。",
+    "Dialog.Dwarf.Reaction.PixeAxe_Event_2": "他不再需要它了，并且我自己有一把。带走它。",
+    "Dialog.Dwarf.Reaction.PixeAxe_Event_3": "因为它比你的人类工具好。",
 
-    "Dialog.Player.Event.22021001.01": "Thank you. I'm honored.",
-    "Dialog.Player.Event.22021001.02": "I can't take your fathers pickaxe.",
-    "Dialog.Player.Event.22021001.03": "Why would I want this rusty old thing?",
+    "Dialog.Player.Event.22021001.01": "谢谢你，我很荣幸。",
+    "Dialog.Player.Event.22021001.02": "我不能带走你父亲的十字镐。",
+    "Dialog.Player.Event.22021001.03": "我为什么要这个又锈又旧的东西？",
 
-    "Dialog.Dwarf.Event.22021001.01": "Hello human.  I am glad to see you again.",
-    "Dialog.Dwarf.Event.22021001.02": "You spend a lot of time in these mines. I think we may be friends now.",
-    "Dialog.Dwarf.Event.22021001.03": "Please take this. It is a tool my people made. This one was used by my father for many years.",
-    "Dialog.Dwarf.Event.22021001.04": "It should help you as you explore the dark places below the earth.",
+    "Dialog.Dwarf.Event.22021001.01": "你好，人类。很高兴再次见到你。",
+    "Dialog.Dwarf.Event.22021001.02": "你在这些矿井里度过这么长时间。我想我们现在是朋友了。",
+    "Dialog.Dwarf.Event.22021001.03": "请拿着这个。它是我的族人做的。这把稿被我的父亲使用了很多年。",
+    "Dialog.Dwarf.Event.22021001.04": "它可以帮助你探索地下的黑暗区域。",
 
-    "Mail.Dwarf.DwarfCooking.LetterText": "Human,^I wish to share one of my people's foods.^I hope you enjoy its flavors.^- Your friend in the mine",
-    "Mail.Dwarf.DwarfCooking.LetterName": "Dwarven Recipe",
+    "Mail.Dwarf.DwarfCooking.LetterText": "人类，^我想分享一种我们族人的食物。^我希望你喜欢它的味道。^- 你在矿井里的朋友",
+    "Mail.Dwarf.DwarfCooking.LetterName": "矮人食谱",
 
     "Animals_CrabEgg_Iridium.DisplayName": "铱蟹蛋",
     "Animals_CrabEgg_Iridium.Description": "像石头一样坚硬的蛋。略带紫色。",
