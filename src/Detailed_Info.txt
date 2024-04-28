@@ -229,27 +229,37 @@ Adds new transmutation recipes (all costs, outputs and levels are configurable):
 
 [size=4]Food / Cooking Recipes[/size]
 Several new cooking recipes have been added themed around ingredients sourced from the mines:
+The following recipes are known by default:
 [list]
 [*]Bug Meat Soup
-[*]Bug Meat Stew
-[*]Cavatouille
+[*]Fried Bat Wings
+[*]Mashed Carrots
+[/list]
+The following recipes are received in the mail as you increase hearts with Dwarf:
+[list]
 [*]Cave Carrot Au Gratin
 [*]Cave Carrot Brulee
 [*]Cave Carrot Roast
 [*]Cave Carrot Soup
 [*]Cave Carrot Stew
+[/list]
+The following recipe is received when you reach level 10 in the mining skill:
+[list]
+[*]Magic Rock Candy - create magic rock candy by hardening prismatic dust on a stick!
+[/list]
+Finally, the following recipes can be purchased from Dwarf. Some recipes become available after 3 hearts with Dwarf.
+[list]
+[*]Bug Meat Stew
+[*]Cavatouille
 [*]Cave Chowder
 [*]Cave Soup
-[*]Fried Bat Wings
 [*]Ice Pip Soup
 [*]Lava Eel Pie
-[*]Mashed Carrots
 [*]Roaded Cave Fish
 [*]Rock Crab Salad
 [*]Shadowed Stew
 [*]Stonefish Suprise
 [*]Sunshine Stew
-[*]Magic Rock Candy - create magic rock candy by hardening prismatic dust on a stick!
 [/list]
 [size=4]Drinks[/size]
 These new drinks are created in the Dwarven Still
