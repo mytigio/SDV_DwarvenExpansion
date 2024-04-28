@@ -8,14 +8,31 @@
                 "Items"
             ],
             "Entries": {
-                "{{ModId}}_DwarvenPickaxe": {
-                    "ID": "{{ModId}}_DwarvenPickaxe",
+                "{{ModId}}_Shop_DwarvenPickaxe": {
+                    "ID": "{{ModId}}_Shop_DwarvenPickaxe",
                     "ItemId": "(T){{ModId}}_DwarvenPickaxe",
                     "Condition": "PLAYER_FRIENDSHIP_POINTS Current Dwarf 1500",
                     "Price": "50000",
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player"
                 }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/Mine",
+            "Entries": {
+                "22021001/": "Upper_Ambient/43 9/farmer 34 8 1 Dwarf 44 7 0/skippable/move farmer 6 0 1/playSound openChest/pause 1500/move Dwarf 0 1 2/move Dwarf -3 0 3/pause 1000/speak Dwarf \"$0#{{i18n:Dialog.Dwarf.Event.22021001.01}}\"/pause 500/speak Dwarf \"$0#{{i18n:Dialog.Dwarf.Event.22021001.02}}\"/pause 500/speak Dwarf \"$0#{{i18n:Dialog.Dwarf.Event.22021001.03}}\"/pause 500/speak Dwarf \"$q 34 null#{{i18n:Dialog.Dwarf.Event.22021001.04}}#$r 34 20 {{ModId}}_PickAxe_Event_1#{{i18n:Dialog.Player.Event.22021001.01}}#$r 34 0 {{ModId}}_PickAxe_Event_2#{{i18n:Dialog.Player.Event.22021001.02}}#$r 34 -20 {{ModId}}_PickAxe_Event_3#{{i18n:Dialog.Player.Event.22021001.03}}\"/pause 200/addItem (T)mytigio.dwarven_expansion_DwarvenPickaxe 1 0/itemAboveHead (T)mytigio.dwarven_expansion_DwarvenPickaxe/playSound getNewSpecialItem/pause 2500/globalFade/viewport -1000 -1000/end"
+            }
+            
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Dwarf",
+            "Entries": {
+                "{{ModId}}_PickAxe_Event_1": "{{i18n:Dialog.Dwarf.Reaction.PixeAxe_Event_1}}",
+                "{{ModId}}_PickAxe_Event_2": "{{i18n:Dialog.Dwarf.Reaction.PixeAxe_Event_2}}",
+                "{{ModId}}_PickAxe_Event_3": "{{i18n:Dialog.Dwarf.Reaction.PixeAxe_Event_3}}"
             }
         },
         {
@@ -29,9 +46,9 @@
                     "SalePrice": 50000,
                     "DisplayName": "{{i18n:Tools.DwarvenPickaxe.DisplayName}}",
                     "Description": "{{i18n:Tools.DwarvenPickaxe.Description}}",
-                    "Texture": "TileSheets\\tools",
-                    "SpriteIndex": 154,
-                    "MenuSpriteIndex": 180,
+                    "Texture": "{{InternalAssetKey: assets/Tools/DwarvenPickaxe/texture.png}}",
+                    "SpriteIndex": 0,
+                    "MenuSpriteIndex": 11,
                     "UpgradeLevel": 4,
                     "ApplyUpgradeLevelToDisplayName": false,
                     "UpgradeFrom": null,

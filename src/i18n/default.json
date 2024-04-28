@@ -2,6 +2,19 @@
     "Tools.DwarvenPickaxe.DisplayName": "Dwarven Pickaxe",
     "Tools.DwarvenPickaxe.Description": "An efficient, lightweight pickaxe. Dwarven magic naturally gives this tool the Efficient property.",
 
+    "Dialog.Dwarf.Reaction.PixeAxe_Event_1": "I hope it serves you well human.",
+    "Dialog.Dwarf.Reaction.PixeAxe_Event_2": "He doesn't need it any longer, and I have my own. Take it.",
+    "Dialog.Dwarf.Reaction.PixeAxe_Event_3": "Because it is better then your human tools.",
+
+    "Dialog.Player.Event.22021001.01": "Thank you. I'm honored.",
+    "Dialog.Player.Event.22021001.02": "I can't take your fathers pickaxe.",
+    "Dialog.Player.Event.22021001.03": "Why would I want this rusty old thing?",
+
+    "Dialog.Dwarf.Event.22021001.01": "Hello human.  I am glad to see you again.",
+    "Dialog.Dwarf.Event.22021001.02": "You spend a lot of time in these mines. I think we may be friends now.",
+    "Dialog.Dwarf.Event.22021001.03": "Please take this. It is a tool my people made. This one was used by my father for many years.",
+    "Dialog.Dwarf.Event.22021001.04": "It should help you as you explore the dark places below the earth.",
+
     "Animals_CrabEgg_Iridium.DisplayName": "Iridium Crab Egg",
     "Animals_CrabEgg_Iridium.Description": "A hard rock-like egg. Slightly purple in color.",
     "IridiumCrab.DisplayName": "Iridium Crab",

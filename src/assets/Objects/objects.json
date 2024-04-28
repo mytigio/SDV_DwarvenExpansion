@@ -1447,6 +1447,13 @@
         },
         {
             "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "DwarfCooking": "Human,^I hope to share one of my people's foods. I hope you enjoy its flavors. - Your friend in the mine^%item cookingRecipe %%[#]Dwarven Recipe",
+            }
+        },
+        {
+            "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
             "TextOperations": [
                 {
