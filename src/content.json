@@ -131,7 +131,10 @@
         },
         {
             "Action": "Include",
-            "FromFile": "assets/Objects/magicRecipes.json"
+            "FromFile": "assets/Objects/magicRecipes.json",
+            "When": {
+                "EnableDwarfMagic": "true"
+            }
         },
         {
             "Action": "Include",
