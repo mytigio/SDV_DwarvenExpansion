@@ -15,6 +15,9 @@
     "Dialog.Dwarf.Event.22021001.03": "Please take this. It is a tool my people made. This one was used by my father for many years.",
     "Dialog.Dwarf.Event.22021001.04": "It should help you as you explore the dark places below the earth.",
 
+    "Mail.Dwarf.DwarfCooking.LetterText": "Human,^I wish to share one of my people's foods.^I hope you enjoy its flavors.^- Your friend in the mine",
+    "Mail.Dwarf.DwarfCooking.LetterName": "Dwarven Recipe",
+
     "Animals_CrabEgg_Iridium.DisplayName": "Huevo de Cangrejo de Iridio",
     "Animals_CrabEgg_Iridium.Description": "Un huevo duro parecido a una roca. De color ligeramente morado.",
     "IridiumCrab.DisplayName": "Cangrejo de Iridio",
