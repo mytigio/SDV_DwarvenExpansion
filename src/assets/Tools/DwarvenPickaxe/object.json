@@ -1,23 +1,5 @@
 {
-    "Changes": [
-        {
-            "Action": "EditData",
-            "Target": "Data/Shops",
-            "TargetField": [
-                "Dwarf",
-                "Items"
-            ],
-            "Entries": {
-                "{{ModId}}_Shop_DwarvenPickaxe": {
-                    "ID": "{{ModId}}_Shop_DwarvenPickaxe",
-                    "ItemId": "(T){{ModId}}_DwarvenPickaxe",
-                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Dwarf 1500",
-                    "Price": "50000",
-                    "AvailableStock": 1,
-                    "AvailableStockLimit": "Player"
-                }
-            }
-        },
+    "Changes": [       
         {
             "Action": "EditData",
             "Target": "Data/Events/Mine",
