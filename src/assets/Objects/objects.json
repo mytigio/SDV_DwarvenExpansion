@@ -1447,6 +1447,13 @@
         },
         {
             "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "DwarfCooking": "{{i18n:Mail.Dwarf.DwarfCooking.LetterText}}^%item cookingRecipe %%[#]{{i18n:Mail.Dwarf.DwarfCooking.LetterName}}"
+            }
+        },
+        {
+            "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
             "TextOperations": [
                 {

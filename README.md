@@ -58,6 +58,33 @@ Can be used as a space to process or store goods, similar to a shed. Floors and 
 
 ## New Items
 
+### Tools
+
+#### Dwarven Pickaxe
+A dwarven pickaxe, made of a magically blended iridium ore it is as powerful as iridium, but much lighter weight.  
+It can be be swung faster and does not tire the user.  
+
+As this pickaxe naturally has the efficient property, it does not benefit from the efficiency enchantment.
+
+Rewarded from a new heart event with the dwarf.
+
+### Crafting Recipes
+
+#### Prismatic Dust
+Made by combining the dust of all 7 gemstones. Can be used as an ingredient for making Magic Rock Candy or in alchemy potions.
+
+#### Necklace Mold
+Made with clay to form a necklace mold.  Used to craft gold necklaces in a jewelry maker.
+
+#### Transmute
+Allows configuration of the base game transmutation recipes to allow Transmute (Fe) and Transmute (Au) to be unlocked at another mining level or require different input costs.
+
+Adds new transmutation recipes (all costs, outputs and levels are configurable):
+ - Iron -> Copper (1 Iron Bar produces 2 Copper Bars. Unlocked at mining 3)
+ - Gold -> Iron (1 Gold Bar produces 2 Iron Bars. Unlocked at mining 5)
+ - Iridium -> Gold (1 Iridium Bar produces 3 Gold Bars. Unlocked at mining 7)
+ - Gold -> Iridium (5 Gold Bars to make 1 Iridium Bar. Unlocked at mining 8)
+
 ### Food / Cooking Recipes
 Several new cooking recipes have been added themed around ingredients sourced from the mines:
 - Bug Meat Soup
@@ -80,6 +107,8 @@ Several new cooking recipes have been added themed around ingredients sourced fr
 - Stonefish Suprise
 - Sunshine Stew
 - Magic Rock Candy - create magic rock candy by hardening prismatic dust on a stick!
+
+Some recipes are known by default, some are sent in letters from the Dwarf, some are obtained with mining levels and some can be purchased from the Dwarf.
 
 ### Drinks
 These new drinks are created in the Dwarven Still

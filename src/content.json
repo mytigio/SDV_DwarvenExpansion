@@ -22,6 +22,80 @@
             "AllowMultiple": true,
             "AllowBlank": true,
             "Default": "Grub,CopperCrab,IronCrab,GoldCrab,IridiumCrab,Molerat"
+        },
+        "EnableDwarfMagic": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "EnableTools": {
+            "AllowValues": "DwarvenPickaxe",
+            "AllowMultiple": true,
+            "AllowBlank": true,
+            "Default": "DwarvenPickaxe"
+        },
+        "CopperToIronLevel": {
+            "AllowValues": "1,2,3,4,5,6,7,8,9,10",
+            "Default": "4"
+        },
+        "IronToCopperLevel": {
+            "AllowValues": "1,2,3,4,5,6,7,8,9,10",
+            "Default": "3"
+        },
+        "IronToGoldLevel": {
+            "AllowValues": "1,2,3,4,5,6,7,8,9,10",
+            "Default": "6"
+        },
+        "GoldToIronLevel": {
+            "AllowValues": "1,2,3,4,5,6,7,8,9,10",
+            "Default": "5"
+        },
+        "GoldToIridiumLevel": {
+            "AllowValues": "1,2,3,4,5,6,7,8,9,10",
+            "Default": "8"
+        },
+        "IridiumToGoldLevel": {
+            "AllowValues": "1,2,3,4,5,6,7,8,9,10",
+            "Default": "7"
+        },
+        "IridiumToPrismaticLevel": {
+            "AllowValues": "1,2,3,4,5,6,7,8,9,10",
+            "Default": "10"
+        },
+        "PrismaticToIridiumLevel": {
+            "AllowValues": "1,2,3,4,5,6,7,8,9,10",
+            "Default": "9"
+        },
+        "CopperToIronCost": {
+            "AllowValues": "1,2,3,4,5,6,7,8,9,10",
+            "Default": "3"
+        },
+        "IronToCopperOutput": {
+            "AllowValues": "1,2,3,4,5,6,7,8,9,10",
+            "Default": "2"
+        },
+        "IronToGoldCost": {
+            "AllowValues": "1,2,3,4,5,6,7,8,9,10",
+            "Default": "3"
+        },
+        "GoldToIronOutput": {
+            "AllowValues": "1,2,3,4,5,6,7,8,9,10",
+            "Default": "2"
+        },
+        "GoldToIridiumCost": {
+            "AllowValues": "1,2,3,4,5,6,7,8,9,10",
+            "Default": "5"
+        },
+        "IridiumToGoldOutput": {
+            "AllowValues": "1,2,3,4,5,6,7,8,9,10",
+            "Default": "3"
+        },
+        "IridiumToPrismaticCost": {
+            "AllowValues": "1,2,3,4,5,6,7,8,9,10",
+            "Default": "3"
+        },
+        "PrismaticToIridiumOutput": {
+            "AllowValues": "1,2,3,4,5,6,7,8,9,10",
+            "Default": "2"
         }
     },
     "CustomLocations": [
@@ -54,6 +128,20 @@
         {
             "Action": "Include",
             "FromFile": "assets/Objects/recipes.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Objects/magicRecipes.json",
+            "When": {
+                "EnableDwarfMagic": "true"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Tools/DwarvenPickaxe/object.json",
+            "When": {
+                "EnableTools": "DwarvenPickaxe"
+            }
         },
         {
             "Action": "Include",

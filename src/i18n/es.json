@@ -1,4 +1,23 @@
 {
+    "Tools.DwarvenPickaxe.DisplayName": "Pickaxe Enana",
+    "Tools.DwarvenPickaxe.Description": "Una pico eficiente y ligera. La magia enana otorga naturalmente a esta herramienta la propiedad de eficiencia.",
+   
+    "Dialog.Dwarf.Reaction.PickAxe_Event_1": "Espero que te sirva bien humano.",
+    "Dialog.Dwarf.Reaction.PickAxe_Event_2": "Él ya no lo necesita, y yo tengo el mío propio. Tómalo.",
+    "Dialog.Dwarf.Reaction.PickAxe_Event_3": "Porque es mejor que tus herramientas humanas.",
+
+    "Dialog.Player.Event.22021001.01": "Gracias. Me siento honrado.",
+    "Dialog.Player.Event.22021001.02": "No puedo tomar el pico de tu padre.",
+    "Dialog.Player.Event.22021001.03": "¿Por qué querría este viejo y oxidado cachivache?",
+
+    "Dialog.Dwarf.Event.22021001.01": "Hola humano. Me alegra verte de nuevo.",
+    "Dialog.Dwarf.Event.22021001.02": "Pasas mucho tiempo en estas minas. Creo que ahora podemos considerarnos amigos.",
+    "Dialog.Dwarf.Event.22021001.03": "Por favor, toma esto. Es una herramienta hecha por mi gente. Este lo usó mi padre durante muchos años.",
+    "Dialog.Dwarf.Event.22021001.04": "Debería ayudarte mientras exploras los lugares oscuros bajo la tierra.",
+
+    "Mail.Dwarf.DwarfCooking.LetterText": "Humano,^Quiero compartir uno de los alimentos de mi gente.^Espero que disfrutes de sus sabores.^- Tu amigo en la mina",
+    "Mail.Dwarf.DwarfCooking.LetterName": "Receta Enana",
+
     "Animals_CrabEgg_Iridium.DisplayName": "Huevo de Cangrejo de Iridio",
     "Animals_CrabEgg_Iridium.Description": "Un huevo duro parecido a una roca. De color ligeramente morado.",
     "IridiumCrab.DisplayName": "Cangrejo de Iridio",
