@@ -62,9 +62,11 @@ Can be used as a space to process or store goods, similar to a shed. Floors and 
 
 #### Dwarven Pickaxe
 A dwarven pickaxe, made of a magically blended iridium ore it is as powerful as iridium, but much lighter weight.  
-It can be be swung faster and does not tire the user.  As this pickaxe naturally has the efficient property, it does
-not benefit from the efficiency enchantment.
-Can be purchased from Dwarf once you have 6 hearts or more with them.
+It can be be swung faster and does not tire the user.  
+
+As this pickaxe naturally has the efficient property, it does not benefit from the efficiency enchantment.
+
+Rewarded from a new heart event with the dwarf.
 
 ### Crafting Recipes
 
@@ -105,6 +107,8 @@ Several new cooking recipes have been added themed around ingredients sourced fr
 - Stonefish Suprise
 - Sunshine Stew
 - Magic Rock Candy - create magic rock candy by hardening prismatic dust on a stick!
+
+Some recipes are known by default, some are sent in letters from the Dwarf, some are obtained with mining levels and some can be purchased from the Dwarf.
 
 ### Drinks
 These new drinks are created in the Dwarven Still
