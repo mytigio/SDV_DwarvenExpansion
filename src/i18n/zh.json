@@ -2,9 +2,9 @@
     "Tools.DwarvenPickaxe.DisplayName": "矮人鹤嘴镐",
     "Tools.DwarvenPickaxe.Description": "高效、轻便的镐。矮人魔法自然赋予这个工具高效的属性。",
 
-    "Dialog.Dwarf.Reaction.PixeAxe_Event_1": "I hope it serves you well human.",
-    "Dialog.Dwarf.Reaction.PixeAxe_Event_2": "He doesn't need it any longer, and I have my own. Take it.",
-    "Dialog.Dwarf.Reaction.PixeAxe_Event_3": "Because it is better then your human tools.",
+    "Dialog.Dwarf.Reaction.PickAxe_Event_1": "I hope it serves you well human.",
+    "Dialog.Dwarf.Reaction.PickAxe_Event_2": "He doesn't need it any longer, and I have my own. Take it.",
+    "Dialog.Dwarf.Reaction.PickAxe_Event_3": "Because it is better then your human tools.",
 
     "Dialog.Player.Event.22021001.01": "Thank you. I'm honored.",
     "Dialog.Player.Event.22021001.02": "I can't take your fathers pickaxe.",

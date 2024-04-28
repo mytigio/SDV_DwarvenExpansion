@@ -12,9 +12,9 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Dwarf",
             "Entries": {
-                "{{ModId}}_PickAxe_Event_1": "{{i18n:Dialog.Dwarf.Reaction.PixeAxe_Event_1}}",
-                "{{ModId}}_PickAxe_Event_2": "{{i18n:Dialog.Dwarf.Reaction.PixeAxe_Event_2}}",
-                "{{ModId}}_PickAxe_Event_3": "{{i18n:Dialog.Dwarf.Reaction.PixeAxe_Event_3}}"
+                "{{ModId}}_PickAxe_Event_1": "{{i18n:Dialog.Dwarf.Reaction.PickAxe_Event_1}}",
+                "{{ModId}}_PickAxe_Event_2": "{{i18n:Dialog.Dwarf.Reaction.PickAxe_Event_2}}",
+                "{{ModId}}_PickAxe_Event_3": "{{i18n:Dialog.Dwarf.Reaction.PickAxe_Event_3}}"
             }
         },
         {
