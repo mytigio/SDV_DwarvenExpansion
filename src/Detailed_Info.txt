@@ -202,7 +202,12 @@ It can be be swung faster and does not tire the user.
 This pickaxe has an animation speed that runs about 20% faster then normal.
 This pickaxe is naturally efficient so it can be enchanted with another enchantement and gain the benefit of both.
 As this pickaxe naturally has the efficient property, it does not benefit from the efficiency enchantment.
-This pickaxe can be purchased from Dwarf for 50,000 gold after reaching 6 hearts with them.
+This pickaxe is received from Dwarf during an event with the following conditions:
+[list]
+[*}reaching the bottom of the mines at least 5 times
+[*}having 8 hearts with Dwarf
+[*}entering the mines after 8pm.
+[/list]
 
 [size=4]Crafting Recipes[/size]
 [size=3]Prismatic Dust[/size]
