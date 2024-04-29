@@ -13,8 +13,8 @@
                     "CanBePlacedIndoors": true,
                     "CanBePlacedOutdoors": false,
                     "IsLamp": false,
-                    "Texture": "{{InternalAssetKey: assets/BigCraftables/ImprovedMushroomBox/texture.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/BigCraftables/BigCraftablesSpritesheet.png}}",
+                    "SpriteIndex": 16
                 }
             }
         },

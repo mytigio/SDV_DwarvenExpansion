@@ -13,8 +13,8 @@
                     "CanBePlacedOutdoors": true,
                     "CanBePlacedIndoors": false,
                     "IsLamp": false,
-                    "Texture": "{{InternalAssetKey: assets/BigCraftables/CaveIncubator/texture.png}}",
-                    "SpriteIndex": 0,
+                    "Texture": "{{InternalAssetKey: assets/BigCraftables/BigCraftablesSpritesheet.png}}",
+                    "SpriteIndex": 6,
                     "ContextTags": null,
                     "CustomFields": null
                 }
