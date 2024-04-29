@@ -81,7 +81,7 @@
 					"SpriteHeight": 32,
 					"EmoteOffset": {
 						"X": 0,
-						"Y": -16
+						"Y": 0
 					},
 					"SwimOffset": {
 						"X": 0,
@@ -96,10 +96,10 @@
 					"BabiesFollowAdults": true,
 					"GrassEatAmount": 1,
 					"HappinessDrain": 7,
-					"UpDownPetHitboxTileSize": "1, 1",
-					"LeftRightPetHitboxTileSize": "1, 1",
-					"BabyUpDownPetHitboxTileSize": "1, 1",
-					"BabyLeftRightPetHitboxTileSize": "1, 1",
+					"UpDownPetHitboxTileSize": "1, 1.75",
+					"LeftRightPetHitboxTileSize": "1.75, 1.25",
+					"BabyUpDownPetHitboxTileSize": "1, 1.75",
+					"BabyLeftRightPetHitboxTileSize": "1.75, 1",
 					"StatToIncrementOnProduce": [],
 					"ShowInSummitCredits": false,
 					"CustomFields": {
