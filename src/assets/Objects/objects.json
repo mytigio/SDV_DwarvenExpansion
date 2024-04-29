@@ -12,7 +12,7 @@
                     "Type": "Basic",
                     "Category": -25,
                     "Edibility": -300,
-                    "Texture": "{{InternalAssetKey: assets/Objects/Misc/carrotMash.png}}",
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 0
                 },
                 "{{ModId}}_Drinks_DwarvenSpirits": {
@@ -33,8 +33,8 @@
                             }
                         }
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Drinks/spirits.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 1
                 },
                 "{{ModId}}_Drinks_InfusedSpirits": {
                     "Name": "Infused Dwarven Spirits",
@@ -57,8 +57,8 @@
                     "ContextTags": [
                         "{{ModId}}"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Drinks/infused_spirits.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 2
                 },
                 "{{ModId}}_Potions_DistilledSunlight": {
                     "Name": "Distilled Sunlight",
@@ -81,8 +81,8 @@
                     "ContextTags": [
                         "{{ModId}}"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Potions/DistilledSunlight.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 18
                 },
                 "{{ModId}}_Potions_FarmersDraught": {
                     "Name": "Farmers Draught",
@@ -105,8 +105,8 @@
                     "ContextTags": [
                         "{{ModId}}"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Potions/FarmersDraught.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 21
                 },
                 "{{ModId}}_Potions_FishermansBrew": {
                     "Name": "Fishermans Brew",
@@ -129,8 +129,8 @@
                     "ContextTags": [
                         "{{ModId}}"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Potions/FishermansBrew.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 19
                 },
                 "{{ModId}}_Potions_MinersDrink": {
                     "Name": "Miners Drink",
@@ -153,8 +153,8 @@
                     "ContextTags": [
                         "{{ModId}}"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Potions/MinersDrink.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 20
                 },
                 "{{ModId}}_Potions_OnePerfectDay": {
                     "Name": "One Perfect Day",
@@ -187,8 +187,8 @@
                     "ContextTags": [
                         "{{ModId}}"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Potions/OnePerfectDay.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 16
                 },
                 "{{ModId}}_Potions_ShadowedElixir": {
                     "Name": "Shadowed Elixir",
@@ -213,8 +213,8 @@
                     "ContextTags": [
                         "{{ModId}}"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Potions/ShadowedElixir.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 17
                 },
                 "{{ModId}}_Potions_SwordsmansElixir": {
                     "Name": "Swordsmans Elixir",
@@ -237,8 +237,8 @@
                     "ContextTags": [
                         "{{ModId}}"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Potions/ShadowedElixir.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 22
                 },
                 "{{ModId}}_Potions_WoodmansTonic": {
                     "Name": "Woodmans Tonic",
@@ -261,8 +261,8 @@
                     "ContextTags": [
                         "{{ModId}}"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Potions/WoodmansTonic.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 23
                 },
                 "{{ModId}}_OreCluster_Copper": {
                     "Name": "Copper Cluster",
@@ -277,8 +277,8 @@
                         "{{ModId}}_orecluster",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/OreCluster/CopperCluster.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 224
                 },
                 "{{ModId}}_OreCluster_Iron": {
                     "Name": "Iron Cluster",
@@ -293,8 +293,8 @@
                         "{{ModId}}_orecluster",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/OreCluster/IronCluster.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 225
                 },
                 "{{ModId}}_OreCluster_Gold": {
                     "Name": "Gold Cluster",
@@ -309,8 +309,8 @@
                         "{{ModId}}_orecluster",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/OreCluster/GoldCluster.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 226
                 },
                 "{{ModId}}_OreCluster_Iridium": {
                     "Name": "Iridium Cluster",
@@ -325,8 +325,8 @@
                         "{{ModId}}_orecluster",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/OreCluster/IridiumCluster.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 227
                 },
                 "{{ModId}}_MineralDust_CopperDust": {
                     "Name": "Copper Dust",
@@ -342,8 +342,8 @@
                         "not_museum_donatable",
                         "{{ModId}}_oredust"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Copper.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 176
                 },
                 "{{ModId}}_MineralDust_IronDust": {
                     "Name": "Iron Dust",
@@ -359,8 +359,8 @@
                         "not_museum_donatable",
                         "{{ModId}}_oredust"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Iron.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 177
                 },
                 "{{ModId}}_MineralDust_GoldDust": {
                     "Name": "Gold Dust",
@@ -376,8 +376,8 @@
                         "not_museum_donatable",
                         "{{ModId}}_oredust"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Gold.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 178
                 },
                 "{{ModId}}_MineralDust_IridiumDust": {
                     "Name": "Iridium Dust",
@@ -393,8 +393,8 @@
                         "not_museum_donatable",
                         "{{ModId}}_oredust"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Iridium.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 179
                 },
                 "{{ModId}}_MineralDust_EmeraldDust": {
                     "Name": "Emerald Dust",
@@ -411,8 +411,8 @@
                         "{{ModId}}_gemdust",
                         "{{ModId}}_gemquality_high"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Emerald.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 182
                 },
                 "{{ModId}}_MineralDust_AquamarineDust": {
                     "Name": "Aquamarine Dust",
@@ -429,8 +429,8 @@
                         "{{ModId}}_gemdust",
                         "{{ModId}}_gemquality_medium"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Aquamarine.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 185
                 },
                 "{{ModId}}_MineralDust_RubyDust": {
                     "Name": "Ruby Dust",
@@ -447,8 +447,8 @@
                         "{{ModId}}_gemdust",
                         "{{ModId}}_gemquality_high"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Ruby.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 183
                 },
                 "{{ModId}}_MineralDust_AmethystDust": {
                     "Name": "Amethyst Dust",
@@ -465,8 +465,8 @@
                         "{{ModId}}_gemdust",
                         "{{ModId}}_gemquality_low"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Amethyst.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 186
                 },
                 "{{ModId}}_MineralDust_TopazDust": {
                     "Name": "Topaz Dust",
@@ -483,8 +483,8 @@
                         "{{ModId}}_gemdust",
                         "{{ModId}}_gemquality_low"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Topaz.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 187
                 },
                 "{{ModId}}_MineralDust_JadeDust": {
                     "Name": "Jade Dust",
@@ -501,8 +501,8 @@
                         "{{ModId}}_gemdust",
                         "{{ModId}}_gemquality_medium"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Jade.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 184
                 },
                 "{{ModId}}_MineralDust_DiamondDust": {
                     "Name": "Diamond Dust",
@@ -519,8 +519,8 @@
                         "{{ModId}}_gemdust",
                         "{{ModId}}_gemquality_perfect"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Diamond.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 181
                 },
                 "{{ModId}}_MineralDust_PrismaticDust": {
                     "Name": "Prismatic Dust",
@@ -537,8 +537,8 @@
                         "{{ModId}}_gemdust",
                         "{{ModId}}_gemquality_perfect"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Gemstone.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 180
                 },
                 "{{ModId}}_MineralDust_GemstoneDust": {
                     "Name": "Gemstone Dust",
@@ -555,8 +555,8 @@
                         "{{ModId}}_gemdust",
                         "{{ModId}}_gemquality_low"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/MineralDust/Gemstone.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 180
                 },
                 "{{ModId}}_Jewelry_N_Aerinite": {
                     "Name": "Aerinite Necklace",
@@ -571,8 +571,8 @@
                         "{{ModId}}_jewelry",
                         "category_minerals"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Aerinite.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 116
                 },
                 "{{ModId}}_Jewelry_N_Alamite": {
                     "Name": "Alamite Necklace",
@@ -587,8 +587,8 @@
                         "{{ModId}}_jewelry",
                         "category_minerals"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Alamite.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 97
                 },
                 "{{ModId}}_Jewelry_N_Celestine": {
                     "Name": "Celestine Necklace",
@@ -603,8 +603,8 @@
                         "{{ModId}}_jewelry",
                         "category_minerals"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Celestine.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 98
                 },
                 "{{ModId}}_Jewelry_N_Dolomite": {
                     "Name": "Dolomite Necklace",
@@ -619,8 +619,8 @@
                         "{{ModId}}_jewelry",
                         "category_minerals"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Dolomite.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 99
                 },
                 "{{ModId}}_Jewelry_N_EarthCrystal": {
                     "Name": "Earth Crystal Necklace",
@@ -635,8 +635,8 @@
                         "{{ModId}}_jewelry",
                         "category_gem"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_EarthCrystal.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 100
                 },
                 "{{ModId}}_Jewelry_N_FireOpal": {
                     "Name": "Fire Opal Necklace",
@@ -651,8 +651,8 @@
                         "{{ModId}}_jewelry",
                         "category_minerals"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_FireOpal.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 101
                 },
                 "{{ModId}}_Jewelry_N_FireQuartz": {
                     "Name": "Fire Quartz Necklace",
@@ -667,8 +667,8 @@
                         "{{ModId}}_jewelry",
                         "category_gem"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_FireQuartz.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 103
                 },
                 "{{ModId}}_Jewelry_N_Fluorapatite": {
                     "Name": "Fluorapatite Necklace",
@@ -683,8 +683,8 @@
                         "{{ModId}}_jewelry",
                         "category_minerals"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Fluorapatite.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 105
                 },
                 "{{ModId}}_Jewelry_N_FrozenTear": {
                     "Name": "Frozen Tear Necklace",
@@ -699,8 +699,8 @@
                         "{{ModId}}_jewelry",
                         "category_gem"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_FrozenTear.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 106
                 },
                 "{{ModId}}_Jewelry_N_Geminite": {
                     "Name": "Geminite Necklace",
@@ -715,8 +715,8 @@
                         "{{ModId}}_jewelry",
                         "category_minerals"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Geminite.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 107
                 },
                 "{{ModId}}_Jewelry_N_Gold": {
                     "Name": "Gold Necklace",
@@ -730,8 +730,8 @@
                         "{{ModId}}",
                         "{{ModId}}_jewelry"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Gold.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 96
                 },
                 "{{ModId}}_Jewelry_N_Helvite": {
                     "Name": "Helvite Necklace",
@@ -746,8 +746,8 @@
                         "{{ModId}}_jewelry",
                         "category_minerals"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Helvite.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 108
                 },
                 "{{ModId}}_Jewelry_N_Kyanite": {
                     "Name": "Kyanite Necklace",
@@ -762,8 +762,8 @@
                         "{{ModId}}_jewelry",
                         "category_minerals"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Kyanite.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 109
                 },
                 "{{ModId}}_Jewelry_N_LemonStone": {
                     "Name": "Lemon Stone Necklace",
@@ -778,8 +778,8 @@
                         "{{ModId}}_jewelry",
                         "category_minerals"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_LemonStone.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 110
                 },
                 "{{ModId}}_Jewelry_N_Malachite": {
                     "Name": "Malachite Necklace",
@@ -794,8 +794,8 @@
                         "{{ModId}}_jewelry",
                         "category_minerals"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Malachite.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 111
                 },
                 "{{ModId}}_Jewelry_N_Obsidian": {
                     "Name": "Obsidian Necklace",
@@ -810,8 +810,8 @@
                         "{{ModId}}_jewelry",
                         "category_minerals"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Obsidian.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 112
                 },
                 "{{ModId}}_Jewelry_N_Opal": {
                     "Name": "Opal Necklace",
@@ -826,8 +826,8 @@
                         "{{ModId}}_jewelry",
                         "category_minerals"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Opal.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 102
                 },
                 "{{ModId}}_Jewelry_N_Orpiment": {
                     "Name": "Orpiment Necklace",
@@ -842,8 +842,8 @@
                         "{{ModId}}_jewelry",
                         "category_minerals"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Orpiment.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 115
                 },
                 "{{ModId}}_Jewelry_N_Quartz": {
                     "Name": "Quartz Necklace",
@@ -858,8 +858,8 @@
                         "{{ModId}}_jewelry",
                         "category_gem"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Quartz.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 104
                 },
                 "{{ModId}}_Jewelry_N_StarShards": {
                     "Name": "Star Shards Necklace",
@@ -874,8 +874,8 @@
                         "{{ModId}}_jewelry",
                         "category_minerals"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_StarShards.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 113
                 },
                 "{{ModId}}_Jewelry_N_Tigerseye": {
                     "Name": "Tigerseye Necklace",
@@ -890,8 +890,8 @@
                         "{{ModId}}_jewelry",
                         "category_minerals"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/N_Tigerseye.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 114
                 },
                 "{{ModId}}_Jewelry_R_Amethyst": {
                     "Name": "Gold Amethyst Ring",
@@ -906,8 +906,8 @@
                         "{{ModId}}_jewelry",
                         "category_gem"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/R_Amethyst.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 149
                 },
                 "{{ModId}}_Jewelry_R_Aquamarine": {
                     "Name": "Gold Aquamarine Ring",
@@ -922,8 +922,8 @@
                         "{{ModId}}_jewelry",
                         "category_gem"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/R_Aquamarine.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 148
                 },
                 "{{ModId}}_Jewelry_R_Diamond": {
                     "Name": "Gold Diamond Ring",
@@ -938,8 +938,8 @@
                         "{{ModId}}_jewelry",
                         "category_gem"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/R_Diamond.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 144
                 },
                 "{{ModId}}_Jewelry_R_Emerald": {
                     "Name": "Gold Emerald Ring",
@@ -954,8 +954,8 @@
                         "{{ModId}}_jewelry",
                         "category_gem"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/R_Emerald.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 145
                 },
                 "{{ModId}}_Jewelry_R_Jade": {
                     "Name": "Gold Jade Ring",
@@ -970,8 +970,8 @@
                         "{{ModId}}_jewelry",
                         "category_gem"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/R_Jade.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 147
                 },
                 "{{ModId}}_Jewelry_R_Ruby": {
                     "Name": "Gold Ruby Ring",
@@ -986,8 +986,8 @@
                         "{{ModId}}_jewelry",
                         "category_gem"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/R_Ruby.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 146
                 },
                 "{{ModId}}_Jewelry_R_Topaz": {
                     "Name": "Gold Topaz Ring",
@@ -1002,8 +1002,8 @@
                         "{{ModId}}_jewelry",
                         "category_gem"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Jewelry/R_Topaz.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 150
                 },
                 "{{ModId}}_Misc_NecklaceMold": {
                     "Name": "Necklace Mold",
@@ -1016,8 +1016,8 @@
                     "ContextTags": [
                         "{{ModId}}"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Misc/NecklaceMold.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 117
                 },
                 "{{ModId}}_Misc_GoldenChickenStatue": {
                     "Name": "Golden Chicken Statue",
@@ -1030,8 +1030,8 @@
                     "ContextTags": [
                         "{{ModId}}"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Misc/GoldenChickenStatue.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 151
                 },
                 "{{ModId}}_Food_SunshineStew": {
                     "Name": "Sunshine Stew",
@@ -1046,8 +1046,8 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_fine_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Food/SunshineStew.png}}",
-                    "SpriteIndex": 0,
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 62,
                     "Buffs": [
                         {
                             "Id": "eat",
@@ -1071,8 +1071,8 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_fine_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Food/StonefishSuprise.png}}",
-                    "SpriteIndex": 0,
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 64,
                     "Buffs": [
                         {
                             "Id": "eat",
@@ -1096,8 +1096,8 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_fine_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Food/ShadowedStew.png}}",
-                    "SpriteIndex": 0,
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 63,
                     "Buffs": [
                         {
                             "Id": "eat",
@@ -1124,8 +1124,8 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_basic_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Food/RockCrabSalad.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 66
                 },
                 "{{ModId}}_Food_RoastedCaveFish": {
                     "Name": "Roasted Cave Fish",
@@ -1140,8 +1140,8 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_basic_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Food/RoastedCaveFish.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 65
                 },
                 "{{ModId}}_Food_MashedCarrots": {
                     "Name": "Mashed Carrots",
@@ -1156,8 +1156,8 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_basic_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Food/MashedCarrots.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 61
                 },
                 "{{ModId}}_Food_LavaEelPie": {
                     "Name": "Lava Eel Pie",
@@ -1172,8 +1172,8 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_fine_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Food/LavaEelPie.png}}",
-                    "SpriteIndex": 0,
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 60,
                     "Buffs": [
                         {
                             "Id": "eat",
@@ -1199,8 +1199,8 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_fine_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Food/IcePipSoup.png}}",
-                    "SpriteIndex": 0,
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 59,
                     "Buffs": [
                         {
                             "Id": "eat",
@@ -1224,8 +1224,8 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_basic_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Food/FriedBatWings.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 57
                 },
                 "{{ModId}}_Food_CaveSoup": {
                     "Name": "Cave Soup",
@@ -1240,8 +1240,8 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_basic_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Food/CaveSoup.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 58
                 },
                 "{{ModId}}_Food_CaveChowder": {
                     "Name": "Cave Chowder",
@@ -1256,8 +1256,8 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_fine_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Food/CaveChowder.png}}",
-                    "SpriteIndex": 0,
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 56,
                     "Buffs": [
                         {
                             "Id": "eat",
@@ -1282,8 +1282,8 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_fine_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Food/CaveCarrotAuGratin.png}}",
-                    "SpriteIndex": 0,
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 51,
                     "Buffs": [
                         {
                             "Id": "eat",
@@ -1307,8 +1307,8 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_fine_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Food/CaveCarrotStew.png}}",
-                    "SpriteIndex": 0,
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 55,
                     "Buffs": [
                         {
                             "Id": "eat",
@@ -1332,8 +1332,8 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_basic_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Food/CaveCarrotSoup.png}}",
-                    "SpriteIndex": 0,
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 54,
                     "Buffs": [
                         {
                             "Id": "eat",
@@ -1357,8 +1357,8 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_basic_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Food/CaveCarrotRoast.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 53
                 },
                 "{{ModId}}_Food_CaveCarrotBrulee": {
                     "Name": "Cave Carrot Brulee",
@@ -1373,8 +1373,8 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_basic_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Food/CaveCarrotBrulee.png}}",
-                    "SpriteIndex": 0,
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 52,
                     "Buffs": [
                         {
                             "Id": "eat",
@@ -1398,8 +1398,8 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_fine_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Food/Cavatouille.png}}",
-                    "SpriteIndex": 0,
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 50,
                     "Buffs": [
                         {
                             "Id": "eat",
@@ -1424,8 +1424,8 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_basic_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Food/BugMeatStew.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 49
                 },
                 "{{ModId}}_Food_BugMeatSoup": {
                     "Name": "Bug Meat Soup",
@@ -1440,8 +1440,8 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_basic_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/Food/BugMeatSoup.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 48
                 }
             }
         },

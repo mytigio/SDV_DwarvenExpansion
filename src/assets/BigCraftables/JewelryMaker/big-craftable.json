@@ -13,8 +13,8 @@
                     "CanBePlacedIndoors": true,
                     "CanBePlacedOutdoors": true,
                     "IsLamp": false,
-                    "Texture": "{{InternalAssetKey: assets/BigCraftables/JewelryMaker/texture.png}}",
-                    "SpriteIndex": 0
+                    "Texture": "{{InternalAssetKey: assets/BigCraftables/BigCraftablesSpritesheet.png}}",
+                    "SpriteIndex": 10
                 }
             }
         },
