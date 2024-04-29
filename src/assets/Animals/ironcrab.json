@@ -15,8 +15,8 @@
 					"ContextTags": [
 						"{{ModId}}"
 					],
-					"Texture": "{{InternalAssetKey: assets/Animals/IronCrabEgg.png}}",
-					"SpriteIndex": 0
+					"Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "SpriteIndex": 241
 				}
 			}
 		},
