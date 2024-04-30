@@ -98,7 +98,7 @@
 						{
 							"Id": "Larva",
 							"ItemId": "{{ModId}}_Animals_GrubLarva",
-							"Condition": "RANDOM 0.6"
+							"Condition": "RANDOM 0.1"
 						},
 						{
 							"Id": "Default",
@@ -109,12 +109,12 @@
 						{
 							"Id": "Larva",
 							"ItemId": "{{ModId}}_Animals_GrubLarva",
-							"Condition": "RANDOM 0.4"
+							"Condition": "RANDOM 0.05"
 						},
 						{
 							"Id": "Default",
 							"ItemId": "684"
-						}
+						}						
 					],
 					"ProduceOnMature": true,
 					"FriendshipForFasterProduce": -1,
