@@ -569,7 +569,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_jewelry",
-                        "category_minerals"
+                        "category_minerals",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 116
@@ -585,7 +586,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_jewelry",
-                        "category_minerals"
+                        "category_minerals",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 97
@@ -601,7 +603,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_jewelry",
-                        "category_minerals"
+                        "category_minerals",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 98
@@ -617,7 +620,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_jewelry",
-                        "category_minerals"
+                        "category_minerals",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 99
@@ -633,7 +637,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_jewelry",
-                        "category_gem"
+                        "category_gem",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 100
@@ -649,7 +654,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_jewelry",
-                        "category_minerals"
+                        "category_minerals",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 101
@@ -665,7 +671,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_jewelry",
-                        "category_gem"
+                        "category_gem",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 103
@@ -681,7 +688,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_jewelry",
-                        "category_minerals"
+                        "category_minerals",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 105
@@ -697,7 +705,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_jewelry",
-                        "category_gem"
+                        "category_gem",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 106
@@ -713,7 +722,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_jewelry",
-                        "category_minerals"
+                        "category_minerals",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 107
@@ -728,7 +738,8 @@
                     "Edibility": -300,
                     "ContextTags": [
                         "{{ModId}}",
-                        "{{ModId}}_jewelry"
+                        "{{ModId}}_jewelry",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 96
@@ -744,7 +755,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_jewelry",
-                        "category_minerals"
+                        "category_minerals",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 108
@@ -760,7 +772,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_jewelry",
-                        "category_minerals"
+                        "category_minerals",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 109
@@ -776,7 +789,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_jewelry",
-                        "category_minerals"
+                        "category_minerals",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 110
@@ -792,7 +806,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_jewelry",
-                        "category_minerals"
+                        "category_minerals",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 111
@@ -808,7 +823,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_jewelry",
-                        "category_minerals"
+                        "category_minerals",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 112
@@ -824,7 +840,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_jewelry",
-                        "category_minerals"
+                        "category_minerals",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 102
@@ -840,7 +857,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_jewelry",
-                        "category_minerals"
+                        "category_minerals",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 115
@@ -856,7 +874,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_jewelry",
-                        "category_gem"
+                        "category_gem",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 104
@@ -872,7 +891,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_jewelry",
-                        "category_minerals"
+                        "category_minerals",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 113
@@ -888,7 +908,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_jewelry",
-                        "category_minerals"
+                        "category_minerals",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 114
@@ -904,7 +925,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_jewelry",
-                        "category_gem"
+                        "category_gem",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 149
@@ -920,7 +942,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_jewelry",
-                        "category_gem"
+                        "category_gem",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 148
@@ -936,7 +959,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_jewelry",
-                        "category_gem"
+                        "category_gem",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 144
@@ -952,7 +976,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_jewelry",
-                        "category_gem"
+                        "category_gem",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 145
@@ -968,7 +993,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_jewelry",
-                        "category_gem"
+                        "category_gem",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 147
@@ -984,7 +1010,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_jewelry",
-                        "category_gem"
+                        "category_gem",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 146
@@ -1000,7 +1027,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_jewelry",
-                        "category_gem"
+                        "category_gem",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 150
@@ -1014,7 +1042,8 @@
                     "Category": "-20",
                     "Edibility": -300,
                     "ContextTags": [
-                        "{{ModId}}"
+                        "{{ModId}}",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 117
@@ -1028,7 +1057,8 @@
                     "Category": "-26",
                     "Edibility": -300,
                     "ContextTags": [
-                        "{{ModId}}"
+                        "{{ModId}}",
+                        "not_museum_donatable"
                     ],
                     "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
                     "SpriteIndex": 151

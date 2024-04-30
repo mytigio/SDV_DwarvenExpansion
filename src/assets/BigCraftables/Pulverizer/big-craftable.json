@@ -458,7 +458,8 @@
                                     "RequiredTags": [
                                         "category_gem",
                                         "!{{ModId}}_mineraldust",
-                                        "!{{ModId}}_jewelry"
+                                        "!{{ModId}}_jewelry",
+                                        "!{{ModId}}_gem_non_dustable"
                                     ],
                                     "RequiredCount": 1
                                 }
