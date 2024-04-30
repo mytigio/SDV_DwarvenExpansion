@@ -195,6 +195,7 @@ These are new artisan goods that can be crafted and sold for profit at the Jewlr
 A list of mod compatibilities.
 [list]
 [*] Animal Husbandry Mod - Compatible with patch, found here: https://www.nexusmods.com/stardewvalley/mods/22597/
+[*] The Geology Mod (Update 1.6) - Partially compatible with patch, additional compatibility and integration with patch: https://www.nexusmods.com/stardewvalley/mods/23439/
 [/list]
 
 [size=5]Translations[/size]
