@@ -120,6 +120,7 @@
                                     "Id": "Infused_Dwarven_Spirits",
                                     "ItemId": "{{ModId}}_Drinks_InfusedSpirits",
                                     "ObjectDisplayName": "[LocalizedText Strings/Objects:{{ModId}}_Infused_Spirits_Object_Display_Name %PRESERVED_DISPLAY_NAME Spirits]",
+                                    "ObjectInternalName": "{0} Infused Spirits",
                                     "Quality": "0",
                                     "CopyPrice": true,
                                     "PreserveId": "DROP_IN",
