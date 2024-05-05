@@ -547,6 +547,7 @@
                                 },
                                 {
                                     "Id": "Gemstone_Dust",
+                                    "ObjectInternalName": "{0} Dust",
                                     "ItemId": "{{ModId}}_MineralDust_GemstoneDust",
                                     "ObjectDisplayName": "[LocalizedText Strings/Objects:{{ModId}}_Gemstone_Dust_Object_Display_Name %PRESERVED_DISPLAY_NAME Spirits]",
                                     "MinStack": 1,

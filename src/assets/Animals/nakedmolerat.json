@@ -76,7 +76,7 @@
 					"Texture": "{{InternalAssetKey: assets/Animals/NakedMoleRat.png}}",
 					"HarvestedTexture": null,
 					"BabyTexture": "{{InternalAssetKey: assets/Animals/NakedMoleRatBaby.png}}",
-					"UseFlippedRightForLeft": false,
+					"UseFlippedRightForLeft": true,
 					"SpriteWidth": 32,
 					"SpriteHeight": 32,
 					"EmoteOffset": {
