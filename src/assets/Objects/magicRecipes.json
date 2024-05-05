@@ -19,7 +19,7 @@
             "Entries": {
                 //update the transmutation recipies and add recipes for prismatic shards to and from iridium bars.
                 "Transmute (Fe -> Cu)": "PrismaticBar 1/Home/337 {{PrismaticToIridiumOutput}}/false/Mining {{PrismaticToIridiumLevel}}",
-                "Transmute (Fe)": "337 {{IridiumToPrismaticCost}}/Home/(O)PrismaticBar/false/Mining {{IridiumToPrismaticLevel}}"
+                "Transmute (Fe)": "337 {{IridiumToPrismaticCost}}/Home/PrismaticBar/false/Mining {{IridiumToPrismaticLevel}}"
             },
             "When": {
                 "HasMod": "iargue.PrismaticToolsContinued"
