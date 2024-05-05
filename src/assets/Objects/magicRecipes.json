@@ -12,6 +12,18 @@
                 "Transmute (Ir -> Au)": "337 1/Home/336 {{IridiumToGoldOutput}}/false/Mining {{IridiumToGoldLevel}}",
                 "Transmute (Ir)": "336 {{GoldToIridiumCost}}/Home/337/false/Mining {{GoldToIridiumLevel}}"
             }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                //update the transmutation recipies and add recipes for prismatic shards to and from iridium bars.
+                "Transmute (Fe -> Cu)": "PrismaticBar 1/Home/337 {{PrismaticToIridiumOutput}}/false/Mining {{PrismaticToIridiumLevel}}",
+                "Transmute (Fe)": "337 {{IridiumToPrismaticCost}}/Home/(O)PrismaticBar/false/Mining {{IridiumToPrismaticLevel}}"
+            },
+            "When": {
+                "HasMod": "iargue.PrismaticToolsContinued"
+            }
         }
     ]
 }
