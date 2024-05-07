@@ -16,7 +16,102 @@
 						"{{ModId}}"
 					],
 					"Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
-                    "SpriteIndex": 241
+					"SpriteIndex": 241,
+					"GeodeDropsDefaultItems": false,
+					"GeodeDrops": [
+						{
+							"Chance": 0.05,
+							"SetFlagOnPickup": null,
+							"Precedence": 0,
+							"Condition": null,
+							"Id": "Default",
+							"ItemId": "(O)717",
+							"RandomItemId": null,
+							"MaxItems": null,
+							"MinStack": 2,
+							"MaxStack": 2,
+							"Quality": -1,
+							"ObjectInternalName": null,
+							"ObjectDisplayName": null,
+							"ToolUpgradeLevel": -1,
+							"IsRecipe": false,
+							"StackModifiers": null,
+							"StackModifierMode": "Stack",
+							"QualityModifiers": null,
+							"QualityModifierMode": "Stack",
+							"ModData": null,
+							"PerItemCondition": null
+						},						
+						{
+							"Chance": 0.1575,
+							"SetFlagOnPickup": null,
+							"Precedence": 0,
+							"Condition": null,
+							"Id": "Default",
+							"ItemId": "(O)717",
+							"RandomItemId": null,
+							"MaxItems": null,
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Quality": -1,
+							"ObjectInternalName": null,
+							"ObjectDisplayName": null,
+							"ToolUpgradeLevel": -1,
+							"IsRecipe": false,
+							"StackModifiers": null,
+							"StackModifierMode": "Stack",
+							"QualityModifiers": null,
+							"QualityModifierMode": "Stack",
+							"ModData": null,
+							"PerItemCondition": null
+						},
+						{
+							"Chance": 0.375,
+							"SetFlagOnPickup": null,
+							"Precedence": 0,
+							"Condition": null,
+							"Id": "Default",
+							"ItemId": "(O){{ModId}}_OreCluster_Iron",
+							"RandomItemId": null,
+							"MaxItems": null,
+							"MinStack": 2,
+							"MaxStack": 4,
+							"Quality": -1,
+							"ObjectInternalName": null,
+							"ObjectDisplayName": null,
+							"ToolUpgradeLevel": -1,
+							"IsRecipe": false,
+							"StackModifiers": null,
+							"StackModifierMode": "Stack",
+							"QualityModifiers": null,
+							"QualityModifierMode": "Stack",
+							"ModData": null,
+							"PerItemCondition": null
+						},
+						{
+							"Chance": 1.0,
+							"SetFlagOnPickup": null,
+							"Precedence": 0,
+							"Condition": null,
+							"Id": "Default",
+							"ItemId": "(O)380",
+							"RandomItemId": null,
+							"MaxItems": null,
+							"MinStack": 5,
+							"MaxStack": 9,
+							"Quality": -1,
+							"ObjectInternalName": null,
+							"ObjectDisplayName": null,
+							"ToolUpgradeLevel": -1,
+							"IsRecipe": false,
+							"StackModifiers": null,
+							"StackModifierMode": "Stack",
+							"QualityModifiers": null,
+							"QualityModifierMode": "Stack",
+							"ModData": null,
+							"PerItemCondition": null
+						}
+					]
 				}
 			}
 		},
@@ -95,7 +190,7 @@
 							"ItemId": "380"
 						}
 					],
-					"DeluxeProduceItemIds": [						
+					"DeluxeProduceItemIds": [
 						{
 							"Id": "Larva",
 							"ItemId": "{{ModId}}_Animals_CrabEgg_Iron",

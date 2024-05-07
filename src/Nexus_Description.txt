@@ -194,8 +194,11 @@ These are new artisan goods that can be crafted and sold for profit at the Jewlr
 [size=5]Compatibility[/size]
 A list of mod compatibilities.
 [list]
-[*] Animal Husbandry Mod - Compatible with patch, found here: https://www.nexusmods.com/stardewvalley/mods/22597/
-[*] The Geology Mod (Update 1.6) - Partially compatible with patch, additional compatibility and integration with patch: https://www.nexusmods.com/stardewvalley/mods/23439/
+[*] [url=https://www.nexusmods.com/stardewvalley/mods/21450]Prismatic Tools Continued[/url] - Native integration with prismatic tools continues.  Allows Transmutation recipes between Iridium and Prismatic bars.
+[*] [url=https://www.nexusmods.com/stardewvalley/mods/1538]Animal Husbandry Mod[/url] - Compatible with patch, found here: [url=https://www.nexusmods.com/stardewvalley/mods/22597/]https://www.nexusmods.com/stardewvalley/mods/22597/[/url]
+[*] [url=https://www.nexusmods.com/stardewvalley/mods/21038]The Geology Mod (Update 1.6)[/url] - Partially compatible without patch, additional compatibility and integration with patch: [url=https://www.nexusmods.com/stardewvalley/mods/23439/]https://www.nexusmods.com/stardewvalley/mods/23439/[/url]
+[*] [url=https://www.nexusmods.com/stardewvalley/mods/9600]Visit Mount Vapius[/url] - Partially compatible without patch.  Additional compatibility, new jewelry and integrations with patch: [url=https://www.nexusmods.com/stardewvalley/mods/23660]https://www.nexusmods.com/stardewvalley/mods/23660[/url]
+[*] [url=https://www.nexusmods.com/stardewvalley/mods/23393]Base Hay Capacity[/url] - Patch adds a base hay capacity to Dwarven Expansion animal houses to match Base Hay Capacity. [url=https://www.nexusmods.com/stardewvalley/mods/23680/]https://www.nexusmods.com/stardewvalley/mods/23680/[/url]
 [/list]
 
 [size=5]Translations[/size]
