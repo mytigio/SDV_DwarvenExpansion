@@ -181,9 +181,9 @@
 					"HarvestTool": "Shears",
 					"ProduceItemIds": [
 						{
-							"Id": "Larva",
+							"Id": "Egg",
 							"ItemId": "{{ModId}}_Animals_CrabEgg_Iron",
-							"Condition": "RANDOM 0.2"
+							"Condition": "RANDOM 0.05"
 						},
 						{
 							"Id": "Default",
@@ -192,7 +192,7 @@
 					],
 					"DeluxeProduceItemIds": [
 						{
-							"Id": "Larva",
+							"Id": "Egg",
 							"ItemId": "{{ModId}}_Animals_CrabEgg_Iron",
 							"Condition": "RANDOM 0.3"
 						},
