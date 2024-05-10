@@ -82,6 +82,13 @@ The large cave has a chute system to keep troughs full for the animals inside.
 A large underground room.  Often used for storing root vegitables.
 Can be used as a space to process or store goods, similar to a shed. Floors and walls cannot be replaced.
 
+[size=5]New Events[/size]
+
+5 new events.
+[list]
+[*] 1 event as your friendship with Dwarf grows.  He gives you a gift.
+[*] 4 events as you explore or leave the mines.  Each gives 1 dwarven scroll and makes getting the Dwarvish Translation Guide less random.
+[/list]
 
 [size=5]New Items[/size]
 
@@ -186,9 +193,18 @@ These are new artisan goods that can be crafted and sold for profit at the Jewlr
 [*]Ruby Gold Ring
 [*]Topaz Gold Ring
 [/list]
-#[size=3]Miscellanous[/size]
+[size=3]Miscellanous[/size]
 [list]
 [*]Gold Chicken Statue - Gild a chicken statue for fun and profit!
+[/list]
+
+[size=4] Miscellanous[/size]
+[list]
+[*] Copper Crab Egg - An egg that can be incubated in a cave to hatch a copper crab or cracked open for copper ore.
+[*] Iron Crab Egg - An egg that can be incubated in a cave to hatch an iron crab or cracked open for iron ore.
+[*] Gold Crab Egg - An egg that can be incubated in a cave to hatch a gold crab or cracked open for gold ore.
+[*] Iridium Crab Egg - An egg that can be incubated in a cave to hatch an iridium crab or cracked open for iridium ore.
+[*] Grub Larva - A mass of larva taht can be incubated in a cave to hatch a grub.
 [/list]
 
 [size=5]Compatibility[/size]

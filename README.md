@@ -163,6 +163,14 @@ These are new artisan goods that can be crafted and sold for profit at the Jewlr
 #### Miscellanous
 Gold Chicken Statue - Gild a chicken statue for fun and profit!
 
+### Miscellanous
+- Copper Crab Egg - An egg that can be incubated in a cave to hatch a copper crab or cracked open for copper ore.
+- Iron Crab Egg - An egg that can be incubated in a cave to hatch an iron crab or cracked open for iron ore.
+- Gold Crab Egg - An egg that can be incubated in a cave to hatch a gold crab or cracked open for gold ore.
+- Iridium Crab Egg - An egg that can be incubated in a cave to hatch an iridium crab or cracked open for iridium ore.
+- Grub Larva - A mass of larva taht can be incubated in a cave to hatch a grub.
+
+
 ## Translations
 The following contributers have included translation files for the mod.  If you're interested in providing a translations, please create a i18n file and create a pull request on github: https://github.com/mytigio/SDV_DwarvenExpansion
 
