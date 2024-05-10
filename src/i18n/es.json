@@ -1,7 +1,15 @@
 {
     "Tools.DwarvenPickaxe.DisplayName": "Pickaxe Enana",
     "Tools.DwarvenPickaxe.Description": "Una pico eficiente y ligera. La magia enana otorga naturalmente a esta herramienta la propiedad de eficiencia.",
-   
+    
+    "Dialog.Dwarf.Event.Scroll_1_1": "¿Qué es esto?",
+    "Dialog.Dwarf.Event.Scroll_1_2": "¡Un humano!",
+    
+    "Dialog.Dwarf.Event.Scroll_2_1": "Pasas mucho tiempo en la oscuridad. Toma esto.",
+
+    "Dialog.Dwarf.Event.Scroll_4_1": "Hola humano. Tengo un regalo para ti.",
+    "Dialog.Dwarf.Event.Scroll_4_2": "Quizás algún día me entenderás y comprarás mis cosas. Mi tienda está más allá de esta habitación, a través del pasillo.",
+
     "Dialog.Dwarf.Reaction.PickAxe_Event_1": "Espero que te sirva bien humano.",
     "Dialog.Dwarf.Reaction.PickAxe_Event_2": "Él ya no lo necesita, y yo tengo el mío propio. Tómalo.",
     "Dialog.Dwarf.Reaction.PickAxe_Event_3": "Porque es mejor que tus herramientas humanas.",

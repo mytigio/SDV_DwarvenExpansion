@@ -2,6 +2,15 @@
     "Tools.DwarvenPickaxe.DisplayName": "矮人十字镐",
     "Tools.DwarvenPickaxe.Description": "一把省力又轻便的镐。矮人魔法自然而然的赋予了这个工具胜利的属性。",
 
+    "Dialog.Dwarf.Event.Scroll_1_1": "What is this?",
+    "Dialog.Dwarf.Event.Scroll_1_2": "A human!!",
+    
+    "Dialog.Dwarf.Event.Scroll_2_1": "You spend much time in the darkness. Take this.",
+
+    "Dialog.Dwarf.Event.Scroll_4_1": "Hello human. I have a gift for you.",
+    "Dialog.Dwarf.Event.Scroll_4_2": "Perhaps someday you will understand me and buy my things.  My shop is beyond this room, through the hallway.",
+
+
     "Dialog.Dwarf.Reaction.PixeAxe_Event_1": "我希望它对你有用，人类。",
     "Dialog.Dwarf.Reaction.PixeAxe_Event_2": "他不再需要它了，并且我自己有一把。带走它。",
     "Dialog.Dwarf.Reaction.PixeAxe_Event_3": "因为它比你的人类工具好。",
