@@ -231,7 +231,7 @@ Made with clay to form a necklace mold.  Used to craft gold necklaces in a jewel
 Allows configuration of the base game transmutation recipes to allow Transmute (Fe) and Transmute (Au) to be unlocked at another mining level or require different input costs.
 
 Adds new transmutation recipes (all costs, outputs and levels are configurable):
-[ist]
+[list]
  [*]Iron -> Copper (1 Iron Bar produces 2 Copper Bars. Unlocked at mining 3)
  [*]Gold -> Iron (1 Gold Bar produces 2 Iron Bars. Unlocked at mining 5)
  [*]Iridium -> Gold (1 Iridium Bar produces 3 Gold Bars. Unlocked at mining 7)
@@ -326,7 +326,7 @@ These are new artisan goods that can be crafted and sold for profit at the Jewlr
 [*]Ruby Gold Ring
 [*]Topaz Gold Ring
 [/list]
-#[size=3]Miscellanous[/size]
+[size=3]Miscellanous[/size]
 [list]
 [*]Gold Chicken Statue - Gild a chicken statue for fun and profit!
 [/list]
