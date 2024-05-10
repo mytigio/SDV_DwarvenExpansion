@@ -191,6 +191,17 @@ Can be used as a space to process or store goods, similar to a shed. Floors and 
 [size=3]Obtain[/size]
 Can be constructed by Robin. Large root cellars are upgraded from the basic root cellar.
 
+[size=5]New Events[/size]
+
+5 new events.
+[list]
+[*] 1 event requires 8 hearts with Dwarf, reaching the bottom of the mines 5 times and entering the mines between 2000 and 0200.  Gives the Dwarven Pickaxe.
+[*] 1 event after day 12, with mining skill 2, when you have a free inventory slot and enter the mines by the main entrance.  Gives dwarven scroll 1.
+[*] 1 event after day 38, with mining skill 3, during the summer, after seeing event 1, when you have a free inventory slot and enter the mine entrance after leaving the mines via the ladder.  Gives dwarven scroll 2.
+[*] 1 event after day 62, with mining skill 4, during the fall, after seeing event 2, when you have a free inventory slot and enter the mine entrance after leaving the mines via the elevator.  Gives dwarven scroll 3.
+[*] 1 event after day 91, with mining skill 5, during the winter, after seeing event 3, when you have a free inventory slot and enter the mine entrance via the main entrance.  Gives dwarven scroll 4.
+[/list]
+
 [size=5]New Items[/size]
 
 [size=4]Tools[/size]
@@ -204,9 +215,9 @@ This pickaxe is naturally efficient so it can be enchanted with another enchante
 As this pickaxe naturally has the efficient property, it does not benefit from the efficiency enchantment.
 This pickaxe is received from Dwarf during an event with the following conditions:
 [list]
-[*}reaching the bottom of the mines at least 5 times
-[*}having 8 hearts with Dwarf
-[*}entering the mines after 8pm.
+[*]reaching the bottom of the mines at least 5 times
+[*]having 8 hearts with Dwarf
+[*]entering the mines after 8pm.
 [/list]
 
 [size=4]Crafting Recipes[/size]
@@ -318,6 +329,15 @@ These are new artisan goods that can be crafted and sold for profit at the Jewlr
 #[size=3]Miscellanous[/size]
 [list]
 [*]Gold Chicken Statue - Gild a chicken statue for fun and profit!
+[/list]
+
+[size=4] Miscellanous[/size]
+[list]
+[*] Copper Crab Egg - Dropped by rock crabs or harvested from copper crabs.  Can be incubated in a Cave to produce a new crab or cracked open as a geode to provide a large amount of ore.
+[*] Iron Crab Egg - Dropped by rock crabs or harvested from iron crabs.  Can be incubated in a Cave to produce a new crab or cracked open as a geode to provide a large amount of ore.
+[*] Gold Crab Egg - Dropped by magma crabs or harvested from gold crabs.  Can be incubated in a Cave to produce a new crab or cracked open as a geode to provide a large amount of ore.
+[*] Iridium Crab Egg - Dropped by iridium rock crabs or harvested from iridium crabs.  Can be incubated in a Cave to produce a new crab or cracked open as a geode to provide a large amount of ore.
+[*] Grub Larva - A mass of larva taht can be incubated in a cave to hatch a grub.
 [/list]
 
 [size=5]Translations[/size]
