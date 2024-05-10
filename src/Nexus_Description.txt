@@ -193,7 +193,7 @@ These are new artisan goods that can be crafted and sold for profit at the Jewlr
 [*]Ruby Gold Ring
 [*]Topaz Gold Ring
 [/list]
-#[size=3]Miscellanous[/size]
+[size=3]Miscellanous[/size]
 [list]
 [*]Gold Chicken Statue - Gild a chicken statue for fun and profit!
 [/list]
