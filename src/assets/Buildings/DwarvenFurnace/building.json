@@ -34,16 +34,8 @@
 					"BuildCost": 40000,
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)334",
-							"Amount": 100
-						},
-						{
-							"ItemId": "(O)335",
-							"Amount": 50
-						},
-						{
 							"ItemId": "(O)337",
-							"Amount": 10
+							"Amount": 20
 						},
 						{
 							"ItemId": "(O){{ModId}}_MineralDust_PrismaticDust",
