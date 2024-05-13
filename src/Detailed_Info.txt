@@ -191,6 +191,23 @@ Can be used as a space to process or store goods, similar to a shed. Floors and 
 [size=3]Obtain[/size]
 Can be constructed by Robin. Large root cellars are upgraded from the basic root cellar.
 
+[size=4]Dwarven Furnace[/size]
+A large furnace, heated with the activated magic of solar essances.  This furnace never needs additional fuel beyond the solar essances it is constructed with, and it can smelt multiple materials at the same time.
+Built by the Wizard
+Functions like a Mill, with products being processed and retrieved for the following morning.
+
+Each day it can simultaniously process:
+Up to 100 Copper Bars
+Up to 30 Iron Bars
+Up to 10 Gold Bars
+Up to 6 Iridium Bars
+Up to 6 Radioactive Bars
+Up to 32 Refined Quartz from regular Quartz
+Up to 96 Refined Quartz from Fire Quartz
+
+[size=3]Obtain[/size]
+Can be constructed by the Wizard. Requires 40,000 Gold, 20 Iridium Bars, 5 Prismatic Dust and 200 Solar Essences.
+
 [size=5]New Events[/size]
 
 5 new events.
