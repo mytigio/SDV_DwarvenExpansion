@@ -139,7 +139,7 @@
 								"id_o_378"
 							],
 							"RequiredCount": 5,
-							"MaxDailyConversions": 50,
+							"MaxDailyConversions": 100,
 							"SourceChest": "Input",
 							"DestinationChest": "Output",
 							"ProducedItems": [
@@ -171,7 +171,7 @@
 								"id_o_380"
 							],
 							"RequiredCount": 5,
-							"MaxDailyConversions": 15,
+							"MaxDailyConversions": 30,
 							"SourceChest": "Input",
 							"DestinationChest": "Output",
 							"ProducedItems": [
@@ -203,7 +203,7 @@
 								"id_o_384"
 							],
 							"RequiredCount": 5,
-							"MaxDailyConversions": 5,
+							"MaxDailyConversions": 10,
 							"SourceChest": "Input",
 							"DestinationChest": "Output",
 							"ProducedItems": [
@@ -235,7 +235,7 @@
 								"id_o_386"
 							],
 							"RequiredCount": 5,
-							"MaxDailyConversions": 3,
+							"MaxDailyConversions": 6,
 							"SourceChest": "Input",
 							"DestinationChest": "Output",
 							"ProducedItems": [
@@ -267,7 +267,7 @@
 								"id_o_909"
 							],
 							"RequiredCount": 5,
-							"MaxDailyConversions": 3,
+							"MaxDailyConversions": 6,
 							"SourceChest": "Input",
 							"DestinationChest": "Output",
 							"ProducedItems": [
@@ -299,7 +299,7 @@
 								"id_o_80"
 							],
 							"RequiredCount": 1,
-							"MaxDailyConversions": 16,
+							"MaxDailyConversions": 32,
 							"SourceChest": "Input",
 							"DestinationChest": "Output",
 							"ProducedItems": [
@@ -331,7 +331,7 @@
 								"id_o_82"
 							],
 							"RequiredCount": 1,
-							"MaxDailyConversions": 16,
+							"MaxDailyConversions": 32,
 							"SourceChest": "Input",
 							"DestinationChest": "Output",
 							"ProducedItems": [
