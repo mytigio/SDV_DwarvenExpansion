@@ -234,6 +234,7 @@ The following contributers have included translation files for the mod.  If you'
 [list]
 [*]lcy1998666 - Chinese
 [*]migue2982 - Spanish
+[*]Caranud - French
 [/list]
 Github Repository
 https://github.com/mytigio/SDV_DwarvenExpansion
