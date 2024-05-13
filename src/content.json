@@ -8,10 +8,10 @@
             "Default": "GemPolisher, Pulverizer, DwarvenStill, AlchemyBench, JewelryMaker, SlowburnCharcoalKiln, ImprovedMushroomBox"
         },
         "EnabledBuildings": {
-            "AllowValues": "CaveCoop, CaveShed",
+            "AllowValues": "CaveCoop, CaveShed, DwarvenFurnace",
             "AllowMultiple": true,
             "AllowBlank": true,
-            "Default": "CaveCoop, CaveShed"
+            "Default": "CaveCoop, CaveShed, DwarvenFurnace"
         },
         "EnabledCookingRecipes": {
             "AllowValues": "true, false",
@@ -196,6 +196,13 @@
             "FromFile": "assets/Buildings/CaveShed/building.json",
             "When": {
                 "EnabledBuildings": "CaveShed"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Buildings/DwarvenFurnace/building.json",
+            "When": {
+                "EnabledBuildings": "DwarvenFurnace"
             }
         },
         {
