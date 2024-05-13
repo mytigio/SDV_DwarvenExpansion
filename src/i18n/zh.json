@@ -10,7 +10,6 @@
     "Dialog.Dwarf.Event.Scroll_4_1": "Hello human. I have a gift for you.",
     "Dialog.Dwarf.Event.Scroll_4_2": "Perhaps someday you will understand me and buy my things.  My shop is beyond this room, through the hallway.",
 
-
     "Dialog.Dwarf.Reaction.PixeAxe_Event_1": "我希望它对你有用，人类。",
     "Dialog.Dwarf.Reaction.PixeAxe_Event_2": "他不再需要它了，并且我自己有一把。带走它。",
     "Dialog.Dwarf.Reaction.PixeAxe_Event_3": "因为它比你的人类工具好。",
@@ -118,6 +117,9 @@
 
     "LargeCaveShed.Name": "大根菜地窖",
     "LargeCaveShed.Description": "一个大地窖。传统上用来储存根茎类蔬菜。",
+
+    "DwarvenFurnace.Name": "Dwarven Furnace",
+    "DwarvenFurnace.Description": "A large furnace, heated by the activated magic of solar essence.",
 
     "CarrotMash.DisplayName": "萝卜糊",
     "CarrotMash.Description": "由山洞萝卜和一种特殊的山洞真菌制成的泥糊。",
