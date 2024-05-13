@@ -56,6 +56,19 @@ A farm animal building to house Grubs and Crabs. Level 2 and 3 come with an incu
 A large underground room.  Often used for storing root vegitables.
 Can be used as a space to process or store goods, similar to a shed. Floors and walls cannot be replaced.
 
+### Dwarven Furnace
+A large furnace, heated with the activated magic of solar essances.  This furnace never needs additional fuel beyond the solar essances it is constructed with, and it can smelt multiple materials at the same time.
+Functions like a Mill, with products being processed and retrieved for the following morning.
+
+Each day it can simultaniously process:
+Up to 100 Copper Bars
+Up to 30 Iron Bars
+Up to 10 Gold Bars
+Up to 6 Iridium Bars
+Up to 6 Radioactive Bars
+Up to 32 Refined Quartz from regular Quartz
+Up to 96 Refined Quartz from Fire Quartz
+
 ## New Items
 
 ### Tools
