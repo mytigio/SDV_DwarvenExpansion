@@ -38,19 +38,19 @@
 					"Builder": "Robin",
 					"BuildCondition": null,
 					"BuildDays": 2,
-					"BuildCost": 18000,
+					"BuildCost": 28000,
 					"BuildMaterials": [
 						{
 							"ItemId": "(O)390",
-							"Amount": 1000
+							"Amount": 950
 						},
 						{
 							"ItemId": "(O)388",
-							"Amount": 25
+							"Amount": 50
 						},
 						{
 							"ItemId": "(O)330",
-							"Amount": 50
+							"Amount": 100
 						}
 					],
 					"MagicalConstruction": false,
