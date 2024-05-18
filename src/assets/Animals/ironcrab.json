@@ -1,6 +1,21 @@
 {
 	"Changes": [
 		{
+			"Action": "Load",
+			"Target": "Mods/DwarvenExpansion/Animals/IronCrabAdult",
+			"FromFile": "assets/Animals/IronCrabFarmAnimal.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/DwarvenExpansion/Animals/IronCrabBaby",
+			"FromFile": "assets/Animals/IronCrabFarmAnimalBaby.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/DwarvenExpansion/Animals/IronCrabSheared",
+			"FromFile": "assets/Animals/IronCrabFarmAnimalSheared.png"
+		},
+		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Entries": {
@@ -156,7 +171,7 @@
 					"Gender": "MaleOrFemale",
 					"PurchasePrice": 600,
 					"SellPrice": 1200,
-					"ShopTexture": "{{InternalAssetKey: assets/Animals/animalShopImages.png}}",
+					"ShopTexture": "Mods/DwarvenExpansion/Animals/ShopImages",
 					"ShopSourceRect": {
 						"X": 0,
 						"Y": 32,
@@ -211,9 +226,9 @@
 					"ProfessionForFasterProduce": -1,
 					"Sound": "stoneCrack",
 					"BabySound": "stoneCrack",
-					"Texture": "{{InternalAssetKey: assets/Animals/IronCrabFarmAnimal.png}}",
-					"HarvestedTexture": "{{InternalAssetKey: assets/Animals/IronCrabFarmAnimalSheared.png}}",
-					"BabyTexture": "{{InternalAssetKey: assets/Animals/IronCrabFarmAnimalBaby.png}}",
+					"Texture": "Mods/DwarvenExpansion/Animals/IronCrabAdult",
+					"HarvestedTexture": "Mods/DwarvenExpansion/Animals/IronCrabSheared",
+					"BabyTexture": "Mods/DwarvenExpansion/Animals/IronCrabBaby",
 					"UseFlippedRightForLeft": false,
 					"SpriteWidth": 16,
 					"SpriteHeight": 16,

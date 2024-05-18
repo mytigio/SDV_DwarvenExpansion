@@ -173,6 +173,11 @@
             "FromFile": "assets/BigCraftables/BigCraftablesSpritesheet.png"
         },
         {
+			"Action": "Load",
+			"Target": "Mods/DwarvenExpansion/Animals/ShopImages",
+			"FromFile": "assets/Animals/animalShopImages.png"
+		},
+        {
             "Action": "Include",
             "FromFile": "assets/Objects/objects.json"
         },
