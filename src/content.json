@@ -33,6 +33,10 @@
             "AllowBlank": true,
             "Default": "DwarvenPickaxe"
         },
+        "EnableOreDust": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
         "EnableBaseTransmutationRecipes": {
             "AllowValues": "true, false",
             "Default": true
@@ -120,6 +124,10 @@
         "PrismaticToIridiumOutput": {
             "AllowValues": "1,2,3,4,5,6,7,8,9,10",
             "Default": "2"
+        },
+        "OreRequiredForDust": {
+            "AllowValues": "1,2,3,4,5,6,7,8,9,10",
+            "Default": "10"
         }
     },
     "DynamicTokens": [

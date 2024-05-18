@@ -441,18 +441,6 @@
                             "Id": "30_Minute_Dusts",
                             "Triggers": [
                                 {
-                                    "Id": "Copper_Ore",
-                                    "Trigger": "ItemPlacedInMachine",
-                                    "RequiredItemId": "378",
-                                    "RequiredCount": 1
-                                },
-                                {
-                                    "Id": "Iron_Ore",
-                                    "Trigger": "ItemPlacedInMachine",
-                                    "RequiredItemId": "380",
-                                    "RequiredCount": 1
-                                },
-                                {
                                     "Id": "Gem",
                                     "Trigger": "ItemPlacedInMachine",
                                     "RequiredTags": [
@@ -468,7 +456,7 @@
                                 {
                                     "Id": "Copper_Dust",
                                     "ItemId": "{{ModId}}_MineralDust_CopperDust",
-                                    "MinStack": 1,
+                                    "MinStack": "{{OreRequiredForDust}}",
                                     "CopyPrice": true,
                                     "PreserveId": "DROP_IN_ID",
                                     "Condition": "ITEM_ID Input 378"
@@ -476,7 +464,7 @@
                                 {
                                     "Id": "Iron_Dust",
                                     "ItemId": "{{ModId}}_MineralDust_IronDust",
-                                    "MinStack": 1,
+                                    "MinStack": "{{OreRequiredForDust}}",
                                     "CopyPrice": true,
                                     "PreserveId": "DROP_IN_ID",
                                     "Condition": "ITEM_ID Input 380"
@@ -557,42 +545,20 @@
                             ],
                             "UseFirstValidOutput": true,
                             "MinutesUntilReady": "30"
+                        }
+                    ],
+                    "ReadyTimeModifiers": [
+                        {
+                            "Id": "OreMultiplier",
+                            "Modification": "Multiply",
+                            "Amount": "{{OreRequiredForDust}}",
+                            "Condition": "ITEM_ID Input 378 380 384 386"
                         },
                         {
-                            "Id": "120_Minute_Dusts",
-                            "Triggers": [
-                                {
-                                    "Id": "Gold_Ore",
-                                    "Trigger": "ItemPlacedInMachine",
-                                    "RequiredItemId": "384",
-                                    "RequiredCount": 1
-                                },
-                                {
-                                    "Id": "Iridium_Ore",
-                                    "Trigger": "ItemPlacedInMachine",
-                                    "RequiredItemId": "386",
-                                    "RequiredCount": 1
-                                }
-                            ],
-                            "OutputItem": [
-                                {
-                                    "Id": "Gold_Dust",
-                                    "ItemId": "{{ModId}}_MineralDust_GoldDust",
-                                    "MinStack": 1,
-                                    "CopyPrice": true,
-                                    "PreserveId": "DROP_IN_ID",
-                                    "Condition": "ITEM_ID Input 384"
-                                },
-                                {
-                                    "Id": "Iridium_Dust",
-                                    "ItemId": "{{ModId}}_MineralDust_IridiumDust",
-                                    "MinStack": 1,
-                                    "CopyPrice": true,
-                                    "PreserveId": "DROP_IN_ID",
-                                    "Condition": "ITEM_ID Input 386"
-                                }
-                            ],
-                            "MinutesUntilReady": "120"
+                            "Id": "SolarAndVoid",
+                            "Modification": "Multiply",
+                            "Amount": 2,
+                            "Condition": "ITEM_ID Input 768 308"
                         }
                     ],
                     "LoadEffects": [
@@ -624,6 +590,82 @@
                     "WorkingEffectChance": 1,
                     "WobbleWhileWorking": false
                 }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [
+                "(BC){{ModId}}_Pulverizer",
+                "OutputRules",
+                "30_Minute_Dusts",
+                "Triggers"
+            ],
+            "Entries": {
+                "Copper_Ore": {
+                    "Id": "Copper_Ore",
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "378",
+                    "RequiredCount": "{{OreRequiredForDust}}"
+                },
+                "Iron_Ore": {
+                    "Id": "Iron_Ore",
+                    "Trigger": "ItemPlacedInMachine",
+                    "RequiredItemId": "380",
+                    "RequiredCount": "{{OreRequiredForDust}}"
+                }
+            },
+            "When": {
+                "EnableOreDust": "true"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [
+                "(BC){{ModId}}_Pulverizer",
+                "OutputRules"
+            ],
+            "Entries": {
+                "120_Minute_Dusts": {
+                    "Id": "120_Minute_Dusts",
+                    "Triggers": [
+                        {
+                            "Id": "Gold_Ore",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "384",
+                            "RequiredCount": "{{OreRequiredForDust}}"
+                        },
+                        {
+                            "Id": "Iridium_Ore",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "386",
+                            "RequiredCount": "{{OreRequiredForDust}}"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "Gold_Dust",
+                            "ItemId": "{{ModId}}_MineralDust_GoldDust",
+                            "MinStack": "{{OreRequiredForDust}}",
+                            "CopyPrice": true,
+                            "PreserveId": "DROP_IN_ID",
+                            "Condition": "ITEM_ID Input 384"
+                        },
+                        {
+                            "Id": "Iridium_Dust",
+                            "ItemId": "{{ModId}}_MineralDust_IridiumDust",
+                            "MinStack": "{{OreRequiredForDust}}",
+                            "CopyPrice": true,
+                            "PreserveId": "DROP_IN_ID",
+                            "Condition": "ITEM_ID Input 386"
+                        }
+                    ],
+                    "MinutesUntilReady": "120"
+                }
+            },
+            "When": {
+                "EnableOreDust": "true"
             }
         }
     ]
