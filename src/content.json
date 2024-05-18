@@ -33,6 +33,10 @@
             "AllowBlank": true,
             "Default": "DwarvenPickaxe"
         },
+        "EnableBaseTransmuationRecipes": {
+            "AllowValues": "true, false",
+            "Default": true
+        },
         "CopperToIronLevel": {
             "AllowValues": "1,2,3,4,5,6,7,8,9,10",
             "Default": "4"
@@ -56,6 +60,14 @@
         "IridiumToGoldLevel": {
             "AllowValues": "1,2,3,4,5,6,7,8,9,10",
             "Default": "7"
+        },
+        "IridiumToRadioactiveLevel": {
+            "AllowValues": "1,2,3,4,5,6,7,8,9,10",
+            "Default": "10"
+        },
+        "RadioactiveToIridiumLevel": {
+            "AllowValues": "1,2,3,4,5,6,7,8,9,10",
+            "Default": "9"
         },
         "IridiumToPrismaticLevel": {
             "AllowValues": "1,2,3,4,5,6,7,8,9,10",
@@ -88,6 +100,14 @@
         "IridiumToGoldOutput": {
             "AllowValues": "1,2,3,4,5,6,7,8,9,10",
             "Default": "3"
+        },
+        "IridiumToRadioactiveCost": {
+            "AllowValues": "1,2,3,4,5,6,7,8,9,10",
+            "Default": "3"
+        },
+        "RadioactiveToIridiumOutput": {
+            "AllowValues": "1,2,3,4,5,6,7,8,9,10",
+            "Default": "2"
         },
         "IridiumToPrismaticCost": {
             "AllowValues": "1,2,3,4,5,6,7,8,9,10",
