@@ -56,6 +56,10 @@ A farm animal building to house Grubs and Crabs. Level 2 and 3 come with an incu
 A large underground room.  Often used for storing root vegitables.
 Can be used as a space to process or store goods, similar to a shed. Floors and walls cannot be replaced.
 
+### Cavern
+A large, dark underground cavern that can house Barn animals.  Has a large metal gate at the entrance to keep in more ferocious subterranian animals.
+The Cavern is only available as a Deluxe building, complete with incubator, feed hopper and a feeding chute system to keep animals fed.
+
 ### Dwarven Furnace
 A large furnace, heated with the activated magic of solar essances.  This furnace never needs additional fuel beyond the solar essances it is constructed with, and it can smelt multiple materials at the same time.
 Functions like a Mill, with products being processed and retrieved for the following morning.
@@ -97,6 +101,11 @@ Adds new transmutation recipes (all costs, outputs and levels are configurable):
  - Gold -> Iron (1 Gold Bar produces 2 Iron Bars. Unlocked at mining 5)
  - Iridium -> Gold (1 Iridium Bar produces 3 Gold Bars. Unlocked at mining 7)
  - Gold -> Iridium (5 Gold Bars to make 1 Iridium Bar. Unlocked at mining 8)
+ - RadioActive -> Iridium (1 Radioactive Bar to make 2 Iridium Bars. Unlocked at mining 9)
+ - Iridium -> Radioactive (3 Iridium Bars to make 1 Radioactive Bar.  Unlocked at mining 10)
+ - Prismatic -> Iridium (1 Prismatic Bar to make 2 Iridium Bars. Unlocked at mining 9. Only if you have Prismatic Tools Continued)
+ - Iridium -> Prismatic (3 Iridium Bars to make 1 Prismatic Bar.  Unlocked at mining 10.  Only if you have Prismatic Tools Continued)
+ 
 
 ### Food / Cooking Recipes
 Several new cooking recipes have been added themed around ingredients sourced from the mines:
