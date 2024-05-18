@@ -13,6 +13,12 @@ Turns gemstones and minerals into an artisan good that can be sold for drasticly
 
 [size=4]Dwarven Pulverizer[/size]
 Breaks down ore clusters into useful ore, allows you to recycle stone into useful products and can pulverize ore and gems into a fine powder that can be used to brew spirits and make potions.
+[size=3]Automate Notes[/size]
+Automate works out of the box, however Ore Clusters -> Ore -> Ore Dust requires some special considerion if you don't want all ore to become dust.  To improve compatability you have 2 options:
+[list=1]
+[*] Configuration Option to increase how many Ore are required to turn into Dust.  Combined with Chests Anywhere this allows you to ensure that Ore Clusters won't automatically turn into dust by setting the input Ore requirement to 7 or above and configuring an input and output chest.  If you enable this option the machine ready time and output number will scale with however many input ore are required (2 ore = double time, 10 ore = 10 times as long, etc).
+[*] Configuration Option to disable Ore Dust recipes completely.  This works without Chests Anywhere, but means you won't be able to make Dwarven Spirits in the Still.
+[/list]
 
 [size=4]Dwarven Still[/size]
 Brew dwarven spirits and infuse them with the magic of the earth using gem dust.
@@ -127,6 +133,10 @@ Gold -> Iridium (5 gold bars to make 1 iridium bar. Unlocked at mining 8)
 Iron -> Copper (1 Iron produces 2 Copper. Unlocked at mining 3)
 Gold -> Iron (1 Gold produces 2 Iron. Unlocked at mining 5)
 Iridium -> Gold (1 Iridium produces 3 Gold. Unlocked at mining 7)
+RadioActive -> Iridium (1 Radioactive Bar to make 2 Iridium Bars. Unlocked at mining 9)
+Iridium -> Radioactive (3 Iridium Bars to make 1 Radioactive Bar.  Unlocked at mining 10)
+Prismatic -> Iridium (1 Prismatic Bar to make 2 Iridium Bars. Unlocked at mining 9. Only if you have Prismatic Tools Continued)
+Iridium -> Prismatic (3 Iridium Bars to make 1 Prismatic Bar.  Unlocked at mining 10.  Only if you have Prismatic Tools Continued)
 
 [size=4]Food / Cooking Recipes[/size]
 Several new cooking recipes have been added themed around ingredients sourced from the mines:
@@ -227,6 +237,8 @@ A list of mod compatibilities.
 [*] [url=https://www.nexusmods.com/stardewvalley/mods/21038]The Geology Mod (Update 1.6)[/url] - Partially compatible without patch, additional compatibility and integration with patch: [url=https://www.nexusmods.com/stardewvalley/mods/23439/]https://www.nexusmods.com/stardewvalley/mods/23439/[/url]
 [*] [url=https://www.nexusmods.com/stardewvalley/mods/9600]Visit Mount Vapius[/url] - Partially compatible without patch.  Additional compatibility, new jewelry and integrations with patch: [url=https://www.nexusmods.com/stardewvalley/mods/23660]https://www.nexusmods.com/stardewvalley/mods/23660[/url]
 [*] [url=https://www.nexusmods.com/stardewvalley/mods/23393]Base Hay Capacity[/url] - Patch adds a base hay capacity to Dwarven Expansion animal houses to match Base Hay Capacity. [url=https://www.nexusmods.com/stardewvalley/mods/23680/]https://www.nexusmods.com/stardewvalley/mods/23680/[/url]
+[*] [url=https://www.nexusmods.com/stardewvalley/mods/21450]Prismatic Tools Continued[/url] - Native compatability with Prismatic Tools Continued.  Adds Transmute recipes for Prismatic Bars.
+[*] [url=https://www.nexusmods.com/stardewvalley/mods/1063]Automate[/url] - Native compatability. However see notes under machines above for specific cases.
 [/list]
 
 [size=5]Translations[/size]

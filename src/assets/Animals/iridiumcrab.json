@@ -1,6 +1,21 @@
 {
 	"Changes": [
 		{
+			"Action": "Load",
+			"Target": "Mods/DwarvenExpansion/Animals/IridiumCrabAdult",
+			"FromFile": "assets/Animals/IridiumCrabFarmAnimal.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/DwarvenExpansion/Animals/IridiumCrabBaby",
+			"FromFile": "assets/Animals/IridiumCrabFarmAnimalBaby.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/DwarvenExpansion/Animals/IridiumCrabSheared",
+			"FromFile": "assets/Animals/IridiumCrabFarmAnimalSheared.png"
+		},
+		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Entries": {
@@ -15,7 +30,7 @@
 					"ContextTags": [
 						"{{ModId}}"
 					],
-					"Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+					"Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 243,
 					"GeodeDropsDefaultItems": false,
 					"GeodeDrops": [
@@ -156,7 +171,7 @@
 					"Gender": "MaleOrFemale",
 					"PurchasePrice": 1600,
 					"SellPrice": 3200,
-					"ShopTexture": "{{InternalAssetKey: assets/Animals/animalShopImages.png}}",
+					"ShopTexture": "Mods/DwarvenExpansion/Animals/ShopImages",
 					"ShopSourceRect": {
 						"X": 0,
 						"Y": 64,
@@ -211,9 +226,9 @@
 					"ProfessionForFasterProduce": -1,
 					"Sound": "stoneCrack",
 					"BabySound": "stoneCrack",
-					"Texture": "{{InternalAssetKey: assets/Animals/IridiumCrabFarmAnimal.png}}",
-					"HarvestedTexture": "{{InternalAssetKey: assets/Animals/IridiumCrabFarmAnimalSheared.png}}",
-					"BabyTexture": "{{InternalAssetKey: assets/Animals/IridiumCrabFarmAnimalBaby.png}}",
+					"Texture": "Mods/DwarvenExpansion/Animals/IridiumCrabAdult",
+					"HarvestedTexture": "Mods/DwarvenExpansion/Animals/IridiumCrabSheared",
+					"BabyTexture": "Mods/DwarvenExpansion/Animals/IridiumCrabBaby",
 					"UseFlippedRightForLeft": false,
 					"SpriteWidth": 16,
 					"SpriteHeight": 16,

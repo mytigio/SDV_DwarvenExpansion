@@ -1,13 +1,18 @@
 {
 	"Changes": [
 		{
+			"Action": "Load",
+			"Target": "Mods/DwarvenExpansion/Buildings/DwarvenFurnace",
+			"FromFile": "assets/Buildings/DwarvenFurnace/DwarvenFurnace.png"
+		},
+		{
 			"Action": "EditData",
 			"Target": "Data/Buildings",
 			"Entries": {
 				"{{ModId}}_DwarvenFurnace": {
 					"Name": "{{i18n:DwarvenFurnace.Name}}",
 					"Description": "{{i18n:DwarvenFurnace.Description}}",
-					"Texture": "{{InternalAssetKey: assets/Buildings/DwarvenFurnace/DwarvenFurnace.png}}",
+					"Texture": "Mods/DwarvenExpansion/Buildings/DwarvenFurnace",
 					"DrawShadow": false,
 					"SourceRect": {
 						"X": 0,

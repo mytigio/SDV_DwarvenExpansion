@@ -1,6 +1,16 @@
 {
 	"Changes": [
 		{
+			"Action": "Load",
+			"Target": "Mods/DwarvenExpansion/Animals/NakedMoleRat",
+			"FromFile": "assets/Animals/NakedMoleRat.png"
+		},
+		{
+			"Action": "Load",
+			"Target": "Mods/DwarvenExpansion/Animals/NakedMoleRatBaby",
+			"FromFile": "assets/Animals/NakedMoleRatBaby.png"
+		},
+		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Entries": {
@@ -15,7 +25,7 @@
                     "ContextTags": [
                         "{{ModId}}"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 245
                 }
 			}
@@ -30,7 +40,7 @@
 					"Gender": "MaleOrFemale",
 					"PurchasePrice": 600,
 					"SellPrice": 1200,
-					"ShopTexture": "{{InternalAssetKey: assets/Animals/animalShopImages.png}}",
+					"ShopTexture": "Mods/DwarvenExpansion/Animals/ShopImages",
 					"ShopSourceRect": {
 						"X": 0,
 						"Y": 80,
@@ -73,9 +83,9 @@
 					"ProfessionForFasterProduce": -1,
 					"Sound": "rabbit",
 					"BabySound": "rabbit",
-					"Texture": "{{InternalAssetKey: assets/Animals/NakedMoleRat.png}}",
+					"Texture": "Mods/DwarvenExpansion/Animals/NakedMoleRat",
 					"HarvestedTexture": null,
-					"BabyTexture": "{{InternalAssetKey: assets/Animals/NakedMoleRatBaby.png}}",
+					"BabyTexture": "Mods/DwarvenExpansion/Animals/NakedMoleRatBaby",
 					"UseFlippedRightForLeft": true,
 					"SpriteWidth": 32,
 					"SpriteHeight": 32,

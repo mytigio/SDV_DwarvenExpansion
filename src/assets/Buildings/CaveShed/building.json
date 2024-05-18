@@ -1,13 +1,18 @@
 {
 	"Changes": [
 		{
+			"Action": "Load",
+			"Target": "Mods/DwarvenExpansion/Buildings/CaveShed",
+			"FromFile": "assets/Buildings/CaveShed/texture.png"
+		},
+		{
 			"Action": "EditData",
 			"Target": "Data/Buildings",
 			"Entries": {
 				"{{ModId}}_CaveShed": {
 					"Name": "{{i18n:CaveShed.Name}}",
 					"Description": "{{i18n:CaveShed.Description}}",
-					"Texture": "{{InternalAssetKey: assets/Buildings/CaveShed/texture.png}}",
+					"Texture": "Mods/DwarvenExpansion/Buildings/CaveShed",
 					"SourceRect": {
 						"X": 0,
 						"Y": 0,

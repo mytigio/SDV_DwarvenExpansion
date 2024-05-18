@@ -13,7 +13,7 @@
                     "CanBePlacedIndoors": true,
                     "CanBePlacedOutdoors": true,
                     "IsLamp": false,
-                    "Texture": "{{InternalAssetKey: assets/BigCraftables/BigCraftablesSpritesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/BigCraftablesSpritesheet",
                     "SpriteIndex": 12
                 }
             }
