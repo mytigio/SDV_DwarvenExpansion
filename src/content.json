@@ -8,7 +8,7 @@
             "Default": "GemPolisher, Pulverizer, DwarvenStill, AlchemyBench, JewelryMaker, SlowburnCharcoalKiln, ImprovedMushroomBox"
         },
         "EnabledBuildings": {
-            "AllowValues": "CaveCoop, CaveShed, DwarvenFurnace",
+            "AllowValues": "CaveCoop, CaveShed, DwarvenFurnace, Cavern",
             "AllowMultiple": true,
             "AllowBlank": true,
             "Default": "CaveCoop, CaveShed, DwarvenFurnace"
@@ -131,6 +131,10 @@
         {
             "Name": "mytigio.dwarven_expansion_Locations_LargeShedCave",
             "FromMapFile": "assets/Maps/ShedCave/LargeShedCave.tmx"
+        },
+        {
+            "Name": "mytigio.dwarven_expansion_Locations_Cavern",
+            "FromMapFile": "assets/Maps/Cavern/Cavern.tmx"
         }
     ],
     "Changes": [
@@ -158,6 +162,13 @@
         },
         {
             "Action": "Include",
+            "FromFile": "assets/Animals/butterflies.json",
+            "When": {
+                "EnabledAnimals": "Grub"
+            }
+        },
+        {
+            "Action": "Include",
             "FromFile": "assets/Animals/grub.json",
             "When": {
                 "EnabledAnimals": "Grub"
@@ -168,6 +179,13 @@
             "FromFile": "assets/Animals/nakedmolerat.json",
             "When": {
                 "EnabledAnimals": "Molerat"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Buildings/Cavern/building.json",
+            "When": {
+                "EnabledBuildings": "Cavern"
             }
         },
         {

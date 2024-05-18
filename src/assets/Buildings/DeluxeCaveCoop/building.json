@@ -1,13 +1,18 @@
 {
 	"Changes": [
 		{
+			"Action": "Load",
+			"Target": "Mods/DwarvenExpansion/Buildings/DeluxeCaveCoop",
+			"FromFile": "assets/Buildings/DeluxeCaveCoop/texture.png"
+		},
+		{
 			"Action": "EditData",
 			"Target": "Data/Buildings",
 			"Entries": {
 				"{{ModId}}_DeluxeCaveCoop": {
 					"Name": "{{i18n:DeluxeCaveCoop.Name}}",
 					"Description": "{{i18n:DeluxeCaveCoop.Description}}",
-					"Texture": "{{InternalAssetKey: assets/Buildings/DeluxeCaveCoop/texture.png}}",
+					"Texture": "Mods/DwarvenExpansion/Buildings/DeluxeCaveCoop",
 					"SourceRect": {
 						"X": 0,
 						"Y": 0,

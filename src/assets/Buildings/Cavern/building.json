@@ -2,53 +2,55 @@
 	"Changes": [
 		{
 			"Action": "Load",
-			"Target": "Mods/DwarvenExpansion/Buildings/BigCaveCoop",
-			"FromFile": "assets/Buildings/BigCaveCoop/texture.png"
+			"Target": "Mods/DwarvenExpansion/Buildings/Cavern",
+			"FromFile": "assets/Buildings/Cavern/Cavern.png"
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Buildings",
 			"Entries": {
-				"{{ModId}}_BigCaveCoop": {
+				"{{ModId}}_LargeCavern": {
 					"Name": "{{i18n:BigCaveCoop.Name}}",
 					"Description": "{{i18n:BigCaveCoop.Description}}",
-					"Texture": "Mods/DwarvenExpansion/Buildings/BigCaveCoop",
+					"Texture": "Mods/DwarvenExpansion/Buildings/Cavern",
 					"SourceRect": {
 						"X": 0,
 						"Y": 0,
-						"Width": 96,
-						"Height": 112
+						"Width": 112,
+						"Height": 128
 					},
 					"SeasonOffset": {
-						"X": 96,
+						"X": 0,
 						"Y": 0
 					},
 					"DrawOffset": "0,0",
-					"SortTileOffset": 0.0,
+					"DrawShadow": false,
+					"SortTileOffset": 1.0,
+					"CollisionMap": "\nXXXXXXX\nXXXXXXX\nXXXXXXX\n0XXXXX0",
 					"FadeWhenBehind": true,
 					"Size": {
-						"X": 6,
-						"Y": 3
+						"X": 7,
+						"Y": 4
 					},
 					"UpgradeSignTile": "2, 2",
 					"UpgradeSignHeight": 28.0,
-					"BuildingToUpgrade": "{{ModId}}_CaveCoop",
+					"BuildingToUpgrade": null,
 					"Builder": "Robin",
 					"BuildCondition": null,
 					"BuildDays": 2,
-					"BuildCost": 12000,
+					"BuildCost": 18000,
 					"BuildMaterials": [
 						{
 							"ItemId": "(O)390",
-							"Amount": 500
+							"Amount": 1000
 						},
 						{
 							"ItemId": "(O)388",
-							"Amount": 50
+							"Amount": 25
 						},
 						{
 							"ItemId": "(O)330",
-							"Amount": 30
+							"Amount": 50
 						}
 					],
 					"MagicalConstruction": false,
@@ -57,52 +59,35 @@
 						"Y": 0
 					},
 					"HumanDoor": {
-						"X": 2,
+						"X": 6,
 						"Y": 2
 					},
 					"AnimalDoor": {
-						"X": 4,
+						"X": 2,
 						"Y": 2,
-						"Width": 1,
-						"Height": 1
+						"Width": 3,
+						"Height": 2
 					},
-					"AnimalDoorOpenDuration": 0.3125,
-					"AnimalDoorOpenSound": "doorCreak",
-					"AnimalDoorCloseDuration": 0.3125,
-					"AnimalDoorCloseSound": "doorCreakReverse",
+					"AnimalDoorOpenDuration": 0.4,
+					"AnimalDoorOpenSound": "trashcan",
+					"AnimalDoorCloseDuration": 0.2,
+					"AnimalDoorCloseSound": "trashcanlid",
 					"NonInstancedIndoorLocation": null,
-					"IndoorMap": "{{ModId}}_Locations_BigCoopCave",
+					"IndoorMap": "{{ModId}}_Locations_Cavern",
 					"IndoorMapType": "StardewValley.AnimalHouse",
 					"MaxOccupants": 8,
 					"ValidOccupantTypes": [
-						"{{ModId}}_CaveCoop",
-						"{{ModId}}_BigCaveCoop"
+						"{{ModId}}_LargeCavern",
+						"Barn"
 					],
 					"AllowAnimalPregnancy": true,
-					"IndoorItemMoves": [
-						{
-							"Id": "Default_ClearSpot_EggIncubator",
-							"Source": {
-								"X": 2,
-								"Y": 5
-							},
-							"Destination": {
-								"X": 14,
-								"Y": 8
-							},
-							"Size": {
-								"X": 1,
-								"Y": 1
-							},
-							"UnlessItemId": "(BC){{ModId}}_CaveIncubator"
-						}
-					],
+					"IndoorItemMoves": [],
 					"IndoorItems": [
 						{
 							"Id": "Default_FeedHopper",
 							"ItemId": "(BC)99",
 							"Tile": {
-								"X": 4,
+								"X": 5,
 								"Y": 4
 							},
 							"Indestructible": true
@@ -111,8 +96,8 @@
 							"Id": "Default_Incubator",
 							"ItemId": "(BC){{ModId}}_CaveIncubator",
 							"Tile": {
-								"X": 2,
-								"Y": 5
+								"X": 7,
+								"Y": 4
 							},
 							"Indestructible": true
 						}
@@ -130,38 +115,80 @@
 					"ItemConversions": null,
 					"DrawLayers": [
 						{
-							"Id": "Default_AnimalDoor",
+							"Id": "Default_AnimalDoor_Bottom",
 							"Texture": null,
 							"SourceRect": {
 								"X": 0,
-								"Y": 112,
-								"Width": 16,
-								"Height": 16
+								"Y": 144,
+								"Width": 48,
+								"Height": 32
 							},
-							"DrawPosition": "64, 96",
+							"DrawPosition": "32, 91",
 							"DrawInBackground": false,
-							"SortTileOffset": 0.02,
+							"SortTileOffset": 1.02,
 							"OnlyDrawIfChestHasContents": null,
 							"FrameDuration": 90,
 							"FrameCount": 1,
 							"FramesPerRow": -1,
 							"AnimalDoorOffset": {
 								"X": 0,
-								"Y": -13
+								"Y": -32
 							}
 						},
 						{
-							"Id": "Default_AnimalDoor_Open",
+							"Id": "Default_AnimalDoor_Top",
 							"Texture": null,
 							"SourceRect": {
-								"X": 16,
-								"Y": 112,
-								"Width": 16,
+								"X": 0,
+								"Y": 128,
+								"Width": 48,
 								"Height": 16
 							},
-							"DrawPosition": "64, 96",
+							"DrawPosition": "32, 75",
 							"DrawInBackground": false,
-							"SortTileOffset": 1.0,
+							"SortTileOffset": 1.02,
+							"OnlyDrawIfChestHasContents": null,
+							"FrameDuration": 90,
+							"FrameCount": 1,
+							"FramesPerRow": -1,
+							"AnimalDoorOffset": {
+								"X": 0,
+								"Y": -32
+							}
+						},
+						{
+							"Id": "Default_AnimalDoor_Open_Top",
+							"Texture": null,
+							"SourceRect": {
+								"X": 48,
+								"Y": 128,
+								"Width": 48,
+								"Height": 16
+							},
+							"DrawPosition": "32, 76",
+							"DrawInBackground": false,
+							"SortTileOffset": 2.0,
+							"OnlyDrawIfChestHasContents": null,
+							"FrameDuration": 90,
+							"FrameCount": 1,
+							"FramesPerRow": -1,
+							"AnimalDoorOffset": {
+								"X": 0,
+								"Y": 0
+							}
+						},
+						{
+							"Id": "Default_AnimalDoor_Open_Bottom",
+							"Texture": null,
+							"SourceRect": {
+								"X": 48,
+								"Y": 144,
+								"Width": 48,
+								"Height": 32
+							},
+							"DrawPosition": "32, 92",
+							"DrawInBackground": false,
+							"SortTileOffset": 2.0,
 							"OnlyDrawIfChestHasContents": null,
 							"FrameDuration": 90,
 							"FrameCount": 1,

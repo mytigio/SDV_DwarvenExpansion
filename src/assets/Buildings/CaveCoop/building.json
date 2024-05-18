@@ -1,13 +1,18 @@
 {
 	"Changes": [
 		{
+			"Action": "Load",
+			"Target": "Mods/DwarvenExpansion/Buildings/CaveCoop",
+			"FromFile": "assets/Buildings/CaveCoop/texture.png"
+		},
+		{
 			"Action": "EditData",
 			"Target": "Data/Buildings",
 			"Entries": {
 				"{{ModId}}_CaveCoop": {
 					"Name": "{{i18n:CaveCoop.Name}}",
 					"Description": "{{i18n:CaveCoop.Description}}",
-					"Texture": "{{InternalAssetKey: assets/Buildings/CaveCoop/texture.png}}",
+					"Texture": "Mods/DwarvenExpansion/Buildings/CaveCoop",
 					"SourceRect": {
 						"X": 0,
 						"Y": 0,

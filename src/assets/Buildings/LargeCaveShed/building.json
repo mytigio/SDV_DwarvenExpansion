@@ -1,13 +1,18 @@
 {
 	"Changes": [
 		{
+			"Action": "Load",
+			"Target": "Mods/DwarvenExpansion/Buildings/LargeCaveShed",
+			"FromFile": "assets/Buildings/LargeCaveShed/texture.png"
+		},
+		{
 			"Action": "EditData",
 			"Target": "Data/Buildings",
 			"Entries": {
 				"{{ModId}}_LargeCaveShed": {
 					"Name": "{{i18n:LargeCaveShed.Name}}",
 					"Description": "{{i18n:LargeCaveShed.Description}}",
-					"Texture": "{{InternalAssetKey: assets/Buildings/LargeCaveShed/texture.png}}",
+					"Texture": "Mods/DwarvenExpansion/Buildings/LargeCaveShed",
 					"SourceRect": {
 						"X": 0,
 						"Y": 0,
