@@ -1,5 +1,10 @@
 {
-    "Changes": [       
+    "Changes": [
+        {
+			"Action": "Load",
+			"Target": "Mods/DwarvenExpansion/Tools/DwarvenPickaxe",
+			"FromFile": "assets/Tools/DwarvenPickaxe/texture.png"
+		},       
         {
             "Action": "EditData",
             "Target": "Data/Events/Mine",
@@ -28,7 +33,7 @@
                     "SalePrice": 50000,
                     "DisplayName": "{{i18n:Tools.DwarvenPickaxe.DisplayName}}",
                     "Description": "{{i18n:Tools.DwarvenPickaxe.Description}}",
-                    "Texture": "{{InternalAssetKey: assets/Tools/DwarvenPickaxe/texture.png}}",
+                    "Texture": "Mods/DwarvenExpansion/Tools/DwarvenPickaxe",
                     "SpriteIndex": 0,
                     "MenuSpriteIndex": 11,
                     "UpgradeLevel": 4,
