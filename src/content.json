@@ -139,6 +139,14 @@
     ],
     "Changes": [
         {
+            "Action": "Load",
+            "Target": "Mods/DwarvenExpansion/BigCraftablesSpritesheet",
+            "FromFile": "assets/BigCraftables/BigCraftablesSpritesheet.png",
+            "When": {
+                "EnabledMachines": "GemPolisher, Pulverizer, DwarvenStill, AlchemyBench, JewelryMaker, SlowburnCharcoalKiln, ImprovedMushroomBox"
+            }
+        },
+        {
             "Action": "Include",
             "FromFile": "assets/Objects/objects.json"
         },
