@@ -12,7 +12,7 @@
                     "Type": "Basic",
                     "Category": -25,
                     "Edibility": -300,
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 0
                 },
                 "{{ModId}}_Drinks_DwarvenSpirits": {
@@ -33,7 +33,7 @@
                             }
                         }
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 1
                 },
                 "{{ModId}}_Drinks_InfusedSpirits": {
@@ -57,7 +57,7 @@
                     "ContextTags": [
                         "{{ModId}}"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 2
                 },
                 "{{ModId}}_Potions_DistilledSunlight": {
@@ -81,7 +81,7 @@
                     "ContextTags": [
                         "{{ModId}}"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 18
                 },
                 "{{ModId}}_Potions_FarmersDraught": {
@@ -105,7 +105,7 @@
                     "ContextTags": [
                         "{{ModId}}"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 21
                 },
                 "{{ModId}}_Potions_FishermansBrew": {
@@ -129,7 +129,7 @@
                     "ContextTags": [
                         "{{ModId}}"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 19
                 },
                 "{{ModId}}_Potions_MinersDrink": {
@@ -153,7 +153,7 @@
                     "ContextTags": [
                         "{{ModId}}"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 20
                 },
                 "{{ModId}}_Potions_OnePerfectDay": {
@@ -187,7 +187,7 @@
                     "ContextTags": [
                         "{{ModId}}"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 16
                 },
                 "{{ModId}}_Potions_ShadowedElixir": {
@@ -213,7 +213,7 @@
                     "ContextTags": [
                         "{{ModId}}"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 17
                 },
                 "{{ModId}}_Potions_SwordsmansElixir": {
@@ -237,7 +237,7 @@
                     "ContextTags": [
                         "{{ModId}}"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 22
                 },
                 "{{ModId}}_Potions_WoodmansTonic": {
@@ -261,7 +261,7 @@
                     "ContextTags": [
                         "{{ModId}}"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 23
                 },
                 "{{ModId}}_OreCluster_Copper": {
@@ -277,7 +277,7 @@
                         "{{ModId}}_orecluster",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 224
                 },
                 "{{ModId}}_OreCluster_Iron": {
@@ -293,7 +293,7 @@
                         "{{ModId}}_orecluster",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 225
                 },
                 "{{ModId}}_OreCluster_Gold": {
@@ -309,7 +309,7 @@
                         "{{ModId}}_orecluster",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 226
                 },
                 "{{ModId}}_OreCluster_Iridium": {
@@ -325,7 +325,7 @@
                         "{{ModId}}_orecluster",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 227
                 },
                 "{{ModId}}_MineralDust_CopperDust": {
@@ -342,7 +342,7 @@
                         "not_museum_donatable",
                         "{{ModId}}_oredust"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 176
                 },
                 "{{ModId}}_MineralDust_IronDust": {
@@ -359,7 +359,7 @@
                         "not_museum_donatable",
                         "{{ModId}}_oredust"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 177
                 },
                 "{{ModId}}_MineralDust_GoldDust": {
@@ -376,7 +376,7 @@
                         "not_museum_donatable",
                         "{{ModId}}_oredust"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 178
                 },
                 "{{ModId}}_MineralDust_IridiumDust": {
@@ -393,7 +393,7 @@
                         "not_museum_donatable",
                         "{{ModId}}_oredust"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 179
                 },
                 "{{ModId}}_MineralDust_EmeraldDust": {
@@ -411,7 +411,7 @@
                         "{{ModId}}_gemdust",
                         "{{ModId}}_gemquality_high"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 182
                 },
                 "{{ModId}}_MineralDust_AquamarineDust": {
@@ -429,7 +429,7 @@
                         "{{ModId}}_gemdust",
                         "{{ModId}}_gemquality_medium"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 185
                 },
                 "{{ModId}}_MineralDust_RubyDust": {
@@ -447,7 +447,7 @@
                         "{{ModId}}_gemdust",
                         "{{ModId}}_gemquality_high"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 183
                 },
                 "{{ModId}}_MineralDust_AmethystDust": {
@@ -465,7 +465,7 @@
                         "{{ModId}}_gemdust",
                         "{{ModId}}_gemquality_low"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 186
                 },
                 "{{ModId}}_MineralDust_TopazDust": {
@@ -483,7 +483,7 @@
                         "{{ModId}}_gemdust",
                         "{{ModId}}_gemquality_low"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 187
                 },
                 "{{ModId}}_MineralDust_JadeDust": {
@@ -501,7 +501,7 @@
                         "{{ModId}}_gemdust",
                         "{{ModId}}_gemquality_medium"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 184
                 },
                 "{{ModId}}_MineralDust_DiamondDust": {
@@ -519,7 +519,7 @@
                         "{{ModId}}_gemdust",
                         "{{ModId}}_gemquality_perfect"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 181
                 },
                 "{{ModId}}_MineralDust_PrismaticDust": {
@@ -537,7 +537,7 @@
                         "{{ModId}}_gemdust",
                         "{{ModId}}_gemquality_perfect"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 180
                 },
                 "{{ModId}}_MineralDust_GemstoneDust": {
@@ -555,7 +555,7 @@
                         "{{ModId}}_gemdust",
                         "{{ModId}}_gemquality_low"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 180
                 },
                 "{{ModId}}_Jewelry_N_Aerinite": {
@@ -573,7 +573,7 @@
                         "category_minerals",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 116
                 },
                 "{{ModId}}_Jewelry_N_Alamite": {
@@ -591,7 +591,7 @@
                         "category_minerals",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 97
                 },
                 "{{ModId}}_Jewelry_N_Celestine": {
@@ -609,7 +609,7 @@
                         "category_minerals",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 98
                 },
                 "{{ModId}}_Jewelry_N_Dolomite": {
@@ -627,7 +627,7 @@
                         "category_minerals",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 99
                 },
                 "{{ModId}}_Jewelry_N_EarthCrystal": {
@@ -645,7 +645,7 @@
                         "category_gem",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 100
                 },
                 "{{ModId}}_Jewelry_N_FireOpal": {
@@ -663,7 +663,7 @@
                         "category_minerals",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 101
                 },
                 "{{ModId}}_Jewelry_N_FireQuartz": {
@@ -681,7 +681,7 @@
                         "category_gem",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 103
                 },
                 "{{ModId}}_Jewelry_N_Fluorapatite": {
@@ -699,7 +699,7 @@
                         "category_minerals",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 105
                 },
                 "{{ModId}}_Jewelry_N_FrozenTear": {
@@ -717,7 +717,7 @@
                         "category_gem",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 106
                 },
                 "{{ModId}}_Jewelry_N_Geminite": {
@@ -735,7 +735,7 @@
                         "category_minerals",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 107
                 },
                 "{{ModId}}_Jewelry_N_Gold": {
@@ -752,7 +752,7 @@
                         "crystalarium_banned",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 96
                 },
                 "{{ModId}}_Jewelry_N_Helvite": {
@@ -770,7 +770,7 @@
                         "category_minerals",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 108
                 },
                 "{{ModId}}_Jewelry_N_Kyanite": {
@@ -788,7 +788,7 @@
                         "category_minerals",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 109
                 },
                 "{{ModId}}_Jewelry_N_LemonStone": {
@@ -806,7 +806,7 @@
                         "category_minerals",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 110
                 },
                 "{{ModId}}_Jewelry_N_Malachite": {
@@ -824,7 +824,7 @@
                         "category_minerals",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 111
                 },
                 "{{ModId}}_Jewelry_N_Obsidian": {
@@ -842,7 +842,7 @@
                         "category_minerals",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 112
                 },
                 "{{ModId}}_Jewelry_N_Opal": {
@@ -860,7 +860,7 @@
                         "category_minerals",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 102
                 },
                 "{{ModId}}_Jewelry_N_Orpiment": {
@@ -878,7 +878,7 @@
                         "category_minerals",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 115
                 },
                 "{{ModId}}_Jewelry_N_Quartz": {
@@ -896,7 +896,7 @@
                         "category_gem",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 104
                 },
                 "{{ModId}}_Jewelry_N_StarShards": {
@@ -914,7 +914,7 @@
                         "category_minerals",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 113
                 },
                 "{{ModId}}_Jewelry_N_Tigerseye": {
@@ -932,7 +932,7 @@
                         "category_minerals",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 114
                 },
                 "{{ModId}}_Jewelry_R_Amethyst": {
@@ -950,7 +950,7 @@
                         "category_gem",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 149
                 },
                 "{{ModId}}_Jewelry_R_Aquamarine": {
@@ -968,7 +968,7 @@
                         "category_gem",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 148
                 },
                 "{{ModId}}_Jewelry_R_Diamond": {
@@ -986,7 +986,7 @@
                         "category_gem",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 144
                 },
                 "{{ModId}}_Jewelry_R_Emerald": {
@@ -1004,7 +1004,7 @@
                         "category_gem",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 145
                 },
                 "{{ModId}}_Jewelry_R_Jade": {
@@ -1022,7 +1022,7 @@
                         "category_gem",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 147
                 },
                 "{{ModId}}_Jewelry_R_Ruby": {
@@ -1040,7 +1040,7 @@
                         "category_gem",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 146
                 },
                 "{{ModId}}_Jewelry_R_Topaz": {
@@ -1058,7 +1058,7 @@
                         "category_gem",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 150
                 },
                 "{{ModId}}_Misc_NecklaceMold": {
@@ -1073,7 +1073,7 @@
                         "{{ModId}}",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 117
                 },
                 "{{ModId}}_Misc_GoldenChickenStatue": {
@@ -1088,7 +1088,7 @@
                         "{{ModId}}",
                         "not_museum_donatable"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 151
                 },
                 "{{ModId}}_Food_SunshineStew": {
@@ -1104,7 +1104,7 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_fine_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 62,
                     "Buffs": [
                         {
@@ -1129,7 +1129,7 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_fine_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 64,
                     "Buffs": [
                         {
@@ -1154,7 +1154,7 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_fine_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 63,
                     "Buffs": [
                         {
@@ -1182,7 +1182,7 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_basic_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 66
                 },
                 "{{ModId}}_Food_RoastedCaveFish": {
@@ -1198,7 +1198,7 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_basic_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 65
                 },
                 "{{ModId}}_Food_MashedCarrots": {
@@ -1214,7 +1214,7 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_basic_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 61
                 },
                 "{{ModId}}_Food_LavaEelPie": {
@@ -1230,7 +1230,7 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_fine_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 60,
                     "Buffs": [
                         {
@@ -1257,7 +1257,7 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_fine_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 59,
                     "Buffs": [
                         {
@@ -1282,7 +1282,7 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_basic_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 57
                 },
                 "{{ModId}}_Food_CaveSoup": {
@@ -1298,7 +1298,7 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_basic_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 58
                 },
                 "{{ModId}}_Food_CaveChowder": {
@@ -1314,7 +1314,7 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_fine_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 56,
                     "Buffs": [
                         {
@@ -1340,7 +1340,7 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_fine_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 51,
                     "Buffs": [
                         {
@@ -1365,7 +1365,7 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_fine_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 55,
                     "Buffs": [
                         {
@@ -1390,7 +1390,7 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_basic_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 54,
                     "Buffs": [
                         {
@@ -1415,7 +1415,7 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_basic_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 53
                 },
                 "{{ModId}}_Food_CaveCarrotBrulee": {
@@ -1431,7 +1431,7 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_basic_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 52,
                     "Buffs": [
                         {
@@ -1456,7 +1456,7 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_fine_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 50,
                     "Buffs": [
                         {
@@ -1482,7 +1482,7 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_basic_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 49
                 },
                 "{{ModId}}_Food_BugMeatSoup": {
@@ -1498,7 +1498,7 @@
                         "{{ModId}}_dwarven_cuisine",
                         "{{ModId}}_basic_dwarven_cuisine"
                     ],
-                    "Texture": "{{InternalAssetKey: assets/Objects/ObjectsTilesheet.png}}",
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 48
                 }
             }

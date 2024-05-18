@@ -140,6 +140,11 @@
     "Changes": [
         {
             "Action": "Load",
+            "Target": "Mods/DwarvenExpansion/ObjectSpritesheet",
+            "FromFile": "assets/BigCraftables/ObjectsTilesheet.png"
+        },
+        {
+            "Action": "Load",
             "Target": "Mods/DwarvenExpansion/BigCraftablesSpritesheet",
             "FromFile": "assets/BigCraftables/BigCraftablesSpritesheet.png"
         },
