@@ -1559,7 +1559,6 @@
                     "Value": "{{ModId}}_Food_FriedBatWings {{ModId}}_Food_BugMeatSoup {{ModId}}_CarrotMash",
                     "Delimiter": " "
                 },
-                //#1 = love, #3 = like, #5 = dislike, #7 = hated, #9 = neutral
                 {
                     "Operation": "Append",
                     "Target": [
@@ -1809,7 +1808,7 @@
                     ],
                     "Value": "{{ModId}}_Food_StonefishSuprise {{ModId}}_Food_IcePipSoup {{ModId}}_Food_FriedBatWings {{ModId}}_Food_BugMeatStew {{ModId}}_Food_BugMeatSoup {{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_ShadowedElixir",
                     "Delimiter": " "
-                },
+                }
             ]
         }
     ]
