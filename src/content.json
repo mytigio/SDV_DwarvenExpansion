@@ -165,7 +165,7 @@
         {
             "Action": "Load",
             "Target": "Mods/DwarvenExpansion/ObjectSpritesheet",
-            "FromFile": "assets/BigCraftables/ObjectsTilesheet.png"
+            "FromFile": "assets/Objects/ObjectsTilesheet.png"
         },
         {
             "Action": "Load",
@@ -197,13 +197,6 @@
             "FromFile": "assets/Tools/DwarvenPickaxe/object.json",
             "When": {
                 "EnableTools": "DwarvenPickaxe"
-            }
-        },
-        {
-            "Action": "Include",
-            "FromFile": "assets/Animals/butterflies.json",
-            "When": {
-                "EnabledAnimals": "Grub"
             }
         },
         {
