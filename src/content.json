@@ -33,7 +33,11 @@
             "AllowBlank": true,
             "Default": "DwarvenPickaxe"
         },
-        "EnableBaseTransmuationRecipes": {
+        "EnableBaseTransmutationRecipes": {
+            "AllowValues": "true, false",
+            "Default": true
+        },
+        "EnablePrismaticTransmutationRecipes": {
             "AllowValues": "true, false",
             "Default": true
         },

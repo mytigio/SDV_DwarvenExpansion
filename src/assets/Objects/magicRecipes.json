@@ -15,7 +15,7 @@
                 "Transmute (Ra)": "337 {{IridiumToRadioactiveCost}}/Home/910/false/Mining {{IridiumToRadioactiveLevel}}"
             },
             "When": {
-                "EnableBaseTransmuationRecipes": "true"
+                "EnableBaseTransmutationRecipes": "true"
             }
         },
         {
@@ -27,7 +27,8 @@
                 "Transmute (Fe)": "337 {{IridiumToPrismaticCost}}/Home/PrismaticBar/false/Mining {{IridiumToPrismaticLevel}}"
             },
             "When": {
-                "HasMod": "iargue.PrismaticToolsContinued"
+                "HasMod": "iargue.PrismaticToolsContinued",
+                "EnablePrismaticTransmutationRecipes": "true"
             }
         }
     ]
