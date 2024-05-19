@@ -127,6 +127,9 @@
     "DwarvenFurnace.Name": "Fourneau nain",
     "DwarvenFurnace.Description": "Un grand four, chauffé par la magie activée de l'essence solaire.",
     
+    "Cavern.Name": "Caverne",
+    "Cavern.Description": "Une grande caverne sombre. Un foyer parfait pour les animaux souterrains de plus grande taille. Dispose d'un incubateur et d'une goulotte d'alimentation.",
+
     "CarrotMash.DisplayName": "Purée de carotte",
     "CarrotMash.Description": "Purée réalisée à partir de carottes de caverne et d'un champignon de caverne spécial.",
     

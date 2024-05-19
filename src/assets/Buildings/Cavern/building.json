@@ -10,8 +10,8 @@
 			"Target": "Data/Buildings",
 			"Entries": {
 				"{{ModId}}_LargeCavern": {
-					"Name": "{{i18n:BigCaveCoop.Name}}",
-					"Description": "{{i18n:BigCaveCoop.Description}}",
+					"Name": "{{i18n:Cavern.Name}}",
+					"Description": "{{i18n:Cavern.Description}}",
 					"Texture": "Mods/DwarvenExpansion/Buildings/Cavern",
 					"SourceRect": {
 						"X": 0,
