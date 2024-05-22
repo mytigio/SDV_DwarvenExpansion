@@ -75,7 +75,7 @@
 					"NonInstancedIndoorLocation": null,
 					"IndoorMap": "{{ModId}}_Locations_Cavern",
 					"IndoorMapType": "StardewValley.AnimalHouse",
-					"MaxOccupants": 8,
+					"MaxOccupants": 12,
 					"ValidOccupantTypes": [
 						"{{ModId}}_LargeCavern",
 						"Barn"

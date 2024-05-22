@@ -11,7 +11,7 @@
             "AllowValues": "CaveCoop, CaveShed, DwarvenFurnace, Cavern",
             "AllowMultiple": true,
             "AllowBlank": true,
-            "Default": "CaveCoop, CaveShed, DwarvenFurnace"
+            "Default": "CaveCoop, CaveShed, DwarvenFurnace, Cavern"
         },
         "EnabledCookingRecipes": {
             "AllowValues": "true, false",
