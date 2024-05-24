@@ -292,6 +292,7 @@ Finally, the following recipes can be purchased from Dwarf. Some recipes become 
 [*]Cavatouille
 [*]Cave Chowder
 [*]Cave Soup
+[*]Meaty Stew
 [*]Ice Pip Soup
 [*]Lava Eel Pie
 [*]Roaded Cave Fish
