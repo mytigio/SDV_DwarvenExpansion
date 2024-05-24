@@ -155,6 +155,7 @@ Several new cooking recipes have been added themed around ingredients sourced fr
 [*]Ice Pip Soup
 [*]Lava Eel Pie
 [*]Mashed Carrots
+[*]Meaty Stew
 [*]Roaded Cave Fish
 [*]Rock Crab Salad
 [*]Shadowed Stew
@@ -233,6 +234,8 @@ These are new artisan goods that can be crafted and sold for profit at the Jewlr
 [size=5]Compatibility[/size]
 A list of mod compatibilities.
 [list]
+[*] [url=https://www.nexusmods.com/stardewvalley/mods/24317]Everia's Dragons Expanded[/url] Compatible natively.  Everia's Dragons has additional functionality if you have this mod as well.
+[*] [url=https://www.nexusmods.com/stardewvalley/mods/9642?tab=description]The Last Smoluanu - A Dwarf Expansion.[/url] - Compatible.  The Last Smoluanu is primarily focused around the character Dwarf where as mine is primarily focused around Dwarven things (machines, animals, etc).
 [*] [url=https://www.nexusmods.com/stardewvalley/mods/1538]Animal Husbandry Mod[/url] - Compatible with patch, found here: [url=https://www.nexusmods.com/stardewvalley/mods/22597/]https://www.nexusmods.com/stardewvalley/mods/22597/[/url]
 [*] [url=https://www.nexusmods.com/stardewvalley/mods/21038]The Geology Mod (Update 1.6)[/url] - Partially compatible without patch, additional compatibility and integration with patch: [url=https://www.nexusmods.com/stardewvalley/mods/23439/]https://www.nexusmods.com/stardewvalley/mods/23439/[/url]
 [*] [url=https://www.nexusmods.com/stardewvalley/mods/9600]Visit Mount Vapius[/url] - Partially compatible without patch.  Additional compatibility, new jewelry and integrations with patch: [url=https://www.nexusmods.com/stardewvalley/mods/23660]https://www.nexusmods.com/stardewvalley/mods/23660[/url]

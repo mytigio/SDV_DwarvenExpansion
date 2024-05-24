@@ -123,6 +123,7 @@ Several new cooking recipes have been added themed around ingredients sourced fr
 - Ice Pip Soup
 - Lava Eel Pie
 - Mashed Carrots
+- Meaty Stew
 - Roaded Cave Fish
 - Rock Crab Salad
 - Shadowed Stew

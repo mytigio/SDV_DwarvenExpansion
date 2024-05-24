@@ -1097,8 +1097,8 @@
                     "Description": "{{i18n:Food_SunshineStew.Description}}",
                     "Type": "Cooking",
                     "Category": "-7",
-                    "Price": 732,
-                    "Edibility": 70,
+                    "Price": 345,
+                    "Edibility": 60,
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_dwarven_cuisine",
@@ -1147,8 +1147,8 @@
                     "Description": "{{i18n:Food_ShadowedStew.Description}}",
                     "Type": "Cooking",
                     "Category": "-7",
-                    "Price": 2107,
-                    "Edibility": 299,
+                    "Price": 1243,
+                    "Edibility": 128,
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_dwarven_cuisine",
@@ -1327,6 +1327,23 @@
                         }
                     ]
                 },
+                "{{ModId}}_Food_MeatyStew": {
+                    "Name": "Meaty Stew",
+                    "DisplayName": "{{i18n:Food_MeatyStew.DisplayName}}",
+                    "Description": "{{i18n:Food_MeatyStew.Description}}",
+                    "Type": "Cooking",
+                    "Category": "-7",
+                    "Price": 85,
+                    "Edibility": 40,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_dwarven_cuisine",
+                        "{{ModId}}_basic_dwarven_cuisine"
+                    ],
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
+                    "SpriteIndex": 67,
+                    "Buffs": []
+                },
                 "{{ModId}}_Food_CaveCarrotAuGratin": {
                     "Name": "Cave Carrot Au Gratin",
                     "DisplayName": "{{i18n:Food_CaveCarrotAuGratin.DisplayName}}",
@@ -1449,8 +1466,8 @@
                     "Description": "{{i18n:Food_Cavatouille.Description}}",
                     "Type": "Cooking",
                     "Category": "-7",
-                    "Price": 930,
-                    "Edibility": 103,
+                    "Price": 625,
+                    "Edibility": 83,
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_dwarven_cuisine",
