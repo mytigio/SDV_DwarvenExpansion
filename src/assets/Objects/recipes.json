@@ -46,7 +46,7 @@
                 "Fried Bat Wings": "767 6 766 1/25 2/{{ModId}}_Food_FriedBatWings/default",
                 "Cave Soup": "-4 1 (O)CaveJelly 1/25 2/{{ModId}}_Food_CaveSoup/none",
                 "Cave Chowder": "-4 1 (O)CaveJelly 2 412 1/25 2/{{ModId}}_Food_CaveChowder/none",
-                "Meaty Stew": "-14 3 153 2/25 2/{{ModId}}_Food_MeatyStew/none",
+                "Meaty Stew": "{{ModId}}_Animals_GrubLarva 3 153 2/25 2/{{ModId}}_Food_MeatyStew/none",
                 "Cave Carrot Au Gratin": "78 3 424 1 -6 2/25 2/{{ModId}}_Food_CaveCarrotAuGratin/f Dwarf 8",
                 "Cave Carrot Stew": "78 2 412 1 404 2 281 1 257 1/25 2/{{ModId}}_Food_CaveCarrotStew/f Dwarf 4",
                 "Cave Carrot Soup": "78 1 404 2/25 2/{{ModId}}_Food_CaveCarrotSoup/f Dwarf 2",
