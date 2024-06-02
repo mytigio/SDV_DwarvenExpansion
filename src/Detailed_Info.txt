@@ -312,14 +312,17 @@ These new drinks are created in the Dwarven Still
 [size=4]Potions[/size]
 These potions can be made at the alchemy bench.
 [list]
-[*]Distilled Sunlight
-[*]Farmers Draught
-[*]Fishermans Brew
-[*]Miners Drink
-[*]One Perfect Day
-[*]Shadowed Elixir
-[*]Swordsmans Elixir
-[*]Woodmans Tonic
+[*]Distilled Sunlight - Made from 10 solar essences and infused dwarven spirits.
+[*]Farmers Draught - Made from 15 seeds and infused dwarven spirits.
+[*]Fishermans Brew - Made from 3 fish and infused dwarven spirits.
+[*]Miners Drink - Made from 5 Quartz and infused dwarven spirits.
+[*]One Perfect Day - Made from 1 prismatic dust and infused dwarven spirits.
+[*]Shadowed Elixir - Made from 3 Void Mayo and infused dwarven spirits.
+[*]Swordsmans Elixir - Made from 2 iron bars and infused dwarven spirits.
+[*]Woodmans Tonic - Made from 5 hardwood and infused dwarven spirits.
+[*]Envigorating Concoction - Made from Emerald Dust and infused dwarven spirits.
+[*]Healing Draught - Made from Ruby dust and infused dwarven spirits.
+[*]Repellent Potion - Made from 100 bug meat and infused dwarven spirits.
 [/list]
 [size=4]Jewelry[/size]
 These are new artisan goods that can be crafted and sold for profit at the Jewlry Making Machine
