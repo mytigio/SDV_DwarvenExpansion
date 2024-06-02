@@ -242,6 +242,7 @@ A list of mod compatibilities.
 [*] [url=https://www.nexusmods.com/stardewvalley/mods/23393]Base Hay Capacity[/url] - Patch adds a base hay capacity to Dwarven Expansion animal houses to match Base Hay Capacity. [url=https://www.nexusmods.com/stardewvalley/mods/23680/]https://www.nexusmods.com/stardewvalley/mods/23680/[/url]
 [*] [url=https://www.nexusmods.com/stardewvalley/mods/21450]Prismatic Tools Continued[/url] - Native compatability with Prismatic Tools Continued.  Adds Transmute recipes for Prismatic Bars.
 [*] [url=https://www.nexusmods.com/stardewvalley/mods/1063]Automate[/url] - Native compatability. However see notes under machines above for specific cases.
+[*] [url=https://www.nexusmods.com/stardewvalley/mods/5255]DaisyNiko's Earthy Recolour[/url] - A recolor of my buildings to match Earthy Recolour has been created by plaidbees. [url=https://www.nexusmods.com/stardewvalley/mods/24395]https://www.nexusmods.com/stardewvalley/mods/24395[/url]
 [/list]
 
 [size=5]Translations[/size]

@@ -301,6 +301,8 @@ Finally, the following recipes can be purchased from Dwarf. Some recipes become 
 [*]Stonefish Suprise
 [*]Sunshine Stew
 [/list]
+
+Note: Meaty Stew is made with MoleRat Meat if you have the Animal Husbandry patch for Dwarven Expansion and made with Grub Larva if not.
 [size=4]Drinks[/size]
 These new drinks are created in the Dwarven Still
 [list]
@@ -366,7 +368,7 @@ These are new artisan goods that can be crafted and sold for profit at the Jewlr
 [*] Iron Crab Egg - Dropped by rock crabs or harvested from iron crabs.  Can be incubated in a Cave to produce a new crab or cracked open as a geode to provide a large amount of ore.
 [*] Gold Crab Egg - Dropped by magma crabs or harvested from gold crabs.  Can be incubated in a Cave to produce a new crab or cracked open as a geode to provide a large amount of ore.
 [*] Iridium Crab Egg - Dropped by iridium rock crabs or harvested from iridium crabs.  Can be incubated in a Cave to produce a new crab or cracked open as a geode to provide a large amount of ore.
-[*] Grub Larva - A mass of larva taht can be incubated in a cave to hatch a grub.
+[*] Grub Larva - A mass of larva that can be incubated in a cave to hatch a grub.
 [/list]
 
 [size=5]Translations[/size]
