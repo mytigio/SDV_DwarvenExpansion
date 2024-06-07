@@ -170,16 +170,19 @@ These new drinks are created in the Dwarven Still
 [*]Infused Dwarven Spirits - made by distilling gem dust and cave carrot mash into a strong alcohol.
 [/list]
 [size=4]Potions[/size]
-These potions can be made at the alchemy bench.
+These potions can be made at the alchemy bench.  All potions are made with a base of infused dwarven spirits and are then enhanced with materials to absorb their essences.
 [list]
-[*]Distilled Sunlight
-[*]Farmers Draught
-[*]Fishermans Brew
-[*]Miners Drink
-[*]One Perfect Day
-[*]Shadowed Elixir
-[*]Swordsmans Elixir
-[*]Woodmans Tonic
+[*]Distilled Sunlight - derived from solar essence.
+[*]Farmers Draught - blended from the magic of growing things.
+[*]Fishermans Brew - magic infused in the ghost fish makes this potion work.
+[*]Miners Drink - quartz crystals absorb and store earth magic, which this potion extracts.
+[*]One Perfect Day - A potion made from the blended magic of multiple gem stones.
+[*]Shadowed Elixir - The dark shadow magic concentrated into void mayo powers this draught.
+[*]Swordsmans Elixir - Smelted iron is melted down and infused into this potion.
+[*]Woodmans Tonic - Hardwood stores the magic of root and loam, which is burned and blended into this potion.
+[*]Envigorating Concoction - A potion that gains it's color from the emerald dust it is made from.
+[*]Healing Draught - A red healing potion, made from ruby dust.
+[*]Repellent Potion - Disgusting globs of bug meat are boiled down and processed into this revolting potion.
 [/list]
 [size=4]Jewelry[/size]
 These are new artisan goods that can be crafted and sold for profit at the Jewlry Making Machine
@@ -242,6 +245,7 @@ A list of mod compatibilities.
 [*] [url=https://www.nexusmods.com/stardewvalley/mods/23393]Base Hay Capacity[/url] - Patch adds a base hay capacity to Dwarven Expansion animal houses to match Base Hay Capacity. [url=https://www.nexusmods.com/stardewvalley/mods/23680/]https://www.nexusmods.com/stardewvalley/mods/23680/[/url]
 [*] [url=https://www.nexusmods.com/stardewvalley/mods/21450]Prismatic Tools Continued[/url] - Native compatability with Prismatic Tools Continued.  Adds Transmute recipes for Prismatic Bars.
 [*] [url=https://www.nexusmods.com/stardewvalley/mods/1063]Automate[/url] - Native compatability. However see notes under machines above for specific cases.
+[*] [url=https://www.nexusmods.com/stardewvalley/mods/5255]DaisyNiko's Earthy Recolour[/url] - A recolor of my buildings to match Earthy Recolour has been created by plaidbees. [url=https://www.nexusmods.com/stardewvalley/mods/24395]https://www.nexusmods.com/stardewvalley/mods/24395[/url]
 [/list]
 
 [size=5]Translations[/size]
