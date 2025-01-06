@@ -1,5 +1,5 @@
 {
-    "Format": "2.0.0",
+    "Format": "2.4.0",
     "ConfigSchema": {
         "EnabledMachines": {
             "AllowValues": "GemPolisher, Pulverizer, DwarvenStill, AlchemyBench, JewelryMaker, SlowburnCharcoalKiln, ImprovedMushroomBox",
