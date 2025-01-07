@@ -25,7 +25,7 @@
         },
         "BuyCrabEggsAtMarlons": {
             "AllowValues": "true, false",
-            "Default": "false"
+            "Default": "true"
         },
         "EnableDwarfMagic": {
             "AllowValues": "true, false",
