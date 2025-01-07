@@ -78,7 +78,7 @@
                     ],
                     "PreventTimePass": [
                         "Outside"
-                      ],
+                    ],
                     "ReadyTimeModifiers": [
                         {
                             "Id": "Common_Mushroom",
@@ -105,47 +105,63 @@
                             "Condition": "ITEM_ID Input 851"
                         }
                     ],
-                    "AllowLoadWhenFull": true,
+                    "AllowLoadWhenFull": false,
                     "LoadEffects": [],
                     "WorkingEffects": [
                         {
                             "Condition": "ITEM_ID Input 404",
-                            "Frames": [2],
+                            "Frames": [
+                                2
+                            ],
                             "Interval": 100
                         },
                         {
                             "Condition": "ITEM_ID Input 404",
-                            "Frames": [2],
+                            "Frames": [
+                                2
+                            ],
                             "Interval": 100
                         },
                         {
                             "Condition": "ITEM_ID Input 404",
-                            "Frames": [2],
+                            "Frames": [
+                                2
+                            ],
                             "Interval": 100
                         },
                         {
                             "Condition": "ITEM_ID Input 420",
-                            "Frames": [3],
+                            "Frames": [
+                                3
+                            ],
                             "Interval": 100
                         },
                         {
                             "Condition": "ITEM_ID Input 281",
-                            "Frames": [4],
+                            "Frames": [
+                                4
+                            ],
                             "Interval": 100
                         },
                         {
                             "Condition": "ITEM_ID Input 257",
-                            "Frames": [5],
+                            "Frames": [
+                                5
+                            ],
                             "Interval": 100
                         },
                         {
                             "Condition": "ITEM_ID Input 422",
-                            "Frames": [6],
+                            "Frames": [
+                                6
+                            ],
                             "Interval": 100
                         },
                         {
                             "Condition": "ITEM_ID Input 851",
-                            "Frames": [7],
+                            "Frames": [
+                                7
+                            ],
                             "Interval": 100
                         }
                     ],

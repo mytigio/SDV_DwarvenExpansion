@@ -242,8 +242,8 @@
                 },
                 "{{ModId}}_Potions_WoodmansTonic": {
                     "Name": "Woodmans Tonic",
-                    "DisplayName": "{{i18n:Potions_FishermansBrew.DisplayName}}",
-                    "Description": "{{i18n:Potions_FishermansBrew.Description}}",
+                    "DisplayName": "{{i18n:Potions_WoodmansTonic.DisplayName}}",
+                    "Description": "{{i18n:Potions_WoodmansTonic.Description}}",
                     "Price": 260,
                     "Type": "Crafting",
                     "Category": -26,

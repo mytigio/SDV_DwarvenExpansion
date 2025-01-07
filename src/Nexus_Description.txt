@@ -33,6 +33,9 @@ A more efficient charcoal kiln that uses a longer lower heat burn to reduce wast
 [size=4]Improved Mushroom Box[/size]
 A crystalarium-like mushroom box.  Grows a steady supply of whatever mushroom is placed into it.  Better mushrooms take longer to grow.  Does not produce if placed outdoors.
 
+[size=4]Clay mixer[/size]
+A machine that mixes and presses soil, silica and water to produce a clay like substance every couple of days.
+
 [size=5]New Animals[/size]
 
 [size=4]Farm Grub[/size]
@@ -46,6 +49,7 @@ Drops bug meat or grub larva each day.
 A mature rock crab.  These crabs filter copper out of their food and the copper grows into thick deposits on their shell which can be scrapped off.  As the crabs age, these deposits can grow into large pure copper clusters, which are broken down in a pulverizer into a large quantity of copper ore.
 [size=3]Obtain[/size]
 Can be purchased from Marnie or hatched from copper crab eggs found in the mines.
+As of 1.1.10 you can buy and sell crab eggs from Marlon's shop.
 [size=3]Drops[/size]
 Can be sheared for copper ore or copper ore clusters.
 
@@ -53,6 +57,7 @@ Can be sheared for copper ore or copper ore clusters.
 A mature rock crab.  These crabs filter iron out of their food and the iron grows into thick deposits on their shell which can be scrapped off.  As the crabs age, these deposits can grow into large pure iron clusters, which are broken down in a pulverizer into a large quantity of iron ore.
 [size=3]Obtain[/size]
 Can be purchased from Marnie or hatched from iron crab eggs found in the mines.
+As of 1.1.10 you can buy and sell crab eggs from Marlon's shop.
 [size=3]Drops[/size]
 Can be sheared for iron ore or iron ore clusters.
 
@@ -60,6 +65,7 @@ Can be sheared for iron ore or iron ore clusters.
 A mature lava crab.  These crabs filter gold out of their food and the gold grows into thick deposits on their shell which can be scrapped off.  As the crabs age, these deposits can grow into large pure gold clusters, which are broken down in a pulverizer into a large quantity of gold ore.
 [size=3]Obtain[/size]
 Can be purchased from Marnie or hatched from gold crab eggs found in the mines.
+As of 1.1.10 you can buy and sell crab eggs from Marlon's shop.
 [size=3]Drops[/size]
 Can be sheared for gold ore or gold ore clusters.
 
@@ -67,6 +73,7 @@ Can be sheared for gold ore or gold ore clusters.
 A mature iridium crab.  These crabs filter iridium out of their food and the iridium grows into thick deposits on their shell which can be scrapped off.  As the crabs age, these deposits can grow into large pure iridium clusters, which are broken down in a pulverizer into a large quantity of iridium ore.
 [size=3]Obtain[/size]
 Can be purchased from Marnie or hatched from iridium crab eggs found in the mines.
+As of 1.1.10 you can buy and sell crab eggs from Marlon's shop.
 [size=3]Drops[/size]
 Can be sheared for iridium ore or iridium ore clusters.
 
@@ -100,6 +107,8 @@ Up to 6 Iridium Bars
 Up to 6 Radioactive Bars
 Up to 32 Refined Quartz from regular Quartz
 Up to 96 Refined Quartz from Fire Quartz
+
+However this machine takes up a 5x5 area, so the primary gain is in the farmer's time to load and unload materials.
 
 [size=5]New Events[/size]
 
@@ -227,10 +236,10 @@ These are new artisan goods that can be crafted and sold for profit at the Jewlr
 
 [size=4] Miscellanous[/size]
 [list]
-[*] Copper Crab Egg - An egg that can be incubated in a cave to hatch a copper crab or cracked open for copper ore.
-[*] Iron Crab Egg - An egg that can be incubated in a cave to hatch an iron crab or cracked open for iron ore.
-[*] Gold Crab Egg - An egg that can be incubated in a cave to hatch a gold crab or cracked open for gold ore.
-[*] Iridium Crab Egg - An egg that can be incubated in a cave to hatch an iridium crab or cracked open for iridium ore.
+[*] Copper Crab Egg - An egg that can be incubated in a cave to hatch a copper crab or cracked open for copper ore. Can be bought and sold at Marlon's shop.
+[*] Iron Crab Egg - An egg that can be incubated in a cave to hatch an iron crab or cracked open for iron ore. Can be bought and sold at Marlon's shop.
+[*] Gold Crab Egg - An egg that can be incubated in a cave to hatch a gold crab or cracked open for gold ore. Can be bought and sold at Marlon's shop.
+[*] Iridium Crab Egg - An egg that can be incubated in a cave to hatch an iridium crab or cracked open for iridium ore. Can be bought and sold at Marlon's shop.
 [*] Grub Larva - A mass of larva taht can be incubated in a cave to hatch a grub.
 [/list]
 
@@ -252,8 +261,9 @@ A list of mod compatibilities.
 The following contributers have included translation files for the mod.  If you're interested in providing a translations, please create a i18n file and create a pull request on github: https://github.com/mytigio/SDV_DwarvenExpansion
 [list]
 [*]lcy1998666 - Chinese
-[*]migue2982 - Spanish
 [*]Caranud - French
 [/list]
+
+The spanish translation has been removed in favor of the seperately uploaded version maintained by Hayato2236 (https://www.nexusmods.com/stardewvalley/mods/30048)
 Github Repository
 https://github.com/mytigio/SDV_DwarvenExpansion

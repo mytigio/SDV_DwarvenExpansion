@@ -28,7 +28,8 @@
 					"Price": 15,
 					"Edibility": -20,
 					"ContextTags": [
-						"{{ModId}}"
+						"{{ModId}}",
+						"{{ModId}}_CrabEgg"
 					],
 					"Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
 					"SpriteIndex": 240,
@@ -161,6 +162,40 @@
 				}
 			]
 		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "AdventureShop",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}_Animals_CrabEgg_Copper": {
+                    "ID": "{{ModId}}_Animals_CrabEgg_Copper",
+                    "ItemId": "(O){{ModId}}_Animals_CrabEgg_Copper",
+                    "MaxItems": 1,
+                    "IsRecipe": false,
+                    "AvoidRepeat": true,
+                    "Price": "350",
+                    "AvailableStock": 1,
+					"Condition": "SYNCED_RANDOM day copper_crab_egg 0.5 @addDailyLuck"
+                }
+            },
+			"When": {
+                "BuyCrabEggsAtMarlons": "true"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "AdventureShop",
+                "SalableItemTags"
+            ],
+            "Entries": {
+                "#-1": "{{ModId}}_Animals_CrabEgg_Copper"
+            }
+        },
 		{
 			"Action": "EditData",
 			"Target": "Data/FarmAnimals",

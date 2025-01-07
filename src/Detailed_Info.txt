@@ -63,7 +63,7 @@ Can buy from Dwarf after you reach mining level 4.
 
 [size=3]Recipes[/size]
 [list]
-[*]40 Stone - add 40 stone to the pulverizer for a chance at ore, gems, minerals, coal, etc.
+[*]40 Stone - add 40 stone to the pulverizer for a chance at ore, gems, minerals, coal, clay, etc.
 [*]Ore Clusters - pulverize ore clusters (obtained from rock crabs) into a higher quantity of regular ore.  The amount of ore you get is based on the qualty of the ore cluster.
 [*]Cave Carrots - pulverize cave carrots to make a cave carrot mash.  The mash can then be used with various dusts to make dwarven spirits.
 [*]Ore - pulverize ore to make ore dust (copper, iron, gold or iridium).  Ore dust can be used with cave carrot mash to make Dwarven Spirits in a Dwarven Still.
@@ -136,6 +136,13 @@ Unlock recipe at mining level 7
 [*]Magma Cap - produces 1 magma cap  every 6 days.
 [*]Other edible mushrooms - produces 1 mushroom of the type placed in every 3 days.  Works with mushrooms that have the "edible mushroom" tag.
 [/list]
+
+[size=4]Clay mixer[/size]
+A machine that mixes and presses soil, silica and water to produce a clay like substance every couple of days.
+[size=3]Unlock[/size]
+Unlock recipe at mining level 3
+[size=3]Recipes[/size]
+No input required, produces 1 to 3 clay every 2 in game days.
 
 [size=5]New Animals[/size]
 
