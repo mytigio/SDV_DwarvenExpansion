@@ -74,51 +74,63 @@
                                     "MaxStack": 3
                                 },
                                 {
-                                    "Id": "Coal_Output",
+                                    "Id": "Coal_Output_1",
                                     "ItemId": "382",
                                     "MinStack": 5,
                                     "MaxStack": 9
                                 },
                                 {
-                                    "Id": "Coal_Output",
+                                    "Id": "Coal_Output_2",
                                     "ItemId": "382",
                                     "MinStack": 4,
                                     "MaxStack": 10
                                 },
                                 {
-                                    "Id": "Coal_Output",
+                                    "Id": "Coal_Output_3",
                                     "ItemId": "382",
                                     "MinStack": 6,
                                     "MaxStack": 7
                                 },
                                 {
-                                    "Id": "Silver_Output",
+                                    "Id": "Silver_Output_1",
                                     "ItemId": "380",
                                     "MinStack": 2,
                                     "MaxStack": 4
                                 },
                                 {
-                                    "Id": "Silver_Output",
+                                    "Id": "Silver_Output_2",
                                     "ItemId": "380",
                                     "MinStack": 2,
                                     "MaxStack": 4
                                 },
                                 {
-                                    "Id": "Copper_Output",
+                                    "Id": "Copper_Output_1",
                                     "ItemId": "378",
                                     "MinStack": 3,
                                     "MaxStack": 5
                                 },
                                 {
-                                    "Id": "Copper_Output",
+                                    "Id": "Copper_Output_2",
                                     "ItemId": "378",
                                     "MinStack": 3,
                                     "MaxStack": 5
                                 },
                                 {
-                                    "Id": "Copper_Output",
+                                    "Id": "Copper_Output_3",
                                     "ItemId": "378",
                                     "MinStack": 3,
+                                    "MaxStack": 5
+                                },
+                                {
+                                    "Id": "Clay_Output_1",
+                                    "ItemId": "330",
+                                    "MinStack": 1,
+                                    "MaxStack": 3
+                                },
+                                {
+                                    "Id": "Clay_Output_2",
+                                    "ItemId": "330",
+                                    "MinStack": 2,
                                     "MaxStack": 5
                                 },
                                 {

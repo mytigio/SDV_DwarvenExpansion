@@ -28,7 +28,8 @@
 					"Price": 45,
 					"Edibility": -20,
 					"ContextTags": [
-						"{{ModId}}"
+						"{{ModId}}",
+						"{{ModId}}_CrabEgg"
 					],
 					"Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
 					"SpriteIndex": 241,
@@ -130,6 +131,39 @@
 				}
 			}
 		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "AdventureShop",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}_Animals_CrabEgg_Iron": {
+                    "ID": "{{ModId}}_Animals_CrabEgg_Iron",
+                    "ItemId": "RANDOM_ITEMS (O) {{ModId}}_Animals_CrabEgg_Iron",
+                    "MaxItems": 1,
+                    "IsRecipe": false,
+                    "AvoidRepeat": true,
+                    "Price": "550",
+                    "AvailableStock": 1
+                }
+            },
+			"When": {
+                "BuyCrabEggsAtMarlons": "true"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "AdventureShop",
+                "SalableItemTags"
+            ],
+            "Entries": {
+                "#-1": "{{ModId}}_Animals_CrabEgg_Iron"
+            }
+        },
 		{
 			"Action": "EditData",
 			"Target": "Data/Monsters",

@@ -2,10 +2,10 @@
     "Format": "2.4.0",
     "ConfigSchema": {
         "EnabledMachines": {
-            "AllowValues": "GemPolisher, Pulverizer, DwarvenStill, AlchemyBench, JewelryMaker, SlowburnCharcoalKiln, ImprovedMushroomBox",
+            "AllowValues": "GemPolisher, Pulverizer, DwarvenStill, AlchemyBench, JewelryMaker, SlowburnCharcoalKiln, ImprovedMushroomBox, Claymixer",
             "AllowMultiple": true,
             "AllowBlank": true,
-            "Default": "GemPolisher, Pulverizer, DwarvenStill, AlchemyBench, JewelryMaker, SlowburnCharcoalKiln, ImprovedMushroomBox"
+            "Default": "GemPolisher, Pulverizer, DwarvenStill, AlchemyBench, JewelryMaker, SlowburnCharcoalKiln, ImprovedMushroomBox, Claymixer"
         },
         "EnabledBuildings": {
             "AllowValues": "CaveCoop, CaveShed, DwarvenFurnace, Cavern",
@@ -22,6 +22,10 @@
             "AllowMultiple": true,
             "AllowBlank": true,
             "Default": "Grub,CopperCrab,IronCrab,GoldCrab,IridiumCrab,Molerat"
+        },
+        "BuyCrabEggsAtMarlons": {
+            "AllowValues": "true, false",
+            "Default": "false"
         },
         "EnableDwarfMagic": {
             "AllowValues": "true, false",
@@ -388,6 +392,13 @@
             "FromFile": "assets/BigCraftables/ImprovedMushroomBox/big-craftable.json",
             "When": {
                 "EnabledMachines": "ImprovedMushroomBox"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/BigCraftables/Claymixer/big-craftable.json",
+            "When": {
+                "EnabledMachines": "Claymixer"
             }
         },
         {

@@ -100,6 +100,9 @@
     "ImprovedMushroomBox.DisplayName": "Improved Mushroom Box",
     "ImprovedMushroomBox.Description": "A growing box for mushrooms.  Will produce a steady supply of mushrooms.  Does not operate outdoors.",
 
+    "Claymixer.DisplayName": "Clay mixer",
+    "Claymixer.Description": "A tumbling machine that mixes soil, silicate and water to produce a clay like substance.",
+
     "CaveIncubator.DisplayName": "Incubator",
     "CaveIncubator.Description": "A safe place while crab eggs and grub grow to full size.",
 
@@ -287,5 +290,5 @@
     "Food_BugMeatStew.DisplayName": "Bug Meat Stew",
     "Food_BugMeatStew.Description": "A basic dish of roasted bug meat with a mushroom and slime glaze.",
     "Food_BugMeatSoup.DisplayName": "Bug Meat Soup",
-    "Food_BugMeatSoup.Description": "An oily soup fortified with gooey hunks of bug meat.",
+    "Food_BugMeatSoup.Description": "An oily soup fortified with gooey hunks of bug meat."
 }
