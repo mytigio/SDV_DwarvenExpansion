@@ -178,7 +178,7 @@
                     "AvoidRepeat": true,
                     "Price": "350",
                     "AvailableStock": 1,
-					"Condition": "SYNCED_RANDOM day copper_crab_egg 0.4 @addDailyLuck"
+					"Condition": "SYNCED_RANDOM day copper_crab_egg 0.5 @addDailyLuck"
                 }
             },
 			"When": {
