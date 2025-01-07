@@ -146,7 +146,8 @@
                     "IsRecipe": false,
                     "AvoidRepeat": true,
                     "Price": "750",
-                    "AvailableStock": 1
+                    "AvailableStock": 1,
+					"Condition": "SYNCED_RANDOM day gold_crab_egg 0.2 @addDailyLuck"
                 }
             },
 			"When": {

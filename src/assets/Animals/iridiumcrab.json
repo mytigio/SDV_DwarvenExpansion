@@ -146,7 +146,8 @@
                     "IsRecipe": false,
                     "AvoidRepeat": true,
                     "Price": "1500",
-                    "AvailableStock": 1
+                    "AvailableStock": 1,
+					"Condition": "SYNCED_RANDOM day iridium_crab_egg 0.1 @addDailyLuck"
                 }
             },
 			"When": {

@@ -146,7 +146,8 @@
                     "IsRecipe": false,
                     "AvoidRepeat": true,
                     "Price": "550",
-                    "AvailableStock": 1
+                    "AvailableStock": 1,
+					"Condition": "SYNCED_RANDOM day iron_crab_egg 0.3 @addDailyLuck"
                 }
             },
 			"When": {
