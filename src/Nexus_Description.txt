@@ -252,8 +252,12 @@ A list of mod compatibilities.
 The following contributers have included translation files for the mod.  If you're interested in providing a translations, please create a i18n file and create a pull request on github: https://github.com/mytigio/SDV_DwarvenExpansion
 [list]
 [*]lcy1998666 - Chinese
-[*]migue2982 - Spanish
 [*]Caranud - French
 [/list]
+
+The included spanish translation has been removed in favor of the seperately uploaded spanish translation by Hayato2236 ([url=https://www.nexusmods.com/stardewvalley/mods/30048]https://www.nexusmods.com/stardewvalley/mods/30048[/url])
+Portugese translation by roseferreira here: ([url=https://www.nexusmods.com/stardewvalley/mods/30694]https://www.nexusmods.com/stardewvalley/mods/30694[/url])
+German translation by  Mju here: ([url=https://www.nexusmods.com/stardewvalley/mods/24470]https://www.nexusmods.com/stardewvalley/mods/24470[/url])
+
 Github Repository
 https://github.com/mytigio/SDV_DwarvenExpansion

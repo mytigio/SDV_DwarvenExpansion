@@ -198,8 +198,12 @@ Gold Chicken Statue - Gild a chicken statue for fun and profit!
 The following contributers have included translation files for the mod.  If you're interested in providing a translations, please create a i18n file and create a pull request on github: https://github.com/mytigio/SDV_DwarvenExpansion
 
 - lcy1998666 - Chinese
-- migue2982 - Spanish
 - Caranud - French
+
+The included spanish translation has been removed in favor of the seperately uploaded spanish translation by Hayato2236 (https://www.nexusmods.com/stardewvalley/mods/30048)
+Portugese translation by roseferreira here: https://www.nexusmods.com/stardewvalley/mods/30694
+German translation by  Mju here: https://www.nexusmods.com/stardewvalley/mods/24470
+
 
 Github Repository
 https://github.com/mytigio/SDV_DwarvenExpansion
