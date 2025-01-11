@@ -27,6 +27,9 @@ A more efficient charcoal kiln that uses a longer lower heat burn to reduce wast
 ### Improved Mushroom Box
 A crystalarium-like mushroom box.  Grows a steady supply of whatever mushroom is placed into it.  Better mushrooms take longer to grow.  Does not produce if placed outdoors.
 
+### Clay mixer
+A machine that mixes and presses soil, silica and water to produce a clay like substance every couple of days.
+
 ## New Animals
 
 ### Farm Grub
@@ -35,14 +38,22 @@ A large grub.  These grubs can be grown and harvested for their meat.  Useful fo
 ### Copper Crab
 A mature rock crab.  These crabs filter copper out of their food and the copper grows into thick deposits on their shell which can be scrapped off.  As the crabs age, these deposits can grow into large pure copper clusters, which are broken down in a pulverizer into a large quantity of copper ore.
 
+As of 1.1.10 you can buy and sell crab eggs from Marlon's shop.
+
 ### Iron Crab
 A mature rock crab.  These crabs filter iron out of their food and the iron grows into thick deposits on their shell which can be scrapped off.  As the crabs age, these deposits can grow into large pure iron clusters, which are broken down in a pulverizer into a large quantity of iron ore.
+
+As of 1.1.10 you can buy and sell crab eggs from Marlon's shop.
 
 ### Gold Crab
 A mature lava crab.  These crabs filter gold out of their food and the gold grows into thick deposits on their shell which can be scrapped off.  As the crabs age, these deposits can grow into large pure gold clusters, which are broken down in a pulverizer into a large quantity of gold ore.
 
+As of 1.1.10 you can buy and sell crab eggs from Marlon's shop.
+
 ### Iridium Crab
 A mature lava crab.  These crabs filter iridium out of their food and the iridium grows into thick deposits on their shell which can be scrapped off.  As the crabs age, these deposits can grow into large pure iridium clusters, which are broken down in a pulverizer into a large quantity of iridium ore.
+
+As of 1.1.10 you can buy and sell crab eggs from Marlon's shop.
 
 ### Giant Naked Molerat
 A giant naked molerat.  These molerats are one of the few subterranian mammels dwarves were able to domesticate.  They are used to harvest a thin milk, used frequently in dwarven cooking.
@@ -72,6 +83,8 @@ Up to 6 Iridium Bars
 Up to 6 Radioactive Bars
 Up to 32 Refined Quartz from regular Quartz
 Up to 96 Refined Quartz from Fire Quartz
+
+However this machine takes up a 5x5 area, so the primary gain is in the farmer's time to load and unload materials.
 
 ## New Items
 
@@ -187,10 +200,10 @@ These are new artisan goods that can be crafted and sold for profit at the Jewlr
 Gold Chicken Statue - Gild a chicken statue for fun and profit!
 
 ### Miscellanous
-- Copper Crab Egg - An egg that can be incubated in a cave to hatch a copper crab or cracked open for copper ore.
-- Iron Crab Egg - An egg that can be incubated in a cave to hatch an iron crab or cracked open for iron ore.
-- Gold Crab Egg - An egg that can be incubated in a cave to hatch a gold crab or cracked open for gold ore.
-- Iridium Crab Egg - An egg that can be incubated in a cave to hatch an iridium crab or cracked open for iridium ore.
+- Copper Crab Egg - An egg that can be incubated in a cave to hatch a copper crab or cracked open for copper ore. Can be bought and sold at Marlon's shop.
+- Iron Crab Egg - An egg that can be incubated in a cave to hatch an iron crab or cracked open for iron ore. Can be bought and sold at Marlon's shop.
+- Gold Crab Egg - An egg that can be incubated in a cave to hatch a gold crab or cracked open for gold ore. Can be bought and sold at Marlon's shop.
+- Iridium Crab Egg - An egg that can be incubated in a cave to hatch an iridium crab or cracked open for iridium ore. Can be bought and sold at Marlon's shop.
 - Grub Larva - A mass of larva taht can be incubated in a cave to hatch a grub.
 
 

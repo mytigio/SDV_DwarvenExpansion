@@ -18,7 +18,7 @@
                     "Name": "Molerat Meat",
                     "DisplayName": "{{i18n:Meat_Molerat.DisplayName}}",
                     "Description": "{{i18n:Meat_Molerat.Description}}",
-                    "Type": "Cooking",
+                    "Type": "Basic",
                     "Category": "-14",
                     "Price": 80,
                     "Edibility": 10,
