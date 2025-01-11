@@ -212,10 +212,9 @@ The following contributers have included translation files for the mod.  If you'
 
 - lcy1998666 - Chinese
 - Caranud - French
-
-The included spanish translation has been removed in favor of the seperately uploaded spanish translation by Hayato2236 (https://www.nexusmods.com/stardewvalley/mods/30048)
-Portugese translation by roseferreira here: https://www.nexusmods.com/stardewvalley/mods/30694
-German translation by  Mju here: https://www.nexusmods.com/stardewvalley/mods/24470
+- The included spanish translation has been removed in favor of the seperately uploaded spanish translation by Hayato2236 (https://www.nexusmods.com/stardewvalley/mods/30048)
+- Portugese translation by roseferreira here: https://www.nexusmods.com/stardewvalley/mods/30694
+- German translation by  Mju here: https://www.nexusmods.com/stardewvalley/mods/24470
 
 
 Github Repository
