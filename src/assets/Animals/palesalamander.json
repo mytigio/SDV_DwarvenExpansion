@@ -31,16 +31,24 @@
 					"ShopDescription": "{{i18n:GiantPaleSalamander.ShopDescription}}",
 					"ShopMissingBuildingDescription": "{{i18n:GiantPaleSalamander.ShopMissingBuildingDescription}}",
 					"RequiredBuilding": "Barn",
-					"UnlockCondition": "PLAYER_HEARTS ANY Dwarf 5",
+					"UnlockCondition": "PLAYER_HEARTS ANY Dwarf 1",
 					"EggItemIds": null,
 					"IncubationTime": -1,
 					"IncubatorParentSheetOffset": 1,
 					"BirthText": "{{i18n:GiantPaleSalamander.BirthText}}",
-					"DaysToMature": 1,
+					"DaysToMature": -1,
 					"CanGetPregnant": true,
 					"DaysToProduce": 1,
 					"HarvestType": "DigUp",
 					"ProduceItemIds": [
+						{
+							"Id": "Default",
+							"ItemId": "330"
+						},
+						{
+							"Id": "Default",
+							"ItemId": "330"
+						},
 						{
 							"Id": "Default",
 							"ItemId": "382"
@@ -105,10 +113,22 @@
 						},
 						{
 							"Id": "Default",
+							"ItemId": "66"
+						},
+						{
+							"Id": "Default",
+							"ItemId": "68"
+						},
+						{
+							"Id": "Default",
 							"ItemId": "382"
+						},
+						{
+							"Id": "Default",
+							"ItemId": "330"
 						}
 					],
-					"ProduceOnMature": false,
+					"ProduceOnMature": true,
 					"FriendshipForFasterProduce": -1,
 					"DeluxeProduceMinimumFriendship": 200,
 					"DeluxeProduceCareDivisor": 1200.0,
@@ -116,8 +136,8 @@
 					"ProfessionForHappinessBoost": 3,
 					"ProfessionForQualityBoost": 3,
 					"ProfessionForFasterProduce": -1,
-					"Sound": "rabbit",
-					"BabySound": "rabbit",
+					"Sound": null,
+					"BabySound": null,
 					"Texture": "Mods/DwarvenExpansion/Animals/PaleSalamander",
 					"HarvestedTexture": null,
 					"BabyTexture": "Mods/DwarvenExpansion/Animals/PaleSalamanderBaby",
