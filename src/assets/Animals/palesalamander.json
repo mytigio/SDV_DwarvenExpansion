@@ -19,7 +19,7 @@
 					"House": "Barn",
 					"Gender": "MaleOrFemale",
 					"PurchasePrice": 300,
-					"SellPrice": 450,
+					"SellPrice": 600,
 					"ShopTexture": "Mods/DwarvenExpansion/Animals/ShopImages",
 					"ShopSourceRect": {
 						"X": 0,
