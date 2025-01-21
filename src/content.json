@@ -18,10 +18,10 @@
             "Default": "true"
         },
         "EnabledAnimals": {
-            "AllowValues": "Grub,CopperCrab,IronCrab,GoldCrab,IridiumCrab,Molerat",
+            "AllowValues": "Grub,CopperCrab,IronCrab,GoldCrab,IridiumCrab,Molerat,Badger",
             "AllowMultiple": true,
             "AllowBlank": true,
-            "Default": "Grub,CopperCrab,IronCrab,GoldCrab,IridiumCrab,Molerat"
+            "Default": "Grub,CopperCrab,IronCrab,GoldCrab,IridiumCrab,Molerat,Badger"
         },
         "BuyCrabEggsAtMarlons": {
             "AllowValues": "true, false",
@@ -223,6 +223,13 @@
             "FromFile": "assets/Animals/nakedmolerat.json",
             "When": {
                 "EnabledAnimals": "Molerat"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Animals/badger.json",
+            "When": {
+                "EnabledAnimals": "Badger"
             }
         },
         {
