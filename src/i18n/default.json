@@ -74,6 +74,14 @@
     "Meat_Molerat.DisplayName": "Molerat Meat",
     "Meat_Molerat.Description": "A light, slightly dry meat.",
 
+    "GiantPaleSalamander.DisplayName": "Giant Pale Salamander",
+    "GiantPaleSalamander.ShopDisplayName": "Giant Pale Salamander",
+    "GiantPaleSalamander.ShopDescription": "The giant salamander is frequently kept as a pet, much like a dog.  It digs up various items while searching for bugs and small crabs to eat.",
+    "GiantPaleSalamander.ShopMissingBuildingDescription": "No home available for this salamander.",
+    "GiantPaleSalamander.BirthText": "A salamander formed from the larva.",
+    "Meat_Salamander.DisplayName": "Salamander Meat",
+    "Meat_Salamander.Description": "A slightly chewey meat.",
+
     "Badger.DisplayName": "Badger",
     "Badger.ShopDisplayName": "Badger",
     "Badger.ShopDescription": "Badgers are common in Dwarven colonies. They dig up root vegitables while scrounging for insects and small mammals to eat.",
