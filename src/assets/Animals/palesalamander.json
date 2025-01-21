@@ -12,6 +12,26 @@
 		},
 		{
 			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_Meat_Salamander": {
+                    "Name": "Salamander Meat",
+                    "DisplayName": "{{i18n:Meat_Salamander.DisplayName}}",
+                    "Description": "{{i18n:Meat_Salamander.Description}}",
+                    "Type": "Basic",
+                    "Category": "-14",
+                    "Price": 40,
+                    "Edibility": 8,
+                    "ContextTags": [
+                        "{{ModId}}"
+                    ],
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
+                    "SpriteIndex": 246
+                }
+			}
+		},   
+		{
+			"Action": "EditData",
 			"Target": "Data/FarmAnimals",
 			"Entries": {
 				"{{ModId}}_GiantPaleSalamander": {
@@ -170,7 +190,10 @@
 					"BabyUpDownPetHitboxTileSize": "1, 1.75",
 					"BabyLeftRightPetHitboxTileSize": "1.75, 1",
 					"StatToIncrementOnProduce": [],
-					"ShowInSummitCredits": false
+					"ShowInSummitCredits": false,
+					"CustomFields": {
+						"meatIndex": "{{ModId}}_Meat_Salamander"
+					}
 				}
 			}
 		}

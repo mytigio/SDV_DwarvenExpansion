@@ -79,6 +79,8 @@
     "GiantPaleSalamander.ShopDescription": "The giant salamander is frequently kept as a pet, much like a dog.  It digs up various items while searching for bugs and small crabs to eat.",
     "GiantPaleSalamander.ShopMissingBuildingDescription": "No home available for this salamander.",
     "GiantPaleSalamander.BirthText": "A salamander formed from the larva.",
+    "Meat_Salamander.DisplayName": "Salamander Meat",
+    "Meat_Salamander.Description": "A slightly chewey meat.",
 
     "AlchemyBench.DisplayName": "Dwarven Alchemy Bench",
     "AlchemyBench.Description": "Use dwarvish alchemy to create powerful concoctions. The foundation for all dwarven potions is Infused Dwarven Spirits",
