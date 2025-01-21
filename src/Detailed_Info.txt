@@ -188,6 +188,20 @@ Can be purchased from Marnie after you have reached 3 hearts with the Dwarf.
 [size=3]Drops[/size]
 Can be milked each day.
 
+[size=4]Giant Pale Salamander[/size]
+A giant cave salamander.  These salamanders are often kept as pets by dwarves.  They dig up coal, stones, small gems and other items while they burrow in search of bugs and crabs to eat.
+[size=3]Obtain[/size]
+Can be purchased from Marnie after you have reached 1 heart with the Dwarf.
+[size=3]Drops[/size]
+Digs up coal, clay, stone and geodes as basic drops and coal, clay, amethyst, topaz and geodes as deluxe drops while outside.
+
+[size=4]Badger[/size]
+A subterranian mammal frequently found around dwarvish colonies.  They often dig up clay, tubers and roots While searching for small rodents and rabbits to eat.
+[size=3]Obtain[/size]
+Can be purchased from Marnie after you have reached 3 hearts with the Dwarf.
+[size=3]Drops[/size]
+Digs up cave carrots, clay as basic drops and cave carrots, winter roots and potatoes as deluxe drops when outside.
+
 [size=5]New Buildings[/size]
 
 [size=4]Cave / Medium Cave / Large Cave[/size]
