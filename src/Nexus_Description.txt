@@ -184,6 +184,8 @@ Several new cooking recipes have been added themed around ingredients sourced fr
 [*]Shadowed Stew
 [*]Stonefish Suprise
 [*]Sunshine Stew
+[*]Dwarf Sunrise
+[*]Dusky Dwarf
 [*]Magic Rock Candy - create magic rock candy by hardening prismatic dust on a stick!
 [/list]
 [size=4]Drinks[/size]

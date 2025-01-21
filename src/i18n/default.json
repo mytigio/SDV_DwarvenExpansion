@@ -150,6 +150,10 @@
     "Drinks_DwarvenSpirits.Description": "Traditional Dwarven Spirits. Why are they green?",
     "Drinks_InfusedSpirits.DisplayName": "Infused Dwarven Spirits",
     "Drinks_InfusedSpirits.Description": "Dwarven Spirits infused with the magical energy of the the deep earth.",
+    "Drinks_DwarfSunrise.DisplayName": "Dwarf Sunrise",
+    "Drinks_DwarfSunrise.Description": "A suprisingly bright drink made from Dwarven Spirits, cave carrot juice and just a bit of solar essence.",
+    "Drinks_DuskyDwarf.DisplayName": "Dusky Dwarf",
+    "Drinks_DuskyDwarf.Description": "A dark smokey drink made from Dwarven Spirits, void essence and juiced winter root.",
 
     "Potions_DistilledSunlight.DisplayName": "Distilled Sunlight",
     "Potions_DistilledSunlight.Description": "A potion brewed from a captured rays of the noon-day sun.",

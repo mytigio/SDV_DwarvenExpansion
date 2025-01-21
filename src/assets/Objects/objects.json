@@ -33,8 +33,46 @@
                             }
                         }
                     ],
+                    "ContextTags": [
+                        "alcohol_item",
+                        "{{ModId}}"
+                    ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 1
+                },
+                "{{ModId}}_Drinks_DwarfSunrise": {
+                    "Name": "Dwarf Sunrise",
+                    "DisplayName": "{{i18n:Drinks_DwarfSunrise.DisplayName}}",
+                    "Description": "{{i18n:Drinks_DwarfSunrise.Description}}",
+                    "Price": 150,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Edibility": 15,
+                    "IsDrink": true,
+                    "Buffs": [],
+                    "ContextTags": [
+                        "alcohol_item",
+                        "{{ModId}}"
+                    ],
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
+                    "SpriteIndex": 3
+                },
+                "{{ModId}}_Drinks_DuskyDwarf": {
+                    "Name": "Dusky Dwarf",
+                    "DisplayName": "{{i18n:Drinks_DuskyDwarf.DisplayName}}",
+                    "Description": "{{i18n:Drinks_DuskyDwarf.Description}}",
+                    "Price": 200,
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Edibility": 20,
+                    "IsDrink": true,
+                    "Buffs": [],
+                    "ContextTags": [
+                        "alcohol_item",
+                        "{{ModId}}"
+                    ],
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
+                    "SpriteIndex": 4
                 },
                 "{{ModId}}_Drinks_InfusedSpirits": {
                     "Name": "Infused Dwarven Spirits",
@@ -55,6 +93,7 @@
                         }
                     ],
                     "ContextTags": [
+                        "alcohol_item",
                         "{{ModId}}"
                     ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",

@@ -307,6 +307,11 @@ The following recipe is received when you reach level 10 in the mining skill:
 [list]
 [*]Magic Rock Candy - create magic rock candy by hardening prismatic dust on a stick!
 [/list]
+These recipes are sent in the mail as you increase your relationship with Gus:
+[list]
+[*]Dwarf Sunrise
+[*]Dusky Dwarf
+[/list]
 Finally, the following recipes can be purchased from Dwarf. Some recipes become available after 3 hearts with Dwarf.
 [list]
 [*]Bug Meat Stew
@@ -323,7 +328,12 @@ Finally, the following recipes can be purchased from Dwarf. Some recipes become 
 [*]Sunshine Stew
 [/list]
 
-Note: Meaty Stew is made with MoleRat Meat if you have the Animal Husbandry patch for Dwarven Expansion and made with Grub Larva if not.
+Note: The following recipes change if you have the Animal Husbandry patch for Dwarven Expansion:
+[list]
+Meaty Stew: Grub Larva is replaced with Molerat Meat
+Shadowed Stew: Purple Mushroom is replaced with Badger Meat
+Sunshine Stew: Red Mushroom is replaced with Salamander Meat
+[/list]
 [size=4]Drinks[/size]
 These new drinks are created in the Dwarven Still
 [list]

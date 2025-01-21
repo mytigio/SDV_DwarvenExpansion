@@ -156,6 +156,8 @@ Some recipes are known by default, some are sent in letters from the Dwarf, some
 These new drinks are created in the Dwarven Still
 - Dwarven Spirits - made by distilling ore dust and a cave carrot mash into a strong alcohol.
 - Infused Dwarven Spirits - made by distilling gem dust and cave carrot mash into a strong alcohol.
+- Dwarf Sunrise - a light drink made from Dwarven Spirits, cave carrot juice and grated solar essence.
+- Dusky Dwarf - a smokey dark drink made from Dwarven spirits, void essence and winter root.
 
 ### Potions
 These potions can be made at the alchemy bench.
