@@ -43,7 +43,7 @@
 					"ShopTexture": "Mods/DwarvenExpansion/Animals/ShopImages",
 					"ShopSourceRect": {
 						"X": 0,
-						"Y": 97,
+						"Y": 96,
 						"Width": 32,
 						"Height": 16
 					},
