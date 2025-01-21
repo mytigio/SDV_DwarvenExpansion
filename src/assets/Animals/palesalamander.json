@@ -15,21 +15,21 @@
 			"Target": "Data/Objects",
 			"Entries": {
 				"{{ModId}}_Meat_Salamander": {
-                    "Name": "Salamander Meat",
-                    "DisplayName": "{{i18n:Meat_Salamander.DisplayName}}",
-                    "Description": "{{i18n:Meat_Salamander.Description}}",
-                    "Type": "Basic",
-                    "Category": "-14",
-                    "Price": 40,
-                    "Edibility": 8,
-                    "ContextTags": [
-                        "{{ModId}}"
-                    ],
-                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
-                    "SpriteIndex": 246
-                }
+					"Name": "Salamander Meat",
+					"DisplayName": "{{i18n:Meat_Salamander.DisplayName}}",
+					"Description": "{{i18n:Meat_Salamander.Description}}",
+					"Type": "Basic",
+					"Category": "-14",
+					"Price": 40,
+					"Edibility": 8,
+					"ContextTags": [
+						"{{ModId}}"
+					],
+					"Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
+					"SpriteIndex": 246
+				}
 			}
-		},   
+		},
 		{
 			"Action": "EditData",
 			"Target": "Data/FarmAnimals",
