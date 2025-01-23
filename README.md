@@ -56,7 +56,13 @@ A mature lava crab.  These crabs filter iridium out of their food and the iridiu
 As of 1.1.10 you can buy and sell crab eggs from Marlon's shop.
 
 ### Giant Naked Molerat
-A giant naked molerat.  These molerats are one of the few subterranian mammels dwarves were able to domesticate.  They are used to harvest a thin milk, used frequently in dwarven cooking.
+A giant naked molerat.  These molerats are one of the few subterranian mammals dwarves were able to domesticate.  They are used to harvest a thin milk, used frequently in dwarven cooking.
+
+### Giant Pale Salamander
+A giant cave salamander.  These salamanders are often kept as pets by dwarves.  They dig up coal, stones, small gems and other items while they burrow in search of bugs and crabs to eat.
+
+### Badger
+A subterranian mammal frequently found around dwarvish colonies.  They often dig up clay, tubers and roots While searching for small rodents and rabbits to eat.
 
 ## New Buildings
 
@@ -150,6 +156,8 @@ Some recipes are known by default, some are sent in letters from the Dwarf, some
 These new drinks are created in the Dwarven Still
 - Dwarven Spirits - made by distilling ore dust and a cave carrot mash into a strong alcohol.
 - Infused Dwarven Spirits - made by distilling gem dust and cave carrot mash into a strong alcohol.
+- Dwarf Sunrise - a light drink made from Dwarven Spirits, cave carrot juice and grated solar essence.
+- Dusky Dwarf - a smokey dark drink made from Dwarven spirits, void essence and winter root.
 
 ### Potions
 These potions can be made at the alchemy bench.

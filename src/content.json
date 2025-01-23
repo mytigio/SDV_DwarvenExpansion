@@ -18,10 +18,10 @@
             "Default": "true"
         },
         "EnabledAnimals": {
-            "AllowValues": "Grub,CopperCrab,IronCrab,GoldCrab,IridiumCrab,Molerat",
+            "AllowValues": "Grub,CopperCrab,IronCrab,GoldCrab,IridiumCrab,Molerat,PaleSalamander,Badger",
             "AllowMultiple": true,
             "AllowBlank": true,
-            "Default": "Grub,CopperCrab,IronCrab,GoldCrab,IridiumCrab,Molerat"
+            "Default": "Grub,CopperCrab,IronCrab,GoldCrab,IridiumCrab,Molerat,PaleSalamander,Badger"
         },
         "BuyCrabEggsAtMarlons": {
             "AllowValues": "true, false",
@@ -136,17 +136,17 @@
     },
     "DynamicTokens": [
         {
-           "Name": "HasTranslationGuide",
-           "Value": "false"
+            "Name": "HasTranslationGuide",
+            "Value": "false"
         },
         {
-           "Name": "HasTranslationGuide",
-           "Value": "true",
-           "When": {
-              "HasWalletItem": "DwarvishTranslationGuide"
-           }
+            "Name": "HasTranslationGuide",
+            "Value": "true",
+            "When": {
+                "HasWalletItem": "DwarvishTranslationGuide"
+            }
         }
-     ],
+    ],
     "CustomLocations": [
         {
             "Name": "mytigio.dwarven_expansion_Locations_CoopCave",
@@ -185,10 +185,10 @@
             "FromFile": "assets/BigCraftables/BigCraftablesSpritesheet.png"
         },
         {
-			"Action": "Load",
-			"Target": "Mods/DwarvenExpansion/Animals/ShopImages",
-			"FromFile": "assets/Animals/animalShopImages.png"
-		},
+            "Action": "Load",
+            "Target": "Mods/DwarvenExpansion/Animals/ShopImages",
+            "FromFile": "assets/Animals/animalShopImages.png"
+        },
         {
             "Action": "Include",
             "FromFile": "assets/Objects/objects.json"
@@ -223,6 +223,20 @@
             "FromFile": "assets/Animals/nakedmolerat.json",
             "When": {
                 "EnabledAnimals": "Molerat"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Animals/badger.json",
+            "When": {
+                "EnabledAnimals": "Badger"
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Animals/palesalamander.json",
+            "When": {
+                "EnabledAnimals": "PaleSalamander"
             }
         },
         {

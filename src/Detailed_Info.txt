@@ -188,6 +188,20 @@ Can be purchased from Marnie after you have reached 3 hearts with the Dwarf.
 [size=3]Drops[/size]
 Can be milked each day.
 
+[size=4]Giant Pale Salamander[/size]
+A giant cave salamander.  These salamanders are often kept as pets by dwarves.  They dig up coal, stones, small gems and other items while they burrow in search of bugs and crabs to eat.
+[size=3]Obtain[/size]
+Can be purchased from Marnie after you have reached 1 heart with the Dwarf.
+[size=3]Drops[/size]
+Digs up coal, clay, stone and geodes as basic drops and coal, clay, amethyst, topaz and geodes as deluxe drops while outside.
+
+[size=4]Badger[/size]
+A subterranian mammal frequently found around dwarvish colonies.  They often dig up clay, tubers and roots While searching for small rodents and rabbits to eat.
+[size=3]Obtain[/size]
+Can be purchased from Marnie after you have reached 3 hearts with the Dwarf.
+[size=3]Drops[/size]
+Digs up cave carrots, clay as basic drops and cave carrots, winter roots and potatoes as deluxe drops when outside.
+
 [size=5]New Buildings[/size]
 
 [size=4]Cave / Medium Cave / Large Cave[/size]
@@ -293,6 +307,11 @@ The following recipe is received when you reach level 10 in the mining skill:
 [list]
 [*]Magic Rock Candy - create magic rock candy by hardening prismatic dust on a stick!
 [/list]
+These recipes are sent in the mail as you increase your relationship with Gus:
+[list]
+[*]Dwarf Sunrise
+[*]Dusky Dwarf
+[/list]
 Finally, the following recipes can be purchased from Dwarf. Some recipes become available after 3 hearts with Dwarf.
 [list]
 [*]Bug Meat Stew
@@ -309,7 +328,12 @@ Finally, the following recipes can be purchased from Dwarf. Some recipes become 
 [*]Sunshine Stew
 [/list]
 
-Note: Meaty Stew is made with MoleRat Meat if you have the Animal Husbandry patch for Dwarven Expansion and made with Grub Larva if not.
+Note: The following recipes change if you have the Animal Husbandry patch for Dwarven Expansion:
+[list]
+Meaty Stew: Grub Larva is replaced with Molerat Meat
+Shadowed Stew: Purple Mushroom is replaced with Badger Meat
+Sunshine Stew: Red Mushroom is replaced with Salamander Meat
+[/list]
 [size=4]Drinks[/size]
 These new drinks are created in the Dwarven Still
 [list]
