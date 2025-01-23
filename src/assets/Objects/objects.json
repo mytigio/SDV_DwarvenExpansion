@@ -1141,7 +1141,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_dwarven_cuisine",
-                        "{{ModId}}_fine_dwarven_cuisine"
+                        "{{ModId}}_fine_dwarven_cuisine",
+                        "{{ModId}}_fine_dwarven_cuisine_purchasable_recipe"
                     ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 62,
@@ -1166,7 +1167,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_dwarven_cuisine",
-                        "{{ModId}}_fine_dwarven_cuisine"
+                        "{{ModId}}_fine_dwarven_cuisine",
+                        "{{ModId}}_fine_dwarven_cuisine_purchasable_recipe"
                     ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 64,
@@ -1191,7 +1193,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_dwarven_cuisine",
-                        "{{ModId}}_fine_dwarven_cuisine"
+                        "{{ModId}}_fine_dwarven_cuisine",
+                        "{{ModId}}_fine_dwarven_cuisine_purchasable_recipe"
                     ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 63,
@@ -1219,7 +1222,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_dwarven_cuisine",
-                        "{{ModId}}_basic_dwarven_cuisine"
+                        "{{ModId}}_basic_dwarven_cuisine",
+                        "{{ModId}}_basic_dwarven_cuisine_purchasable_recipe"
                     ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 66
@@ -1235,7 +1239,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_dwarven_cuisine",
-                        "{{ModId}}_basic_dwarven_cuisine"
+                        "{{ModId}}_basic_dwarven_cuisine",
+                        "{{ModId}}_basic_dwarven_cuisine_purchasable_recipe"
                     ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 65
@@ -1267,7 +1272,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_dwarven_cuisine",
-                        "{{ModId}}_fine_dwarven_cuisine"
+                        "{{ModId}}_fine_dwarven_cuisine",
+                        "{{ModId}}_fine_dwarven_cuisine_purchasable_recipe"
                     ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 60,
@@ -1294,7 +1300,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_dwarven_cuisine",
-                        "{{ModId}}_fine_dwarven_cuisine"
+                        "{{ModId}}_fine_dwarven_cuisine",
+                        "{{ModId}}_fine_dwarven_cuisine_purchasable_recipe"
                     ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 59,
@@ -1335,7 +1342,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_dwarven_cuisine",
-                        "{{ModId}}_basic_dwarven_cuisine"
+                        "{{ModId}}_basic_dwarven_cuisine",
+                        "{{ModId}}_basic_dwarven_cuisine_purchasable_recipe"
                     ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 58
@@ -1351,7 +1359,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_dwarven_cuisine",
-                        "{{ModId}}_fine_dwarven_cuisine"
+                        "{{ModId}}_fine_dwarven_cuisine",
+                        "{{ModId}}_fine_dwarven_cuisine_purchasable_recipe"
                     ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 56,
@@ -1377,7 +1386,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_dwarven_cuisine",
-                        "{{ModId}}_basic_dwarven_cuisine"
+                        "{{ModId}}_basic_dwarven_cuisine",
+                        "{{ModId}}_basic_dwarven_cuisine_purchasable_recipe"
                     ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 67,
@@ -1510,7 +1520,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_dwarven_cuisine",
-                        "{{ModId}}_fine_dwarven_cuisine"
+                        "{{ModId}}_fine_dwarven_cuisine",
+                        "{{ModId}}_fine_dwarven_cuisine_purchasable_recipe"
                     ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 50,
@@ -1536,7 +1547,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_dwarven_cuisine",
-                        "{{ModId}}_basic_dwarven_cuisine"
+                        "{{ModId}}_basic_dwarven_cuisine",
+                        "{{ModId}}_basic_dwarven_cuisine_purchasable_recipe"
                     ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 49

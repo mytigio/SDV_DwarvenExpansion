@@ -88,8 +88,8 @@
                 "{{ModId}}_BasicDwarvenRecipies": {
                     "ID": "{{ModId}}_BasicCookingRecipes",
                     "ItemId": "RANDOM_ITEMS (O)",
-                    "MaxItems": 1,
-                    "PerItemCondition": "ITEM_CONTEXT_TAG Target {{ModId}}_basic_dwarven_cuisine, !PLAYER_HAS_COOKING_RECIPE Current Target",
+                    "MaxItems": 3,
+                    "PerItemCondition": "ITEM_CONTEXT_TAG Target {{ModId}}_basic_dwarven_cuisine_purchasable_recipe, !PLAYER_HAS_COOKING_RECIPE Current Target",
                     "IsRecipe": true,
                     "AvoidRepeat": true,
                     "Price": "1000"
@@ -111,8 +111,8 @@
                 "{{ModId}}_FineCookingRecipes": {
                     "ID": "{{ModId}}_FineCookingRecipes",
                     "ItemId": "RANDOM_ITEMS (O)",
-                    "MaxItems": 1,
-                    "PerItemCondition": "ITEM_CONTEXT_TAG Target {{ModId}}_fine_dwarven_cuisine, !PLAYER_HAS_COOKING_RECIPE Current Target",
+                    "MaxItems": 2,
+                    "PerItemCondition": "ITEM_CONTEXT_TAG Target {{ModId}}_fine_dwarven_cuisine_purchasable_recipe, !PLAYER_HAS_COOKING_RECIPE Current Target",
                     "Condition": "ANY \"PLAYER_FRIENDSHIP_POINTS Current Dwarf 750\" \"MINE_LOWEST_LEVEL_REACHED 120\"",
                     "IsRecipe": true,
                     "AvoidRepeat": true,
