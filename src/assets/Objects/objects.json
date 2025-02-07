@@ -597,6 +597,272 @@
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 180
                 },
+                "{{ModId}}_Reagent_Powder_Batwing": {
+                    "Name": "Powdered Batwing",
+                    "DisplayName": "{{i18n:Reagent_Powder_Batwing.DisplayName}}",
+                    "Description": "{{i18n:Reagent_Powder_Batwing.Description}}",
+                    "Type": "Basic",
+                    "Price": 3,
+                    "Category": "-28",
+                    "Edibility": -300,
+                    "ColorOverlayFromNextIndex": true,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_reagent",
+                        "{{ModId}}_reagent_powder",
+                        "not_museum_donatable",
+                        "color_black"
+                    ],
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
+                    "SpriteIndex": 192
+                },
+                "{{ModId}}_Reagent_Powder_Coal": {
+                    "Name": "Ground Coal Powder",
+                    "DisplayName": "{{i18n:Reagent_Powder_Coal.DisplayName}}",
+                    "Description": "{{i18n:Reagent_Powder_Coal.Description}}",
+                    "Type": "Basic",
+                    "Price": 3,
+                    "Category": "-15",
+                    "Edibility": -300,
+                    "ColorOverlayFromNextIndex": true,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_reagent",
+                        "{{ModId}}_reagent_powder",
+                        "not_museum_donatable",
+                        "color_dark_gray"
+                    ],
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
+                    "SpriteIndex": 192
+                },
+                "{{ModId}}_Reagent_Powder_RedMushroom": {
+                    "Name": "Ground Mushroom Caps",
+                    "DisplayName": "{{i18n:Reagent_Powder_RedMushroom.DisplayName}}",
+                    "Description": "{{i18n:Reagent_Powder_RedMushroom.Description}}",
+                    "Type": "Basic",
+                    "Price": 15,
+                    "Category": "-81",
+                    "Edibility": -300,
+                    "ColorOverlayFromNextIndex": true,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_reagent",
+                        "{{ModId}}_reagent_powder",
+                        "not_museum_donatable",
+                        "color_red"
+                    ],
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
+                    "SpriteIndex": 192
+                },
+                "{{ModId}}_Reagent_Powder_DragonTooth": {
+                    "Name": "Dragon Tooth Shavings",
+                    "DisplayName": "{{i18n:Reagent_Powder_DragonTooth.DisplayName}}",
+                    "Description": "{{i18n:Reagent_Powder_DragonTooth.Description}}",
+                    "Type": "Basic",
+                    "Price": 50,
+                    "Category": "0",
+                    "Edibility": -300,
+                    "ColorOverlayFromNextIndex": true,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_reagent",
+                        "{{ModId}}_reagent_powder",
+                        "not_museum_donatable",
+                        "color_purple"
+                    ],
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
+                    "SpriteIndex": 192
+                },
+                "{{ModId}}_Reagent_Powder_CinderShard": {
+                    "Name": "Cinder Shard Chips",
+                    "DisplayName": "{{i18n:Reagent_Powder_CinderShard.DisplayName}}",
+                    "Description": "{{i18n:Reagent_Powder_CinderShard.Description}}",
+                    "Type": "Basic",
+                    "Price": 5,
+                    "Category": "-15",
+                    "Edibility": -300,
+                    "ColorOverlayFromNextIndex": true,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_reagent",
+                        "{{ModId}}_reagent_powder",
+                        "not_museum_donatable",
+                        "color_orange"
+                    ],
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
+                    "SpriteIndex": 192
+                },
+                "{{ModId}}_Reagent_Powder_Seeds": {
+                    "Name": "Ground Seeds",
+                    "DisplayName": "{{i18n:Reagent_Powder_Seeds.DisplayName}}",
+                    "Description": "{{i18n:Reagent_Powder_Seeds.Description}}",
+                    "Type": "Basic",
+                    "Price": 0,
+                    "Category": "0",
+                    "Edibility": -300,
+                    "ColorOverlayFromNextIndex": true,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_reagent",
+                        "{{ModId}}_reagent_powder",
+                        "not_museum_donatable",
+                        "color_green"
+                    ],
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
+                    "SpriteIndex": 192
+                },
+                "{{ModId}}_Reagent_Powder_Stonefish": {
+                    "Name": "Grated Stonefish Scales",
+                    "DisplayName": "{{i18n:Reagent_Powder_Stonefish.DisplayName}}",
+                    "Description": "{{i18n:Reagent_Powder_Stonefish.Description}}",
+                    "Type": "Basic",
+                    "Price": 30,
+                    "Category": "0",
+                    "Edibility": -300,
+                    "ColorOverlayFromNextIndex": true,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_reagent",
+                        "{{ModId}}_reagent_powder",
+                        "not_museum_donatable",
+                        "color_brown"
+                    ],
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
+                    "SpriteIndex": 192
+                },
+                "{{ModId}}_Reagent_Reduction_Slime": {
+                    "Name": "Slime Reduction",
+                    "DisplayName": "{{i18n:Reagent_Reduction_Slime.DisplayName}}",
+                    "Description": "{{i18n:Reagent_Reduction_Slime.Description}}",
+                    "Type": "Basic",
+                    "Price": 1,
+                    "Category": "-28",
+                    "Edibility": -300,
+                    "ColorOverlayFromNextIndex": true,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_reagent",
+                        "{{ModId}}_reagent_reduction",
+                        "not_museum_donatable",
+                        "color_gray"
+                    ],
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
+                    "SpriteIndex": 194
+                },
+                "{{ModId}}_Reagent_Reduction_SolarEssence": {
+                    "Name": "Concentrated Solar Essence",
+                    "DisplayName": "{{i18n:Reagent_Reduction_SolarEssence.DisplayName}}",
+                    "Description": "{{i18n:Reagent_Reduction_SolarEssence.Description}}",
+                    "Type": "Basic",
+                    "Price": 8,
+                    "Category": "-28",
+                    "Edibility": -300,
+                    "ColorOverlayFromNextIndex": true,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_reagent",
+                        "{{ModId}}_reagent_reduction",
+                        "not_museum_donatable",
+                        "color_gold"
+                    ],
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
+                    "SpriteIndex": 194
+                },
+                "{{ModId}}_Reagent_Reduction_VoidEssence": {
+                    "Name": "Distilled Void Essence",
+                    "DisplayName": "{{i18n:Reagent_Reduction_VoidEssence.DisplayName}}",
+                    "Description": "{{i18n:Reagent_Reduction_VoidEssence.Description}}",
+                    "Type": "Basic",
+                    "Price": 10,
+                    "Category": "-28",
+                    "Edibility": -300,
+                    "ColorOverlayFromNextIndex": true,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_reagent",
+                        "{{ModId}}_reagent_reduction",
+                        "not_museum_donatable",
+                        "color_purple"
+                    ],
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
+                    "SpriteIndex": 194
+                },
+                "{{ModId}}_Reagent_Reduction_SquidInk": {
+                    "Name": "Condensed Squid Ink",
+                    "DisplayName": "{{i18n:Reagent_Reduction_SquidInk.DisplayName}}",
+                    "Description": "{{i18n:Reagent_Reduction_SquidInk.Description}}",
+                    "Type": "Basic",
+                    "Price": 11,
+                    "Category": "-23",
+                    "Edibility": -300,
+                    "ColorOverlayFromNextIndex": true,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_reagent",
+                        "{{ModId}}_reagent_reduction",
+                        "not_museum_donatable",
+                        "color_dark_blue"
+                    ],
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
+                    "SpriteIndex": 194
+                },
+                "{{ModId}}_Reagent_Reduction_CaveJelly": {
+                    "Name": "Thickened Cave Jelly",
+                    "DisplayName": "{{i18n:Reagent_Reduction_CaveJelly.DisplayName}}",
+                    "Description": "{{i18n:Reagent_Reduction_CaveJelly.Description}}",
+                    "Type": "Basic",
+                    "Price": 18,
+                    "Category": 0,
+                    "Edibility": -300,
+                    "ColorOverlayFromNextIndex": true,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_reagent",
+                        "{{ModId}}_reagent_reduction",
+                        "not_museum_donatable",
+                        "color_orange"
+                    ],
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
+                    "SpriteIndex": 194
+                },
+                "{{ModId}}_Reagent_Reduction_Sap": {
+                    "Name": "Diluted Sap Essence",
+                    "DisplayName": "{{i18n:Reagent_Reduction_Sap.DisplayName}}",
+                    "Description": "{{i18n:Reagent_Reduction_Sap.Description}}",
+                    "Type": "Basic",
+                    "Price": 1,
+                    "Category": -81,
+                    "Edibility": -300,
+                    "ColorOverlayFromNextIndex": true,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_reagent",
+                        "{{ModId}}_reagent_reduction",
+                        "not_museum_donatable",
+                        "color_yellow"
+                    ],
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
+                    "SpriteIndex": 194
+                },
+                "{{ModId}}_Reagent_Reduction_WhiteAlgea": {
+                    "Name": "Evaporated Algea Brine",
+                    "DisplayName": "{{i18n:Reagent_Reduction_WhiteAlgea.DisplayName}}",
+                    "Description": "{{i18n:Reagent_Reduction_WhiteAlgea.Description}}",
+                    "Type": "Basic",
+                    "Price": 5,
+                    "Category": 0,
+                    "Edibility": -300,
+                    "ColorOverlayFromNextIndex": true,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_reagent",
+                        "{{ModId}}_reagent_reduction",
+                        "not_museum_donatable",
+                        "color_white"
+                    ],
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
+                    "SpriteIndex": 194
+                },                
                 "{{ModId}}_Jewelry_N_Aerinite": {
                     "Name": "Aerinite Necklace",
                     "DisplayName": "{{i18n:Jewelry_N_Aerinite.DisplayName}}",

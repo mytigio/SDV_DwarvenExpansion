@@ -88,27 +88,48 @@ Uses "Cave Carrot Mash" (made in a Dwarven Pulverizer) as a base material.
 [/list]
 
 [size=4]Alchemy Bench[/size]
-Turns infused dwarven spirits and various ingredients into potions to improve skills, combat ability, health, energy, etc.
-Uses 
+Prepares alchemical powders and reductions which are used to create potions in the cooking menu.
 
 [size=3]Unlock[/size]
 Unlock recipe at mining level 9.
 Can buy from Dwarf after you reach mining level 9.
 
-[size=3]Recipes[/size]
-Uses 'Infused Dwarven Spirits" as a base material for all recipes.
+[size=3]Reagent Recipes[/size]
 [list]
-[*]One Perfect Day - improve all skills and attributes for 1 full day.  Requires Prismatic Dust as an input item. (made from 1 gem dust of each of the 7 types).
-[*]Shadowed Elixer - improved combat defense skills - Add 3 Void Mayo to the alchemy bench.
-[*]Distilled Sunlight - improves speed drastically - Add 10 solar essence to the alchemy bench.
-[*]Farmers Draught - improves the farming skill - add 15 seeds to the bench.
-[*]Miners Drink - improves the mining skill - Add 5 quarts to the bench
-[*]Fishermans Brew - improves the fishing skill - Add 3 fish to the bench
-[*]Woodmans Tonic - improves the foraging skill - Add 5 hardwood to the bench
-[*]Swordsmans Elixir - improves the combat skill - Add 2 iron bars to the bench
-[*]Envigorating Concotion - Restores large amount of energy - Add emerald dust to the bench
-[*]Healthing Draught - Restores large amount of health - Add ruby dust to the bench
-[*]Repellent Potion - Makes some monsters flee your presence - Add 100 bug meat to the bench
+[*] 5 Batwings - Produces 25 Powdered Batwing
+[*] 5 Coal - Produces 25 Ground Coal Powder
+[*] 3 Red Mushrooms - Produces 15 Ground Mushroom Caps
+[*] 1 Dragons Tooh - Produces 10 Dragon Tooth Shavings
+[*] 1 Cinder Shard - Produces 10 Cinder Shard Chips
+[*] 5 Mixed Seeds - Produces 25 Ground Seeds
+[*] 1 Stonefish - Produces 10 Grated Stonefish Scales
+[*] 10 Slime - Produces 50 Slime Reductions
+[*] 3 Solar Essence - Produces 15 Concentrated Solar Essences
+[*] 3 Void Essence - Produces 15 Distilled Void Essences
+[*] 2 Squid Ink - Produces 20 Condensed Squid Inks
+[*] 1 Cave Jelly - Produces 10 Thickened Cave Jelly
+[*] 5 Sap - Produces 10 Diluted Sap Essences
+[*] 3 White Algea - Produces 15 Evaporated Algea Brine
+[/list]
+
+[size=3]Potion Recipes[/size]
+At mining level 9, Dwarf will send a letter with his mothers potion recipes, granting access to the following cooking recipes.
+Each uses 'Dwarven Spirits" as a base material.
+Each use 1 type of mineral dust: (copper, iron, gold, iridium, amethyst, topaz, aquamarine, jade, ruby, emerald, diamond, prismatic)
+Each use 1 type of powered reagent: Batwing, Coal, RedMushroom, Dragontooth, Cinder Shard, Seeds, Stonefish
+Each use 1 type of reduced reagent: Slime, Solar Essence, Void Essence, Squid Ink, Cave Jelly, Sap, White Algea
+[list]
+[*]One Perfect Day - improve all skills and attributes for 1 full day. Recipe: 1 Dwarven Spirits, 1 Prismatic Dust, 3 Solar Essence Reductions, 3 Dragon Tooth Powders
+[*]Shadowed Elixer - improved combat defense skills - Recipe: 1 Dwarven Spirits, 1 Jade Dust, 5 Void Essence Reductions, 3 Powdered Bat Wings
+[*]Distilled Sunlight - improves speed drastically - Recipe: 1 Dwarven Spirits, 1 Diamond Dust, 10 Solar Essence Reductions, 2 Powdered Mushroom Caps
+[*]Farmers Draught - improves the farming skill - Recipe: 1 Dwarven Spirits, 1 amethyst dust, 5 Powered Seeds, 3 Reduced White Algea
+[*]Miners Drink - improves the mining skill - Recipe: 1 Dwarven Spirit, 2 gold dust, 3 Powered Coal, 1 Reduced Cave Jelly,
+[*]Fishermans Brew - improves the fishing skill - Recipe: 1 Dwarven Spirit, 1 Aquamarine Dust, 2 Powered Stonefish, 2 Reduced Squid Ink
+[*]Woodmans Tonic - improves the foraging skill - Recipe: 1 Dwarven Spirit, 1 Topaz Dust, 3 Powered Red Mushroom, 5 Reduced Sap
+[*]Swordsmans Elixir - improves the combat skill - Recipe: 1 Dwarven Spirit, 5 Iron Dust, 5 Powered Batwing, 5 Reduced Slime
+[*]Envigorating Concotion - Restores large amount of energy - Recipe: 1 Dwarven Spirits, 1 Emerald Dust, 3 Powdered Coal, 2 Reduced White Algea
+[*]Healing Draught - Restores large amount of health - Recipe: 1 Dwarven Spirits, 1 Ruby Dust, 2 Powered Red Mushroom, 1 Reduced Cave Jelly
+[*]Repellent Potion - Makes some monsters flee your presence - Recipe: 1 Dwarven spirit, 1 Iridium Dust, 1 Powered Cinder Shard, 25 Reduced Slime
 [/list]
 
 [size=4]Slow-Burn Charcoal Kiln[/size]
