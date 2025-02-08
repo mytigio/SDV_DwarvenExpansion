@@ -76,7 +76,8 @@
 					"MaxOccupants": 8,
 					"ValidOccupantTypes": [
 						"{{ModId}}_CaveCoop",
-						"{{ModId}}_BigCaveCoop"
+						"{{ModId}}_BigCaveCoop",
+						"Coop"
 					],
 					"AllowAnimalPregnancy": true,
 					"IndoorItemMoves": [

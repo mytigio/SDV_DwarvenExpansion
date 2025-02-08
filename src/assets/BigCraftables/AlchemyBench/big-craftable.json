@@ -27,6 +27,51 @@
         },
         {
             "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Add_Potion_Recipes": {
+                    "Id": "{{ModId}}_Add_Potion_Recipes",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_BASE_MINING_LEVEL Current 9",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_DwarfPotions now",
+                        "MarkCookingRecipeKnown Current One_Perfect_Day true",
+                        "MarkCookingRecipeKnown Current Shadowed_Elixir true",
+                        "MarkCookingRecipeKnown Current Distilled_Sunlight true",
+                        "MarkCookingRecipeKnown Current Farmers_Draught true",
+                        "MarkCookingRecipeKnown Current Miners_Drink true",
+                        "MarkCookingRecipeKnown Current Fishermans_Brew true",
+                        "MarkCookingRecipeKnown Current Woodmans_Tonic true",
+                        "MarkCookingRecipeKnown Current Swordsmans_Elixir true",
+                        "MarkCookingRecipeKnown Current Ogre_Kings_Draft true",
+                        "MarkCookingRecipeKnown Current Envigorating_Concotion true",
+                        "MarkCookingRecipeKnown Current Healing_Draught true",
+                        "MarkCookingRecipeKnown Current Repellent_Potion true"
+                    ]
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "LogName": "Add potion recipes",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "One_Perfect_Day": "{{ModId}}_Drinks_DwarvenSpirits 1 {{ModId}}_MineralDust_PrismaticDust 1 {{ModId}}_Reagent_Reduction_SolarEssence 3 {{ModId}}_Reagent_Powder_DragonTooth 3/25 2/{{ModId}}_Potions_OnePerfectDay/none",
+                "Shadowed_Elixir": "{{ModId}}_Drinks_DwarvenSpirits 1 {{ModId}}_MineralDust_JadeDust 1 {{ModId}}_Reagent_Reduction_VoidEssence 5 {{ModId}}_Reagent_Powder_Batwing 3/25 2/{{ModId}}_Potions_ShadowedElixir/none",
+                "Distilled_Sunlight": "{{ModId}}_Drinks_DwarvenSpirits 1 {{ModId}}_MineralDust_DiamondDust 1 {{ModId}}_Reagent_Reduction_SolarEssence 10 {{ModId}}_Reagent_Powder_RedMushroom 2/25 2/{{ModId}}_Potions_DistilledSunlight/none",
+                "Farmers_Draught": "{{ModId}}_Drinks_DwarvenSpirits 1 {{ModId}}_MineralDust_AmethystDust 1 {{ModId}}_Reagent_Powder_Seeds 5 {{ModId}}_Reagent_Reduction_WhiteAlgea 3/25 2/{{ModId}}_Potions_FarmersDraught/none",
+                "Miners_Drink": "{{ModId}}_Drinks_DwarvenSpirits 1 {{ModId}}_MineralDust_GoldDust 2 {{ModId}}_Reagent_Reduction_CaveJelly 1 {{ModId}}_Reagent_Powder_Coal 3/25 2/{{ModId}}_Potions_MinersDrink/none",
+                "Fishermans_Brew": "{{ModId}}_Drinks_DwarvenSpirits 1 {{ModId}}_MineralDust_AquamarineDust 1 {{ModId}}_Reagent_Reduction_SquidInk 2 {{ModId}}_Reagent_Powder_Stonefish 2/25 2/{{ModId}}_Potions_FishermansBrew/none",
+                "Woodmans_Tonic": "{{ModId}}_Drinks_DwarvenSpirits 1 {{ModId}}_MineralDust_TopazDust 1 {{ModId}}_Reagent_Reduction_Sap 5 {{ModId}}_Reagent_Powder_RedMushroom 3/25 2/{{ModId}}_Potions_WoodmansTonic/none",
+                "Swordsmans_Elixir": "{{ModId}}_Drinks_DwarvenSpirits 1 {{ModId}}_MineralDust_IronDust 25 {{ModId}}_Reagent_Reduction_Slime 5 {{ModId}}_Reagent_Powder_Batwing 5/25 2/{{ModId}}_Potions_SwordsmansElixir/none",
+                "Ogre_Kings_Draft": "{{ModId}}_Drinks_DwarvenSpirits 1 {{ModId}}_MineralDust_CopperDust 50 {{ModId}}_Reagent_Reduction_CaveJelly 2 {{ModId}}_Reagent_Powder_Stonefish 3/25 2/{{ModId}}_Potions_OgreKingsDraft/none",
+                "Envigorating_Concotion": "{{ModId}}_Drinks_DwarvenSpirits 1 {{ModId}}_MineralDust_EmeraldDust 1 {{ModId}}_Reagent_Reduction_WhiteAlgea 2 {{ModId}}_Reagent_Powder_Coal 3/25 2/351/none/{{i18n:AlchemyBench.Output.Envigorating_Concoction.ObjectDisplayName}}",
+                "Healing_Draught": "{{ModId}}_Drinks_DwarvenSpirits 1 {{ModId}}_MineralDust_RubyDust 1 {{ModId}}_Reagent_Reduction_CaveJelly 1 {{ModId}}_Reagent_Powder_RedMushroom 2/25 2/773/none/{{i18n:AlchemyBench.Output.Healing_Draught.ObjectDisplayName}}",
+                "Repellent_Potion": "{{ModId}}_Drinks_DwarvenSpirits 1 {{ModId}}_MineralDust_IridiumDust 1 {{ModId}}_Reagent_Reduction_Slime 25 {{ModId}}_Reagent_Powder_CinderShard 1/25 2/772/none/{{i18n:AlchemyBench.Output.Repellent_Potion.ObjectDisplayName}}"
+            }
+        },
+        {
+            "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
                 "Dwarf",

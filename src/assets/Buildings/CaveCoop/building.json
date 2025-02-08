@@ -74,7 +74,8 @@
 					"IndoorMapType": "StardewValley.AnimalHouse",
 					"MaxOccupants": 4,
 					"ValidOccupantTypes": [
-						"{{ModId}}_CaveCoop"
+						"{{ModId}}_CaveCoop",
+						"Coop"
 					],
 					"AllowAnimalPregnancy": true,
 					"IndoorItemMoves": null,

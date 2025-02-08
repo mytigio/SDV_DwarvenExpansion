@@ -113,23 +113,24 @@ Can buy from Dwarf after you reach mining level 9.
 [/list]
 
 [size=3]Potion Recipes[/size]
-At mining level 9, Dwarf will send a letter with his mothers potion recipes, granting access to the following cooking recipes.
+At mining level 9, Gunther will send a letter with potion recipes, granting access to the following cooking recipes.
 Each uses 'Dwarven Spirits" as a base material.
 Each use 1 type of mineral dust: (copper, iron, gold, iridium, amethyst, topaz, aquamarine, jade, ruby, emerald, diamond, prismatic)
 Each use 1 type of powered reagent: Batwing, Coal, RedMushroom, Dragontooth, Cinder Shard, Seeds, Stonefish
 Each use 1 type of reduced reagent: Slime, Solar Essence, Void Essence, Squid Ink, Cave Jelly, Sap, White Algea
 [list]
-[*]One Perfect Day - improve all skills and attributes for 1 full day. Recipe: 1 Dwarven Spirits, 1 Prismatic Dust, 3 Solar Essence Reductions, 3 Dragon Tooth Powders
-[*]Shadowed Elixer - improved combat defense skills - Recipe: 1 Dwarven Spirits, 1 Jade Dust, 5 Void Essence Reductions, 3 Powdered Bat Wings
-[*]Distilled Sunlight - improves speed drastically - Recipe: 1 Dwarven Spirits, 1 Diamond Dust, 10 Solar Essence Reductions, 2 Powdered Mushroom Caps
-[*]Farmers Draught - improves the farming skill - Recipe: 1 Dwarven Spirits, 1 amethyst dust, 5 Powered Seeds, 3 Reduced White Algea
-[*]Miners Drink - improves the mining skill - Recipe: 1 Dwarven Spirit, 2 gold dust, 3 Powered Coal, 1 Reduced Cave Jelly,
-[*]Fishermans Brew - improves the fishing skill - Recipe: 1 Dwarven Spirit, 1 Aquamarine Dust, 2 Powered Stonefish, 2 Reduced Squid Ink
-[*]Woodmans Tonic - improves the foraging skill - Recipe: 1 Dwarven Spirit, 1 Topaz Dust, 3 Powered Red Mushroom, 5 Reduced Sap
-[*]Swordsmans Elixir - improves the combat skill - Recipe: 1 Dwarven Spirit, 5 Iron Dust, 5 Powered Batwing, 5 Reduced Slime
+[*]One Perfect Day - improve all skills and attributes for 1 full day. Recipe: 1 Dwarven Spirits, 1 Prismatic Dust, 3 Concentrated Solar Essence, 3 Dragon Tooth Shavings
+[*]Shadowed Elixer - improved combat defense skills - Recipe: 1 Dwarven Spirits, 1 Jade Dust, 5 Distilled Void Essence, 3 Powdered Batwing
+[*]Distilled Sunlight - improves speed drastically - Recipe: 1 Dwarven Spirits, 1 Diamond Dust, 10 Concentrated Solar Essence, 2 Ground Mushroom Caps
+[*]Farmers Draught - improves the farming skill - Recipe: 1 Dwarven Spirits, 1 Amethyst dust, 5 Ground Seeds, 3 Evaporated Algea Brine
+[*]Miners Drink - improves the mining skill - Recipe: 1 Dwarven Spirit, 2 gold dust, 3 Powered Coal, 1 Thickened Cave Jelly,
+[*]Fishermans Brew - improves the fishing skill - Recipe: 1 Dwarven Spirit, 1 Aquamarine Dust, 2 Grated Stonefish Scales, 2 Condensed Squid Ink
+[*]Woodmans Tonic - improves the foraging skill - Recipe: 1 Dwarven Spirit, 1 Topaz Dust, 3 Ground Mushroom Caps, 5 Diluted Sap Essence
+[*]Swordsmans Elixir - improves offensive combat skills - Recipe: 1 Dwarven Spirit, 25 Iron Dust, 5 Powered Batwing, 5 Slime Reduction
+[*]Ogre Kings Draft - improves offensive combat skill - Recipe: 1 Dwarven Spirit, 50 Copper Dust, 3 Grated Stonefish Scales, 2 Thickened Cave Jelly
 [*]Envigorating Concotion - Restores large amount of energy - Recipe: 1 Dwarven Spirits, 1 Emerald Dust, 3 Powdered Coal, 2 Reduced White Algea
-[*]Healing Draught - Restores large amount of health - Recipe: 1 Dwarven Spirits, 1 Ruby Dust, 2 Powered Red Mushroom, 1 Reduced Cave Jelly
-[*]Repellent Potion - Makes some monsters flee your presence - Recipe: 1 Dwarven spirit, 1 Iridium Dust, 1 Powered Cinder Shard, 25 Reduced Slime
+[*]Healing Draught - Restores large amount of health - Recipe: 1 Dwarven Spirits, 1 Ruby Dust, 2 Ground Mushroom Caps, 1 Thickened Cave Jelly
+[*]Repellent Potion - Makes some monsters flee your presence - Recipe: 1 Dwarven spirit, 1 Iridium Dust, 1 Powered Cinder Shard, 25 Slime Reduction
 [/list]
 
 [size=4]Slow-Burn Charcoal Kiln[/size]
