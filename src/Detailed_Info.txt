@@ -227,15 +227,22 @@ Digs up cave carrots, clay as basic drops and cave carrots, winter roots and pot
 [size=5]New Buildings[/size]
 
 [size=4]Cave / Medium Cave / Large Cave[/size]
-A new animal house to house grubs and crabs.
+A new animal house to house grubs and crabs.  Also functions as a coop to house coop animals if you prefer.
 The medium cave also has an incubator for hatching grubs and crabs.
 The large cave has a chute system to keep troughs full for the animals inside.
 
 [size=3]Obtain[/size]
 Can be constructed by Robin. Medium and Large caves are upgraded from the basic cave.
 
+[size=4]Cavern[/size]
+A new animal house to house Giant Naked Molerats, Badgers and Giant Cave Salamanders. Also functions as a barn to house barn animals if you prefer.
+Has an incubator and automatic feed troughs.  You enter via the side of the building, has a large 3 wide gate for larger animals.
+
+[size=3]Obtain[/size]
+Can be constructed by Robin.
+
 [size=4]Root Cellar / Large Root Cellar[/size]
-A large underground room.  Often used for storing root vegitables.
+A large underground room.  Often used for storing root vegetables.
 Can be used as a space to process or store goods, similar to a shed. Floors and walls cannot be replaced.
 
 [size=3]Obtain[/size]
