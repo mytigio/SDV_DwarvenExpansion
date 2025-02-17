@@ -31,6 +31,7 @@
 
     "Animals_CrabEgg_Iridium.DisplayName": "Iridium Crab Egg",
     "Animals_CrabEgg_Iridium.Description": "A hard rock-like egg. Slightly purple in color.",
+
     "IridiumCrab.DisplayName": "Iridium Crab",
     "IridiumCrab.ShopDisplayName": "Iridium Crab",
     "IridiumCrab.ShopDescription": "Lives in the cave.\\nAdults grow ore on their shell, which can be scrapped off with a set of shears. Happy rock crabs produce extreamly pure metal.",
@@ -39,6 +40,7 @@
     
     "Animals_CrabEgg_Gold.DisplayName": "Gold Crab Egg",
     "Animals_CrabEgg_Gold.Description": "A hard rock-like egg. Slightly gold in color.",
+    
     "GoldCrab.DisplayName": "Gold Crab",
     "GoldCrab.ShopDisplayName": "Gold Crab",
     "GoldCrab.ShopDescription": "Lives in the cave.\\nAdults grow ore on their shell, which can be scrapped off with a set of shears. Happy rock crabs produce extreamly pure metal.",
@@ -47,6 +49,7 @@
     
     "Animals_CrabEgg_Iron.DisplayName": "Iron Crab Egg",
     "Animals_CrabEgg_Iron.Description": "A hard rock-like egg. Slightly gray in color.",
+    
     "IronCrab.DisplayName": "Iron Crab",
     "IronCrab.ShopDisplayName": "Iron Crab",
     "IronCrab.ShopDescription": "Lives in the cave.\\nAdults grow ore on their shell, which can be scrapped off with a set of shears. Happy rock crabs produce extreamly pure metal.",
@@ -55,6 +58,7 @@
     
     "Animals_CrabEgg_Copper.DisplayName": "Copper Crab Egg",
     "Animals_CrabEgg_Copper.Description": "A hard rock-like egg. Slightly gray in color.",
+    
     "CopperCrab.DisplayName": "Copper Crab",
     "CopperCrab.ShopDisplayName": "Copper Crab",
     "CopperCrab.ShopDescription": "Lives in the cave.\\nAdults grow ore on their shell, which can be scrapped off with a set of shears. Happy rock crabs produce extreamly pure metal.",
@@ -63,6 +67,7 @@
     
     "Animals_GrubLarva.DisplayName": "Grub Larva",
     "Animals_GrubLarva.Description": "A small mass of wriggling larva.  Left in an incubation chamber these will grow into grubs.",
+    
     "FarmGrub.DisplayName": "Grub",
     "FarmGrub.ShopDisplayName": "Grub",
     "FarmGrub.ShopDescription": "Lives in the cave.\\nGrubs have a short life span, but keep their population constant.  The result for the aspiring grub farmer is a steady supply of slightly revolting meat!",
@@ -74,6 +79,7 @@
     "GiantNakedMoleRat.ShopDescription": "Lives in the cavern.\\nThe giant naked molerat is the cornerstone of dwarven aggriculture, being one of the few subterranian mammels domesticated.",
     "GiantNakedMoleRat.ShopMissingBuildingDescription": "No home available for this molerat.",
     "GiantNakedMoleRat.BirthText": "A cute wrinkley baby molerat was born.",
+    
     "Meat_Molerat.DisplayName": "Molerat Meat",
     "Meat_Molerat.Description": "A light, slightly dry meat.",
 
@@ -82,6 +88,7 @@
     "GiantPaleSalamander.ShopDescription": "Lives in the cavern.\\nThe giant salamander is frequently kept as a pet, much like a dog.  It digs up various items while searching for bugs and small crabs to eat.",
     "GiantPaleSalamander.ShopMissingBuildingDescription": "No home available for this salamander.",
     "GiantPaleSalamander.BirthText": "A salamander formed from the larva.",
+    
     "Meat_Salamander.DisplayName": "Salamander Meat",
     "Meat_Salamander.Description": "A slightly chewey meat.",
 
@@ -90,6 +97,7 @@
     "Badger.ShopDescription": "Lives in the cavern.\\nBadgers are common in Dwarven colonies. They dig up root vegetables while scrounging for insects and small mammals to eat.",
     "Badger.ShopMissingBuildingDescription": "No home available for this badger.",
     "Badger.BirthText": "A baby badger was born.",
+    
     "Meat_Badger.DisplayName": "Badger Meat",
     "Meat_Badger.Description": "A stringy tough meat harvested from badgers.",
 

@@ -26,8 +26,12 @@
     "Mail.Dwarf.DwarfCooking.LetterText": "人类，^我想分享一种我们族人的食物。^我希望你喜欢它的味道。^- 你在矿井里的朋友",
     "Mail.Dwarf.DwarfCooking.LetterName": "矮人食谱",
 
+    "Mail.Gunther.DwarfPotions.LetterText": "@,^I was going through the books in the museum and thought you may find this interesting, so I made you a copy.^The scientist who found the originals believed they were a collection of dwarven alchemical recipes. Potions, if you will.^I hope you find these writing as fascinating as I did.^- Gunther",
+    "Mail.Gunther.DwarfPotions.LetterName": "Ancient Alchemy",
+
     "Animals_CrabEgg_Iridium.DisplayName": "铱蟹蛋",
     "Animals_CrabEgg_Iridium.Description": "像石头一样坚硬的蛋。略带紫色。",
+    
     "IridiumCrab.DisplayName": "铱蟹",
     "IridiumCrab.ShopDisplayName": "铱蟹",
     "IridiumCrab.ShopDescription": "成体在壳上长出矿石，用一把剪刀就可以把它们剪掉。快乐的石蟹能产生极其纯净的金属。",
@@ -36,6 +40,7 @@
     
     "Animals_CrabEgg_Gold.DisplayName": "金蟹蛋",
     "Animals_CrabEgg_Gold.Description": "像石头一样坚硬的蛋。略带金色。",
+    
     "GoldCrab.DisplayName": "金蟹",
     "GoldCrab.ShopDisplayName": "金蟹",
     "GoldCrab.ShopDescription": "成体在壳上长出矿石，用一把剪刀就可以把它们剪掉。快乐的石蟹能产生极其纯净的金属。",
@@ -44,6 +49,7 @@
     
     "Animals_CrabEgg_Iron.DisplayName": "铁蟹蛋",
     "Animals_CrabEgg_Iron.Description": "像石头一样坚硬的蛋。略带灰色。",
+    
     "IronCrab.DisplayName": "铁蟹",
     "IronCrab.ShopDisplayName": "铁蟹",
     "IronCrab.ShopDescription": "成体在壳上长出矿石，用一把剪刀就可以把它们剪掉。快乐的石蟹能产生极其纯净的金属。",
@@ -52,6 +58,7 @@
     
     "Animals_CrabEgg_Copper.DisplayName": "铜蟹蛋",
     "Animals_CrabEgg_Copper.Description": "像石头一样坚硬的蛋。略带黄色。",
+    
     "CopperCrab.DisplayName": "铜蟹",
     "CopperCrab.ShopDisplayName": "铜蟹",
     "CopperCrab.ShopDescription": "成体在壳上长出矿石，用一把剪刀就可以把它们剪掉。快乐的石蟹能产生极其纯净的金属。",
@@ -60,6 +67,7 @@
     
     "Animals_GrubLarva.DisplayName": "蛆幼体",
     "Animals_GrubLarva.Description": "一小团扭来扭去的幼虫。放在孵化室里，这些幼虫会长成蛆。",
+    
     "FarmGrub.DisplayName": "蛆",
     "FarmGrub.ShopDisplayName": "蛆",
     "FarmGrub.ShopDescription": "蛆的寿命很短，但它们的个体总数保持不变。对于有抱负的食物农场主来说，成果是稳定供应了一些略微令人作呕的肉！",
@@ -71,8 +79,27 @@
     "GiantNakedMoleRat.ShopDescription": "巨型裸鼹是矮人群居的基石，是为数不多的被驯化的地下哺乳动物之一。",
     "GiantNakedMoleRat.ShopMissingBuildingDescription": "没有住所供鼹鼠居住。",
     "GiantNakedMoleRat.BirthText": "一只可爱的小鼹鼠出生了。",
+    
     "Meat_Molerat.DisplayName": "鼹鼠肉",
     "Meat_Molerat.Description": "一块稍微有些干巴巴的白肉。",
+
+    "GiantPaleSalamander.DisplayName": "Giant Pale Salamander",
+    "GiantPaleSalamander.ShopDisplayName": "Giant Pale Salamander",
+    "GiantPaleSalamander.ShopDescription": "Lives in the cavern.\\nThe giant salamander is frequently kept as a pet, much like a dog.  It digs up various items while searching for bugs and small crabs to eat.",
+    "GiantPaleSalamander.ShopMissingBuildingDescription": "No home available for this salamander.",
+    "GiantPaleSalamander.BirthText": "A salamander formed from the larva.",
+    
+    "Meat_Salamander.DisplayName": "Salamander Meat",
+    "Meat_Salamander.Description": "A slightly chewey meat.",
+
+    "Badger.DisplayName": "Badger",
+    "Badger.ShopDisplayName": "Badger",
+    "Badger.ShopDescription": "Lives in the cavern.\\nBadgers are common in Dwarven colonies. They dig up root vegetables while scrounging for insects and small mammals to eat.",
+    "Badger.ShopMissingBuildingDescription": "No home available for this badger.",
+    "Badger.BirthText": "A baby badger was born.",
+    
+    "Meat_Badger.DisplayName": "Badger Meat",
+    "Meat_Badger.Description": "A stringy tough meat harvested from badgers.",
 
     "AlchemyBench.DisplayName": "矮人炼金桌",
     "AlchemyBench.Description": "使用矮人炼金术来制造强大的调合物。注入矮人烈酒是所有矮人药剂的基础。",
@@ -100,6 +127,9 @@
     "ImprovedMushroomBox.DisplayName": "改良蘑菇箱",
     "ImprovedMushroomBox.Description": "一个蘑菇种植箱。将产生稳定的蘑菇供应。不能在户外操作。",
     
+    "Claymixer.DisplayName": "Clay mixer",
+    "Claymixer.Description": "A tumbling machine that mixes soil, silicate and water to produce a clay like substance.",
+
     "CaveIncubator.DisplayName": "孵化器",
     "CaveIncubator.Description": "一个在蟹蛋和蛆长到足够尺寸之前都安全的地方。",
 
@@ -131,6 +161,53 @@
     "Drinks_DwarvenSpirits.Description": "传统的矮人烈酒。为什么它们是绿色的？",
     "Drinks_InfusedSpirits.DisplayName": "矮人浸酒",
     "Drinks_InfusedSpirits.Description": "矮人烈酒被注入了大地深处的神奇能量。",
+    "Drinks_DwarfSunrise.DisplayName": "Dwarf Sunrise",
+    "Drinks_DwarfSunrise.Description": "A suprisingly bright drink made from Dwarven Spirits, cave carrot juice and just a bit of solar essence.",
+    "Drinks_DuskyDwarf.DisplayName": "Dusky Dwarf",
+    "Drinks_DuskyDwarf.Description": "A dark smokey drink made from Dwarven Spirits, void essence and juiced winter root.",
+
+    "Reagent_Powder_Batwing.DisplayName": "Powdered Batwing",
+    "Reagent_Powder_Batwing.Description": "Batwings ground into a fine powder.",
+    "Reagent_Powder_Batwing.InvalidCountMessage": "Requires 5 batwings.",
+    "Reagent_Powder_Coal.DisplayName": "Ground Coal Powder",
+    "Reagent_Powder_Coal.Description": "Coal ground into a fine powder.",
+    "Reagent_Powder_Coal.InvalidCountMessage": "Requires 5 coal.",
+    "Reagent_Powder_RedMushroom.DisplayName": "Ground Mushroom Caps",
+    "Reagent_Powder_RedMushroom.Description": "Red mushrooms ground into a fine powder.",
+    "Reagent_Powder_RedMushroom.InvalidCountMessage": "Requires 3 red mushrooms.",
+    "Reagent_Powder_DragonTooth.DisplayName": "Dragon Tooth Shavings",
+    "Reagent_Powder_DragonTooth.Description": "Shavings from a rare dragon tooth.",
+    "Reagent_Powder_DragonTooth.InvalidCountMessage": "Requires 1 dragon tooth.",
+    "Reagent_Powder_CinderShard.DisplayName": "Cinder Shard Chips",
+    "Reagent_Powder_CinderShard.Description": "Crystal chips from the magical cinder shard.",
+    "Reagent_Powder_CinderShard.InvalidCountMessage": "Requires 1 cinder shard.",
+    "Reagent_Powder_Seeds.DisplayName": "Ground Seeds",
+    "Reagent_Powder_Seeds.Description": "Mixed seeds ground into a fine powder.",
+    "Reagent_Powder_Seeds.InvalidCountMessage": "Requires 5 mixed seeds.",
+    "Reagent_Powder_Stonefish.DisplayName": "Grated Stonefish Scales",
+    "Reagent_Powder_Stonefish.Description": "The hard stonefish scales, grated into small shavings.",
+    "Reagent_Powder_Stonefish.InvalidCountMessage": "Requires 1 Stonefish.",
+    "Reagent_Reduction_Slime.DisplayName": "Slime Reduction",
+    "Reagent_Reduction_Slime.Description": "Viscous slime, reduced over a hot flame into a thick sludge.",
+    "Reagent_Reduction_Slime.InvalidCountMessage": "Requires 10 Slime.",
+    "Reagent_Reduction_SolarEssence.DisplayName": "Concentrated Solar Essence",
+    "Reagent_Reduction_SolarEssence.Description": "Solar Essence, concentrated by long boiling.",
+    "Reagent_Reduction_SolarEssence.InvalidCountMessage": "Requires 3 Solar Essence.",
+    "Reagent_Reduction_VoidEssence.DisplayName": "Distilled Void Essence",
+    "Reagent_Reduction_VoidEssence.Description": "Void Essence, distilled in an alembic.",
+    "Reagent_Reduction_VoidEssence.InvalidCountMessage": "Requires 3 Void Essence.",
+    "Reagent_Reduction_SquidInk.DisplayName": "Condensed Squid Ink",
+    "Reagent_Reduction_SquidInk.Description": "Squid Ink condensed into a thick viscous fluid.",
+    "Reagent_Reduction_SquidInk.InvalidCountMessage": "Requires 2 Squid Ink.",
+    "Reagent_Reduction_CaveJelly.DisplayName": "Thickened Cave Jelly",
+    "Reagent_Reduction_CaveJelly.Description": "Cave Jelly thickened into a hard springy sap.",
+    "Reagent_Reduction_CaveJelly.InvalidCountMessage": "Requires 1 Cave Jelly.",
+    "Reagent_Reduction_Sap.DisplayName": "Diluted Sap Essence",
+    "Reagent_Reduction_Sap.Description": "Sap diluted with a strong alcohol solution.",
+    "Reagent_Reduction_Sap.InvalidCountMessage": "Requires 5 Sap.",
+    "Reagent_Reduction_WhiteAlgea.DisplayName": "Evaporated White Algea Brine",
+    "Reagent_Reduction_WhiteAlgea.Description": "White Algae brine evaporated over high heat.",
+    "Reagent_Reduction_WhiteAlgea.InvalidCountMessage": "Requires 3 White Algae.",
 
     "Potions_DistilledSunlight.DisplayName": "日光蒸馏酒",
     "Potions_DistilledSunlight.Description": "一种从正午的阳光中提取的药剂。",
@@ -146,8 +223,17 @@
     "Potions_ShadowedElixir.Description": "一种注入黑暗能量的药剂。在战斗中帮助冒险的矮人。",
     "Potions_SwordsmansElixir.DisplayName": "剑客灵药",
     "Potions_SwordsmansElixir.Description": "一种充溢着速度和力量的饮料。一个剑客最好的朋友。",
+    "Potions_OgreKingsDraft.DisplayName": "Ogre Kings Draft",
+    "Potions_OgreKingsDraft.Description": "A drink seething with strength. Attack +5, Knockback x5, Critical Power x4",
     "Potions_WoodmansTonic.DisplayName": "伐木工补品",
     "Potions_WoodmansTonic.Description": "闻起来有根茎和沃土味道的神奇酒精饮品。",
+
+    "Buffs_SwordsmansElixir.DisplayName": "Spirit of the Swordsman",
+    "Buffs_SwordsmansElixir.Description": "Attack +3, Weapon Speed x2, Critical Chance x2, Critical Power x2",
+    "Buffs_OgreKing.DisplayName": "Spirit of the Ogre King",
+    "Buffs_OgreKing.Description": "Attack +5, Knockback x3, Critical Power x4",
+    "Buffs_ShadowedElixir.DisplayName": "Spirit of the Shadow",
+    "Buffs_ShadowedElixir.Description": "Defense +3, Max Stamina +50, Immunity +4",
 
     "OreCluster_Copper.DisplayName": "铜簇",
     "OreCluster_Copper.Description": "一簇非常纯粹的铜矿石",
@@ -270,6 +356,8 @@
     "Food_CaveSoup.Description": "海藻鱼汤，清淡可口。",
     "Food_CaveChowder.DisplayName": "山洞杂烩",
     "Food_CaveChowder.Description": "一种以冬根为原料的浓鱼杂烩。矮人矿工家庭的传统午餐。",
+    "Food_MeatyStew.DisplayName": "Meaty Stew",
+    "Food_MeatyStew.Description": "A thick meaty stew, traditionally made from molerat meat and algae.",
     "Food_CaveCarrotAuGratin.DisplayName": "脆皮山洞萝卜",
     "Food_CaveCarrotAuGratin.Description": "预备好的切片山洞萝卜，传统上是用鼹鼠奶酪制作。",
     "Food_CaveCarrotStew.DisplayName": "洞穴蘑菇炖菜",
@@ -285,5 +373,5 @@
     "Food_BugMeatStew.DisplayName": "虫肉炖",
     "Food_BugMeatStew.Description": "烤虫肉搭配蘑菇和史莱姆浆做成的家常菜。",
     "Food_BugMeatSoup.DisplayName": "虫肉汤",
-    "Food_BugMeatSoup.Description": "一种用大块的黏腻虫肉充当营养成分的浓汤。",
+    "Food_BugMeatSoup.Description": "一种用大块的黏腻虫肉充当营养成分的浓汤。"
     }
