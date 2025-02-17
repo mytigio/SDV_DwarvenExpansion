@@ -127,7 +127,7 @@
                                         {
                                             "ID": "increase_base_for_dwarven_spirit",
                                             "Modification": "Add",
-                                            "Amount": 50
+                                            "Amount": 100
                                         },
                                         {
                                             "ID": "multiply",
@@ -170,7 +170,7 @@
                                         {
                                             "ID": "increase_base_for_dwarven_spirit",
                                             "Modification": "Add",
-                                            "Amount": 50
+                                            "Amount": 100
                                         },
                                         {
                                             "ID": "multiply",
