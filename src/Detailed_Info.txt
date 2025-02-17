@@ -8,6 +8,8 @@ Version 2.0 comes with an overhaul of how alchemy / potion brewing works.  Detai
 [*]The Dwarven Still is now a Dwarven Infuser.  It can infused basic Dwarven Spirits to create an artisan good ("flavored" dwarven spirits which sell for substantially more).
 [*]The alchemy bench now creates reagents instead of potions. Specific recipes can be found in the detailed info artical, this page will include the base ingredients to use.
 [*]Potions are now made as cooking recipes, each potion will require a Dwarven Spirit, a mineral dust, a powdered reagent (these have bag sprites) and a liquid reagent (these have vial sprites).
+[*]Shadowed Elixir, Swordsmans Elixir and Ogre Kings Draft apply a buff, meaning they now stack with other drink effects.
+[*]Adjusted the potion buffs and durations.
 [/list]
 
 [size=5]New Machines[/size]
