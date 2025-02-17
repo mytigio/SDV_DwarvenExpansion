@@ -77,7 +77,7 @@
                     "Name": "Dwarven Spirits",
                     "DisplayName": "{{i18n:Drinks_DwarvenSpirits.DisplayName}}",
                     "Description": "{{i18n:Drinks_DwarvenSpirits.Description}}",
-                    "Price": 50,
+                    "Price": 100,
                     "Type": "Crafting",
                     "Category": -26,
                     "Edibility": 30,
