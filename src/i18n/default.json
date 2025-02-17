@@ -99,8 +99,8 @@
     "AlchemyBench.Output.Healing_Draught.ObjectDisplayName": "Healing Draught",
     "AlchemyBench.Output.Repellent_Potion.ObjectDisplayName": "Repellent Potion",
     
-    "DwarvenStill.DisplayName": "Dwarven Still",
-    "DwarvenStill.Description": "Distill spirits in the traditional dwarven way! With rocks, fermented mushrooms, rotting bug meat and molding cave carrots.",
+    "DwarvenStill.DisplayName": "Dwarven Infuser",
+    "DwarvenStill.Description": "A still to purify and infuse Dwarven Spirits. The infused spirits can be sold for significant profits.",
     "DwarvenStill.Output.Infused_Dwarven_Spirits.ObjectDisplayName": "{0} Spirits",
 
     "GemPolisher.DisplayName": "Dwarven Gem Polisher",
@@ -197,7 +197,7 @@
     "Reagent_Reduction_Sap.DisplayName": "Diluted Sap Essence",
     "Reagent_Reduction_Sap.Description": "Sap diluted with a strong alcohol solution.",
     "Reagent_Reduction_Sap.InvalidCountMessage": "Requires 5 Sap.",
-    "Reagent_Reduction_WhiteAlgea.DisplayName": "Evaporated Algea Brine",
+    "Reagent_Reduction_WhiteAlgea.DisplayName": "Evaporated White Algea Brine",
     "Reagent_Reduction_WhiteAlgea.Description": "White Algae brine evaporated over high heat.",
     "Reagent_Reduction_WhiteAlgea.InvalidCountMessage": "Requires 3 White Algae.",
 

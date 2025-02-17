@@ -139,6 +139,7 @@
                     "Price": 200,
                     "Type": "Crafting",
                     "Category": -26,
+                    "ColorOverlayFromNextIndex": true,
                     "Edibility": 150,
                     "IsDrink": true,
                     "Buffs": [
@@ -155,7 +156,7 @@
                         "{{ModId}}"
                     ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
-                    "SpriteIndex": 2
+                    "SpriteIndex": 5
                 },
                 "{{ModId}}_Potions_DistilledSunlight": {
                     "Name": "Distilled Sunlight",
@@ -455,6 +456,7 @@
                     "Category": "-15",
                     "Edibility": -300,
                     "ContextTags": [
+                        "color_copper",
                         "{{ModId}}",
                         "{{ModId}}_mineraldust",
                         "not_museum_donatable",
@@ -472,6 +474,7 @@
                     "Category": "-15",
                     "Edibility": -300,
                     "ContextTags": [
+                        "color_iron",
                         "{{ModId}}",
                         "{{ModId}}_mineraldust",
                         "not_museum_donatable",
@@ -489,6 +492,7 @@
                     "Category": "-15",
                     "Edibility": -300,
                     "ContextTags": [
+                        "color_gold",
                         "{{ModId}}",
                         "{{ModId}}_mineraldust",
                         "not_museum_donatable",
@@ -506,6 +510,7 @@
                     "Category": "-15",
                     "Edibility": -300,
                     "ContextTags": [
+                        "color_iridium",
                         "{{ModId}}",
                         "{{ModId}}_mineraldust",
                         "not_museum_donatable",
@@ -523,6 +528,7 @@
                     "Category": "-2",
                     "Edibility": -300,
                     "ContextTags": [
+                        "color_green",
                         "{{ModId}}",
                         "{{ModId}}_mineraldust",
                         "not_museum_donatable",
@@ -541,6 +547,7 @@
                     "Category": "-2",
                     "Edibility": -300,
                     "ContextTags": [
+                        "color_aquamarine",
                         "{{ModId}}",
                         "{{ModId}}_mineraldust",
                         "not_museum_donatable",
@@ -559,6 +566,7 @@
                     "Category": "-2",
                     "Edibility": -300,
                     "ContextTags": [
+                        "color_red",
                         "{{ModId}}",
                         "{{ModId}}_mineraldust",
                         "not_museum_donatable",
@@ -577,6 +585,7 @@
                     "Category": "-2",
                     "Edibility": -300,
                     "ContextTags": [
+                        "color_purple",
                         "{{ModId}}",
                         "{{ModId}}_mineraldust",
                         "not_museum_donatable",
@@ -595,6 +604,7 @@
                     "Category": "-2",
                     "Edibility": -300,
                     "ContextTags": [
+                        "color_gold",
                         "{{ModId}}",
                         "{{ModId}}_mineraldust",
                         "not_museum_donatable",
@@ -613,6 +623,7 @@
                     "Category": "-2",
                     "Edibility": -300,
                     "ContextTags": [
+                        "color_jade",
                         "{{ModId}}",
                         "{{ModId}}_mineraldust",
                         "not_museum_donatable",
@@ -631,6 +642,7 @@
                     "Category": "-2",
                     "Edibility": -300,
                     "ContextTags": [
+                        "color_white",
                         "{{ModId}}",
                         "{{ModId}}_mineraldust",
                         "not_museum_donatable",
@@ -649,6 +661,7 @@
                     "Category": "-2",
                     "Edibility": -300,
                     "ContextTags": [
+                        "color_prismatic",
                         "{{ModId}}",
                         "{{ModId}}_mineraldust",
                         "not_museum_donatable",

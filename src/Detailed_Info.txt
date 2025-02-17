@@ -1,6 +1,15 @@
 [center][size=6]Dwarven﻿﻿[/size][size=6] Expansion[/size][/center]
 A recreation of my Dwarvish mod for Stardew Valley using the expanded modding features available in 1.6
 
+[size=5]Version 2.0 Major Changes[/size]
+Version 2.0 comes with an overhaul of how alchemy / potion brewing works.  Details can be found throughout the document but the high level changes are as follows:
+[list=1]
+[*]Dwarven Spirits are now made in the Keg like other drinks.  Put Cave Carrot Mash into the Keg to create Dwarven Spirits.
+[*]The Dwarven Still is now a Dwarven Infuser.  It can infused basic Dwarven Spirits to create an artisan good ("flavored" dwarven spirits which sell for substantially more).
+[*]The alchemy bench now creates reagents instead of potions. Specific recipes can be found in the detailed info artical, this page will include the base ingredients to use.
+[*]Potions are now made as cooking recipes, each potion will require a Dwarven Spirit, a mineral dust, a powdered reagent (these have bag sprites) and a liquid reagent (these have vial sprites).
+[/list]
+
 [size=5]New Machines[/size]
 
 [size=4]Dwarven Gem Polisher[/size]
@@ -72,19 +81,18 @@ Can buy from Dwarf after you reach mining level 4.
 [*]Rusty Spur - pulverize this artifact to product copper ore.
 [/list]
 
-[size=4]Dwarven Still[/size]
-Brew dwarven spirits and infuse them with the magic of the earth using gem dust.
-These spirits can be drank or used as the base for powerful dwarven potions made at the alchemy bench.
+[size=4]Dwarven Infuser[/size]
+Infuse Dwarven Spirits with earth magic from ore and gem dust.
+These spirits can be drank or sold as an artisan good.  Base Dwarven Spirits are now made in the Keg using Cave Carrot Mash.
 
 [size=3]Unlock[/size]
 Unlock recipe at mining level 6.
 Can buy from Dwarf after you reach mining level 6.
 
 [size=3]Recipes[/size]
-Uses "Cave Carrot Mash" (made in a Dwarven Pulverizer) as a base material.
+Uses "Dwarven Spirits" (made in a Keg using Cave Carrot Mash) as a base material.
 [list]
-[*]Ore Dust (Copper, Iron, Gold, Iridium) makes Dwarven Spirits.  The ore type determines the quality of the output.
-[*]Gem Dust (Topaz, Amethyst, Aquamarine, Diamond, Emerald, Ruby, Jade) makes Infused Dwarven Spirits.  The gem type determines the quality of the output.
+Mineral Dust - Made from Ore or Gems in the Dwarven Pulverizer.  Creates Infused Dwarven Spirits that bear the color and name of the input mineral.
 [/list]
 
 [size=4]Alchemy Bench[/size]
@@ -109,7 +117,7 @@ Can buy from Dwarf after you reach mining level 9.
 [*] 2 Squid Ink - Produces 20 Condensed Squid Inks
 [*] 1 Cave Jelly - Produces 10 Thickened Cave Jelly
 [*] 5 Sap - Produces 10 Diluted Sap Essences
-[*] 3 White Algea - Produces 15 Evaporated Algea Brine
+[*] 3 White Algea - Produces 15 Evaporated White Algea Brine
 [/list]
 
 [size=3]Potion Recipes[/size]
@@ -364,26 +372,17 @@ Shadowed Stew: Purple Mushroom is replaced with Badger Meat
 Sunshine Stew: Red Mushroom is replaced with Salamander Meat
 [/list]
 [size=4]Drinks[/size]
-These new drinks are created in the Dwarven Still
+These new drinks are created in the Dwarven Infuser
 [list]
-[*]Dwarven Spirits - made by distilling ore dust and a cave carrot mash into a strong alcohol.
-[*]Infused Dwarven Spirits - made by distilling gem dust and cave carrot mash into a strong alcohol.
+[*]Infused Dwarven Spirits - made by distilling gem dust or ore dust in a Dwarven Infuser.
+[/list]
+These new drunks are created in the Keg
+[list]
+[*]Dwarven Spirits - made with Cave Carrot Mash in a Keg.
 [/list]
 [size=4]Potions[/size]
-These potions can be made at the alchemy bench.
-[list]
-[*]Distilled Sunlight - Made from 10 solar essences and infused dwarven spirits.
-[*]Farmers Draught - Made from 15 seeds and infused dwarven spirits.
-[*]Fishermans Brew - Made from 3 fish and infused dwarven spirits.
-[*]Miners Drink - Made from 5 Quartz and infused dwarven spirits.
-[*]One Perfect Day - Made from 1 prismatic dust and infused dwarven spirits.
-[*]Shadowed Elixir - Made from 3 Void Mayo and infused dwarven spirits.
-[*]Swordsmans Elixir - Made from 2 iron bars and infused dwarven spirits.
-[*]Woodmans Tonic - Made from 5 hardwood and infused dwarven spirits.
-[*]Envigorating Concoction - Made from Emerald Dust and infused dwarven spirits.
-[*]Healing Draught - Made from Ruby dust and infused dwarven spirits.
-[*]Repellent Potion - Made from 100 bug meat and infused dwarven spirits.
-[/list]
+These potions can be made at a cooking station. You receive these recipes at Mining Level 9.
+See the specific recipes under "Alchemy Bench" -> "Potion Recipes"
 [size=4]Jewelry[/size]
 These are new artisan goods that can be crafted and sold for profit at the Jewlry Making Machine
 [size=3]Necklaces[/size]
@@ -419,6 +418,11 @@ These are new artisan goods that can be crafted and sold for profit at the Jewlr
 [*]Jade Gold Ring
 [*]Ruby Gold Ring
 [*]Topaz Gold Ring
+[/list]
+[size=3]Mod Supported Minerals[/size]
+[list]
+Minerals from several other mods are supported and create their own types of jewelry.
+See the coorisponding patch mod for details.
 [/list]
 [size=3]Miscellanous[/size]
 [list]

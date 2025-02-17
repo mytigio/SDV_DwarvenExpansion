@@ -1,6 +1,15 @@
 [center][size=6]Dwarven﻿﻿[/size][size=6] Expansion[/size][/center]
 A recreation of my Dwarvish mod for Stardew Valley using the expanded modding features available in 1.6
 
+[size=5]Version 2.0 Major Changes[/size]
+Version 2.0 comes with an overhaul of how alchemy / potion brewing works.  Details can be found throughout the document but the high level changes are as follows:
+[list=1]
+[*]Dwarven Spirits are now made in the Keg like other drinks.  Put Cave Carrot Mash into the Keg to create Dwarven Spirits.
+[*]The Dwarven Still is now a Dwarven Infuser.  It can infused basic Dwarven Spirits to create an artisan good ("flavored" dwarven spirits which sell for substantially more).
+[*]The alchemy bench now creates reagents instead of potions. Specific recipes can be found in the detailed info artical, this page will include the base ingredients to use.
+[*]Potions are now made as cooking recipes, each potion will require a Dwarven Spirit, a mineral dust, a powdered reagent (these have bag sprites) and a liquid reagent (these have vial sprites).
+[/list]
+
 [size=5]New Machines[/size]
 
 [size=4]Dwarven Gem Polisher[/size]
@@ -20,12 +29,29 @@ Automate works out of the box, however Ore Clusters -> Ore -> Ore Dust requires 
 [*] Configuration Option to disable Ore Dust recipes completely.  This works without Chests Anywhere, but means you won't be able to make Dwarven Spirits in the Still.
 [/list]
 
-[size=4]Dwarven Still[/size]
-Brew dwarven spirits and infuse them with the magic of the earth using gem dust.
-These spirits can be drank or used as the base for powerful dwarven potions made at the alchemy bench.
+[size=4]Dwarven Infuser[/size]
+Infuse Dwarven Spirits with earth magic from ore dust and gem dust.
+These infused spirits can be drank or sold as an artisan good.  Base Dwarven Spirits are now made in the Keg using Cave Carrot Mash.
 
 [size=4]Alchemy Bench[/size]
-Turns infused dwarven spirits and various ingredients into potions to improve skills, combat ability, health, energy, etc.
+Turns various ingredients into potion reagents which are used when creating potions in the cooking menu.  The reagents are:
+[size=3]Reagents[/size]
+[list]
+[*] Powdered Batwing
+[*] Ground Coal Powder
+[*] Ground Mushroom Cap
+[*] Dragon Tooth Shavings
+[*] Cinder Shard Chips
+[*] Ground Seeds
+[*] Grated Stonefish Scale
+[*] Slime Reduction
+[*] Concentrated Solar Essence
+[*] Distilled Void Essence
+[*] Condensed Squid Ink
+[*] Thickened Cave Jelly
+[*] Diluted Sap Essence
+[*] Evaporated White Algea Brine
+[/list]
 
 [size=4]Slow-Burn Charcoal Kiln[/size]
 A more efficient charcoal kiln that uses a longer lower heat burn to reduce waste and produce more coal per wood at the expense of time.  Harder woods burn more efficiently and produce more coal.

@@ -220,7 +220,7 @@
                                 {
                                     "Id": "Reagent_Powder_Seeds",
                                     "Trigger": "ItemPlacedInMachine",
-                                    "RequiredItemId": "(O)770",
+                                    "RequiredTags": "category_seeds",
                                     "RequiredCount": 5
                                 }
                             ],
