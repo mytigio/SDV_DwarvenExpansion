@@ -40,6 +40,13 @@
                     "Price": "2000",
                     "AvailableStock": 5,
                     "AvailableStockLimit": "Player"
+                },
+                "{{ModId}}_Drinks_DwarvenSpirits": {
+                    "ID": "{{ModId}}_Drinks_DwarvenSpirits",
+                    "ItemId": "(O){{ModId}}_Drinks_DwarvenSpirits",
+                    "Price": 100,
+                    "AvailableStock": 2,
+                    "AvailableStockLimit": "Player"
                 }
             }
         },
@@ -48,6 +55,35 @@
             "Target": "Strings/Objects",
             "Entries": {
                 "{{ModId}}_Infused_Spirits_Object_Display_Name": "{{i18n:DwarvenStill.Output.Infused_Dwarven_Spirits.ObjectDisplayName}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [
+                "(BC)12",
+                "OutputRules"
+            ],
+            "Entries": {
+                "{{ModId}}_Drinks_DwarvenSpirits": {
+                    "Id": "{{ModId}}_Drinks_DwarvenSpirits",
+                    "Triggers": [
+                        {
+                            "Id": "CarrotMash",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_CarrotMash",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_Drinks_DwarvenSpirits",
+                            "ItemId": "{{ModId}}_Drinks_DwarvenSpirits"
+                        }
+                    ],
+                    "UseFirstValidOutput": true,
+                    "DaysUntilReady": "1"
+                }
             }
         },
         {
@@ -78,21 +114,25 @@
                             ],
                             "OutputItem": [
                                 {
-                                    "Id": "Dwarven_Spirits",
-                                    "ItemId": "{{ModId}}_Drinks_DwarvenSpirits",
+                                    "Id": "Ore_Infused_Dwarven_Spirits",
+                                    "ItemId": "{{ModId}}_Drinks_InfusedSpirits",
+                                    "ObjectDisplayName": "[LocalizedText Strings/Objects:{{ModId}}_Infused_Spirits_Object_Display_Name %PRESERVED_DISPLAY_NAME Spirits]",
+                                    "ObjectInternalName": "{0} Infused Spirits",
                                     "Quality": "0",
                                     "CopyPrice": true,
-                                    "Condition": "ITEM_CONTEXT_TAG  Input {{ModId}}_oredust",
+                                    "CopyColor": true,
+                                    "PreserveId": "DROP_IN_PRESERVE",
+                                    "Condition": "ITEM_CONTEXT_TAG Input {{ModId}}_oredust",
                                     "PriceModifiers": [
                                         {
-                                            "ID": "increase_base_for_carrot_mash",
+                                            "ID": "increase_base_for_dwarven_spirit",
                                             "Modification": "Add",
-                                            "Amount": 25
+                                            "Amount": 100
                                         },
                                         {
                                             "ID": "multiply",
                                             "Modification": "Multiply",
-                                            "Amount": 1.25
+                                            "Amount": 1.50
                                         }
                                     ],
                                     "QualityModifiers": [
@@ -117,24 +157,25 @@
                                     ]
                                 },
                                 {
-                                    "Id": "Infused_Dwarven_Spirits",
+                                    "Id": "Gem_Infused_Dwarven_Spirits",
                                     "ItemId": "{{ModId}}_Drinks_InfusedSpirits",
                                     "ObjectDisplayName": "[LocalizedText Strings/Objects:{{ModId}}_Infused_Spirits_Object_Display_Name %PRESERVED_DISPLAY_NAME Spirits]",
                                     "ObjectInternalName": "{0} Infused Spirits",
                                     "Quality": "0",
                                     "CopyPrice": true,
-                                    "PreserveId": "DROP_IN",
-                                    "Condition": "ITEM_CONTEXT_TAG  Input {{ModId}}_gemdust",
+                                    "CopyColor": true,
+                                    "PreserveId": "DROP_IN_PRESERVE",
+                                    "Condition": "ITEM_CONTEXT_TAG Input {{ModId}}_gemdust",
                                     "PriceModifiers": [
                                         {
-                                            "ID": "increase_base_for_carrot_mash",
+                                            "ID": "increase_base_for_dwarven_spirit",
                                             "Modification": "Add",
-                                            "Amount": 25
+                                            "Amount": 100
                                         },
                                         {
                                             "ID": "multiply",
                                             "Modification": "Multiply",
-                                            "Amount": 1.50
+                                            "Amount": 2.00
                                         }
                                     ],
                                     "QualityModifiers": [
@@ -160,12 +201,12 @@
                                 }
                             ],
                             "UseFirstValidOutput": true,
-                            "DaysUntilReady": "7"
+                            "DaysUntilReady": "5"
                         }
                     ],
                     "AdditionalConsumedItems": [
                         {
-                            "ItemId": "{{ModId}}_CarrotMash"
+                            "ItemId": "{{ModId}}_Drinks_DwarvenSpirits"
                         }
                     ],
                     "LoadEffects": [

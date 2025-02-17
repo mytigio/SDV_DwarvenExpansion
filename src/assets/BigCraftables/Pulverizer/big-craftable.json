@@ -470,7 +470,7 @@
                                     "ItemId": "{{ModId}}_MineralDust_CopperDust",
                                     "MinStack": "{{OreRequiredForDust}}",
                                     "CopyPrice": true,
-                                    "PreserveId": "DROP_IN_ID",
+                                    "PreserveId": "DROP_IN",
                                     "Condition": "ITEM_ID Input 378"
                                 },
                                 {
@@ -478,7 +478,7 @@
                                     "ItemId": "{{ModId}}_MineralDust_IronDust",
                                     "MinStack": "{{OreRequiredForDust}}",
                                     "CopyPrice": true,
-                                    "PreserveId": "DROP_IN_ID",
+                                    "PreserveId": "DROP_IN",
                                     "Condition": "ITEM_ID Input 380"
                                 },
                                 {
@@ -486,7 +486,7 @@
                                     "ItemId": "{{ModId}}_MineralDust_EmeraldDust",
                                     "MinStack": 1,
                                     "CopyPrice": true,
-                                    "PreserveId": "DROP_IN_ID",
+                                    "PreserveId": "DROP_IN",
                                     "Condition": "ITEM_ID Input 60"
                                 },
                                 {
@@ -494,7 +494,7 @@
                                     "ItemId": "{{ModId}}_MineralDust_AquamarineDust",
                                     "MinStack": 1,
                                     "CopyPrice": true,
-                                    "PreserveId": "DROP_IN_ID",
+                                    "PreserveId": "DROP_IN",
                                     "Condition": "ITEM_ID Input 62"
                                 },
                                 {
@@ -502,7 +502,7 @@
                                     "ItemId": "{{ModId}}_MineralDust_RubyDust",
                                     "MinStack": 1,
                                     "CopyPrice": true,
-                                    "PreserveId": "DROP_IN_ID",
+                                    "PreserveId": "DROP_IN",
                                     "Condition": "ITEM_ID Input 64"
                                 },
                                 {
@@ -510,7 +510,7 @@
                                     "ItemId": "{{ModId}}_MineralDust_AmethystDust",
                                     "MinStack": 1,
                                     "CopyPrice": true,
-                                    "PreserveId": "DROP_IN_ID",
+                                    "PreserveId": "DROP_IN",
                                     "Condition": "ITEM_ID Input 66"
                                 },
                                 {
@@ -518,7 +518,7 @@
                                     "ItemId": "{{ModId}}_MineralDust_TopazDust",
                                     "MinStack": 1,
                                     "CopyPrice": true,
-                                    "PreserveId": "DROP_IN_ID",
+                                    "PreserveId": "DROP_IN",
                                     "Condition": "ITEM_ID Input 68"
                                 },
                                 {
@@ -526,7 +526,7 @@
                                     "ItemId": "{{ModId}}_MineralDust_JadeDust",
                                     "MinStack": 1,
                                     "CopyPrice": true,
-                                    "PreserveId": "DROP_IN_ID",
+                                    "PreserveId": "DROP_IN",
                                     "Condition": "ITEM_ID Input 70"
                                 },
                                 {
@@ -534,7 +534,7 @@
                                     "ItemId": "{{ModId}}_MineralDust_DiamondDust",
                                     "MinStack": 1,
                                     "CopyPrice": true,
-                                    "PreserveId": "DROP_IN_ID",
+                                    "PreserveId": "DROP_IN",
                                     "Condition": "ITEM_ID Input 72"
                                 },
                                 {
@@ -542,7 +542,7 @@
                                     "ItemId": "{{ModId}}_MineralDust_PrismaticDust",
                                     "MinStack": 1,
                                     "CopyPrice": true,
-                                    "PreserveId": "DROP_IN_ID",
+                                    "PreserveId": "DROP_IN",
                                     "Condition": "ITEM_ID Input 74"
                                 },
                                 {
@@ -552,6 +552,7 @@
                                     "ObjectDisplayName": "[LocalizedText Strings/Objects:{{ModId}}_Gemstone_Dust_Object_Display_Name %PRESERVED_DISPLAY_NAME Spirits]",
                                     "MinStack": 1,
                                     "CopyPrice": true,
+                                    "CopyColor": true,
                                     "PreserveId": "DROP_IN"
                                 }
                             ],
@@ -661,7 +662,7 @@
                             "ItemId": "{{ModId}}_MineralDust_GoldDust",
                             "MinStack": "{{OreRequiredForDust}}",
                             "CopyPrice": true,
-                            "PreserveId": "DROP_IN_ID",
+                            "PreserveId": "DROP_IN",
                             "Condition": "ITEM_ID Input 384"
                         },
                         {
@@ -669,7 +670,7 @@
                             "ItemId": "{{ModId}}_MineralDust_IridiumDust",
                             "MinStack": "{{OreRequiredForDust}}",
                             "CopyPrice": true,
-                            "PreserveId": "DROP_IN_ID",
+                            "PreserveId": "DROP_IN",
                             "Condition": "ITEM_ID Input 386"
                         }
                     ],

@@ -77,7 +77,8 @@
 					"ValidOccupantTypes": [
 						"{{ModId}}_CaveCoop",
 						"{{ModId}}_BigCaveCoop",
-						"{{ModId}}_DeluxeCaveCoop"
+						"{{ModId}}_DeluxeCaveCoop",
+						"Coop"
 					],
 					"AllowAnimalPregnancy": true,
 					"IndoorItemMoves": [

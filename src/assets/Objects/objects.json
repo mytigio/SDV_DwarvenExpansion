@@ -2,6 +2,64 @@
     "Changes": [
         {
             "Action": "EditData",
+            "Target": "Data/Buffs",
+            "Entries": {
+                "{{ModId}}_Buffs_SwordsmansElixir": {
+                    "DisplayName": "{{i18n:Buffs_SwordsmansElixir.DisplayName}}",
+                    "Description": "{{i18n:Buffs_SwordsmansElixir.Description}}",
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "Duration": 432000,
+                    "MaxDuration": -1,
+                    "IconTexture": "TileSheets\\BuffsIcons",
+                    "IconSpriteIndex": 20,
+                    "Effects": {
+                        "CriticalPowerMultiplier": 2,
+                        "CriticalChanceMultiplier": 2,
+                        "WeaponSpeedMultiplier": 2,
+                        "Attack": 3
+                    },
+                    "ActionsOnApply": null,
+                    "CustomFields": null
+                },
+                "{{ModId}}_Buffs_OgreKing": {
+                    "DisplayName": "{{i18n:Buffs_OgreKing.DisplayName}}",
+                    "Description": "{{i18n:Buffs_OgreKing.Description}}",
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "Duration": 432000,
+                    "MaxDuration": -1,
+                    "IconTexture": "TileSheets\\BuffsIcons",
+                    "IconSpriteIndex": 35,
+                    "Effects": {
+                        "CriticalPowerMultiplier": 4,
+                        "Attack": 5,
+                        "KnockbackMultiplier": 3
+                    },
+                    "ActionsOnApply": null,
+                    "CustomFields": null
+                },
+                "{{ModId}}_Buffs_ShadowedElixir": {
+                    "DisplayName": "{{i18n:Buffs_ShadowedElixir.DisplayName}}",
+                    "Description": "{{i18n:Buffs_ShadowedElixir.Description}}",
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "Duration": 432000,
+                    "MaxDuration": -1,
+                    "IconTexture": "TileSheets\\BuffsIcons",
+                    "IconSpriteIndex": 18,
+                    "Effects": {
+                        "Defense": 3,
+                        "MaxStamina": 50,
+                        "Immunity": 4
+                    },
+                    "ActionsOnApply": null,
+                    "CustomFields": null
+                }
+            }
+        },
+        {
+            "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
                 "{{ModId}}_CarrotMash": {
@@ -19,7 +77,7 @@
                     "Name": "Dwarven Spirits",
                     "DisplayName": "{{i18n:Drinks_DwarvenSpirits.DisplayName}}",
                     "Description": "{{i18n:Drinks_DwarvenSpirits.Description}}",
-                    "Price": 50,
+                    "Price": 100,
                     "Type": "Crafting",
                     "Category": -26,
                     "Edibility": 30,
@@ -81,12 +139,13 @@
                     "Price": 200,
                     "Type": "Crafting",
                     "Category": -26,
+                    "ColorOverlayFromNextIndex": true,
                     "Edibility": 150,
                     "IsDrink": true,
                     "Buffs": [
                         {
                             "Id": "loss",
-                            "Duration": 300,
+                            "Duration": 360,
                             "CustomAttributes": {
                                 "LuckLevel": 2
                             }
@@ -97,7 +156,7 @@
                         "{{ModId}}"
                     ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
-                    "SpriteIndex": 2
+                    "SpriteIndex": 5
                 },
                 "{{ModId}}_Potions_DistilledSunlight": {
                     "Name": "Distilled Sunlight",
@@ -106,12 +165,12 @@
                     "Price": 800,
                     "Type": "Crafting",
                     "Category": -26,
-                    "Edibility": 110,
+                    "Edibility": 55,
                     "IsDrink": true,
                     "Buffs": [
                         {
                             "Id": "loss",
-                            "Duration": 120,
+                            "Duration": 360,
                             "CustomAttributes": {
                                 "Speed": 3
                             }
@@ -135,9 +194,10 @@
                     "Buffs": [
                         {
                             "Id": "loss",
-                            "Duration": 360,
+                            "Duration": 480,
                             "CustomAttributes": {
-                                "FarmingLevel": 3
+                                "FarmingLevel": 3,
+                                "LuckLevel": 1
                             }
                         }
                     ],
@@ -159,9 +219,10 @@
                     "Buffs": [
                         {
                             "Id": "loss",
-                            "Duration": 360,
+                            "Duration": 480,
                             "CustomAttributes": {
-                                "FishingLevel": 3
+                                "FishingLevel": 3,
+                                "MaxStamina": 75
                             }
                         }
                     ],
@@ -183,9 +244,10 @@
                     "Buffs": [
                         {
                             "Id": "loss",
-                            "Duration": 360,
+                            "Duration": 480,
                             "CustomAttributes": {
-                                "MiningLevel": 3
+                                "MiningLevel": 3,
+                                "MagneticRadius": 72.0
                             }
                         }
                     ],
@@ -207,19 +269,19 @@
                     "Buffs": [
                         {
                             "Id": "loss",
-                            "Duration": 1080,
+                            "Duration": -2,
                             "CustomAttributes": {
                                 "FarmingLevel": 3,
                                 "ForagingLevel": 3,
                                 "MiningLevel": 3,
                                 "FishingLevel": 3,
+                                "CombatLevel": 3,
                                 "LuckLevel": 3,
                                 "Attack": 4,
                                 "Defense": 5,
-                                "MagnetRadius": 96,
+                                "MagneticRadius": 96.0,
                                 "Speed": 3,
-                                "MaxStamina": 150,
-                                "MaxHealth": 20
+                                "MaxStamina": 150
                             }
                         }
                     ],
@@ -236,17 +298,13 @@
                     "Price": 1200,
                     "Type": "Crafting",
                     "Category": -26,
-                    "Edibility": 80,
+                    "Edibility": 42,
                     "IsDrink": true,
                     "Buffs": [
                         {
                             "Id": "loss",
-                            "Duration": 360,
-                            "CustomAttributes": {
-                                "Defense": 3,
-                                "MaxStamina": 50,
-                                "MaxHealth": 10
-                            }
+                            "Duration": 480,
+                            "BuffId": "{{ModId}}_Buffs_ShadowedElixir"
                         }
                     ],
                     "ContextTags": [
@@ -262,15 +320,13 @@
                     "Price": 465,
                     "Type": "Crafting",
                     "Category": -26,
-                    "Edibility": 125,
+                    "Edibility": 25,
                     "IsDrink": true,
                     "Buffs": [
                         {
                             "Id": "loss",
-                            "Duration": 360,
-                            "CustomAttributes": {
-                                "Attack": 3
-                            }
+                            "Duration": 480,
+                            "BuffId": "{{ModId}}_Buffs_SwordsmansElixir"
                         }
                     ],
                     "ContextTags": [
@@ -278,6 +334,28 @@
                     ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 22
+                },
+                "{{ModId}}_Potions_OgreKingsDraft": {
+                    "Name": "Ogre Kings Draft",
+                    "DisplayName": "{{i18n:Potions_OgreKingsDraft.DisplayName}}",
+                    "Description": "{{i18n:Potions_OgreKingsDraft.Description}}",
+                    "Price": 465,
+                    "Type": "Crafting",
+                    "Category": -26,
+                    "Edibility": 30,
+                    "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id": "loss",
+                            "Duration": 480,
+                            "BuffId": "{{ModId}}_Buffs_OgreKing"
+                        }
+                    ],
+                    "ContextTags": [
+                        "{{ModId}}"
+                    ],
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
+                    "SpriteIndex": 24
                 },
                 "{{ModId}}_Potions_WoodmansTonic": {
                     "Name": "Woodmans Tonic",
@@ -291,9 +369,11 @@
                     "Buffs": [
                         {
                             "Id": "loss",
-                            "Duration": 360,
+                            "Duration": 480,
                             "CustomAttributes": {
-                                "ForagingLevel": 3
+                                "ForagingLevel": 3,
+                                "MagneticRadius": 36.0,
+                                "Speed": 1
                             }
                         }
                     ],
@@ -376,6 +456,7 @@
                     "Category": "-15",
                     "Edibility": -300,
                     "ContextTags": [
+                        "color_copper",
                         "{{ModId}}",
                         "{{ModId}}_mineraldust",
                         "not_museum_donatable",
@@ -393,6 +474,7 @@
                     "Category": "-15",
                     "Edibility": -300,
                     "ContextTags": [
+                        "color_iron",
                         "{{ModId}}",
                         "{{ModId}}_mineraldust",
                         "not_museum_donatable",
@@ -410,6 +492,7 @@
                     "Category": "-15",
                     "Edibility": -300,
                     "ContextTags": [
+                        "color_gold",
                         "{{ModId}}",
                         "{{ModId}}_mineraldust",
                         "not_museum_donatable",
@@ -427,6 +510,7 @@
                     "Category": "-15",
                     "Edibility": -300,
                     "ContextTags": [
+                        "color_iridium",
                         "{{ModId}}",
                         "{{ModId}}_mineraldust",
                         "not_museum_donatable",
@@ -444,6 +528,7 @@
                     "Category": "-2",
                     "Edibility": -300,
                     "ContextTags": [
+                        "color_green",
                         "{{ModId}}",
                         "{{ModId}}_mineraldust",
                         "not_museum_donatable",
@@ -462,6 +547,7 @@
                     "Category": "-2",
                     "Edibility": -300,
                     "ContextTags": [
+                        "color_aquamarine",
                         "{{ModId}}",
                         "{{ModId}}_mineraldust",
                         "not_museum_donatable",
@@ -480,6 +566,7 @@
                     "Category": "-2",
                     "Edibility": -300,
                     "ContextTags": [
+                        "color_red",
                         "{{ModId}}",
                         "{{ModId}}_mineraldust",
                         "not_museum_donatable",
@@ -498,6 +585,7 @@
                     "Category": "-2",
                     "Edibility": -300,
                     "ContextTags": [
+                        "color_purple",
                         "{{ModId}}",
                         "{{ModId}}_mineraldust",
                         "not_museum_donatable",
@@ -516,6 +604,7 @@
                     "Category": "-2",
                     "Edibility": -300,
                     "ContextTags": [
+                        "color_gold",
                         "{{ModId}}",
                         "{{ModId}}_mineraldust",
                         "not_museum_donatable",
@@ -534,6 +623,7 @@
                     "Category": "-2",
                     "Edibility": -300,
                     "ContextTags": [
+                        "color_jade",
                         "{{ModId}}",
                         "{{ModId}}_mineraldust",
                         "not_museum_donatable",
@@ -552,6 +642,7 @@
                     "Category": "-2",
                     "Edibility": -300,
                     "ContextTags": [
+                        "color_white",
                         "{{ModId}}",
                         "{{ModId}}_mineraldust",
                         "not_museum_donatable",
@@ -570,6 +661,7 @@
                     "Category": "-2",
                     "Edibility": -300,
                     "ContextTags": [
+                        "color_prismatic",
                         "{{ModId}}",
                         "{{ModId}}_mineraldust",
                         "not_museum_donatable",
@@ -862,7 +954,7 @@
                     ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 194
-                },                
+                },
                 "{{ModId}}_Jewelry_N_Aerinite": {
                     "Name": "Aerinite Necklace",
                     "DisplayName": "{{i18n:Jewelry_N_Aerinite.DisplayName}}",
@@ -1841,6 +1933,7 @@
             "Action": "EditData",
             "Target": "Data/Mail",
             "Entries": {
+                "{{ModId}}_DwarfPotions": "{{i18n:Mail.Gunther.DwarfPotions.LetterText}}^[#]{{i18n:Mail.Gunther.DwarfPotions.LetterName}}",
                 "DwarfCooking": "{{i18n:Mail.Dwarf.DwarfCooking.LetterText}}^%item cookingRecipe %%[#]{{i18n:Mail.Dwarf.DwarfCooking.LetterName}}"
             }
         },

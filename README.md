@@ -14,12 +14,28 @@ Turns gemstones and minerals into an artisan good that can be sold for drasticly
 ### Dwarven Pulverizer
 Breaks down ore clusters into useful ore, allows you to recycle stone into useful products and can pulverize ore and gems into a fine powder that can be used to brew spirits and make potions.
 
-### Dwarven Still
-Brew dwarven spirits and infuse them with the magic of the earth using gem dust.
-These spirits can be drank or used as the base for powerful dwarven potions made at the alchemy bench.
+### Dwarven Infuser
+Infuse Dwarven Spirits with earth magic from ore dust and gem dust.
+These infused spirits can be drank or sold as an artisan good.  Base Dwarven Spirits are now made in the Keg using Cave Carrot Mash.
 
 ### Alchemy Bench
-Turns infused dwarven spirits and various ingredients into potions to improve skills, combat ability, health, energy, etc.
+Turns various ingredients into potion reagents which are used when creating potions in the cooking menu.
+#### Reagents
+
+- Powdered Batwing
+- Ground Coal Powder
+- Ground Mushroom Cap
+- Dragon Tooth Shavings
+- Cinder Shard Chips
+- Ground Seeds
+- Grated Stonefish Scale
+- Slime Reduction
+- Concentrated Solar Essence
+- Distilled Void Essence
+- Condensed Squid Ink
+- Thickened Cave Jelly
+- Diluted Sap Essence
+- Evaporated White Algea Brine
 
 ### Slow-Burn Charcoal Kiln
 A more efficient charcoal kiln that uses a longer lower heat burn to reduce waste and produce more coal per wood at the expense of time.  Harder woods burn more efficiently and produce more coal.
@@ -69,13 +85,13 @@ A subterranian mammal frequently found around dwarvish colonies.  They often dig
 ### Cave/Medium Cave/Large Cave
 A farm animal building to house Grubs and Crabs. Level 2 and 3 come with an incubator to pupate grub larva and hatch crab eggs.  Level 3 comes with a feeding chute system that will keep the feeding troughs around the building full.
 
-### Root Cellar / Large Root Cellar
-A large underground room.  Often used for storing root vegitables.
-Can be used as a space to process or store goods, similar to a shed. Floors and walls cannot be replaced.
-
 ### Cavern
 A large, dark underground cavern that can house Barn animals.  Has a large metal gate at the entrance to keep in more ferocious subterranian animals.
 The Cavern is only available as a Deluxe building, complete with incubator, feed hopper and a feeding chute system to keep animals fed.
+
+### Root Cellar / Large Root Cellar
+A large underground room.  Often used for storing root vegetables.
+Can be used as a space to process or store goods, similar to a shed. Floors and walls cannot be replaced.
 
 ### Dwarven Furnace
 A large furnace, heated with the activated magic of solar essances.  This furnace never needs additional fuel beyond the solar essances it is constructed with, and it can smelt multiple materials at the same time.
@@ -154,13 +170,13 @@ Some recipes are known by default, some are sent in letters from the Dwarf, some
 
 ### Drinks
 These new drinks are created in the Dwarven Still
-- Dwarven Spirits - made by distilling ore dust and a cave carrot mash into a strong alcohol.
-- Infused Dwarven Spirits - made by distilling gem dust and cave carrot mash into a strong alcohol.
+- Dwarven Spirits - made by distilling cave carrot mash in a keg.
+- Infused Dwarven Spirits - made by infusing dwarven spirits with mineral dust in a Dwarven Infuser.
 - Dwarf Sunrise - a light drink made from Dwarven Spirits, cave carrot juice and grated solar essence.
 - Dusky Dwarf - a smokey dark drink made from Dwarven spirits, void essence and winter root.
 
 ### Potions
-These potions can be made at the alchemy bench.
+These potions are cooking recipes created using dwarven spirits, mineral dust and reagents from the Alchemy Bench.
 - Distilled Sunlight
 - Farmers Draught
 - Fishermans Brew
@@ -168,6 +184,7 @@ These potions can be made at the alchemy bench.
 - One Perfect Day
 - Shadowed Elixir
 - Swordsmans Elixir
+- Ogre Kings Draft
 - Woodmans Tonic
 
 ### Jewelry
