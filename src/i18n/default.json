@@ -373,5 +373,20 @@
     "Food_BugMeatStew.DisplayName": "Bug Meat Stew",
     "Food_BugMeatStew.Description": "A basic dish of roasted bug meat with a mushroom and slime glaze.",
     "Food_BugMeatSoup.DisplayName": "Bug Meat Soup",
-    "Food_BugMeatSoup.Description": "An oily soup fortified with gooey hunks of bug meat."
+    "Food_BugMeatSoup.Description": "An oily soup fortified with gooey hunks of bug meat.",
+
+    "Crops_CaveCarrot_Seeds.DisplayName": "Cave Carrot Seeds",
+    "Crops_CaveCarrot_Seeds.Description": "Dark blue seeds, can grow cave carrots in cooler tempatures and low light.",
+
+    "Crops_MidnightGourd.DisplayName": "Midnight Gourd",
+    "Crops_MidnightGourd.Description": "A large dark gourd grown deep underground. Thrives primarily on earth magic and weak red light.",
+    "Crops_MidnightGourd_Seeds.DisplayName": "Midnight Gourd Seeds",
+    "Crops_MidnightGourd_Seeds.Description": "A large gourd cultivated by the Dwarves.  On the surface it grows best in fall and winter when the light is weakest",
+
+    "Crops_VoidBerry.DisplayName": "Void Berry",
+    "Crops_VoidBerry.Description": "Small dark purple berries.  An extreamly sour fruit.",
+    "Crops_VoidBerry_Seeds.DisplayName": "Void Berry Seeds",
+    "Crops_VoidBerry_Seeds.Description": "A small sour berry grown by the Dwarves.  Grow best near lava pools as they convert the heat to energy to grow."
+
+    
 }

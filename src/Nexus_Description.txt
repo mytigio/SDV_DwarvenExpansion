@@ -63,6 +63,27 @@ This fix is not mandatory, but you will get far less then my configured outputs 
 [*] Evaporated White Algea Brine
 [/list]
 
+[size=3]Potion Recipes[/size]
+At mining level 9, Gunther will send a letter with potion recipes, granting access to the following cooking recipes.
+Each uses 'Dwarven Spirits" as a base material.
+Each use 1 type of mineral dust: (copper, iron, gold, iridium, amethyst, topaz, aquamarine, jade, ruby, emerald, diamond, prismatic)
+Each use 1 type of powered reagent: Batwing, Coal, RedMushroom, Dragontooth, Cinder Shard, Seeds, Stonefish
+Each use 1 type of reduced reagent: Slime, Solar Essence, Void Essence, Squid Ink, Cave Jelly, Sap, White Algea
+[list]
+[*]One Perfect Day - improve all skills and attributes for 1 full day.
+[*]Shadowed Elixer - improved combat defense skills
+[*]Distilled Sunlight - improves speed drastically
+[*]Farmers Draught - improves the farming skill
+[*]Miners Drink - improves the mining skill
+[*]Fishermans Brew - improves the fishing skill
+[*]Woodmans Tonic - improves the foraging skill
+[*]Swordsmans Elixir - improves offensive combat skills
+[*]Ogre Kings Draft - improves offensive combat skill
+[*]Envigorating Concotion - Restores large amount of energy
+[*]Healing Draught - Restores large amount of health
+[*]Repellent Potion - Makes some monsters flee your presence
+[/list]
+
 [size=4]Slow-Burn Charcoal Kiln[/size]
 A more efficient charcoal kiln that uses a longer lower heat burn to reduce waste and produce more coal per wood at the expense of time.  Harder woods burn more efficiently and produce more coal.
 
@@ -235,19 +256,20 @@ These new drinks are created in the Dwarven Still
 [*]Infused Dwarven Spirits - made by distilling gem dust and cave carrot mash into a strong alcohol.
 [/list]
 [size=4]Potions[/size]
-These potions can be made at the alchemy bench.  All potions are made with a base of infused dwarven spirits and are then enhanced with materials to absorb their essences.
+These potions are made from reagents created at the alchemy bench.  They are unlocked at mining level 9 after receiving a letter from Gunther.
 [list]
-[*]Distilled Sunlight - derived from solar essence.
-[*]Farmers Draught - blended from the magic of growing things.
-[*]Fishermans Brew - magic infused in the ghost fish makes this potion work.
-[*]Miners Drink - quartz crystals absorb and store earth magic, which this potion extracts.
-[*]One Perfect Day - A potion made from the blended magic of multiple gem stones.
-[*]Shadowed Elixir - The dark shadow magic concentrated into void mayo powers this draught.
-[*]Swordsmans Elixir - Smelted iron is melted down and infused into this potion.
-[*]Woodmans Tonic - Hardwood stores the magic of root and loam, which is burned and blended into this potion.
-[*]Envigorating Concoction - A potion that gains it's color from the emerald dust it is made from.
-[*]Healing Draught - A red healing potion, made from ruby dust.
-[*]Repellent Potion - Disgusting globs of bug meat are boiled down and processed into this revolting potion.
+[*]One Perfect Day - improve all skills and attributes for 1 full day.
+[*]Shadowed Elixer - improved combat defense skills
+[*]Distilled Sunlight - improves speed drastically
+[*]Farmers Draught - improves the farming skill
+[*]Miners Drink - improves the mining skill
+[*]Fishermans Brew - improves the fishing skill
+[*]Woodmans Tonic - improves the foraging skill
+[*]Swordsmans Elixir - improves offensive combat skills
+[*]Ogre Kings Draft - improves offensive combat skill
+[*]Envigorating Concotion - Restores large amount of energy
+[*]Healing Draught - Restores large amount of health
+[*]Repellent Potion - Makes some monsters flee your presence
 [/list]
 [size=4]Jewelry[/size]
 These are new artisan goods that can be crafted and sold for profit at the Jewlry Making Machine

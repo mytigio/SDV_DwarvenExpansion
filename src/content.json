@@ -181,6 +181,11 @@
         },
         {
             "Action": "Load",
+            "Target": "Mods/DwarvenExpansion/CropsSpritesheet",
+            "FromFile": "assets/Crops/CropsSpritesheet.png"
+        },
+        {
+            "Action": "Load",
             "Target": "Mods/DwarvenExpansion/BigCraftablesSpritesheet",
             "FromFile": "assets/BigCraftables/BigCraftablesSpritesheet.png"
         },
