@@ -78,6 +78,7 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_Crops",
+                        "{{ModId}}_non_wine_fruit",
                         "color_dark_purple",
                         "dye_strong",
                         "season_spring",
@@ -85,6 +86,103 @@
                         "season_fall"
                     ],
                     "CustomFields": null
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/Objects",
+            "Entries": {
+                "{{ModId}}_Cider_Display_Name": "{{i18n:Keg.Output.Cider.ObjectDisplayName}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [
+                "(BC)12",
+                "OutputRules",
+                "Default_Wine",
+                "Triggers",
+                "ItemPlacedInMachine_Fruit",
+                "RequiredTags"
+            ],
+            "Entries": {
+                "#-1":"!{{ModId}}_non_wine_fruit"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [
+                "(BC)12",
+                "OutputRules"
+            ],
+            "Entries": {
+                "{{ModId}}_Drinks_Cider": {
+                    "Id": "{{ModId}}_Drinks_Cider",
+                    "Triggers": [
+                        {
+                            "Id": "{{ModId}}_Crops_VoidBerry",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_Crops_VoidBerry",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_Drinks_Cider",
+                            "ItemId": "{{ModId}}_Drinks_Cider",
+                            "ObjectDisplayName": "[LocalizedText Strings/Objects:{{ModId}}_Cider_Display_Name %PRESERVED_DISPLAY_NAME Cider]",
+                            "ObjectInternalName": "{0} Cider",
+                            "Quality": "0",
+                            "CopyPrice": true,
+                            "CopyColor": true,
+                            "PreserveId": "DROP_IN",
+                            "PriceModifiers": [
+                                {
+                                    "ID": "multiply",
+                                    "Modification": "Multiply",
+                                    "Amount": 3
+                                }
+                            ],
+                            "QualityModifiers": []
+                        }
+                    ],
+                    "UseFirstValidOutput": true,
+                    "MinutesUntilReady": 20
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [
+                "(BC)163",
+                "OutputRules"
+            ],
+            "Entries": {
+                "{{ModId}}_Drinks_Cider": {
+                    "Id": "{{ModId}}_Drinks_Cider",
+                    "Triggers": [
+                        {
+                            "Id": "ItemPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_Drinks_Cider",
+                            "RequiredTags": null,
+                            "RequiredCount": 1,
+                            "Condition": null
+                        }
+                    ],
+                    "UseFirstValidOutput": false,
+                    "OutputItem": [
+                        {
+                            "CustomData": {
+                                "AgingMultiplier": "1"
+                            },
+                            "OutputMethod": "StardewValley.Objects.Cask, Stardew Valley: OutputCask"
+                        }
+                    ]
                 }
             }
         },

@@ -89,10 +89,22 @@
                             "CustomAttributes": {
                                 "LuckLevel": 1
                             }
+                        },
+                        {
+                            "Id": "Tipsy",
+                            "BuffId": "17",
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 0,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": null,
+                            "CustomFields": null
                         }
                     ],
                     "ContextTags": [
                         "alcohol_item",
+                        "use_reverse_name_for_sorting",
                         "{{ModId}}"
                     ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
@@ -107,7 +119,19 @@
                     "Category": -7,
                     "Edibility": 15,
                     "IsDrink": true,
-                    "Buffs": [],
+                    "Buffs": [
+                        {
+                            "Id": "Tipsy",
+                            "BuffId": "17",
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 0,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": null,
+                            "CustomFields": null
+                        }
+                    ],
                     "ContextTags": [
                         "alcohol_item",
                         "{{ModId}}"
@@ -124,7 +148,19 @@
                     "Category": -7,
                     "Edibility": 20,
                     "IsDrink": true,
-                    "Buffs": [],
+                    "Buffs": [
+                        {
+                            "Id": "Tipsy",
+                            "BuffId": "17",
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 0,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": null,
+                            "CustomFields": null
+                        }
+                    ],
                     "ContextTags": [
                         "alcohol_item",
                         "{{ModId}}"
@@ -149,14 +185,59 @@
                             "CustomAttributes": {
                                 "LuckLevel": 2
                             }
+                        },
+                        {
+                            "Id": "Tipsy",
+                            "BuffId": "17",
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 0,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": null,
+                            "CustomFields": null
                         }
                     ],
                     "ContextTags": [
                         "alcohol_item",
+                        "use_reverse_name_for_sorting",
                         "{{ModId}}"
                     ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 5
+                },
+                "{{ModId}}_Drinks_Cider": {
+                    "Name": "Cider",
+                    "DisplayName": "{{i18n:Drinks_Cider.DisplayName}}",
+                    "Description": "{{i18n:Drinks_Cider.Description}}",
+                    "Price": 200,
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Edibility": 20,
+                    "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id": "Tipsy",
+                            "BuffId": "17",
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 0,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": null,
+                            "CustomFields": null
+                        }
+                    ],
+                    "ContextTags": [
+                        "alcohol_item",
+                        "color_dark_purple",
+                        "drink_item",
+                        "use_reverse_name_for_sorting",
+                        "{{ModId}}"
+                    ],
+                    "ColorOverlayFromNextIndex": true,
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
+                    "SpriteIndex": 7
                 },
                 "{{ModId}}_Potions_DistilledSunlight": {
                     "Name": "Distilled Sunlight",
@@ -1926,6 +2007,38 @@
                     ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 48
+                },
+                "{{ModId}}_Food_MidnightSoup": {
+                    "Name": "Midnight Soup",
+                    "DisplayName": "{{i18n:Food_MidnightSoup.DisplayName}}",
+                    "Description": "{{i18n:Food_MidnightSoup.Description}}",
+                    "Type": "Cooking",
+                    "Category": "-7",
+                    "Price": 75,
+                    "Edibility": 15,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_dwarven_cuisine",
+                        "{{ModId}}_basic_dwarven_cuisine"
+                    ],
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
+                    "SpriteIndex": 68
+                },
+                "{{ModId}}_Food_VoidBerrySalad": {
+                    "Name": "Void Berry Salad",
+                    "DisplayName": "{{i18n:Food_VoidBerrySalad.DisplayName}}",
+                    "Description": "{{i18n:Food_VoidBerrySalad.Description}}",
+                    "Type": "Cooking",
+                    "Category": "-7",
+                    "Price": 20,
+                    "Edibility": 8,
+                    "ContextTags": [
+                        "{{ModId}}",
+                        "{{ModId}}_dwarven_cuisine",
+                        "{{ModId}}_basic_dwarven_cuisine"
+                    ],
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
+                    "SpriteIndex": 69
                 },
                 "{{ModId}}_Book_PotionRecipes": {
                     "Name": "Ancient Alchemy",

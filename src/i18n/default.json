@@ -165,6 +165,8 @@
     "Drinks_DwarfSunrise.Description": "A suprisingly bright drink made from Dwarven Spirits, cave carrot juice and just a bit of solar essence.",
     "Drinks_DuskyDwarf.DisplayName": "Dusky Dwarf",
     "Drinks_DuskyDwarf.Description": "A dark smokey drink made from Dwarven Spirits, void essence and juiced winter root.",
+    "Drinks_Cider.DisplayName": "Cider",
+    "Drinks_Cider.Description": "A mildly intoxicating fermented fruit drink favored by the Dwarves. Traditionally made with Void Berries.",
 
     "Reagent_Powder_Batwing.DisplayName": "Powdered Batwing",
     "Reagent_Powder_Batwing.Description": "Batwings ground into a fine powder.",
@@ -374,6 +376,10 @@
     "Food_BugMeatStew.Description": "A basic dish of roasted bug meat with a mushroom and slime glaze.",
     "Food_BugMeatSoup.DisplayName": "Bug Meat Soup",
     "Food_BugMeatSoup.Description": "An oily soup fortified with gooey hunks of bug meat.",
+    "Food_MidnightSoup.DisplayName": "Midnight Soup",
+    "Food_MidnightSoup.Description": "A simple soup made from the Midnight Gourd. A simple comfort food for the average dwarf.",
+    "Food_VoidBerrySalad.DisplayName": "Void Berry Salad",
+    "Food_VoidBerrySalad.Description": "A light salad made from green algae and void berries. A sour, salty treat.",
 
     "Crops_CaveCarrot_Seeds.DisplayName": "Cave Carrot Seeds",
     "Crops_CaveCarrot_Seeds.Description": "Dark blue seeds, can grow cave carrots in cooler tempatures and low light of Winter and Spring.",
@@ -389,6 +395,8 @@
     "Crops_VoidBerry.Description": "Small dark purple berries.  An extreamly sour fruit.",
     "Crops_VoidBerry_Seeds.DisplayName": "Void Berry Seeds",
     "Crops_VoidBerry_Seeds.Description": "A small sour berry grown by the Dwarves.  Grow best near lava pools as they convert the heat to energy to grow.",
+
+    "Keg.Output.Cider.ObjectDisplayName": "{0} Cider",
 
     "Book_Ancient_Alchemy.DisplayName": "Ancient Alchemy",
     "Book_Ancient_Alchemy.Description": "A bound book of ancient dwarven recipes translated for your use.",
