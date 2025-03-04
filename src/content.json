@@ -23,6 +23,12 @@
             "AllowBlank": true,
             "Default": "Grub,CopperCrab,IronCrab,GoldCrab,IridiumCrab,Molerat,PaleSalamander,Badger"
         },
+        "DisabledCrops": {
+            "AllowValues": "CaveCarrotSeeds,MidnightGourd,VoidBerry",
+            "AllowMultiple": true,
+            "AllowBlank": true,
+            "Default": ""
+        },
         "BuyCrabEggsAtMarlons": {
             "AllowValues": "true, false",
             "Default": "true"
@@ -208,6 +214,10 @@
             "When": {
                 "EnableDwarfMagic": "true"
             }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Crops/crops.json"
         },
         {
             "Action": "Include",

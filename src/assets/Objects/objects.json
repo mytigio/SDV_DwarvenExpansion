@@ -1926,6 +1926,30 @@
                     ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 48
+                },
+                "{{ModId}}_Book_PotionRecipes": {
+                    "Name": "Ancient Alchemy",
+                    "DisplayName": "{{i18n:Book_Ancient_Alchemy.DisplayName}}",
+                    "Description": "{{i18n:Book_Ancient_Alchemy.Description}}",
+                    "Type": "asdf",
+                    "Category": -102,
+                    "Price": 0,
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
+                    "SpriteIndex": 32,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": false,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "color_brown",
+                        "book_item"
+                    ],
+                    "CustomFields": null
                 }
             }
         },
@@ -1933,7 +1957,7 @@
             "Action": "EditData",
             "Target": "Data/Mail",
             "Entries": {
-                "{{ModId}}_DwarfPotions": "{{i18n:Mail.Gunther.DwarfPotions.LetterText}}^[#]{{i18n:Mail.Gunther.DwarfPotions.LetterName}}",
+                "{{ModId}}_DwarfPotions": "{{i18n:Mail.Gunther.DwarfPotions.LetterText}}^%item id {{ModId}}_Book_PotionRecipes 1 %%[#]{{i18n:Mail.Gunther.DwarfPotions.LetterName}}",
                 "DwarfCooking": "{{i18n:Mail.Dwarf.DwarfCooking.LetterText}}^%item cookingRecipe %%[#]{{i18n:Mail.Dwarf.DwarfCooking.LetterName}}"
             }
         },

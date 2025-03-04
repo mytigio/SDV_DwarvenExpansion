@@ -376,7 +376,9 @@
     "Food_BugMeatSoup.Description": "An oily soup fortified with gooey hunks of bug meat.",
 
     "Crops_CaveCarrot_Seeds.DisplayName": "Cave Carrot Seeds",
-    "Crops_CaveCarrot_Seeds.Description": "Dark blue seeds, can grow cave carrots in cooler tempatures and low light.",
+    "Crops_CaveCarrot_Seeds.Description": "Dark blue seeds, can grow cave carrots in cooler tempatures and low light of Winter and Spring.",
+    "Crops_CaveCarrot_Tops.DisplayName": "Cave Carrot Top",
+    "Crops_CaveCarrot_Tops.Description": "The leafy top of a cave carrot. Grows year round, this will eventually produce cave carrot seeds but takes a long time to grow.",
 
     "Crops_MidnightGourd.DisplayName": "Midnight Gourd",
     "Crops_MidnightGourd.Description": "A large dark gourd grown deep underground. Thrives primarily on earth magic and weak red light.",
@@ -386,7 +388,12 @@
     "Crops_VoidBerry.DisplayName": "Void Berry",
     "Crops_VoidBerry.Description": "Small dark purple berries.  An extreamly sour fruit.",
     "Crops_VoidBerry_Seeds.DisplayName": "Void Berry Seeds",
-    "Crops_VoidBerry_Seeds.Description": "A small sour berry grown by the Dwarves.  Grow best near lava pools as they convert the heat to energy to grow."
+    "Crops_VoidBerry_Seeds.Description": "A small sour berry grown by the Dwarves.  Grow best near lava pools as they convert the heat to energy to grow.",
 
+    "Book_Ancient_Alchemy.DisplayName": "Ancient Alchemy",
+    "Book_Ancient_Alchemy.Description": "A bound book of ancient dwarven recipes translated for your use.",
+    
+    "Power_Ancient_Alchemy.DisplayName": "Ancient Alchemy",
+    "Power_Ancient_Alchemy.Description": "You have learned ancient dwarven alchemical recipes, which allows you to produce potions at any cooking station."
     
 }
