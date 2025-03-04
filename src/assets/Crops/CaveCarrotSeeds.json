@@ -117,7 +117,7 @@
         },
         {
             "Action": "EditData",
-            "LogName": "Add Prismatic Dust crafting recipe.",
+            "LogName": "Add Cave Carrot Top crafting recipe.",
             "Target": "Data/CraftingRecipes",
             "Entries": {
                 "Cave Carrot Tops": "78 1/Home/{{ModId}}_Crops_CaveCarrotTops/false/Farming 1"
