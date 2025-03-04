@@ -2019,7 +2019,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_dwarven_cuisine",
-                        "{{ModId}}_basic_dwarven_cuisine"
+                        "{{ModId}}_basic_dwarven_cuisine",
+                        "{{ModId}}_basic_dwarven_cuisine_purchasable_recipe"
                     ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 68
@@ -2035,7 +2036,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_dwarven_cuisine",
-                        "{{ModId}}_basic_dwarven_cuisine"
+                        "{{ModId}}_basic_dwarven_cuisine",
+                        "{{ModId}}_basic_dwarven_cuisine_purchasable_recipe"
                     ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 69
