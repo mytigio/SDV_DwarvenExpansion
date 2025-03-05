@@ -26,7 +26,7 @@
                 "Necklace Mold": "330 1/Home/{{ModId}}_Misc_NecklaceMold/false/Mining 5/"
             },
             "When": {
-                "EnabledMachines": "JewelryMaker"
+                "DisabledMachines |contains=JewelryMaker": "false"
             }
         },
         {
