@@ -36,7 +36,7 @@
 			"Entries": {
 				"{{ModId}}_GiantNakedMoleRat": {
 					"DisplayName": "{{i18n:GiantNakedMoleRat.DisplayName}}",
-					"House": "Barn",
+					"House": "{{MoleratHouse}}",
 					"Gender": "MaleOrFemale",
 					"PurchasePrice": 600,
 					"SellPrice": 1200,
@@ -50,7 +50,6 @@
 					"ShopDisplayName": "{{i18n:GiantNakedMoleRat.ShopDisplayName}}",
 					"ShopDescription": "{{i18n:GiantNakedMoleRat.ShopDescription}}",
 					"ShopMissingBuildingDescription": "{{i18n:GiantNakedMoleRat.ShopMissingBuildingDescription}}",
-					"RequiredBuilding": "Barn",
 					"UnlockCondition": "PLAYER_HEARTS ANY Dwarf 3",
 					"EggItemIds": null,
 					"IncubationTime": -1,

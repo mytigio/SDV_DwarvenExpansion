@@ -34,7 +34,7 @@
 
     "IridiumCrab.DisplayName": "Iridium Crab",
     "IridiumCrab.ShopDisplayName": "Iridium Crab",
-    "IridiumCrab.ShopDescription": "Lives in the cave.\\nAdults grow ore on their shell, which can be scrapped off with a set of shears. Happy rock crabs produce extreamly pure metal.",
+    "IridiumCrab.ShopDescription": "Lives in the cave.\nAdults grow ore on their shell, which can be scrapped off with a set of shears. Happy rock crabs produce extremely pure metal.",
     "IridiumCrab.ShopMissingBuildingDescription": "No home available for this crab.",
     "IridiumCrab.BirthText": "A crab was born.",
     
@@ -43,7 +43,7 @@
     
     "GoldCrab.DisplayName": "Gold Crab",
     "GoldCrab.ShopDisplayName": "Gold Crab",
-    "GoldCrab.ShopDescription": "Lives in the cave.\\nAdults grow ore on their shell, which can be scrapped off with a set of shears. Happy rock crabs produce extreamly pure metal.",
+    "GoldCrab.ShopDescription": "Lives in the cave.\nAdults grow ore on their shell, which can be scrapped off with a set of shears. Happy rock crabs produce extremely pure metal.",
     "GoldCrab.ShopMissingBuildingDescription": "No home available for this crab.",
     "GoldCrab.BirthText": "A crab was born.",
     
@@ -52,7 +52,7 @@
     
     "IronCrab.DisplayName": "Iron Crab",
     "IronCrab.ShopDisplayName": "Iron Crab",
-    "IronCrab.ShopDescription": "Lives in the cave.\\nAdults grow ore on their shell, which can be scrapped off with a set of shears. Happy rock crabs produce extreamly pure metal.",
+    "IronCrab.ShopDescription": "Lives in the cave.\nAdults grow ore on their shell, which can be scrapped off with a set of shears. Happy rock crabs produce extremely pure metal.",
     "IronCrab.ShopMissingBuildingDescription": "No home available for this crab.",
     "IronCrab.BirthText": "A crab was born.",
     
@@ -61,7 +61,7 @@
     
     "CopperCrab.DisplayName": "Copper Crab",
     "CopperCrab.ShopDisplayName": "Copper Crab",
-    "CopperCrab.ShopDescription": "Lives in the cave.\\nAdults grow ore on their shell, which can be scrapped off with a set of shears. Happy rock crabs produce extreamly pure metal.",
+    "CopperCrab.ShopDescription": "Lives in the cave.\nAdults grow ore on their shell, which can be scrapped off with a set of shears. Happy rock crabs produce extremely pure metal.",
     "CopperCrab.ShopMissingBuildingDescription": "No home available for this crab.",
     "CopperCrab.BirthText": "A crab was born.",
     
@@ -70,31 +70,31 @@
     
     "FarmGrub.DisplayName": "Grub",
     "FarmGrub.ShopDisplayName": "Grub",
-    "FarmGrub.ShopDescription": "Lives in the cave.\\nGrubs have a short life span, but keep their population constant.  The result for the aspiring grub farmer is a steady supply of slightly revolting meat!",
+    "FarmGrub.ShopDescription": "Lives in the cave.\nGrubs have a short life span, but keep their population constant.  The result for the aspiring grub farmer is a steady supply of slightly revolting meat!",
     "FarmGrub.ShopMissingBuildingDescription": "Grubs might just be bugs, but they still need a place to live out of the elements if you plan to farm them.",
     "FarmGrub.BirthText": "The larva are growing!",
 
     "GiantNakedMoleRat.DisplayName": "Giant Naked Molerat",
     "GiantNakedMoleRat.ShopDisplayName": "Giant Naked Molerat",
-    "GiantNakedMoleRat.ShopDescription": "Lives in the cavern.\\nThe giant naked molerat is the cornerstone of dwarven aggriculture, being one of the few subterranian mammels domesticated.",
+    "GiantNakedMoleRat.ShopDescription": "Lives in the cavern.\nThe giant naked molerat is the cornerstone of dwarven agriculture, being one of the few subterranean mammals domesticated.",
     "GiantNakedMoleRat.ShopMissingBuildingDescription": "No home available for this molerat.",
-    "GiantNakedMoleRat.BirthText": "A cute wrinkley baby molerat was born.",
+    "GiantNakedMoleRat.BirthText": "A cute wrinkly baby molerat was born.",
     
     "Meat_Molerat.DisplayName": "Molerat Meat",
     "Meat_Molerat.Description": "A light, slightly dry meat.",
 
     "GiantPaleSalamander.DisplayName": "Giant Pale Salamander",
     "GiantPaleSalamander.ShopDisplayName": "Giant Pale Salamander",
-    "GiantPaleSalamander.ShopDescription": "Lives in the cavern.\\nThe giant salamander is frequently kept as a pet, much like a dog.  It digs up various items while searching for bugs and small crabs to eat.",
+    "GiantPaleSalamander.ShopDescription": "Lives in the cavern.\nThe giant salamander is frequently kept as a pet, much like a dog.  It digs up various items while searching for bugs and small crabs to eat.",
     "GiantPaleSalamander.ShopMissingBuildingDescription": "No home available for this salamander.",
     "GiantPaleSalamander.BirthText": "A salamander formed from the larva.",
     
     "Meat_Salamander.DisplayName": "Salamander Meat",
-    "Meat_Salamander.Description": "A slightly chewey meat.",
+    "Meat_Salamander.Description": "A slightly chewy meat.",
 
     "Badger.DisplayName": "Badger",
     "Badger.ShopDisplayName": "Badger",
-    "Badger.ShopDescription": "Lives in the cavern.\\nBadgers are common in Dwarven colonies. They dig up root vegetables while scrounging for insects and small mammals to eat.",
+    "Badger.ShopDescription": "Lives in the cavern.\nBadgers are common in Dwarven colonies. They dig up root vegetables while scrounging for insects and small mammals to eat.",
     "Badger.ShopMissingBuildingDescription": "No home available for this badger.",
     "Badger.BirthText": "A baby badger was born.",
     
@@ -115,7 +115,7 @@
     "GemPolisher.Description": "Polishes cut gems to increase luster and sell price.",
 
     "JewelryMaker.DisplayName": "Dwarven Jewelry Maker",
-    "JewelryMaker.Description": "A machine that uses ancient dwarven technology to assemble fine jewelery from raw components.",
+    "JewelryMaker.Description": "A machine that uses ancient dwarven technology to assemble fine jewelry from raw components.",
 
     "Pulverizer.DisplayName": "Dwarven Pulverizer",
     "Pulverizer.Description": "Used to pulverize things like carrots, stone, ore clusters, gems and old artifacts.",
@@ -134,13 +134,13 @@
     "CaveIncubator.Description": "A safe place while crab eggs and grub grow to full size.",
 
     "CaveCoop.Name": "Cave",
-    "CaveCoop.Description": "A small man-made cave.  Perfect for subterranian creatures.",
+    "CaveCoop.Description": "A small man-made cave.  Perfect for subterranean creatures.",
 
     "BigCaveCoop.Name": "Medium Cave",
-    "BigCaveCoop.Description": "A man-made cave.  Perfect for subterranian creatures. Includes an incubator.",
+    "BigCaveCoop.Description": "A man-made cave.  Perfect for subterranean creatures. Includes an incubator.",
 
     "DeluxeCaveCoop.Name": "Large Cave",
-    "DeluxeCaveCoop.Description": "A large man-made cave.  Perfect for subterranian creatures. Includes an incubator and feeding chute.",
+    "DeluxeCaveCoop.Description": "A large man-made cave.  Perfect for subterranean creatures. Includes an incubator and feeding chute.",
 
     "CaveShed.Name": "Root Cellar",
     "CaveShed.Description": "A large underground room.  Traditionally used to store root vegetables.",
@@ -152,7 +152,7 @@
     "DwarvenFurnace.Description": "A large furnace, heated by the activated magic of solar essence.",
 
     "Cavern.Name": "Cavern",
-    "Cavern.Description": "A large, dark cavern. A perfect home for larger subterranian animals. Has an incubator and feeding chute.",
+    "Cavern.Description": "A large, dark cavern. A perfect home for larger subterranean animals. Has an incubator and feeding chute.",
 
     "CarrotMash.DisplayName": "Carrot Mash",
     "CarrotMash.Description": "Mash made from cave carrots and a special cave fungus.",
@@ -207,7 +207,7 @@
     "Reagent_Reduction_Sap.DisplayName": "Diluted Sap Essence",
     "Reagent_Reduction_Sap.Description": "Sap diluted with a strong alcohol solution.",
     "Reagent_Reduction_Sap.InvalidCountMessage": "Requires 5 Sap.",
-    "Reagent_Reduction_WhiteAlgea.DisplayName": "Evaporated White Algea Brine",
+    "Reagent_Reduction_WhiteAlgea.DisplayName": "Evaporated White Algae Brine",
     "Reagent_Reduction_WhiteAlgea.Description": "White Algae brine evaporated over high heat.",
     "Reagent_Reduction_WhiteAlgea.InvalidCountMessage": "Requires 3 White Algae.",
 
@@ -220,7 +220,7 @@
     "Potions_MinersDrink.DisplayName": "Miners Drink",
     "Potions_MinersDrink.Description": "The magic of the earth in bottle form, a common morning drink for dwarves.",
     "Potions_OnePerfectDay.DisplayName": "One Perfect Day",
-    "Potions_OnePerfectDay.Description": "This drink has everything, but it is exhorbintly expensive to make.",
+    "Potions_OnePerfectDay.Description": "This drink has everything, but it is exorbitantly expensive to make.",
     "Potions_ShadowedElixir.DisplayName": "Shadowed Elixir",
     "Potions_ShadowedElixir.Description": "A potion infused with dark energy. Defense +3, Max Stamina +50, Immunity +4",
     "Potions_SwordsmansElixir.DisplayName": "Swordsmans Elixir",
@@ -343,7 +343,7 @@
     "Food_ShadowedStew.DisplayName": "Shadowed Stew",
     "Food_ShadowedStew.Description": "A viscous stew cooked with the vile essence of the Shadow People.",
     "Food_RockCrabSalad.DisplayName": "Rock Crab Salad",
-    "Food_RockCrabSalad.Description": "A delcious algea and rock crab salad.",
+    "Food_RockCrabSalad.Description": "A delcious algae and rock crab salad.",
     "Food_RoastedCaveFish.DisplayName": "Roasted Cave Fish",
     "Food_RoastedCaveFish.Description": "Roasted fish on a bed of white algae and root vegetables.",
     "Food_MashedCarrots.DisplayName": "Mashed Carrots",
@@ -392,7 +392,7 @@
     "Crops_MidnightGourd_Seeds.Description": "A large gourd cultivated by the Dwarves.  On the surface it grows best in fall and winter when the light is weakest",
 
     "Crops_VoidBerry.DisplayName": "Void Berry",
-    "Crops_VoidBerry.Description": "Small dark purple berries.  An extreamly sour fruit.",
+    "Crops_VoidBerry.Description": "Small dark purple berries.  An extremely sour fruit.",
     "Crops_VoidBerry_Seeds.DisplayName": "Void Berry Seeds",
     "Crops_VoidBerry_Seeds.Description": "A small sour berry grown by the Dwarves.  Grow best near lava pools as they convert the heat to energy to grow.",
 

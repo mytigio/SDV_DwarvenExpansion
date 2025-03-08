@@ -33,6 +33,18 @@
             "AllowValues": "true, false",
             "Default": "true"
         },
+        "BadgersLiveInCavern": {
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "SalamandersLiveInCavern": {
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "MoleratsLiveInCavern": {
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
         "EnableDwarfMagic": {
             "AllowValues": "true, false",
             "Default": "true"
@@ -164,6 +176,39 @@
                 "DisabledAnimals |contains=IronCrab": "true",
                 "DisabledAnimals |contains=GoldCrab": "true",
                 "DisabledAnimals |contains=IridiumCrab": "true"
+            }
+        },
+        {
+            "Name": "BadgerHouse",
+            "Value": "Barn"
+        },
+        {
+            "Name": "BadgerHouse",
+            "Value": "{{ModId}}_LargeCavern",
+            "When": {
+                "BadgersLiveInCavern": "true"
+            }
+        },
+        {
+            "Name": "SalamanderHouse",
+            "Value": "Barn"
+        },
+        {
+            "Name": "SalamanderHouse",
+            "Value": "{{ModId}}_LargeCavern",
+            "When": {
+                "SalamandersLiveInCavern": "true"
+            }
+        },
+        {
+            "Name": "MoleratHouse",
+            "Value": "Barn"
+        },
+        {
+            "Name": "MoleratHouse",
+            "Value": "{{ModId}}_LargeCavern",
+            "When": {
+                "MoleratsLiveInCavern": "true"
             }
         }
     ],
