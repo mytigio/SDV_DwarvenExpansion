@@ -50,6 +50,7 @@
 					"ShopDisplayName": "{{i18n:Badger.ShopDisplayName}}",
 					"ShopDescription": "{{i18n:Badger.ShopDescription}}",
 					"ShopMissingBuildingDescription": "{{i18n:Badger.ShopMissingBuildingDescription}}",
+					"RequiredBuilding": "{{BadgerHouse}}",
 					"UnlockCondition": "PLAYER_HEARTS ANY Dwarf 3",
 					"EggItemIds": null,
 					"IncubationTime": -1,

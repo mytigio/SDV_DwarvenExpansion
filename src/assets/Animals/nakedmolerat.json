@@ -50,6 +50,7 @@
 					"ShopDisplayName": "{{i18n:GiantNakedMoleRat.ShopDisplayName}}",
 					"ShopDescription": "{{i18n:GiantNakedMoleRat.ShopDescription}}",
 					"ShopMissingBuildingDescription": "{{i18n:GiantNakedMoleRat.ShopMissingBuildingDescription}}",
+					"RequiredBuilding": "{{MoleratHouse}}",
 					"UnlockCondition": "PLAYER_HEARTS ANY Dwarf 3",
 					"EggItemIds": null,
 					"IncubationTime": -1,

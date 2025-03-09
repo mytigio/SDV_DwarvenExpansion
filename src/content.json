@@ -45,6 +45,14 @@
             "AllowValues": "true, false",
             "Default": "false"
         },
+        "CrabsLiveInCave": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "GrubsLiveInCave": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
         "EnableDwarfMagic": {
             "AllowValues": "true, false",
             "Default": "true"
@@ -209,6 +217,50 @@
             "Value": "{{ModId}}_LargeCavern",
             "When": {
                 "MoleratsLiveInCavern": "true"
+            }
+        },
+        {
+            "Name": "SmallCrabHouse",
+            "Value": "Coop"
+        },
+        {
+            "Name": "SmallCrabHouse",
+            "Value": "{{ModId}}_CaveCoop",
+            "When": {
+                "CrabsLiveInCave": "true"
+            }
+        },
+        {
+            "Name": "MediumCrabHouse",
+            "Value": "Big Coop"
+        },
+        {
+            "Name": "MediumCrabHouse",
+            "Value": "{{ModId}}_BigCaveCoop",
+            "When": {
+                "CrabsLiveInCave": "true"
+            }
+        },
+        {
+            "Name": "BigCrabHouse",
+            "Value": "Deluxe Coop"
+        },
+        {
+            "Name": "BigCrabHouse",
+            "Value": "{{ModId}}_DeluxeCaveCoop",
+            "When": {
+                "CrabsLiveInCave": "true"
+            }
+        },
+        {
+            "Name": "GrubHouse",
+            "Value": "Coop"
+        },
+        {
+            "Name": "GrubHouse",
+            "Value": "{{ModId}}_CaveCoop",
+            "When": {
+                "GrubsLiveInCave": "true"
             }
         }
     ],
