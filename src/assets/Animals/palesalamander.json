@@ -36,7 +36,7 @@
 			"Entries": {
 				"{{ModId}}_GiantPaleSalamander": {
 					"DisplayName": "{{i18n:GiantPaleSalamander.DisplayName}}",
-					"House": "Barn",
+					"House": "{{SalamanderHouse}}",
 					"Gender": "MaleOrFemale",
 					"PurchasePrice": 300,
 					"SellPrice": 600,
@@ -50,7 +50,7 @@
 					"ShopDisplayName": "{{i18n:GiantPaleSalamander.ShopDisplayName}}",
 					"ShopDescription": "{{i18n:GiantPaleSalamander.ShopDescription}}",
 					"ShopMissingBuildingDescription": "{{i18n:GiantPaleSalamander.ShopMissingBuildingDescription}}",
-					"RequiredBuilding": "Barn",
+					"RequiredBuilding": "{{SalamanderHouse}}",
 					"UnlockCondition": "PLAYER_HEARTS ANY Dwarf 1",
 					"EggItemIds": null,
 					"IncubationTime": -1,

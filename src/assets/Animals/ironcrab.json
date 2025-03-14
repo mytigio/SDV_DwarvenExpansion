@@ -202,7 +202,7 @@
 			"Entries": {
 				"{{ModId}}_IronCrab": {
 					"DisplayName": "{{i18n:IronCrab.DisplayName}}",
-					"House": "{{ModId}}_CaveCoop",
+					"House": "{{SmallCrabHouse}}",
 					"Gender": "MaleOrFemale",
 					"PurchasePrice": 600,
 					"SellPrice": 1200,
@@ -216,7 +216,7 @@
 					"ShopDisplayName": "{{i18n:IronCrab.ShopDisplayName}}",
 					"ShopDescription": "{{i18n:IronCrab.ShopDescription}}",
 					"ShopMissingBuildingDescription": "{{i18n:IronCrab.ShopMissingBuildingDescription}}",
-					"RequiredBuilding": "{{ModId}}_BigCaveCoop",
+					"RequiredBuilding": "{{MediumCrabHouse}}",
 					"UnlockCondition": "MINE_LOWEST_LEVEL_REACHED 60",
 					"EggItemIds": [
 						"{{ModId}}_Animals_CrabEgg_Iron"

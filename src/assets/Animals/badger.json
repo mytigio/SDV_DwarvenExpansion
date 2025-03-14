@@ -36,7 +36,7 @@
 			"Entries": {
 				"{{ModId}}_Badger": {
 					"DisplayName": "{{i18n:Badger.DisplayName}}",
-					"House": "Barn",
+					"House": "{{BadgerHouse}}",
 					"Gender": "MaleOrFemale",
 					"PurchasePrice": 800,
 					"SellPrice": 1600,
@@ -50,7 +50,7 @@
 					"ShopDisplayName": "{{i18n:Badger.ShopDisplayName}}",
 					"ShopDescription": "{{i18n:Badger.ShopDescription}}",
 					"ShopMissingBuildingDescription": "{{i18n:Badger.ShopMissingBuildingDescription}}",
-					"RequiredBuilding": "Barn",
+					"RequiredBuilding": "{{BadgerHouse}}",
 					"UnlockCondition": "PLAYER_HEARTS ANY Dwarf 3",
 					"EggItemIds": null,
 					"IncubationTime": -1,

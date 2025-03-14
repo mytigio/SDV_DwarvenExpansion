@@ -12,6 +12,45 @@ Version 2.0 comes with an overhaul of how alchemy / potion brewing works.  Detai
 [*]Adjusted the potion buffs and durations.
 [/list]
 
+[size=5]New Crops[/size]
+[size=4]Flowering Cave Carrot[/size]
+Carrots are a biennial plant (meaning it takes multiple years of growing before the plant will flower and produce seeds).
+As such, I have implemented Cave Carrots as a 2 part plant.  Plant Cave Carrot Tops (the green part) to produce Cave Carrot Seed plants.
+Cave Carrot Tops can be created from Cave Carrots in the crafting menu.
+[size=3]Grow Time[/size]
+Flowering Cave Carrot plants take 28 days to grow
+[size=3]Growing Season[/size]
+Flowering Cave Carrots can grow year round in any season.
+[size=3]Produce[/size]
+Produces multiple (5 to 16) cave carrot seeds every 5 days once fully grown.
+
+[size=4]Cave Carrot[/size]
+Cave Carrot Seeds can be planted to produce a cave carrot.
+[size=3]Grow Time[/size]
+Cave Carrots grow in 6 days.
+[size=3]Growing Season[/size]
+Cave Carrot Seeds are acclimated to cold caves and weak light.  They grow best in Winter and Spring.
+[size=3]Produce[/size]
+Produces 1 Cave Carrot.
+
+[size=4]Midnight Gourd[/size]
+M"A large, dark gourd grown deep underground, thriving primarily on earth magic and weak red light.
+[size=3]Grow Time[/size]
+Midnight Gourds grow in 20 days and then regrow a new Gourd every 5 days.
+[size=3]Growing Season[/size]
+Midnight Gourds prefer weaker sunlight and colder tempatures. They grow in Fall, Winter and Spring.
+[size=3]Produce[/size]
+Produces 1 Midnight Gourd.
+
+[size=4]Void Berry[/size]
+A small, sour, dark purple berry grown by the Dwarves. It grows best near lava pools, as the heat is converted into energy for its growth.
+[size=3]Grow Time[/size]
+A void berry bush grow in 15 days and then regrows a batch of berries every 4 days.
+[size=3]Growing Season[/size]
+Void Berries like heat and grow in Spring, Summer and Fall.
+[size=3]Produce[/size]
+Produces 2 to 4 void berries every 4 days.
+
 [size=5]New Machines[/size]
 
 [size=4]Dwarven Gem Polisher[/size]
@@ -63,6 +102,27 @@ This fix is not mandatory, but you will get far less then my configured outputs 
 [*] Evaporated White Algea Brine
 [/list]
 
+[size=3]Potion Recipes[/size]
+At mining level 9, Gunther will send a letter with potion recipes, granting access to the following cooking recipes.
+Each uses 'Dwarven Spirits" as a base material.
+Each use 1 type of mineral dust: (copper, iron, gold, iridium, amethyst, topaz, aquamarine, jade, ruby, emerald, diamond, prismatic)
+Each use 1 type of powered reagent: Batwing, Coal, RedMushroom, Dragontooth, Cinder Shard, Seeds, Stonefish
+Each use 1 type of reduced reagent: Slime, Solar Essence, Void Essence, Squid Ink, Cave Jelly, Sap, White Algea
+[list]
+[*]One Perfect Day - improve all skills and attributes for 1 full day.
+[*]Shadowed Elixer - improved combat defense skills
+[*]Distilled Sunlight - improves speed drastically
+[*]Farmers Draught - improves the farming skill
+[*]Miners Drink - improves the mining skill
+[*]Fishermans Brew - improves the fishing skill
+[*]Woodmans Tonic - improves the foraging skill
+[*]Swordsmans Elixir - improves offensive combat skills
+[*]Ogre Kings Draft - improves offensive combat skill
+[*]Envigorating Concotion - Restores large amount of energy
+[*]Healing Draught - Restores large amount of health
+[*]Repellent Potion - Makes some monsters flee your presence
+[/list]
+
 [size=4]Slow-Burn Charcoal Kiln[/size]
 A more efficient charcoal kiln that uses a longer lower heat burn to reduce waste and produce more coal per wood at the expense of time.  Harder woods burn more efficiently and produce more coal.
 
@@ -78,6 +138,7 @@ A machine that mixes and presses soil, silica and water to produce a clay like s
 A large grub.  These grubs can be grown and harvested for their meat.  Useful for creating dwarven meals or fishing bait.
 [size=3]Obtain[/size]
 Can be purchased from Marnie or hatched from Grub Larva found in the mines.
+Lives in the Cave by default. (config option exists to move to Coop)
 [size=3]Drops[/size]
 Drops bug meat or grub larva each day.
 
@@ -85,6 +146,7 @@ Drops bug meat or grub larva each day.
 A mature rock crab.  These crabs filter copper out of their food and the copper grows into thick deposits on their shell which can be scrapped off.  As the crabs age, these deposits can grow into large pure copper clusters, which are broken down in a pulverizer into a large quantity of copper ore.
 [size=3]Obtain[/size]
 Can be purchased from Marnie or hatched from copper crab eggs found in the mines.
+Lives in the Cave by default. (config option exists to move to Coop)
 As of 1.1.10 you can buy and sell crab eggs from Marlon's shop.
 [size=3]Drops[/size]
 Can be sheared for copper ore or copper ore clusters.
@@ -93,6 +155,7 @@ Can be sheared for copper ore or copper ore clusters.
 A mature rock crab.  These crabs filter iron out of their food and the iron grows into thick deposits on their shell which can be scrapped off.  As the crabs age, these deposits can grow into large pure iron clusters, which are broken down in a pulverizer into a large quantity of iron ore.
 [size=3]Obtain[/size]
 Can be purchased from Marnie or hatched from iron crab eggs found in the mines.
+Lives in the Cave by default. (config option exists to move to Coop)
 As of 1.1.10 you can buy and sell crab eggs from Marlon's shop.
 [size=3]Drops[/size]
 Can be sheared for iron ore or iron ore clusters.
@@ -101,6 +164,7 @@ Can be sheared for iron ore or iron ore clusters.
 A mature lava crab.  These crabs filter gold out of their food and the gold grows into thick deposits on their shell which can be scrapped off.  As the crabs age, these deposits can grow into large pure gold clusters, which are broken down in a pulverizer into a large quantity of gold ore.
 [size=3]Obtain[/size]
 Can be purchased from Marnie or hatched from gold crab eggs found in the mines.
+Lives in the Cave by default. (config option exists to move to Coop)
 As of 1.1.10 you can buy and sell crab eggs from Marlon's shop.
 [size=3]Drops[/size]
 Can be sheared for gold ore or gold ore clusters.
@@ -109,6 +173,7 @@ Can be sheared for gold ore or gold ore clusters.
 A mature iridium crab.  These crabs filter iridium out of their food and the iridium grows into thick deposits on their shell which can be scrapped off.  As the crabs age, these deposits can grow into large pure iridium clusters, which are broken down in a pulverizer into a large quantity of iridium ore.
 [size=3]Obtain[/size]
 Can be purchased from Marnie or hatched from iridium crab eggs found in the mines.
+Lives in the Cave by default. (config option exists to move to Coop)
 As of 1.1.10 you can buy and sell crab eggs from Marlon's shop.
 [size=3]Drops[/size]
 Can be sheared for iridium ore or iridium ore clusters.
@@ -117,6 +182,7 @@ Can be sheared for iridium ore or iridium ore clusters.
 A giant naked molerat.  These molerats are one of the few subterranian mammels dwarves were able to domesticate.  They are used to harvest a thin milk, used frequently in dwarven cooking.
 [size=3]Obtain[/size]
 Can be purchased from Marnie after you have befriended the dwarf.
+Lives in the Barn or Cavern by default (config option exists to make it Cavern exclusive, in which case the Cavern will unlock purchasing at Marnie's instead of the Barn)
 [size=3]Drops[/size]
 Can be milked each day.
 
@@ -124,6 +190,7 @@ Can be milked each day.
 A giant cave salamander.  These salamanders are often kept as pets by dwarves.  They dig up coal, stones, small gems and other items while they burrow in search of bugs and crabs to eat.
 [size=3]Obtain[/size]
 Can be purchased from Marnie after you have befriended the dwarf.
+Lives in the Barn or Cavern by default (config option exists to make it Cavern exclusive, in which case the Cavern will unlock purchasing at Marnie's instead of the Barn)
 [size=3]Drops[/size]
 Digs up coal, clay, geodes, and small gems when outside.
 
@@ -131,6 +198,7 @@ Digs up coal, clay, geodes, and small gems when outside.
 A subterranian mammal frequently found around dwarvish colonies.  They often dig up clay, tubers and roots While searching for small rodents and rabbits to eat.
 [size=3]Obtain[/size]
 Can be purchased from Marnie after you have befriended the dwarf.
+Lives in the Barn or Cavern by default (config option exists to make it Cavern exclusive, in which case the Cavern will unlock purchasing at Marnie's instead of the Barn)
 [size=3]Drops[/size]
 Digs up cave carrots, clay, winter roots and potatoes when outside.
 
@@ -235,19 +303,20 @@ These new drinks are created in the Dwarven Still
 [*]Infused Dwarven Spirits - made by distilling gem dust and cave carrot mash into a strong alcohol.
 [/list]
 [size=4]Potions[/size]
-These potions can be made at the alchemy bench.  All potions are made with a base of infused dwarven spirits and are then enhanced with materials to absorb their essences.
+These potions are made from reagents created at the alchemy bench.  They are unlocked at mining level 9 after receiving a letter from Gunther.
 [list]
-[*]Distilled Sunlight - derived from solar essence.
-[*]Farmers Draught - blended from the magic of growing things.
-[*]Fishermans Brew - magic infused in the ghost fish makes this potion work.
-[*]Miners Drink - quartz crystals absorb and store earth magic, which this potion extracts.
-[*]One Perfect Day - A potion made from the blended magic of multiple gem stones.
-[*]Shadowed Elixir - The dark shadow magic concentrated into void mayo powers this draught.
-[*]Swordsmans Elixir - Smelted iron is melted down and infused into this potion.
-[*]Woodmans Tonic - Hardwood stores the magic of root and loam, which is burned and blended into this potion.
-[*]Envigorating Concoction - A potion that gains it's color from the emerald dust it is made from.
-[*]Healing Draught - A red healing potion, made from ruby dust.
-[*]Repellent Potion - Disgusting globs of bug meat are boiled down and processed into this revolting potion.
+[*]One Perfect Day - improve all skills and attributes for 1 full day.
+[*]Shadowed Elixer - improved combat defense skills
+[*]Distilled Sunlight - improves speed drastically
+[*]Farmers Draught - improves the farming skill
+[*]Miners Drink - improves the mining skill
+[*]Fishermans Brew - improves the fishing skill
+[*]Woodmans Tonic - improves the foraging skill
+[*]Swordsmans Elixir - improves offensive combat skills
+[*]Ogre Kings Draft - improves offensive combat skill
+[*]Envigorating Concotion - Restores large amount of energy
+[*]Healing Draught - Restores large amount of health
+[*]Repellent Potion - Makes some monsters flee your presence
 [/list]
 [size=4]Jewelry[/size]
 These are new artisan goods that can be crafted and sold for profit at the Jewlry Making Machine
@@ -317,13 +386,13 @@ A list of mod compatibilities.
 [size=5]Translations[/size]
 The following contributers have included translation files for the mod.  If you're interested in providing a translations, please create a i18n file and create a pull request on github: https://github.com/mytigio/SDV_DwarvenExpansion
 [list]
-[*]lcy1998666 - Chinese
 [*]Caranud - French
 [/list]
 
 The included spanish translation has been removed in favor of the seperately uploaded spanish translation by Hayato2236 ([url=https://www.nexusmods.com/stardewvalley/mods/30048]https://www.nexusmods.com/stardewvalley/mods/30048[/url])
 Portugese translation by roseferreira here: ([url=https://www.nexusmods.com/stardewvalley/mods/30694]https://www.nexusmods.com/stardewvalley/mods/30694[/url])
 German translation by  Mju here: ([url=https://www.nexusmods.com/stardewvalley/mods/24470]https://www.nexusmods.com/stardewvalley/mods/24470[/url])
+Chinese Translation removed in favor of more updated translation found here: ([url=https://www.nexusmods.com/stardewvalley/mods/32211]https://www.nexusmods.com/stardewvalley/mods/32211[/url])
 
 Github Repository
 https://github.com/mytigio/SDV_DwarvenExpansion

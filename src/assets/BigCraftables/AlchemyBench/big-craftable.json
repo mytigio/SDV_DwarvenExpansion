@@ -29,12 +29,19 @@
             "Action": "EditData",
             "Target": "Data/TriggerActions",
             "Entries": {
-                "{{ModId}}_Add_Potion_Recipes": {
-                    "Id": "{{ModId}}_Add_Potion_Recipes",
+                "{{ModId}}_Add_Potion_Letter": {
+                    "Id": "{{ModId}}_Add_Potion_Letter",
                     "Trigger": "DayStarted",
                     "Condition": "PLAYER_BASE_MINING_LEVEL Current 9",
                     "Actions": [
-                        "AddMail Current {{ModId}}_DwarfPotions now",
+                        "AddMail Current {{ModId}}_DwarfPotions now"
+                    ]
+                },
+                "{{ModId}}_Add_Potion_Recipes": {
+                    "Id": "{{ModId}}_Add_Potion_Recipes",
+                    "Trigger": "DayStarted LocationChanged DayEnding",
+                    "Condition": "PLAYER_STAT Current {{ModId}}_Book_PotionRecipes 1",
+                    "Actions": [
                         "MarkCookingRecipeKnown Current One_Perfect_Day true",
                         "MarkCookingRecipeKnown Current Shadowed_Elixir true",
                         "MarkCookingRecipeKnown Current Distilled_Sunlight true",
@@ -48,6 +55,22 @@
                         "MarkCookingRecipeKnown Current Healing_Draught true",
                         "MarkCookingRecipeKnown Current Repellent_Potion true"
                     ]
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Powers",
+            "Entries": {
+                "{{ModId}}_Book_PotionRecipes": {
+                    "DisplayName": "{{i18n:Power_Ancient_Alchemy.DisplayName}}",
+                    "Description": "{{i18n:Power_Ancient_Alchemy.Description}}",
+                    "TexturePath": "Mods\\DwarvenExpansion\\ObjectSpritesheet",
+                    "TexturePosition": {
+                        "X": 0,
+                        "Y": 32
+                    },
+                    "UnlockedCondition": "PLAYER_STAT Current {{ModId}}_Book_PotionRecipes 1"
                 }
             }
         },
@@ -220,7 +243,9 @@
                                 {
                                     "Id": "Reagent_Powder_Seeds",
                                     "Trigger": "ItemPlacedInMachine",
-                                    "RequiredTags": ["category_seeds"],
+                                    "RequiredTags": [
+                                        "category_seeds"
+                                    ],
                                     "RequiredCount": 5
                                 }
                             ],

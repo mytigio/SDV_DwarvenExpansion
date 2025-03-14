@@ -12,6 +12,45 @@ Version 2.0 comes with an overhaul of how alchemy / potion brewing works.  Detai
 [*]Adjusted the potion buffs and durations.
 [/list]
 
+[size=5]New Crops[/size]
+[size=4]Flowering Cave Carrot[/size]
+Carrots are a biennial plant (meaning it takes multiple years of growing before the plant will flower and produce seeds).
+As such, I have implemented Cave Carrots as a 2 part plant.  Plant Cave Carrot Tops (the green part) to produce Cave Carrot Seed plants.
+Cave Carrot Tops can be created from Cave Carrots in the crafting menu.
+[size=3]Grow Time[/size]
+Flowering Cave Carrot plants take 28 days to grow
+[size=3]Growing Season[/size]
+Flowering Cave Carrots can grow year round in any season.
+[size=3]Produce[/size]
+Produces multiple (5 to 16) cave carrot seeds every 5 days once fully grown. Produce is further increased by Farming skill.
+
+[size=4]Cave Carrot[/size]
+Cave Carrot Seeds can be planted to produce a cave carrot.
+[size=3]Grow Time[/size]
+Cave Carrots grow in 6 days.
+[size=3]Growing Season[/size]
+Cave Carrot Seeds are acclimated to cold caves and weak light.  They grow best in Winter and Spring.
+[size=3]Produce[/size]
+Produces 1 Cave Carrot.
+
+[size=4]Midnight Gourd[/size]
+M"A large, dark gourd grown deep underground, thriving primarily on earth magic and weak red light.
+[size=3]Grow Time[/size]
+Midnight Gourds grow in 20 days and then regrow a new Gourd every 5 days.
+[size=3]Growing Season[/size]
+Midnight Gourds prefer weaker sunlight and colder tempatures. They grow in Fall, Winter and Spring.
+[size=3]Produce[/size]
+Produces 1 Midnight Gourd.
+
+[size=4]Void Berry[/size]
+A small, sour, dark purple berry grown by the Dwarves. It grows best near lava pools, as the heat is converted into energy for its growth.
+[size=3]Grow Time[/size]
+A void berry bush grow in 15 days and then regrows a batch of berries every 4 days.
+[size=3]Growing Season[/size]
+Void Berries like heat and grow in Spring, Summer and Fall.
+[size=3]Produce[/size]
+Produces 2 to 4 void berries every 4 days. Produce is further increased by Farming skill.
+
 [size=5]New Machines[/size]
 
 [size=4]Dwarven Gem Polisher[/size]
