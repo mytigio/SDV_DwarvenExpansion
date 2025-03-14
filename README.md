@@ -1,6 +1,47 @@
 # SDV_DwarvenExpansion
 A recreation of my Dwarvish mod for Stardew Valley using the expanded modding features available in 1.6
 
+
+## New Crops
+### Flowering Cave Carrot
+Carrots are a biennial plant (meaning it takes multiple years of growing before the plant will flower and produce seeds).
+As such, I have implemented Cave Carrots as a 2 part plant.  Plant Cave Carrot Tops (the green part) to produce Cave Carrot Seed plants.
+Cave Carrot Tops can be created from Cave Carrots in the crafting menu.
+#### Grow Time
+Flowering Cave Carrot plants take 28 days to grow
+#### Growing Season
+Flowering Cave Carrots can grow year round in any season.
+#### Produce
+Flowering Cave Carrot plants produce multiple (5 to 16) cave carrot seeds every 5 days once fully grown.
+
+### Cave Carrot
+Cave Carrot Seeds can be planted to produce a cave carrot.
+#### Grow Time
+Cave Carrots grow in 6 days.
+#### Growing Season
+Cave Carrot Seeds are acclimated to cold caves and weak light.  They grow best in Winter and Spring.
+#### Produce
+Produces Cave Carrot.
+
+### Midnight Gourd
+M"A large, dark gourd grown deep underground, thriving primarily on earth magic and weak red light.
+#### Grow Time
+Midnight Gourds grow in 20 days and then regrow a new Gourd every 5 days.
+#### Growing Season
+Midnight Gourds prefer weaker sunlight and colder tempatures. They grow in Fall, Winter and Spring.
+#### Produce
+Produces 1 Midnight Gourd.
+
+### Void Berry
+A small, sour, dark purple berry grown by the Dwarves. It grows best near lava pools, as the heat is converted into energy for its growth.
+#### Grow Time
+A void berry bush grow in 15 days and then regrows a batch of berries every 4 days.
+#### Growing Season
+Void Berries like heat and grow in Spring, Summer and Fall.
+#### Produce
+Produces 2 to 4 void berries.
+
+
 ## New Machines
 
 ### Dwarven Gem Polisher
