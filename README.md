@@ -12,7 +12,7 @@ Flowering Cave Carrot plants take 28 days to grow
 #### Growing Season
 Flowering Cave Carrots can grow year round in any season.
 #### Produce
-Flowering Cave Carrot plants produce multiple (5 to 16) cave carrot seeds every 5 days once fully grown.
+Produces multiple (5 to 16) cave carrot seeds every 5 days once fully grown.
 
 ### Cave Carrot
 Cave Carrot Seeds can be planted to produce a cave carrot.
@@ -21,7 +21,7 @@ Cave Carrots grow in 6 days.
 #### Growing Season
 Cave Carrot Seeds are acclimated to cold caves and weak light.  They grow best in Winter and Spring.
 #### Produce
-Produces Cave Carrot.
+Produces 1 Cave Carrot.
 
 ### Midnight Gourd
 M"A large, dark gourd grown deep underground, thriving primarily on earth magic and weak red light.

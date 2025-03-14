@@ -22,7 +22,7 @@ Flowering Cave Carrot plants take 28 days to grow
 [size=3]Growing Season[/size]
 Flowering Cave Carrots can grow year round in any season.
 [size=3]Produce[/size]
-Flowering Cave Carrot plants produce multiple (5 to 16) cave carrot seeds every 5 days once fully grown.
+Produces multiple (5 to 16) cave carrot seeds every 5 days once fully grown.
 
 [size=4]Cave Carrot[/size]
 Cave Carrot Seeds can be planted to produce a cave carrot.
@@ -31,7 +31,7 @@ Cave Carrots grow in 6 days.
 [size=3]Growing Season[/size]
 Cave Carrot Seeds are acclimated to cold caves and weak light.  They grow best in Winter and Spring.
 [size=3]Produce[/size]
-Produces Cave Carrot.
+Produces 1 Cave Carrot.
 
 [size=4]Midnight Gourd[/size]
 M"A large, dark gourd grown deep underground, thriving primarily on earth magic and weak red light.
@@ -49,7 +49,7 @@ A void berry bush grow in 15 days and then regrows a batch of berries every 4 da
 [size=3]Growing Season[/size]
 Void Berries like heat and grow in Spring, Summer and Fall.
 [size=3]Produce[/size]
-Produces 2 to 4 void berries.
+Produces 2 to 4 void berries every 4 days.
 
 [size=5]New Machines[/size]
 
