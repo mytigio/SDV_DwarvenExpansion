@@ -189,7 +189,7 @@
     "Reagent_Powder_Stonefish.DisplayName": "すりおろしたダルマオコゼのうろこ",
     "Reagent_Powder_Stonefish.Description": "硬いダルマオコゼのうろこをすりおろして細かい削りくずにした。",
     "Reagent_Powder_Stonefish.InvalidCountMessage": "ダルマオコゼが1つ必要です。",
-    "Reagent_Reduction_Slime.DisplayName": "Slime Reduction",
+    "Reagent_Reduction_Slime.DisplayName": "スライムの煮凝り",
     "Reagent_Reduction_Slime.Description": "粘り気のあるスライムが、熱い炎の上で煮詰められ、濃厚な泥状に変化した。",
     "Reagent_Reduction_Slime.InvalidCountMessage": "スライムが10つ必要です。",
     "Reagent_Reduction_SolarEssence.DisplayName": "凝縮された光の結晶",
@@ -404,4 +404,5 @@
     "Power_Ancient_Alchemy.DisplayName": "古代錬金術",
     "Power_Ancient_Alchemy.Description": "あなたは古代ドワーフの錬金術のレシピを習得したため、どの調理台でもポーションを調合できるようになった。"
     
+
 }
