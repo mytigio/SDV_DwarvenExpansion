@@ -481,6 +481,13 @@
             }
         },
         {
+            "Action": "Include",
+            "FromFile": "assets/Animals/livestock_bats_compat.json",
+            "When": {
+                "HasMod": "ahri1014.LivestockBats"
+            }
+        },
+        {
             "Action": "EditData",
             "Target": "Data/Buildings",
             "Fields": {
