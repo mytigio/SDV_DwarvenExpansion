@@ -381,6 +381,8 @@ A list of mod compatibilities.
 [*] [url=https://www.nexusmods.com/stardewvalley/mods/21450]Prismatic Tools Continued[/url] - Native compatability with Prismatic Tools Continued.  Adds Transmute recipes for Prismatic Bars.
 [*] [url=https://www.nexusmods.com/stardewvalley/mods/1063]Automate[/url] - Native compatability. However see notes under machines above for specific cases.
 [*] [url=https://www.nexusmods.com/stardewvalley/mods/5255]DaisyNiko's Earthy Recolour[/url] - A recolor of my buildings to match Earthy Recolour has been created by plaidbees. [url=https://www.nexusmods.com/stardewvalley/mods/24395]https://www.nexusmods.com/stardewvalley/mods/24395[/url]
+[*] [url=https://www.nexusmods.com/stardewvalley/mods/22094?tab=description]Ilucie's Pepper Rex (for 1.6)[/url] - IlucieYt has created an optional patch to allow Pepper Rex's to live in the Cavern.
+[*] [url=https://www.nexusmods.com/stardewvalley/mods/33710]ahri1014's Livestock Bats[/url] - Mod option to let the bats from ahri1014's Livestock Bats live in the Dwarven Expansion cave if you prefer. Defaults to false.
 [/list]
 
 [size=5]Translations[/size]

@@ -49,6 +49,10 @@
             "AllowValues": "true, false",
             "Default": "true"
         },
+        "LivestockBats_BatsLiveInDECave": {
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
         "GrubsLiveInCave": {
             "AllowValues": "true, false",
             "Default": "true"
@@ -262,7 +266,41 @@
             "When": {
                 "GrubsLiveInCave": "true"
             }
+        },
+        {
+            "Name": "ahri1014.LivestockBats_SmallBatHouse",
+            "Value": "ahri1014.LivestockBats_BatCave"
+        },
+        {
+            "Name": "ahri1014.LivestockBats_SmallBatHouse",
+            "Value": "{{ModId}}_CaveCoop",
+            "When": {
+                "LivestockBats_BatsLiveInDECave": "true"
+            }
+        },
+        {
+            "Name": "ahri1014.LivestockBats_MediumBatHouse",
+            "Value": "ahri1014.LivestockBats_BigBatCave"
+        },
+        {
+            "Name": "ahri1014.LivestockBats_MediumBatHouse",
+            "Value": "{{ModId}}_BigCaveCoop",
+            "When": {
+                "LivestockBats_BatsLiveInDECave": "true"
+            }
+        },
+        {
+            "Name": "ahri1014.LivestockBats_BigBatHouse",
+            "Value": "ahri1014.LivestockBats_DeluxeBatCave"
+        },
+        {
+            "Name": "ahri1014.LivestockBats_BigBatHouse",
+            "Value": "{{ModId}}_DeluxeCaveCoop",
+            "When": {
+                "LivestockBats_BatsLiveInDECave": "true"
+            }
         }
+        
     ],
     "CustomLocations": [
         {

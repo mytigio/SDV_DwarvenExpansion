@@ -1,0 +1,34 @@
+{
+	"Changes": [
+		{
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Fields": {
+                "ahri1014.LivestockBats_BasicBat": {
+                    "House": "{{ahri1014.LivestockBats_SmallBatHouse}}",
+					"RequiredBuilding": "{{ahri1014.LivestockBats_SmallBatHouse}}"
+                },
+                "ahri1014.LivestockBats_FruitBat": {
+                    "House": "{{ahri1014.LivestockBats_SmallBatHouse}}",
+					"RequiredBuilding": "{{ahri1014.LivestockBats_MediumBatHouse}}"
+                },
+                "ahri1014.LivestockBats_TuberBat": {
+                    "House": "{{ahri1014.LivestockBats_SmallBatHouse}}",
+					"RequiredBuilding": "{{ahri1014.LivestockBats_MediumBatHouse}}"
+                },
+                "ahri1014.LivestockBats_MushroomBat": {
+                    "House": "{{ahri1014.LivestockBats_SmallBatHouse}}",
+					"RequiredBuilding": "{{ahri1014.LivestockBats_MediumBatHouse}}"
+                },
+                "ahri1014.LivestockBats_MeteorBat": {
+                    "House": "{{ahri1014.LivestockBats_SmallBatHouse}}",
+					"RequiredBuilding": "{{ahri1014.LivestockBats_BigBatHouse}}"
+                }
+            },
+			"When": {
+                "HasMod": "ahri1014.LivestockBats",
+                "LivestockBats_BatsLiveInDECave": "true"
+            }
+        }
+	]
+}
