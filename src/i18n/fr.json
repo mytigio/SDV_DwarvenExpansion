@@ -1,37 +1,37 @@
 {
     "Tools.DwarvenPickaxe.DisplayName": "Pioche naine",
     "Tools.DwarvenPickaxe.Description": "Une pioche efficace et légère. La magie naine lui confère naturellement la propriété Efficace.",
-    
+
     "Dialog.Dwarf.Event.Scroll_1_1": "Qu'est-ce que c'est ?",
     "Dialog.Dwarf.Event.Scroll_1_2": "Un humain !!",
     
     "Dialog.Dwarf.Event.Scroll_2_1": "Tu passes beaucoup de temps dans l'obscurité. Prends ceci.",
-    
+
     "Dialog.Dwarf.Event.Scroll_4_1": "Bonjour humain. J'ai un cadeau pour toi.",
     "Dialog.Dwarf.Event.Scroll_4_2": "Peut-être qu'un jour tu me comprendras et que tu achèteras mes affaires. Ma boutique est au-delà de cette pièce, à travers le couloir.",
-    
+
     "Dialog.Dwarf.Reaction.PickAxe_Event_1": "J'espère qu'elle te servira bien, humain.",
     "Dialog.Dwarf.Reaction.PickAxe_Event_2": "Il n'en a plus besoin, et j'ai le mien. Prends-la.",
     "Dialog.Dwarf.Reaction.PickAxe_Event_3": "Parce qu'elle est meilleure que tes outils humains.",
-    
+
     "Dialog.Player.Event.22021001.01": "Merci. C'est un honneur.",
     "Dialog.Player.Event.22021001.02": "Je ne peux pas prendre la pioche de ton père.",
     "Dialog.Player.Event.22021001.03": "Pourquoi voudrais-je cette vieille chose rouillée ?",
-    
+
     "Dialog.Dwarf.Event.22021001.01": "Bonjour humain. Je suis content de te revoir.",
     "Dialog.Dwarf.Event.22021001.02": "Tu passes beaucoup de temps dans ces mines. Je pense que nous pourrions être amis maintenant.",
     "Dialog.Dwarf.Event.22021001.03": "Prends ceci, s'il te plaît. C'est un outil fabriqué par mon peuple. Celui-ci a été utilisé par mon père pendant de nombreuses années.",
     "Dialog.Dwarf.Event.22021001.04": "Il devrait t'aider lorsque tu exploreras les endroits sombres sous la terre.",
-    
+
     "Mail.Dwarf.DwarfCooking.LetterText": "Humain,^Je souhaite partager l'un des plats de mon peuple.^J'espère que tu apprécieras ses saveurs.^- Ton ami dans la mine",
     "Mail.Dwarf.DwarfCooking.LetterName": "Recette naine",
-    
-    "Mail.Gunther.DwarfPotions.LetterText": "@,^I was going through the books in the museum and thought you may find this interesting, so I made you a copy.^The scientist who found the originals believed they were a collection of dwarven alchemical recipes. Potions, if you will.^I hope you find these writing as fascinating as I did.^- Gunther",
+
+    "Mail.Gunther.DwarfPotions.LetterText": "@,^Je parcourais les livres du musée et j'ai pensé que cela pourrait vous intéresser, alors je vous en ai fait une copie.^Le scientifique qui a trouvé les originaux pensait qu'il s'agissait d'une collection de recettes alchimiques naines. Des potions, en fait.^ J'espère que vous trouverez ces écrits aussi fascinants que moi.^- Gunther",
     "Mail.Gunther.DwarfPotions.LetterName": "Ancient Alchemy",
 
     "Animals_CrabEgg_Iridium.DisplayName": "Œuf de Crabe en Iridium",
     "Animals_CrabEgg_Iridium.Description": "Un œuf dur comme de la roche. ",
-    
+
     "IridiumCrab.DisplayName": "Crabe en iridium",
     "IridiumCrab.ShopDisplayName": "Crabe en iridium",
     "IridiumCrab.ShopDescription": "Les adultes font pousser du minerai sur leur coquille, qui peut être raclé avec des cisailles. Les crabes rocheux heureux produisent un métal extrêmement pur.",
@@ -73,7 +73,7 @@
     "FarmGrub.ShopDescription": "Les larves ont une courte durée de vie, mais maintiennent leur population constante. Le résultat pour l'éleveur de larves en herbe est un approvisionnement régulier de viande légèrement répugnante !",
     "FarmGrub.ShopMissingBuildingDescription": "Les larves ne sont peut-être que des insectes, mais elles ont quand même besoin d'un endroit où vivre à l'abri des éléments si vous prévoyez de les élever.",
     "FarmGrub.BirthText": "Les larves grandissent !",
-    
+
     "GiantNakedMoleRat.DisplayName": "Rat-taupe nu géant",
     "GiantNakedMoleRat.ShopDisplayName": "Rat-taupe nu géant",
     "GiantNakedMoleRat.ShopDescription": "Le rat-taupe nu géant est la pierre angulaire de l'agriculture naine, étant l'un des rares mammifères souterrains domestiqués.",
@@ -82,24 +82,24 @@
     
     "Meat_Molerat.DisplayName": "Viande de rat-taupe",
     "Meat_Molerat.Description": "Une viande légère, un peu sèche.",
-    
-    "GiantPaleSalamander.DisplayName": "Giant Pale Salamander",
-    "GiantPaleSalamander.ShopDisplayName": "Giant Pale Salamander",
-    "GiantPaleSalamander.ShopDescription": "Lives in the cavern.\\nThe giant salamander is frequently kept as a pet, much like a dog.  It digs up various items while searching for bugs and small crabs to eat.",
-    "GiantPaleSalamander.ShopMissingBuildingDescription": "No home available for this salamander.",
-    "GiantPaleSalamander.BirthText": "A salamander formed from the larva.",
-    
-    "Meat_Salamander.DisplayName": "Salamander Meat",
-    "Meat_Salamander.Description": "A slightly chewey meat.",
 
-    "Badger.DisplayName": "Badger",
-    "Badger.ShopDisplayName": "Badger",
-    "Badger.ShopDescription": "Lives in the cavern.\\nBadgers are common in Dwarven colonies. They dig up root vegetables while scrounging for insects and small mammals to eat.",
-    "Badger.ShopMissingBuildingDescription": "No home available for this badger.",
-    "Badger.BirthText": "A baby badger was born.",
+    "GiantPaleSalamander.DisplayName": "Salamandre géante pâle",
+    "GiantPaleSalamander.ShopDisplayName": "Salamandre géante pâle",
+    "GiantPaleSalamander.ShopDescription": "Vit dans la caverne.\nLa salamandre géante est souvent gardée comme animal de compagnie, un peu comme un chien. Elle déterre divers objets tout en cherchant des insectes et des petits crabes à manger.",
+    "GiantPaleSalamander.ShopMissingBuildingDescription": "Aucune maison n'est disponible pour cette salamandre.",
+    "GiantPaleSalamander.BirthText": "Une salamandre formée à partir de la larve.",
     
-    "Meat_Badger.DisplayName": "Badger Meat",
-    "Meat_Badger.Description": "A stringy tough meat harvested from badgers.",
+    "Meat_Salamander.DisplayName": "Viande de salamandre",
+    "Meat_Salamander.Description": "Une viande légèrement moelleuse.",
+
+    "Badger.DisplayName": "Blaireau",
+    "Badger.ShopDisplayName": "Blaireau",
+    "Badger.ShopDescription": "Vit dans la caverne.\nLes blaireaux sont courants dans les colonies naines. Ils déterrent les légumes racines tout en cherchant des insectes et des petits mammifères à manger.",
+    "Badger.ShopMissingBuildingDescription": "Ce blaireau n'a pas de domicile disponible.",
+    "Badger.BirthText": "Un bébé blaireau est né.",
+    
+    "Meat_Badger.DisplayName": "Viande de blaireau",
+    "Meat_Badger.Description": "Viande filandreuse et coriace récoltée sur les blaireaux.",
 
     "AlchemyBench.DisplayName": "Table d’alchimie naine",
     "AlchemyBench.Description": "Utilisez l'alchimie naine pour créer de puissants breuvages. Toutes les potions naines se font à partir de spiritueux nains infusés.",
@@ -110,104 +110,106 @@
     "DwarvenStill.DisplayName": "Alambic nain",
     "DwarvenStill.Description": "Distillez les esprits à la manière traditionnelle naine ! Avec des roches, des champignons fermentés, de la viande de ver pourrie et des carottes de caverne en décomposition.",
     "DwarvenStill.Output.Infused_Dwarven_Spirits.ObjectDisplayName": "{0} spiritueux",
-    
+
     "GemPolisher.DisplayName": "Polisseur de gemmes nain",
     "GemPolisher.Description": "Polit les gemmes taillées pour augmenter leur lustre et leur prix de vente.",
-    
+
     "JewelryMaker.DisplayName": "Fabricateur de bijoux nain",
     "JewelryMaker.Description": "Une machine qui utilise une technologie naine ancienne pour assembler des bijoux fins à partir de composants bruts.",
-    
+
     "Pulverizer.DisplayName": "Broyeur nain",
     "Pulverizer.Description": "Utilisé pour pulvériser des choses comme des carottes, de la pierre, des amas de minerai, des gemmes et de vieux artefacts.",
     "Pulverizer.Output.Gemstone_Dust.ObjectDisplayName": "{0} poussière de gemme",
-    
+
     "SlowburnCharcoalKiln.DisplayName": "Four à charbon à combustion lente",
     "SlowburnCharcoalKiln.Description": "Réduit les déchets en diminuant la chaleur nécessaire et en brûlant le combustible sur une période plus longue.",
-    
+
     "ImprovedMushroomBox.DisplayName": "Boîte à champignons avancée",
     "ImprovedMushroomBox.Description": "Une boîte de culture pour les champignons. Produira un approvisionnement régulier en champignons. Ne fonctionne pas à l'extérieur.",
-    
-    "Claymixer.DisplayName": "Clay mixer",
-    "Claymixer.Description": "A tumbling machine that mixes soil, silicate and water to produce a clay like substance.",
+
+    "Claymixer.DisplayName": "Mélangeur d'argile",
+    "Claymixer.Description": "Une machine à tambour qui mélange de la terre, du silicate et de l'eau pour produire une substance semblable à de l'argile.",
 
     "CaveIncubator.DisplayName": "Incubateur de grotte",
     "CaveIncubator.Description": "Un endroit sûr pour que les œufs de crabes et les larves grandissent jusqu'à leur taille adulte.",
-    
+
     "CaveCoop.Name": "Petite grotte",
     "CaveCoop.Description": "Une petite grotte artificielle. Parfait pour les créatures souterraines.",
-    
+
     "BigCaveCoop.Name": "Grotte moyenne",
     "BigCaveCoop.Description": "Une grotte artificielle. Parfait pour les créatures souterraines. Comprend un incubateur.",
-    
+
     "DeluxeCaveCoop.Name": "Grande grotte",
     "DeluxeCaveCoop.Description": "Une grande grotte artificielle. Parfait pour les créatures souterraines. Comprend un incubateur et une goulotte d'alimentation.",
-    
+
     "CaveShed.Name": "Cave à racines",
     "CaveShed.Description": "Une grande pièce souterraine. Traditionnellement utilisée pour stocker les légumes-racines.",
-    
+
     "LargeCaveShed.Name": "Grande cave à racines ",
     "LargeCaveShed.Description": "Une pièce souterraine plus grande. Traditionnellement utilisée pour stocker les légumes-racines.",
-    
+
     "DwarvenFurnace.Name": "Fourneau nain",
     "DwarvenFurnace.Description": "Un grand four, chauffé par la magie activée de l'essence solaire.",
-    
+
     "Cavern.Name": "Caverne",
     "Cavern.Description": "Une grande caverne sombre. Un foyer parfait pour les animaux souterrains de plus grande taille. Dispose d'un incubateur et d'une goulotte d'alimentation.",
 
     "CarrotMash.DisplayName": "Purée de carotte",
     "CarrotMash.Description": "Purée réalisée à partir de carottes de caverne et d'un champignon de caverne spécial.",
-    
+
     "Drinks_DwarvenSpirits.DisplayName": "Spiritueux nains",
     "Drinks_DwarvenSpirits.Description": "Spiritueux nains traditionnels. Pourquoi sont-ils verts ?",
     "Drinks_InfusedSpirits.DisplayName": "Spiritueux nains infusés",
     "Drinks_InfusedSpirits.Description": "Spiritueux nains infusés avec l'énergie magique de la terre profonde.",
-    "Drinks_DwarfSunrise.DisplayName": "Dwarf Sunrise",
-    "Drinks_DwarfSunrise.Description": "A suprisingly bright drink made from Dwarven Spirits, cave carrot juice and just a bit of solar essence.",
-    "Drinks_DuskyDwarf.DisplayName": "Dusky Dwarf",
-    "Drinks_DuskyDwarf.Description": "A dark smokey drink made from Dwarven Spirits, void essence and juiced winter root.",
+    "Drinks_DwarfSunrise.DisplayName": "Lever de soleil nain",
+    "Drinks_DwarfSunrise.Description": "Une boisson étonnamment lumineuse à base d'alcool nain, de jus de carotte des cavernes et d'un peu d'essence solaire.",
+    "Drinks_DuskyDwarf.DisplayName": "Nain sombre",
+    "Drinks_DuskyDwarf.Description": "Une boisson sombre et fumée à base d'alcool nain, d'essence de vide et de jus de racines hivernales.",
+    "Drinks_Cider.DisplayName": "Cidre",
+    "Drinks_Cider.Description": "Boisson aux fruits fermentés légèrement enivrante, appréciée des nains. Elle est traditionnellement préparée avec des baies du néant.",
 
-    "Reagent_Powder_Batwing.DisplayName": "Powdered Batwing",
-    "Reagent_Powder_Batwing.Description": "Batwings ground into a fine powder.",
-    "Reagent_Powder_Batwing.InvalidCountMessage": "Requires 5 batwings.",
-    "Reagent_Powder_Coal.DisplayName": "Ground Coal Powder",
-    "Reagent_Powder_Coal.Description": "Coal ground into a fine powder.",
-    "Reagent_Powder_Coal.InvalidCountMessage": "Requires 5 coal.",
-    "Reagent_Powder_RedMushroom.DisplayName": "Ground Mushroom Caps",
-    "Reagent_Powder_RedMushroom.Description": "Red mushrooms ground into a fine powder.",
-    "Reagent_Powder_RedMushroom.InvalidCountMessage": "Requires 3 red mushrooms.",
-    "Reagent_Powder_DragonTooth.DisplayName": "Dragon Tooth Shavings",
-    "Reagent_Powder_DragonTooth.Description": "Shavings from a rare dragon tooth.",
-    "Reagent_Powder_DragonTooth.InvalidCountMessage": "Requires 1 dragon tooth.",
-    "Reagent_Powder_CinderShard.DisplayName": "Cinder Shard Chips",
-    "Reagent_Powder_CinderShard.Description": "Crystal chips from the magical cinder shard.",
-    "Reagent_Powder_CinderShard.InvalidCountMessage": "Requires 1 cinder shard.",
-    "Reagent_Powder_Seeds.DisplayName": "Ground Seeds",
-    "Reagent_Powder_Seeds.Description": "Mixed seeds ground into a fine powder.",
-    "Reagent_Powder_Seeds.InvalidCountMessage": "Requires 5 mixed seeds.",
-    "Reagent_Powder_Stonefish.DisplayName": "Grated Stonefish Scales",
-    "Reagent_Powder_Stonefish.Description": "The hard stonefish scales, grated into small shavings.",
-    "Reagent_Powder_Stonefish.InvalidCountMessage": "Requires 1 Stonefish.",
-    "Reagent_Reduction_Slime.DisplayName": "Slime Reduction",
-    "Reagent_Reduction_Slime.Description": "Viscous slime, reduced over a hot flame into a thick sludge.",
-    "Reagent_Reduction_Slime.InvalidCountMessage": "Requires 10 Slime.",
-    "Reagent_Reduction_SolarEssence.DisplayName": "Concentrated Solar Essence",
-    "Reagent_Reduction_SolarEssence.Description": "Solar Essence, concentrated by long boiling.",
-    "Reagent_Reduction_SolarEssence.InvalidCountMessage": "Requires 3 Solar Essence.",
-    "Reagent_Reduction_VoidEssence.DisplayName": "Distilled Void Essence",
-    "Reagent_Reduction_VoidEssence.Description": "Void Essence, distilled in an alembic.",
-    "Reagent_Reduction_VoidEssence.InvalidCountMessage": "Requires 3 Void Essence.",
-    "Reagent_Reduction_SquidInk.DisplayName": "Condensed Squid Ink",
-    "Reagent_Reduction_SquidInk.Description": "Squid Ink condensed into a thick viscous fluid.",
-    "Reagent_Reduction_SquidInk.InvalidCountMessage": "Requires 2 Squid Ink.",
-    "Reagent_Reduction_CaveJelly.DisplayName": "Thickened Cave Jelly",
-    "Reagent_Reduction_CaveJelly.Description": "Cave Jelly thickened into a hard springy sap.",
-    "Reagent_Reduction_CaveJelly.InvalidCountMessage": "Requires 1 Cave Jelly.",
-    "Reagent_Reduction_Sap.DisplayName": "Diluted Sap Essence",
-    "Reagent_Reduction_Sap.Description": "Sap diluted with a strong alcohol solution.",
-    "Reagent_Reduction_Sap.InvalidCountMessage": "Requires 5 Sap.",
-    "Reagent_Reduction_WhiteAlgea.DisplayName": "Evaporated White Algea Brine",
-    "Reagent_Reduction_WhiteAlgea.Description": "White Algae brine evaporated over high heat.",
-    "Reagent_Reduction_WhiteAlgea.InvalidCountMessage": "Requires 3 White Algae.",
+    "Reagent_Powder_Batwing.DisplayName": "Ailes de chauve-souris en poudre",
+    "Reagent_Powder_Batwing.Description": "Des ailes de chauve-souris réduites en poudre fine.",
+    "Reagent_Powder_Batwing.InvalidCountMessage": "Requires 5 ailes de chauve-souris.",
+    "Reagent_Powder_Coal.DisplayName": "Poudre de charbon broyée",
+    "Reagent_Powder_Coal.Description": "Charbon réduit en poudre fine.",
+    "Reagent_Powder_Coal.InvalidCountMessage": "Nécessite 5 charbons",
+    "Reagent_Powder_RedMushroom.DisplayName": "Chapeaux de champignons hachés",
+    "Reagent_Powder_RedMushroom.Description": "Champignons rouges réduits en poudre fine.",
+    "Reagent_Powder_RedMushroom.InvalidCountMessage": "Nécessite 3 champignons rouges.",
+    "Reagent_Powder_DragonTooth.DisplayName": "Copeaux de dents de dragon",
+    "Reagent_Powder_DragonTooth.Description": "Copeaux d'une rare dent de dragon.",
+    "Reagent_Powder_DragonTooth.InvalidCountMessage": "Nécessite 1 dent de dragon.",
+    "Reagent_Powder_CinderShard.DisplayName": "Tesson d’éclats de braise",
+    "Reagent_Powder_CinderShard.Description": "Tesson de cristal provenant d'un éclat de braise magique.",
+    "Reagent_Powder_CinderShard.InvalidCountMessage": "Nécessite 1 éclat de braise.",
+    "Reagent_Powder_Seeds.DisplayName": "Graines de terre",
+    "Reagent_Powder_Seeds.Description": "Graines mélangées réduites en poudre fine.",
+    "Reagent_Powder_Seeds.InvalidCountMessage": "Nécessite 5 graines mélangées.",
+    "Reagent_Powder_Stonefish.DisplayName": "Écailles de poisson râpé",
+    "Reagent_Powder_Stonefish.Description": "Écailles dures du poisson-pierre, râpées en petits copeaux.",
+    "Reagent_Powder_Stonefish.InvalidCountMessage": "Nécessite 1 poisson-pierre.",
+    "Reagent_Reduction_Slime.DisplayName": "Réduction de limon",
+    "Reagent_Reduction_Slime.Description": "Boue visqueuse de limon, réduite à la flamme en une boue épaisse.",
+    "Reagent_Reduction_Slime.InvalidCountMessage": "Nécessite 10 slime.",
+    "Reagent_Reduction_SolarEssence.DisplayName": "Essence solaire concentrée",
+    "Reagent_Reduction_SolarEssence.Description": "Essence solaire, concentrée par une longue ébullition.",
+    "Reagent_Reduction_SolarEssence.InvalidCountMessage": "Nécessite 3 essences solaires",
+    "Reagent_Reduction_VoidEssence.DisplayName": "Essence du vide distillée",
+    "Reagent_Reduction_VoidEssence.Description": "Essence du vide, distillée dans un alambic.",
+    "Reagent_Reduction_VoidEssence.InvalidCountMessage": "Nécessite 3 essences du vide",
+    "Reagent_Reduction_SquidInk.DisplayName": "Encre de calmar condensée",
+    "Reagent_Reduction_SquidInk.Description": "De l’encre de calmar condensée en un fluide épais et visqueux.",
+    "Reagent_Reduction_SquidInk.InvalidCountMessage": "Nécessite 2 encres de calmar.",
+    "Reagent_Reduction_CaveJelly.DisplayName": "Gelée de grotte épaissie",
+    "Reagent_Reduction_CaveJelly.Description": "Gelée des cavernes, transformée en une sève dure et élastique.",
+    "Reagent_Reduction_CaveJelly.InvalidCountMessage": "Nécessite 1 Gelée des cavernes.",
+    "Reagent_Reduction_Sap.DisplayName": "Essence de sève diluée",
+    "Reagent_Reduction_Sap.Description": "Sève diluée avec une solution d'alcool fort.",
+    "Reagent_Reduction_Sap.InvalidCountMessage": "Nécessite 5 sèves.",
+    "Reagent_Reduction_WhiteAlgea.DisplayName": "Saumure d'algues blanches évaporée",
+    "Reagent_Reduction_WhiteAlgea.Description": "La saumure d'algues blanches s'est évaporée à feu vif.",
+    "Reagent_Reduction_WhiteAlgea.InvalidCountMessage": "Nécessite 3 algues blanches.",
 
     "Potions_DistilledSunlight.DisplayName": "Rayons de soleil distillés",
     "Potions_DistilledSunlight.Description": "Une potion brassée à partir de rayons de soleil capturés au midi.",
@@ -220,20 +222,20 @@
     "Potions_OnePerfectDay.DisplayName": "\"Un jour parfait\"",
     "Potions_OnePerfectDay.Description": "Cette boisson a tout, mais elle est extrêmement coûteuse à fabriquer.",
     "Potions_ShadowedElixir.DisplayName": "Élixir d’ombre",
-    "Potions_ShadowedElixir.Description": "Un élixir infusé avec de l'énergie sombre. Aide le nain aventureux en combat.",
+    "Potions_ShadowedElixir.Description": "Un élixir infusé avec de l'énergie sombre. Aide le nain aventureux en combat. Défense +3, Endurance maximale +50, Immunité +4",
     "Potions_SwordsmansElixir.DisplayName": "Élixir du spadassin",
-    "Potions_SwordsmansElixir.Description": "Une boisson débordante de vitesse et de puissance. Le meilleur ami d'un guerrier.",
-    "Potions_OgreKingsDraft.DisplayName": "Ogre Kings Draft",
-    "Potions_OgreKingsDraft.Description": "A drink seething with strength. Attack +5, Knockback x5, Critical Power x4",
+    "Potions_SwordsmansElixir.Description": "Une boisson débordante de vitesse et de puissance. Le meilleur ami d'un guerrier. Attaque +3, Vitesse de l'arme x2, Chance de critique x2, Puissance de critique x2",
+    "Potions_OgreKingsDraft.DisplayName": "Elixir des rois ogre",
+    "Potions_OgreKingsDraft.Description": "Une boisson débordante de force. Attaque +5, Coup violent x5, Puissance critique x4",
     "Potions_WoodmansTonic.DisplayName": "Tonique du bûcheron",
-    "Potions_WoodmansTonic.Description": "La boisson magique qui sent la racine et la terre noire.",
-    
-    "Buffs_SwordsmansElixir.DisplayName": "Spirit of the Swordsman",
-    "Buffs_SwordsmansElixir.Description": "Attack +3, Weapon Speed x2, Critical Chance x2, Critical Power x2",
+    "Potions_WoodmansTonic.Description": "Cette boisson magique sent la racine et la terre noire.",
+
+    "Buffs_SwordsmansElixir.DisplayName": "Esprit du spadassin",
+    "Buffs_SwordsmansElixir.Description": "Attaque +3, Vitesse de l'arme x2, Chance de critique x2, Puissance de critique x2",
     "Buffs_OgreKing.DisplayName": "Spirit of the Ogre King",
-    "Buffs_OgreKing.Description": "Attack +5, Knockback x3, Critical Power x4",
-    "Buffs_ShadowedElixir.DisplayName": "Spirit of the Shadow",
-    "Buffs_ShadowedElixir.Description": "Defense +3, Max Stamina +50, Immunity +4",
+    "Buffs_OgreKing.Description": "Attaque +5, Coup violent x5, Puissance critique x4",
+    "Buffs_ShadowedElixir.DisplayName": "Esprit des Ombres",
+    "Buffs_ShadowedElixir.Description": "Défense +3, Endurance maximale +50, Immunité +4",
 
     "OreCluster_Copper.DisplayName": "Amas de cuivre",
     "OreCluster_Copper.Description": "Un amas de minerai de cuivre très pur.",
@@ -333,9 +335,9 @@
     "Misc_NecklaceMold.Description": "Un moule en argile pour fabriquer des colliers basiques.",
     "Misc_GoldenChickenStatue.DisplayName": "Statue de poulet dorée",
     "Misc_GoldenChickenStatue.Description": "Une majestueuse statue dorée de poulet.",
-    
+
     "Food_SunshineStew.DisplayName": "Ragoût ensoleillé",
-    "Food_SunshineStew.Description": "n ragoût léger imprégné de l'essence du soleil pour un coup de fraîcheur revigorant !",
+    "Food_SunshineStew.Description": "Un ragoût léger imprégné de l'essence du soleil pour un coup de fraîcheur revigorant !",
     "Food_StonefishSuprise.DisplayName": "Souprise de poisson-pierre",
     "Food_StonefishSuprise.Description": "Soupe avec du poisson-Pierre grillé servi sur des légumes-racines sautés. Surprenant.",
     "Food_ShadowedStew.DisplayName": "Ragoût ombragé",
@@ -373,5 +375,33 @@
     "Food_BugMeatStew.DisplayName": "Ragoût de viande d'insecte",
     "Food_BugMeatStew.Description": "Un plat de base de viande d'insecte rôtie avec un glaçage de champignons et de limons.",
     "Food_BugMeatSoup.DisplayName": "Soupe de viande d'insecte",
-    "Food_BugMeatSoup.Description": "Une soupe huileuse renforcée de morceaux collants de viande d'insecte."
-  }
+    "Food_BugMeatSoup.Description": "Une soupe huileuse renforcée de morceaux collants de viande d'insecte.",
+    "Food_MidnightSoup.DisplayName": "Soupe de minuit",
+    "Food_MidnightSoup.Description": "Une soupe simple faite à partir de la courge de minuit. Un plat simple et réconfortant pour le nain classique.",
+    "Food_VoidBerrySalad.DisplayName": "Salade de baies du vide",
+    "Food_VoidBerrySalad.Description": "Une salade légère à base d'algues vertes et de baies vides. Un régal, aigre et salé.",
+
+    "Crops_CaveCarrot_Seeds.DisplayName": "Graines de carotte des cavernes",
+    "Crops_CaveCarrot_Seeds.Description": "Graines bleu foncé, peuvent faire pousser des carottes des cavernes dans les températures plus fraîches et la faible luminosité de l'hiver et du printemps.",
+    "Crops_CaveCarrot_Tops.DisplayName": "Sommet de carotte des cavernes",
+    "Crops_CaveCarrot_Tops.Description": "Le sommet feuillu d'une carotte des cavernes. Pousse toute l'année, elle produira éventuellement des graines de carotte des cavernes, mais il faut beaucoup de temps pour qu'elle pousse.",
+
+    "Crops_MidnightGourd.DisplayName": "Courge de minuit",
+    "Crops_MidnightGourd.Description": "Une grande courge sombre poussant profondément sous terre, qui se nourrit principalement de magie terrestre et d'une faible lumière rouge.",
+    "Crops_MidnightGourd_Seeds.DisplayName": "Graines de courge de minuit",
+    "Crops_MidnightGourd_Seeds.Description": "Grande gourde cultivée par les Nains. En surface, elle pousse mieux en automne et en hiver, lorsque la lumière est la plus faible.",
+
+    "Crops_VoidBerry.DisplayName": "Baie du vide",
+    "Crops_VoidBerry.Description": "Petites baies de couleur violet foncé.  Un fruit extrêmement acide.",
+    "Crops_VoidBerry_Seeds.DisplayName": "Graines de baies du vide",
+    "Crops_VoidBerry_Seeds.Description": "Petite baie aigre d'un violet foncé, cultivée par les Nains. Elle pousse de préférence près des mares de lave, car la chaleur est convertie en énergie pour sa croissance.",
+
+    "Keg.Output.Cider.ObjectDisplayName": "{0} Cidre",
+
+    "Book_Ancient_Alchemy.DisplayName": "Alchimie ancienne",
+    "Book_Ancient_Alchemy.Description": "Un livre relié d'anciennes recettes naines traduites pour votre usage.",
+    
+    "Power_Ancient_Alchemy.DisplayName": "Alchimie Ancienne",
+    "Power_Ancient_Alchemy.Description": "Vous avez appris d'anciennes recettes alchimiques naines, ce qui vous permet de produire des potions à n'importe quel poste de cuisine."
+    
+}
