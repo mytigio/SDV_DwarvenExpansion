@@ -258,7 +258,8 @@
                         }
                     ],
                     "ContextTags": [
-                        "{{ModId}}"
+                        "{{ModId}}",
+                        "{{ModId}}_Potion"
                     ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 18
@@ -367,7 +368,8 @@
                         }
                     ],
                     "ContextTags": [
-                        "{{ModId}}"
+                        "{{ModId}}",
+                        "{{ModId}}_one_perfect_day_potion"
                     ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 16
@@ -1843,7 +1845,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_dwarven_cuisine",
-                        "{{ModId}}_fine_dwarven_cuisine"
+                        "{{ModId}}_fine_dwarven_cuisine",
+                        "{{ModId}}_cave_carrot_au_gratin"
                     ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 51,
@@ -1868,7 +1871,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_dwarven_cuisine",
-                        "{{ModId}}_fine_dwarven_cuisine"
+                        "{{ModId}}_fine_dwarven_cuisine",
+                        "{{ModId}}_cave_carrot_stew"
                     ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 55,
@@ -1893,7 +1897,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_dwarven_cuisine",
-                        "{{ModId}}_basic_dwarven_cuisine"
+                        "{{ModId}}_basic_dwarven_cuisine",
+                        "{{ModId}}_cave_carrot_soup"
                     ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 54,
@@ -1918,7 +1923,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_dwarven_cuisine",
-                        "{{ModId}}_basic_dwarven_cuisine"
+                        "{{ModId}}_basic_dwarven_cuisine",
+                        "{{ModId}}_cave_carrot_roast"
                     ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 53
@@ -1934,7 +1940,8 @@
                     "ContextTags": [
                         "{{ModId}}",
                         "{{ModId}}_dwarven_cuisine",
-                        "{{ModId}}_basic_dwarven_cuisine"
+                        "{{ModId}}_basic_dwarven_cuisine",
+                        "{{ModId}}_cave_carrot_brulee"
                     ],
                     "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
                     "SpriteIndex": 52,
@@ -2065,7 +2072,80 @@
                         "book_item"
                     ],
                     "CustomFields": null
+                },
+                "{{ModId}}_Book_FineDwarvenRecipes": {
+                    "Name": "Fine Dwarvish Cuisine",
+                    "DisplayName": "{{i18n:Book_Fine_Dwarvish_Cuisine.DisplayName}}",
+                    "Description": "{{i18n:Book_Fine_Dwarvish_Cuisine.Description}}",
+                    "Type": "asdf",
+                    "Category": -102,
+                    "Price": 0,
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
+                    "SpriteIndex": 33,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": false,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "color_brown",
+                        "book_item"
+                    ],
+                    "CustomFields": null
+                },
+                "{{ModId}}_Book_AdvancedAlchemy": {
+                    "Name": "Advanced Alchemical Strategies",
+                    "DisplayName": "{{i18n:Book_AdvancedAlchemy.DisplayName}}",
+                    "Description": "{{i18n:Book_AdvancedAlchemy.Description}}",
+                    "Type": "asdf",
+                    "Category": -102,
+                    "Price": 0,
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
+                    "SpriteIndex": 34,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": false,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "color_brown",
+                        "book_item"
+                    ],
+                    "CustomFields": null
+                },
+                "{{ModId}}_Book_AdvancedJeweler": {
+                    "Name": "Advanced Jewelcrafting",
+                    "DisplayName": "{{i18n:Book_AdvancedJeweler.DisplayName}}",
+                    "Description": "{{i18n:Book_AdvancedJeweler.Description}}",
+                    "Type": "asdf",
+                    "Category": -102,
+                    "Price": 0,
+                    "Texture": "Mods/DwarvenExpansion/ObjectSpritesheet",
+                    "SpriteIndex": 35,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": false,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "color_brown",
+                        "book_item"
+                    ],
+                    "CustomFields": null
                 }
+
             }
         },
         {
@@ -2152,7 +2232,27 @@
                         "Dwarf",
                         1
                     ],
-                    "Value": "{{ModId}}_Food_SunshineStew {{ModId}}_Food_StonefishSuprise {{ModId}}_Food_ShadowedStew {{ModId}}_Food_RockCrabSalad {{ModId}}_Food_RoastedCaveFish {{ModId}}_Food_MashedCarrots {{ModId}}_Food_LavaEelPie {{ModId}}_Food_IcePipSoup {{ModId}}_Food_FriedBatWings {{ModId}}_Food_CaveSoup {{ModId}}_Food_CaveChowder {{ModId}}_Food_CaveCarrotAuGratin {{ModId}}_Food_CaveCarrotStew {{ModId}}_Food_CaveCarrotSoup {{ModId}}_Food_CaveCarrotRoast {{ModId}}_Food_CaveCarrotBrulee {{ModId}}_Food_Cavatouille {{ModId}}_Food_BugMeatStew {{ModId}}_Food_BugMeatSoup {{ModId}}_Jewelry_R_Topaz {{ModId}}_Jewelry_R_Ruby {{ModId}}_Jewelry_R_Jade {{ModId}}_Jewelry_R_Emerald {{ModId}}_Jewelry_R_Aquamarine {{ModId}}_Jewelry_R_Amethyst {{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_MinersDrink {{ModId}}_Potions_FishermansBrew {{ModId}}_Potions_FarmersDraught {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Value": "{{ModId}}_Food_SunshineStew {{ModId}}_Food_StonefishSuprise {{ModId}}_Food_ShadowedStew {{ModId}}_Food_RockCrabSalad {{ModId}}_Food_LavaEelPie {{ModId}}_Food_IcePipSoup {{ModId}}_Food_CaveChowder {{ModId}}_Food_CaveCarrotAuGratin {{ModId}}_Food_CaveCarrotStew {{ModId}}_Food_CaveCarrotSoup {{ModId}}_Food_CaveCarrotRoast {{ModId}}_Food_CaveCarrotBrulee {{ModId}}_Food_Cavatouille {{ModId}}_Jewelry_R_Ruby {{ModId}}_Jewelry_R_Jade {{ModId}}_Jewelry_R_Emerald {{ModId}}_Potions_MinersDrink {{ModId}}_Potions_DistilledSunlight {{ModId}}_Drinks_InfusedSpirit {{ModId}}_Drinks_DwarvenSpirits",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Dwarf",
+                        3
+                    ],
+                    "Value": "{{ModId}}_Food_RoastedCaveFish {{ModId}}_Food_FriedBatWings {{ModId}}_Food_CaveSoup {{ModId}}_Jewelry_R_Topaz {{ModId}}_Jewelry_R_Aquamarine {{ModId}}_Jewelry_R_Amethyst {{ModId}}_Potions_SwordsmansElixir {{ModId}}_Potions_FishermansBrew",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Fields",
+                        "Dwarf",
+                        5
+                    ],
+                    "Value": "{{ModId}}_Food_MashedCarrots {{ModId}}_Food_FriedBatWings {{ModId}}_Food_BugMeatStew {{ModId}}_Food_BugMeatSoup {{ModId}}_Potions_WoodmansTonic {{ModId}}_Potions_ShadowedElixir {{ModId}}_Potions_FarmersDraught",
                     "Delimiter": " "
                 },
                 {

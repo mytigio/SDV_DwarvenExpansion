@@ -17,6 +17,10 @@
             "AllowValues": "true, false",
             "Default": "true"
         },
+        "SaleFineCookingRecipes": {
+            "AllowValues": "true, false",
+            "Default": false
+        },
         "DisabledAnimals": {
             "AllowValues": "Grub,CopperCrab,IronCrab,GoldCrab,IridiumCrab,Molerat,PaleSalamander,Badger",
             "AllowMultiple": true,
@@ -72,6 +76,10 @@
             "Default": "true"
         },
         "EnableBaseTransmutationRecipes": {
+            "AllowValues": "true, false",
+            "Default": true
+        },
+        "EnableRadioactiveTransmutationRecipes": {
             "AllowValues": "true, false",
             "Default": true
         },
@@ -589,6 +597,13 @@
         {
             "Action": "Include",
             "FromFile": "assets/Events/events.json"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/SpecialOrders/specialorders.json",
+            "When": {
+                "HasTranslationGuide": "true"
+            }
         }
     ]
-}
+}        

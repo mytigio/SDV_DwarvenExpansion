@@ -42,7 +42,6 @@
                     "Trigger": "DayStarted LocationChanged DayEnding",
                     "Condition": "PLAYER_STAT Current {{ModId}}_Book_PotionRecipes 1",
                     "Actions": [
-                        "MarkCookingRecipeKnown Current One_Perfect_Day true",
                         "MarkCookingRecipeKnown Current Shadowed_Elixir true",
                         "MarkCookingRecipeKnown Current Distilled_Sunlight true",
                         "MarkCookingRecipeKnown Current Farmers_Draught true",
@@ -71,6 +70,16 @@
                         "Y": 32
                     },
                     "UnlockedCondition": "PLAYER_STAT Current {{ModId}}_Book_PotionRecipes 1"
+                },
+                "{{ModId}}_Book_AdvancedAlchemy": {
+                    "DisplayName": "{{i18n:Power_Advanced_Alchemy.DisplayName}}",
+                    "Description": "{{i18n:Power_Advanced_Alchemy.Description}}",
+                    "TexturePath": "Mods\\DwarvenExpansion\\ObjectSpritesheet",
+                    "TexturePosition": {
+                        "X": 32,
+                        "Y": 32
+                    },
+                    "UnlockedCondition": "PLAYER_STAT Current {{ModId}}_Book_AdvancedAlchemy 1"
                 }
             }
         },
@@ -134,7 +143,15 @@
                                     "ObjectColor": "45 45 45 255",
                                     "Quality": "0",
                                     "MinStack": "25",
-                                    "MaxStack": "25"
+                                    "MaxStack": "25",
+                                    "StackModifiers": [
+                                        {
+                                            "ID": "has_advanced_alchemy",
+                                            "Modification": "Multiply",
+                                            "Amount": 1.5,
+                                            "Condition": "PLAYER_STAT Current {{ModId}}_Book_AdvancedAlchemy 1"
+                                        }
+                                    ]
                                 }
                             ],
                             "UseFirstValidOutput": true,
@@ -158,7 +175,15 @@
                                     "ObjectColor": "169 169 169 255",
                                     "Quality": "0",
                                     "MinStack": "25",
-                                    "MaxStack": "25"
+                                    "MaxStack": "25",
+                                    "StackModifiers": [
+                                        {
+                                            "ID": "has_advanced_alchemy",
+                                            "Modification": "Multiply",
+                                            "Amount": 1.5,
+                                            "Condition": "PLAYER_STAT Current {{ModId}}_Book_AdvancedAlchemy 1"
+                                        }
+                                    ]
                                 }
                             ],
                             "UseFirstValidOutput": true,
@@ -182,7 +207,15 @@
                                     "ObjectColor": "220 0 0 255",
                                     "Quality": "0",
                                     "MinStack": "15",
-                                    "MaxStack": "15"
+                                    "MaxStack": "15",
+                                    "StackModifiers": [
+                                        {
+                                            "ID": "has_advanced_alchemy",
+                                            "Modification": "Multiply",
+                                            "Amount": 1.5,
+                                            "Condition": "PLAYER_STAT Current {{ModId}}_Book_AdvancedAlchemy 1"
+                                        }
+                                    ]
                                 }
                             ],
                             "UseFirstValidOutput": true,
@@ -206,7 +239,15 @@
                                     "ObjectColor": "105 15 255 255",
                                     "Quality": "0",
                                     "MinStack": "10",
-                                    "MaxStack": "10"
+                                    "MaxStack": "10",
+                                    "StackModifiers": [
+                                        {
+                                            "ID": "has_advanced_alchemy",
+                                            "Modification": "Multiply",
+                                            "Amount": 1.5,
+                                            "Condition": "PLAYER_STAT Current {{ModId}}_Book_AdvancedAlchemy 1"
+                                        }
+                                    ]
                                 }
                             ],
                             "UseFirstValidOutput": true,
@@ -230,7 +271,15 @@
                                     "ObjectColor": "255 128 0 255",
                                     "Quality": "0",
                                     "MinStack": "10",
-                                    "MaxStack": "10"
+                                    "MaxStack": "10",
+                                    "StackModifiers": [
+                                        {
+                                            "ID": "has_advanced_alchemy",
+                                            "Modification": "Multiply",
+                                            "Amount": 1.5,
+                                            "Condition": "PLAYER_STAT Current {{ModId}}_Book_AdvancedAlchemy 1"
+                                        }
+                                    ]
                                 }
                             ],
                             "UseFirstValidOutput": true,
@@ -256,7 +305,15 @@
                                     "ObjectColor": "10 143 0 255",
                                     "Quality": "0",
                                     "MinStack": "25",
-                                    "MaxStack": "25"
+                                    "MaxStack": "25",
+                                    "StackModifiers": [
+                                        {
+                                            "ID": "has_advanced_alchemy",
+                                            "Modification": "Multiply",
+                                            "Amount": 1.5,
+                                            "Condition": "PLAYER_STAT Current {{ModId}}_Book_AdvancedAlchemy 1"
+                                        }
+                                    ]
                                 }
                             ],
                             "UseFirstValidOutput": true,
@@ -280,7 +337,15 @@
                                     "ObjectColor": "130 73 37 255",
                                     "Quality": "0",
                                     "MinStack": "10",
-                                    "MaxStack": "10"
+                                    "MaxStack": "10",
+                                    "StackModifiers": [
+                                        {
+                                            "ID": "has_advanced_alchemy",
+                                            "Modification": "Multiply",
+                                            "Amount": 1.5,
+                                            "Condition": "PLAYER_STAT Current {{ModId}}_Book_AdvancedAlchemy 1"
+                                        }
+                                    ]
                                 }
                             ],
                             "UseFirstValidOutput": true,
@@ -304,7 +369,15 @@
                                     "ObjectColor": "128 128 128 255",
                                     "Quality": "0",
                                     "MinStack": "50",
-                                    "MaxStack": "50"
+                                    "MaxStack": "50",
+                                    "StackModifiers": [
+                                        {
+                                            "ID": "has_advanced_alchemy",
+                                            "Modification": "Multiply",
+                                            "Amount": 1.5,
+                                            "Condition": "PLAYER_STAT Current {{ModId}}_Book_AdvancedAlchemy 1"
+                                        }
+                                    ]
                                 }
                             ],
                             "UseFirstValidOutput": true,
@@ -328,7 +401,15 @@
                                     "ObjectColor": "255 215 0 255",
                                     "Quality": "0",
                                     "MinStack": "15",
-                                    "MaxStack": "15"
+                                    "MaxStack": "15",
+                                    "StackModifiers": [
+                                        {
+                                            "ID": "has_advanced_alchemy",
+                                            "Modification": "Multiply",
+                                            "Amount": 1.5,
+                                            "Condition": "PLAYER_STAT Current {{ModId}}_Book_AdvancedAlchemy 1"
+                                        }
+                                    ]
                                 }
                             ],
                             "UseFirstValidOutput": true,
@@ -352,7 +433,15 @@
                                     "ObjectColor": "115 41 181 255",
                                     "Quality": "0",
                                     "MinStack": "15",
-                                    "MaxStack": "15"
+                                    "MaxStack": "15",
+                                    "StackModifiers": [
+                                        {
+                                            "ID": "has_advanced_alchemy",
+                                            "Modification": "Multiply",
+                                            "Amount": 1.5,
+                                            "Condition": "PLAYER_STAT Current {{ModId}}_Book_AdvancedAlchemy 1"
+                                        }
+                                    ]
                                 }
                             ],
                             "UseFirstValidOutput": true,
@@ -376,7 +465,15 @@
                                     "ObjectColor": "0 0 139 255",
                                     "Quality": "0",
                                     "MinStack": "20",
-                                    "MaxStack": "20"
+                                    "MaxStack": "20",
+                                    "StackModifiers": [
+                                        {
+                                            "ID": "has_advanced_alchemy",
+                                            "Modification": "Multiply",
+                                            "Amount": 1.5,
+                                            "Condition": "PLAYER_STAT Current {{ModId}}_Book_AdvancedAlchemy 1"
+                                        }
+                                    ]
                                 }
                             ],
                             "UseFirstValidOutput": true,
@@ -400,7 +497,15 @@
                                     "ObjectColor": "255 128 0 255",
                                     "Quality": "0",
                                     "MinStack": "10",
-                                    "MaxStack": "10"
+                                    "MaxStack": "10",
+                                    "StackModifiers": [
+                                        {
+                                            "ID": "has_advanced_alchemy",
+                                            "Modification": "Multiply",
+                                            "Amount": 1.5,
+                                            "Condition": "PLAYER_STAT Current {{ModId}}_Book_AdvancedAlchemy 1"
+                                        }
+                                    ]
                                 }
                             ],
                             "UseFirstValidOutput": true,
@@ -424,7 +529,15 @@
                                     "ObjectColor": "255 230 0 255",
                                     "Quality": "0",
                                     "MinStack": "10",
-                                    "MaxStack": "10"
+                                    "MaxStack": "10",
+                                    "StackModifiers": [
+                                        {
+                                            "ID": "has_advanced_alchemy",
+                                            "Modification": "Multiply",
+                                            "Amount": 1.5,
+                                            "Condition": "PLAYER_STAT Current {{ModId}}_Book_AdvancedAlchemy 1"
+                                        }
+                                    ]
                                 }
                             ],
                             "UseFirstValidOutput": true,
@@ -448,7 +561,15 @@
                                     "ObjectColor": "255 255 255 255",
                                     "Quality": "0",
                                     "MinStack": "15",
-                                    "MaxStack": "15"
+                                    "MaxStack": "15",
+                                    "StackModifiers": [
+                                        {
+                                            "ID": "has_advanced_alchemy",
+                                            "Modification": "Multiply",
+                                            "Amount": 1.5,
+                                            "Condition": "PLAYER_STAT Current {{ModId}}_Book_AdvancedAlchemy 1"
+                                        }
+                                    ]
                                 }
                             ],
                             "UseFirstValidOutput": true,
@@ -488,6 +609,126 @@
                     ],
                     "WorkingEffectChance": 1,
                     "WobbleWhileWorking": true
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "{{ModId}}_DwarvenPotionDelivery": "{{i18n:Mail.SO.Dwarf.PotionDelivery.LetterText}}^%item cookingRecipe One_Perfect_Day %%[#]{{i18n:Mail.SO.Dwarf.PotionDelivery.LetterName}}",
+                "{{ModId}}_DwarfsDayOut": "{{i18n:Mail.SO.Dwarf.DwarfsDayOut.LetterText}}^%item id {{ModId}}_Book_AdvancedAlchemy 1 %%[#]{{i18n:Mail.SO.Dwarf.DwarfsDayOut.LetterName}}",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/SpecialOrderStrings",
+            "Entries": {
+                "Dwarf_Potion_Delivery.Name": "{{i18n:SO_Dwarf_Potion_Delivery.Name}}",
+                "Dwarf_Potion_Delivery.Text": "{{i18n:SO_Dwarf_Potion_Delivery.Text}}",
+                "Dwarf_Potion_Delivery.Objective_0_Text": "{{i18n:SO_Dwarf_Potion_Delivery.Objective_0_Text}}",
+                "Dwarfs_Day_Out.Name": "{{i18n:SO_Dwarfs_Day_Out.Name}}",
+                "Dwarfs_Day_Out.Text": "{{i18n:SO_Dwarfs_Day_Out.Text}}",
+                "Dwarfs_Day_Out.Objective_0_Text": "{{i18n:SO_Dwarfs_Day_Out.Objective_0_Text}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/SpecialOrders",
+            "Entries": {
+                "Dwarf_Potion_Delivery": {
+                    "Name": "[Dwarf_Potion_Delivery.Name]",
+                    "Requester": "Dwarf",
+                    "Duration": "Week",
+                    "Repeatable": true,
+                    "RequiredTags": "",
+                    "Condition": "PLAYER_STAT Current {{ModId}}_Book_PotionRecipes 1",
+                    "OrderType": "",
+                    "SpecialRule": "",
+                    "Text": "[Dwarf_Potion_Delivery.Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": [
+                        {
+                            "Name": "Potion",
+                            "Values": [
+                                {
+                                    "RequiredTags": "",
+                                    "Value": "PICK_ITEM {{ModId}}_Potions_DistilledSunlight, {{ModId}}_Potions_FarmersDraught, {{ModId}}_Potions_FishermansBrew, {{ModId}}_Potions_MinersDrink, {{ModId}}_Potions_ShadowedElixir, {{ModId}}_Potions_SwordsmansElixir, {{ModId}}_Potions_OgreKingsDraft, {{ModId}}_Potions_WoodmansTonic"
+                                }
+                            ]
+                        }
+                    ],
+                    "Objectives": [
+                        {
+                            "Type": "Deliver",
+                            "Text": "[Dwarf_Potion_Delivery.Objective_0_Text]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "AcceptedContextTags": "{Potion:Tags}",
+                                "TargetName": "Dwarf"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Object",
+                            "Data": {
+                                "Item": "64",
+                                "Amount": "12"
+                            }
+                        },
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "{{ModId}}_DwarvenPotionDelivery",
+                                "NoLetter": "false"
+                            }
+                        }
+                    ],
+                    "CustomFields": null
+                },
+                "Dwarfs_Day_Out": {
+                    "Name": "[Dwarfs_Day_Out.Name]",
+                    "Requester": "Dwarf",
+                    "Duration": "Week",
+                    "Repeatable": true,
+                    "RequiredTags": "",
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_DwarvenPotionDelivery Received",
+                    "OrderType": "",
+                    "SpecialRule": "",
+                    "Text": "[Dwarfs_Day_Out.Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": [],
+                    "Objectives": [
+                        {
+                            "Type": "Deliver",
+                            "Text": "[Dwarfs_Day_Out.Objective_0_Text]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "AcceptedContextTags": "{{ModId}}_one_perfect_day_potion",
+                                "TargetName": "Dwarf"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Object",
+                            "Data": {
+                                "Item": "60",
+                                "Amount": "18"
+                            }
+                        },
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "{{ModId}}_DwarvenPotionDelivery",
+                                "NoLetter": "false"
+                            }
+                        }
+                    ],
+                    "CustomFields": null
                 }
             }
         }

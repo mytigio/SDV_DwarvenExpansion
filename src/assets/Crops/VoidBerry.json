@@ -150,7 +150,7 @@
                         }
                     ],
                     "UseFirstValidOutput": true,
-                    "MinutesUntilReady": 20
+                    "MinutesUntilReady": 240
                 }
             }
         },

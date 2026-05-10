@@ -48,7 +48,7 @@
 						},
 						{
 							"ItemId": "(O)768",
-							"Amount": 200
+							"Amount": 100
 						}
 					],
 					"MagicalConstruction": true,
@@ -135,7 +135,7 @@
 							"RequiredTags": [
 								"id_o_378"
 							],
-							"RequiredCount": 5,
+							"RequiredCount": 4,
 							"MaxDailyConversions": 100,
 							"SourceChest": "Input",
 							"DestinationChest": "Output",
@@ -167,7 +167,7 @@
 							"RequiredTags": [
 								"id_o_380"
 							],
-							"RequiredCount": 5,
+							"RequiredCount": 4,
 							"MaxDailyConversions": 30,
 							"SourceChest": "Input",
 							"DestinationChest": "Output",
@@ -199,7 +199,7 @@
 							"RequiredTags": [
 								"id_o_384"
 							],
-							"RequiredCount": 5,
+							"RequiredCount": 4,
 							"MaxDailyConversions": 10,
 							"SourceChest": "Input",
 							"DestinationChest": "Output",
@@ -231,7 +231,7 @@
 							"RequiredTags": [
 								"id_o_386"
 							],
-							"RequiredCount": 5,
+							"RequiredCount": 4,
 							"MaxDailyConversions": 6,
 							"SourceChest": "Input",
 							"DestinationChest": "Output",
@@ -263,7 +263,7 @@
 							"RequiredTags": [
 								"id_o_909"
 							],
-							"RequiredCount": 5,
+							"RequiredCount": 4,
 							"MaxDailyConversions": 6,
 							"SourceChest": "Input",
 							"DestinationChest": "Output",
@@ -402,6 +402,55 @@
 					"CustomFields": null
 				}
 			}
-		}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Buildings",
+			"TargetField": [
+				"{{ModId}}_DwarvenFurnace",
+				"ItemConversions"
+			],
+			"Entries": {
+				"ForgePrismaticShard": {
+					"Id": "ForgePrismaticShard",
+					"RequiredTags": [
+						"id_o_{{ModId}}_MineralDust_PrismaticDust"
+					],
+					"RequiredCount": 10,
+					"MaxDailyConversions": 1,
+					"SourceChest": "Input",
+					"DestinationChest": "Output",
+					"ProducedItems": [
+						{
+							"Condition": null,
+							"Id": "(O)74",
+							"ItemId": "(O)74",
+							"RandomItemId": null,
+							"MaxItems": null,
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Quality": -1,
+							"ObjectInternalName": null,
+							"ObjectDisplayName": null,
+							"ToolUpgradeLevel": -1,
+							"IsRecipe": false,
+							"StackModifiers": null,
+							"StackModifierMode": "Stack",
+							"QualityModifiers": null,
+							"QualityModifierMode": "Stack",
+							"ModData": null,
+							"PerItemCondition": null
+						}
+					]
+				}
+			}
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {
+                "{{ModID}}_Forge_Fix/DaysPlayed 112/Friendship Dwarf 2000/Time 2000 2600/GameStateQuery BUILDINGS_CONSTRUCTED All {{ModId}}_DwarvenFurnace 1 false/LocalMail {{ModId}}_MasterJeweler": "Upper_Ambient/64 15/farmer 64 16 2 Dwarf 64 18 0/pause 1500/speak Dwarf \"{{i18n:Dialog.Dwarf.Event.Forge_Fix_1_1}}\"/pause 500/speak Dwarf \"{{i18n:Dialog.Dwarf.Event.Forge_Fix_1_1}}\"/end"
+            }
+        }
 	]
 }

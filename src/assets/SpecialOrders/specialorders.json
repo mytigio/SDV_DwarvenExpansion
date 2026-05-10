@@ -1,0 +1,278 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "{{ModId}}_DwarvenDinner": "{{i18n:Mail.SO.Dwarf.DwarfDinner.LetterText}}^%item id {{ModId}}_Book_FineDwarvenRecipes 1 %%[#]{{i18n:Mail.SO.Dwarf.DwarfDinner.LetterName}}",
+                "{{ModId}}_DwarvenWar": "{{i18n:Mail.SO.Dwarf.DwarfWar.LetterText}}^%item id (W)54 1 %%[#]{{i18n:Mail.SO.Dwarf.DwarfWar.LetterName}}",
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/SpecialOrderStrings",
+            "Entries": {
+                "Dwarf_Dinner.Name": "{{i18n:SO_Dwarf_Dinner.Name}}",
+                "Dwarf_Dinner.Text": "{{i18n:SO_Dwarf_Dinner.Text}}",
+                "Dwarf_Dinner.Objective_0_Text": "{{i18n:SO_Dwarf_Dinner.Objective_0_Text}}",
+                "Dwarf_Dinner.Objective_1_Text": "{{i18n:SO_Dwarf_Dinner.Objective_1_Text}}",
+                "Dwarf_Dinner.Objective_2_Text": "{{i18n:SO_Dwarf_Dinner.Objective_2_Text}}",
+                "Dwarf_Dinner.Objective_3_Text": "{{i18n:SO_Dwarf_Dinner.Objective_3_Text}}",
+                "Dwarf_Dinner.Objective_4_Text": "{{i18n:SO_Dwarf_Dinner.Objective_4_Text}}",
+                "Dwarf_Meal.Name": "{{i18n:SO_Dwarf_Meal.Name}}",
+                "Dwarf_Meal.Text": "{{i18n:SO_Dwarf_Meal.Text}}",
+                "Dwarf_Meal.Objective_0_Text": "{{i18n:SO_Dwarf_Meal.Objective_0_Text}}",
+                "Dwarf_War.Name": "{{i18n:SO_Dwarf_War.Name}}",
+                "Dwarf_War.Text": "{{i18n:SO_Dwarf_War.Text}}",
+                "Dwarf_War.Objective_0_Text": "{{i18n:SO_Dwarf_War.Objective_0_Text}}",
+                "Dwarf_War.Objective_1_Text": "{{i18n:SO_Dwarf_War.Objective_1_Text}}",
+                "Dwarf_Fight.Name": "{{i18n:SO_Dwarf_Fight.Name}}",
+                "Dwarf_Fight.Text": "{{i18n:SO_Dwarf_Fight.Text}}",
+                "Dwarf_Fight.Objective_0_Text": "{{i18n:SO_Dwarf_Fight.Objective_0_Text}}",
+                "Dwarf_Fight.Brute.LocalizedName": "{{i18n:SO_Dwarf_Fight.Brute.LocalizedName}}",
+                "Dwarf_Fight.Shaman.LocalizedName": "{{i18n:SO_Dwarf_Fight.Shaman.LocalizedName}}",
+                "Jewelry_Bananza.Name": "{{i18n:SO_Jewelry_Bananza.Name}}",
+                "Jewelry_Bananza.Text": "{{i18n:SO_Jewelry_Bananza.Text}}",
+                "Jewelry_Bananza.Objective_0_Text": "{{i18n:SO_Jewelry_Bananza.Objective_0_Text}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/SpecialOrders",
+            "Entries": {
+                "Dwarf_Dinner": {
+                    "Name": "[Dwarf_Dinner.Name]",
+                    "Requester": "Dwarf",
+                    "Duration": "Week",
+                    "Repeatable": false,
+                    "RequiredTags": "",
+                    "Condition": "PLAYER_HAS_COOKING_RECIPE Current \"Cave Carrot Brulee\"",
+                    "OrderType": "",
+                    "SpecialRule": "",
+                    "Text": "[Dwarf_Dinner.Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Deliver",
+                            "Text": "[Dwarf_Dinner.Objective_0_Text]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "AcceptedContextTags": "{{ModId}}_cave_carrot_stew",
+                                "TargetName": "Dwarf"
+                            }
+                        },
+                        {
+                            "Type": "Deliver",
+                            "Text": "[Dwarf_Dinner.Objective_1_Text]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "AcceptedContextTags": "{{ModId}}_cave_carrot_roast",
+                                "TargetName": "Dwarf"
+                            }
+                        },
+                        {
+                            "Type": "Deliver",
+                            "Text": "[Dwarf_Dinner.Objective_2_Text]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "AcceptedContextTags": "{{ModId}}_cave_carrot_soup",
+                                "TargetName": "Dwarf"
+                            }
+                        },
+                        {
+                            "Type": "Deliver",
+                            "Text": "[Dwarf_Dinner.Objective_3_Text]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "AcceptedContextTags": "{{ModId}}_cave_carrot_au_gratin",
+                                "TargetName": "Dwarf"
+                            }
+                        },
+                        {
+                            "Type": "Deliver",
+                            "Text": "[Dwarf_Dinner.Objective_4_Text]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "AcceptedContextTags": "{{ModId}}_cave_carrot_brulee",
+                                "TargetName": "Dwarf"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Object",
+                            "Data": {
+                                "Item": "(O)72",
+                                "Amount": "4"
+                            }
+                        },
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "{{ModId}}_DwarvenDinner",
+                                "NoLetter": "false"
+                            }
+                        }
+                    ],
+                    "CustomFields": null
+                },
+                "Dwarf_Meal": {
+                    "Name": "[Dwarf_Meal.Name]",
+                    "Requester": "Dwarf",
+                    "Duration": "Week",
+                    "Repeatable": true,
+                    "RequiredTags": "",
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_DwarvenDinner Received",
+                    "OrderType": "",
+                    "SpecialRule": "",
+                    "Text": "[Dwarf_Meal.Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": [
+                        {
+                            "Name": "Dish",
+                            "Values": [
+                                {
+                                    "RequiredTags": "",
+                                    "Value": "PICK_ITEM {{ModId}}_Food_SunshineStew, {{ModId}}_Food_StonefishSuprise, {{ModId}}_Food_ShadowedStew, {{ModId}}_Food_LavaEelPie, {{ModId}}_Food_IcePipSoup, {{ModId}}_Food_CaveChowder, {{ModId}}_Food_CaveCarrotAuGratin, {{ModId}}_Food_CaveCarrotStew, {{ModId}}_Food_Cavatouille"
+                                }
+                            ]
+                        }
+                    ],
+                    "Objectives": [
+                        {
+                            "Type": "Deliver",
+                            "Text": "[Dwarf_Meal.Objective_0_Text]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "AcceptedContextTags": "{Dish:Tags}",
+                                "TargetName": "Dwarf"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Object",
+                            "Data": {
+                                "Item": "(O)72",
+                                "Amount": "2"
+                            }
+                        }
+                    ],
+                    "CustomFields": null
+                }
+            },
+            "When": {
+                "EnabledCookingRecipes": "true"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/SpecialOrders",
+            "Entries": {
+                "Dwarf_War": {
+                    "Name": "[Dwarf_War.Name]",
+                    "Requester": "Dwarf",
+                    "Duration": "Month",
+                    "Repeatable": false,
+                    "RequiredTags": "!event_691039",
+                    "Condition": "",
+                    "OrderType": "",
+                    "SpecialRule": "",
+                    "Text": "[Dwarf_War.Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": [],
+                    "Objectives": [
+                        {
+                            "Type": "Slay",
+                            "Text": "[Dwarf_War.Objective_0_Text]",
+                            "RequiredCount": "100",
+                            "Data": {
+                                "TargetName": "Shadow Brute",
+                                "IgnoreFarmMonsters": "true"
+                            }
+                        },
+                        {
+                            "Type": "Slay",
+                            "Text": "[Dwarf_War.Objective_1_Text]",
+                            "RequiredCount": "50",
+                            "Data": {
+                                "TargetName": "Shadow Shaman",
+                                "IgnoreFarmMonsters": "true"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Object",
+                            "Data": {
+                                "Item": "74",
+                                "Amount": "1"
+                            }
+                        },
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "{{ModId}}_DwarvenWar",
+                                "NoLetter": "false"
+                            }
+                        }
+                    ],
+                    "CustomFields": null
+                },
+                "Dwarf_Fight": {
+                    "Name": "[Dwarf_Fight.Name]",
+                    "Requester": "Dwarf",
+                    "Duration": "Week",
+                    "Repeatable": true,
+                    "RequiredTags": "!event_691039,mail_{{ModId}}_DwarvenWar",
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_DwarvenWar Received",
+                    "OrderType": "",
+                    "SpecialRule": "",
+                    "Text": "[Dwarf_Fight.Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": [
+                        {
+                            "Name": "Monster",
+                            "Values": [
+                                {
+                                    "RequiredTags": "",
+                                    "Value": "Target|Shadow Brute|LocalizedName|[Dwarf_Fight.Brute.LocalizedName]|Count|50"
+                                },
+                                {
+                                    "RequiredTags": "",
+                                    "Value": "Target|Shadow Shaman|LocalizedName|[Dwarf_Fight.Shaman.LocalizedName]|Count|25"
+                                }
+                            ]
+                        }
+                    ],
+                    "Objectives": [
+                        {
+                            "Type": "Slay",
+                            "Text": "[Dwarf_Fight.Objective_0_Text]",
+                            "RequiredCount": "{Monster:Count}",
+                            "Data": {
+                                "TargetName": "{Monster:Target}",
+                                "IgnoreFarmMonsters": "true"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Object",
+                            "Data": {
+                                "Item": "72",
+                                "Amount": "4"
+                            }
+                        }
+                    ],
+                    "CustomFields": null
+                }
+            }
+        }
+    ]
+}

@@ -77,20 +77,16 @@
 					],
 					"DeluxeProduceItemIds": [
 						{
-							"Id": "CaveCarrot1",
-							"ItemId": "78"
-						},
-						{
-							"Id": "CaveCarrot1",
-							"ItemId": "78"
-						},
-						{
 							"Id": "WinterRoot",
 							"ItemId": "412"
 						},
 						{
 							"Id": "Potato",
 							"ItemId": "192"
+						},
+						{
+							"Id": "Truffle",
+							"ItemId": "430"
 						}
 					],
 					"ProduceOnMature": false,

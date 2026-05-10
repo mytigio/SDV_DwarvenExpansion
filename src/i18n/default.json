@@ -26,6 +26,18 @@
     "Mail.Dwarf.DwarfCooking.LetterText": "Human,^I wish to share one of my people's foods.^I hope you enjoy its flavors.^- Your friend in the mine",
     "Mail.Dwarf.DwarfCooking.LetterName": "Dwarven Recipe",
 
+    "Mail.SO.Dwarf.DwarfDinner.LetterText": "Human,^I thank you for my most delicious meal.^You butchered the flavor, texture and spices, but it was quite a wonderful reminder of home. Find enclosed a book with instructions for how to cook properly.^- Your friend in the mine",
+    "Mail.SO.Dwarf.DwarfDinner.LetterName": "Dwarven Dinner",
+
+    "Mail.SO.Dwarf.DwarfWar.LetterText": "Human,^You have aided my people in our ancient conflict against the Shadow People.^Take this blade to better slay your foes.^-Your friend in the mine",
+    "Mail.SO.Dwarf.DwarfWar.LetterName": "Elemental War",
+
+    "Mail.SO.Dwarf.PotionDelivery.LetterText": "Human,^Thank you for the potion. It will serve my purposes.  I have enclosed a recipe for one of my peoples most powerful, and complex, potions. This potion will result in a single perfect day for the drinker. A rare treat indeed.^- Your friend in the mine",
+    "Mail.SO.Dwarf.PotionDelivery.LetterName": "Alchemical Aptitude",
+
+    "Mail.SO.Dwarf.DwarfsDayOut.LetterText": "Human,^Your skill as an alchemist grows.  I have opted to give you my mothers old textbook. She was a master alchemist and I trust it will serve your studies as well.^-Your friend in the mine",
+    "Mail.SO.Dwarf.DwarfsDayOut.LetterName": "Alchemical Studies",
+
     "Mail.Gunther.DwarfPotions.LetterText": "@,^I was going through the books in the museum and thought you may find this interesting, so I made you a copy.^The scientist who found the originals believed they were a collection of dwarven alchemical recipes. Potions, if you will.^I hope you find these writing as fascinating as I did.^- Gunther",
     "Mail.Gunther.DwarfPotions.LetterName": "Ancient Alchemy",
 
@@ -401,7 +413,60 @@
     "Book_Ancient_Alchemy.DisplayName": "Ancient Alchemy",
     "Book_Ancient_Alchemy.Description": "A bound book of ancient dwarven recipes translated for your use.",
     
+    "Book_Fine_Dwarvish_Cuisine.DisplayName": "Fine Dwarvish Cuisine",
+    "Book_Fine_Dwarvish_Cuisine.Description": "A cookbook, written in Dwarvish.  Contains recipes for all the finest dwarven dishes.",
+
+    "Book_AdvancedAlchemy.DisplayName": "Advanced Alchemical Strategies",
+    "Book_AdvancedAlchemy.Description": "A treatise on the preparation and handling of alchemical reagents. With the information in this book, you can learn methods for minimizing waste when creating alchemical reagents.",
+
+    "Book_AdvancedJeweler.DisplayName": "Advanced Jewelcrafting",
+    "Book_AdvancedJeweler.Description": "A book of advanced jewelcrafting techniques written by the ancient dwarves.  Studying this tome will allow the creation of finer, more valuable, jewelry.",
+
     "Power_Ancient_Alchemy.DisplayName": "Ancient Alchemy",
-    "Power_Ancient_Alchemy.Description": "You have learned ancient dwarven alchemical recipes, which allows you to produce potions at any cooking station."
+    "Power_Ancient_Alchemy.Description": "You have learned ancient dwarven alchemical recipes, which allows you to produce potions at any cooking station.",
+
+    "Power_Fine_Dwarvish_Cuisine.DisplayName": "Master Dwarvish Chef",
+    "Power_Fine_Dwarvish_Cuisine.Description": "You have studied an ancient dwarvish cookbook, which allows you to produce fine dwarven cuisine at any cooking station.",
     
+    "Power_Advanced_Alchemy.DisplayName": "Potions Master",
+    "Power_Advanced_Alchemy.Description": "You have learned to minimize waste when producing reagents. All reagent recipes at the Alchemy Bench produce 50% more.",
+
+    "Power_Master_Jeweler.DisplayName": "Master Jeweler",
+    "Power_Master_Jeweler.Description": "You have honed your craft and can create more intricate jewelry peices. Increases the value of all jewelry created in the Dwarven Jewelry Maker.",
+
+    "SO_Dwarf_Dinner.Name": "A Forgotten Feast",
+    "SO_Dwarf_Dinner.Text": "I wish for a reminder of home but I am a terrible cook, can someone cook a traditional dwarven feast and deliver it?                     -Dwarf",
+    "SO_Dwarf_Dinner.Objective_0_Text": "Deliver Cave Carrot Stew to Dwarf",
+    "SO_Dwarf_Dinner.Objective_1_Text": "Deliver Cave Carrot Roast to Dwarf",
+    "SO_Dwarf_Dinner.Objective_2_Text": "Deliver Cave Carrot Soup to Dwarf",
+    "SO_Dwarf_Dinner.Objective_3_Text": "Deliver Cave Carrots Au Gratin to Dwarf",
+    "SO_Dwarf_Dinner.Objective_4_Text": "Deliver Cave Carrot Brulee to Dwarf",
+
+    "SO_Dwarf_Meal.Name": "A Taste of Home",
+    "SO_Dwarf_Meal.Text": "To the human who can make and deliver one {Dish:Text} I will provide wealth.                     -Dwarf",
+    "SO_Dwarf_Meal.Objective_0_Text": "Deliver one {Dish:Text} to the Dwarf in the mines.",
+
+    "SO_Dwarf_War.Name": "Elemental War",
+    "SO_Dwarf_War.Text": "The Shadow People continue to infest the deepest pits of the earth. Anyone who could slay the beasts would receive a great gift from me.                     -Dwarf",
+    "SO_Dwarf_War.Objective_0_Text": "Slay 100 Shadow Brutes",
+    "SO_Dwarf_War.Objective_1_Text": "Slay 50 Shadow Brutes",
+
+    "SO_Dwarf_Fight.Name": "Fight the Darkness",
+    "SO_Dwarf_Fight.Text": "Shadow People slaughtered my people long ago. Slay their warriors and push them back into the darkness.                     -Dwarf",
+    "SO_Dwarf_Fight.Objective_0_Text": "Slay {Monster:Count} {Monster:LocalizedName}.",
+    "SO_Dwarf_Fight.Brute.LocalizedName": "Shadow Brutes",
+    "SO_Dwarf_Fight.Shaman.LocalizedName": "Shadow Shamans",
+
+    "SO_Dwarf_Potion_Delivery.Name": "Potion Delivery",
+    "SO_Dwarf_Potion_Delivery.Text": "I will reward the human who brews and brings me a {Potion:Text} Potion.                     -Dwarf",
+    "SO_Dwarf_Potion_Delivery.Objective_0_Text": "Deliver a {Potion:Text} to Dwarf.",
+
+    "SO_Dwarfs_Day_Out.Name": "Dwarf's Day Out",
+    "SO_Dwarfs_Day_Out.Text": "Brew and bring to me a most powerful potion.  My people call it One Perfect Day.                     -Dwarf",
+    "SO_Dwarfs_Day_Out.Objective_0_Text": "Deliver a One Perfect Day Potion to Dwarf.",
+
+    "SO_Jewelry_Bananza.Name": "Jewelery Bonanza",
+    "SO_Jewelry_Bananza.Text": "Dwarven Style Jewelry has become all the rage in Zuzu fashion circles.  The Stardew Valley Economic Society will supply a bonus and jewelrycrafting educational materials to anyone who can put our town on the map as a premium source for handmade jewelry.",
+    "SO_Jewelry_Bananza.Objective_0_Text": "Ship 100,000g worth of Dwarvish Jewelry"
+
 }
