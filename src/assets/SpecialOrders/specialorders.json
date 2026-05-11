@@ -121,7 +121,7 @@
                 "Dwarf_Meal": {
                     "Name": "[Dwarf_Meal.Name]",
                     "Requester": "Dwarf",
-                    "Duration": "Week",
+                    "Duration": "ThreeDays",
                     "Repeatable": true,
                     "RequiredTags": "",
                     "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_DwarvenDinner Received",
@@ -136,7 +136,7 @@
                             "Values": [
                                 {
                                     "RequiredTags": "",
-                                    "Value": "PICK_ITEM {{ModId}}_Food_SunshineStew, {{ModId}}_Food_StonefishSuprise, {{ModId}}_Food_ShadowedStew, {{ModId}}_Food_LavaEelPie, {{ModId}}_Food_IcePipSoup, {{ModId}}_Food_CaveChowder, {{ModId}}_Food_CaveCarrotAuGratin, {{ModId}}_Food_CaveCarrotStew, {{ModId}}_Food_Cavatouille"
+                                    "Value": "PICK_ITEM {{ModId}}_Food_SunshineStew, {{ModId}}_Food_StonefishSuprise, {{ModId}}_Food_ShadowedStew, {{ModId}}_Food_LavaEelPie, {{ModId}}_Food_IcePipSoup, {{ModId}}_Food_CaveChowder, {{ModId}}_Food_CaveCarrotAuGratin, {{ModId}}_Food_CaveCarrotStew, {{ModId}}_Food_Cavatouille, {{ModId}}_Drinks_DuskyDwarf, {{ModId}}_Drinks_DwarfSunrise"
                                 }
                             ]
                         }

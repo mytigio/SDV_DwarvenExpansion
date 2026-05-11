@@ -161,14 +161,18 @@ Can buy from Dwarf after you reach mining level 9.
 [*] 3 White Algea - Produces 15 Evaporated White Algea Brine
 [/list]
 
+[size=3]Potion Master[/size]
+With the Potions Master power all outputs are increased by 50%.
+Potions Master is unlocked by reading Advanced Alchemical Strategies, a quest reward for completing the "Dwarfs Day Out" special quest.
+
 [size=3]Potion Recipes[/size]
-At mining level 9, Gunther will send a letter with potion recipes, granting access to the following cooking recipes.
+At mining level 9, Gunther will send a letter with potion recipes, granting access to the following cooking recipes except for One Perfect Day.
 Each uses 'Dwarven Spirits" as a base material.
 Each use 1 type of mineral dust: (copper, iron, gold, iridium, amethyst, topaz, aquamarine, jade, ruby, emerald, diamond, prismatic)
 Each use 1 type of powered reagent: Batwing, Coal, RedMushroom, Dragontooth, Cinder Shard, Seeds, Stonefish
 Each use 1 type of reduced reagent: Slime, Solar Essence, Void Essence, Squid Ink, Cave Jelly, Sap, White Algea
 [list]
-[*]One Perfect Day - improve all skills and attributes for 1 full day. Recipe: 1 Dwarven Spirits, 1 Prismatic Dust, 3 Concentrated Solar Essence, 3 Dragon Tooth Shavings
+[*]One Perfect Day - improve all skills and attributes for 1 full day. Recipe: 1 Dwarven Spirits, 1 Prismatic Dust, 3 Concentrated Solar Essence, 3 Dragon Tooth Shavings - unlocked after completing "Potion Delivery" special order.
 [*]Shadowed Elixer - improved combat defense skills - Recipe: 1 Dwarven Spirits, 1 Jade Dust, 5 Distilled Void Essence, 3 Powdered Batwing
 [*]Distilled Sunlight - improves speed drastically - Recipe: 1 Dwarven Spirits, 1 Diamond Dust, 10 Concentrated Solar Essence, 2 Ground Mushroom Caps
 [*]Farmers Draught - improves the farming skill - Recipe: 1 Dwarven Spirits, 1 Amethyst dust, 5 Ground Seeds, 3 Evaporated Algea Brine
@@ -220,35 +224,40 @@ No input required, produces 1 to 3 clay every 2 in game days.
 [size=4]Farm Grub[/size]
 A large grub.  These grubs can be grown and harvested for their meat.  Useful for creating dwarven meals or fishing bait.
 [size=3]Obtain[/size]
-Can be purchased from Marnie once you've reached level 1 in the mines or hatched from Grub Larva found in the mines.
+ - Can be purchased from Marnie once you've reached level 1 in the mines
+ - Hatched from Grub Larva found in the mines.
 [size=3]Drops[/size]
 Drops bug meat or grub larva each day.
 
 [size=4]Copper Crab[/size]
 A mature rock crab.  These crabs filter copper out of their food and the copper grows into thick deposits on their shell which can be scrapped off.  As the crabs age, these deposits can grow into large pure copper clusters, which are broken down in a pulverizer into a large quantity of copper ore.
 [size=3]Obtain[/size]
-Can be purchased from Marnie once you've reached level 20 in the mines or hatched from copper crab eggs found in the mines.
+ - Can be purchased from Marnie once you've reached level 20 in the mines
+ - Hatched from copper crab eggs found in the mines or purchased at Marlon's shop.
 [size=3]Drops[/size]
 Can be sheared for copper ore, copper ore clusters or occasionally a matching crab egg.
 
 [size=4]Iron Crab[/size]
 A mature rock crab.  These crabs filter iron out of their food and the iron grows into thick deposits on their shell which can be scrapped off.  As the crabs age, these deposits can grow into large pure iron clusters, which are broken down in a pulverizer into a large quantity of iron ore.
 [size=3]Obtain[/size]
-Can be purchased from Marnie once you've reached level 60 in the mines or hatched from iron crab eggs found in the mines.
+ - Can be purchased from Marnie once you've reached level 60 in the mines
+ - Hatched from iron crab eggs found in the mines or purchased at Marlon's shop.
 [size=3]Drops[/size]
 Can be sheared for iron ore, iron ore clusters or occasionally a matching crab egg.
 
 [size=4]Gold Crab[/size]
 A mature lava crab.  These crabs filter gold out of their food and the gold grows into thick deposits on their shell which can be scrapped off.  As the crabs age, these deposits can grow into large pure gold clusters, which are broken down in a pulverizer into a large quantity of gold ore.
 [size=3]Obtain[/size]
-Can be purchased from Marnie once you've reached level 100 in the mines or hatched from gold crab eggs found in the mines dropped by lava crabs.
+ - Can be purchased from Marnie once you've reached level 100 in the mines
+ - Hatched from gold crab eggs found in the mines dropped by lava crabs or purchased at Marlon's shop.
 [size=3]Drops[/size]
 Can be sheared for gold ore, gold ore clusters or occasionally a matching crab egg.
 
 [size=4]Iridium Crab[/size]
 A mature iridium crab.  These crabs filter iridium out of their food and the iridium grows into thick deposits on their shell which can be scrapped off.  As the crabs age, these deposits can grow into large pure iridium clusters, which are broken down in a pulverizer into a large quantity of iridium ore.
 [size=3]Obtain[/size]
-Can be purchased from Marnie once you've reached level 120 in the mines or hatched from iridium crab egg dropped by iridium crabs in the skull caverns.
+ - Can be purchased from Marnie once you've reached level 1 in the skull caverns
+ - Hatched from iridium crab egg dropped by iridium crabs in the skull caverns or purchased at Marlon's shop.
 [size=3]Drops[/size]
 Can be sheared for iridium ore, iridium ore clusters or occasionally a matching crab egg.
 
@@ -271,7 +280,7 @@ A subterranian mammal frequently found around dwarvish colonies.  They often dig
 [size=3]Obtain[/size]
 Can be purchased from Marnie after you have reached 3 hearts with the Dwarf.
 [size=3]Drops[/size]
-Digs up cave carrots, clay as basic drops and cave carrots, winter roots and potatoes as deluxe drops when outside.
+Digs up cave carrots, clay as basic drops and tuffles, winter roots and potatoes as deluxe drops when outside.
 
 [size=5]New Buildings[/size]
 
@@ -301,6 +310,7 @@ Can be constructed by Robin. Large root cellars are upgraded from the basic root
 A large furnace, heated with the activated magic of solar essances.  This furnace never needs additional fuel beyond the solar essances it is constructed with, and it can smelt multiple materials at the same time.  The intense heat burns away impurities in the metal, requiring 20% less ore and the magic of the essenses can slowly prismatic shards from prismatic dust.
 Built by the Wizard
 Functions like a Mill, with products being processed and retrieved for the following morning.
+It is capable of processing each of the recipes below at the same time, so while it is no better then a standard furnace for a single ore, it can process all types of ore and quartz simultaniously.
 
 Each day it can simultaniously process:
 Up to 100 Copper Bars
@@ -311,19 +321,145 @@ Up to 6 Radioactive Bars
 Up to 32 Refined Quartz from regular Quartz
 Up to 96 Refined Quartz from Fire Quartz
 
+[size=2]Additional Recipes after Dwarf fixes your Furnace[/size]
+The following additional recipes are unlocked after you see the event of Dwarf fixing your furnace.
+3 Copper Dust -> 1 Copper Bar (Up to 100 per day)
+3 Iron Dust -> 1 Iron Bar (Up to 30 per day)
+3 Gold Dust -> 1 Gold Bar (Up to 10 per day)
+3 Iridium Dust -> 1 Iridium Bar (Up to 6 per day)
+10 Prismatic Dust -> 1 Prismatic Shard (Up to 1 per day)
+
 [size=3]Obtain[/size]
 Can be constructed by the Wizard. Requires 40,000 Gold, 20 Iridium Bars, 5 Prismatic Dust and 100 Solar Essences.
 
 [size=5]New Events[/size]
 
-5 new events.
+6 new events.
 [list]
 [*] 1 event requires 8 hearts with Dwarf, reaching the bottom of the mines 5 times and entering the mines between 2000 and 0200.  Gives the Dwarven Pickaxe.
 [*] 1 event after day 12, with mining skill 2, when you have a free inventory slot and enter the mines by the main entrance.  Gives dwarven scroll 1.
 [*] 1 event after day 38, with mining skill 3, during the summer, after seeing event 1, when you have a free inventory slot and enter the mine entrance after leaving the mines via the ladder.  Gives dwarven scroll 2.
 [*] 1 event after day 62, with mining skill 4, during the fall, after seeing event 2, when you have a free inventory slot and enter the mine entrance after leaving the mines via the elevator.  Gives dwarven scroll 3.
 [*] 1 event after day 91, with mining skill 5, during the winter, after seeing event 3, when you have a free inventory slot and enter the mine entrance via the main entrance.  Gives dwarven scroll 4.
+[*] 1 event after day 112, with 8 hearts with Dwarf, between 8pm and 2am, on the farm, after completing the Special Order "Jewelry Bonanza" and constructing at least 1 Dwarven Furnace. Unlocks special Dwarven Furnace recipes that allow creation of bars from dust at a more efficient rate and creation of prismatic shards.
 [/list]
+
+[size=5]New Special Orders[/size]
+7 new Special Orders found on the Town Board.
+
+[size=4]A Forgotten Feast[/size]
+[size=3]Repeatable[/size]
+No
+[size=3]Conditions[/size]
+Have the Cave Carrot Brulee recipe unlocked.
+[size=3]Duration[/size]
+1 Week
+[size=3]Objectives[/size]
+Deliver Cave Carrot Stew, Cave Carrot Roast, Cave Carrot Soup, Cave Carrots Au Gratin and Cave Carrot Brulee to the Dwarf in the mines.
+[size=3]Rewards[/size]
+4 Diamonds
+A letter in the mail with the 'Fine Dwarvish Cuisine' Book which grants "Master Dwarvish Chef", a power that unlocks all fine dwarven cuisine recipes.
+
+[size=4]A Taste of Home[/size]
+[size=3]Repeatable[/size]
+Yes
+[size=3]Conditions[/size]
+Completed A Forgotten Feast
+[size=3]Duration[/size]
+3 Days
+[size=3]Objectives[/size]
+Deliver a random cooked item from the following list to the Dwarf:
+[list]
+[*]Sunshine Stew
+[*]Stonefish Suprise
+[*]Shadowed Stew
+[*]Lava Eel Pie
+[*]Ice Pip Soup
+[*]Cave Chowder
+[*]Cave Carrots Au Gratin
+[*]Cave Carrot Stew
+[*]Cavatouille
+[*]Dusky Dwarf
+[*]Dwarf Sunrise
+[/list]
+[size=3]Rewards[/size]
+2 Diamonds
+
+[size=4]Elemental War[/size]
+[size=3]Repeatable[/size]
+No
+[size=3]Conditions[/size]
+Have not seen the event of Dwarf and Krobus reconcilling with a Seal of Promise.
+[size=3]Duration[/size]
+1 Month
+[size=3]Objectives[/size]
+Slay 100 Shadow Brutes and 50 Shadow Shamans
+[size=3]Rewards[/size]
+1 Prismatic Shard
+A letter in the mail with a Dwarven Sword.
+
+
+[size=4]Fight the Darkness[/size]
+[size=3]Repeatable[/size]
+Yes
+[size=3]Conditions[/size]
+Completed Elemental War
+Have not seen the event of Dwarf and Krobus reconcilling with a Seal of Promise.
+[size=3]Duration[/size]
+1 Week
+[size=3]Objectives[/size]
+Slay 50 Shadow Brutes or 25 Shadow Shamans
+[size=3]Rewards[/size]
+4 Diamonds
+
+[size=4]Potion Delivery[/size]
+[size=3]Repeatable[/size]
+Yes
+[size=3]Conditions[/size]
+Has read "Ancient Alchemy"
+[size=3]Duration[/size]
+3 Days
+[size=3]Objectives[/size]
+Delivery a random potion from the following list to Dwarf:
+[list]
+[*]Distilled Sunlight
+[*]Farmers Draught
+[*]Fishermans Brew
+[*]Miners Drink
+[*]Shadowed Elixir
+[*]Swordsmans Elixir
+[*]Ogre Kings Draft
+[*]Woodmans Tonic
+[/list]
+[size=3]Rewards[/size]
+12 Rubies
+A letter with the One Perfect Day recipe.
+
+[size=4]Dwarf's Day Out[/size]
+[size=3]Repeatable[/size]
+No
+[size=3]Conditions[/size]
+Completed Potion Delivery
+[size=3]Duration[/size]
+1 Week
+[size=3]Objectives[/size]
+Delivery 1 One Perfect Day to the Dwarf in the mines.
+[size=3]Rewards[/size]
+18 Emeralds
+A letter containing the book 'Advanced Alchemical Strategies' which grants 'Potion Master', a power that improves Alchemy Bench reagent yeilds.
+
+[size=4]Jewelry Bonanza[/size]
+[size=3]Repeatable[/size]
+No
+[size=3]Conditions[/size]
+Mining Level 6, Dwarf Hearts 1
+[size=3]Duration[/size]
+2 Weeks
+[size=3]Objectives[/size]
+Ship 100,00g worth of Jewelry made in the Dwarven Jewelry Maker.
+[size=3]Rewards[/size]
+25,000g
+A letter containing the book 'Advanced Jewelcrafting' which grants 'Master Jeweler', a power that improves the value multiplier on the Dwarven Jewelry Maker.
 
 [size=5]New Items[/size]
 
@@ -359,8 +495,8 @@ Adds new transmutation recipes (all costs, outputs and levels are configurable):
  [*]Gold -> Iron (1 Gold Bar produces 2 Iron Bars. Unlocked at mining 5)
  [*]Iridium -> Gold (1 Iridium Bar produces 3 Gold Bars. Unlocked at mining 7)
  [*]Gold -> Iridium (5 Gold Bars to make 1 Iridium Bar. Unlocked at mining 8)
- [*]RadioActive -> Iridium (1 Radioactive Bar to make 2 Iridium Bars. Unlocked at mining 9)
- [*]Iridium -> Radioactive (3 Iridium Bars to make 1 Radioactive Bar.  Unlocked at mining 10)
+ [*]RadioActive -> Iridium (1 Radioactive Bar to make 2 Iridium Bars. Unlocked at mining 9 if enabled in the config)
+ [*]Iridium -> Radioactive (3 Iridium Bars to make 1 Radioactive Bar.  Unlocked at mining 10 if enabled in the config)
  [*]Prismatic -> Iridium (1 Prismatic Bar to make 2 Iridium Bars. Unlocked at mining 9. Only if you have Prismatic Tools Continued)
  [*]Iridium -> Prismatic (3 Iridium Bars to make 1 Prismatic Bar.  Unlocked at mining 10.  Only if you have Prismatic Tools Continued)
 [/list]
@@ -385,25 +521,28 @@ The following recipe is received when you reach level 10 in the mining skill:
 [list]
 [*]Magic Rock Candy - create magic rock candy by hardening prismatic dust on a stick!
 [/list]
-These recipes are sent in the mail as you increase your relationship with Gus:
+These recipes are sent in the mail as you increase your relationship with Gus or after reading 'Fine Dwarven Cuisine':
 [list]
 [*]Dwarf Sunrise
 [*]Dusky Dwarf
 [/list]
-Finally, the following recipes can be purchased from Dwarf. Some recipes become available after 3 hearts with Dwarf.
+The following recipes are unlocked after reading 'Fine Dwarven Cuisine':
 [list]
-[*]Bug Meat Stew
 [*]Cavatouille
 [*]Cave Chowder
-[*]Cave Soup
-[*]Meaty Stew
 [*]Ice Pip Soup
 [*]Lava Eel Pie
-[*]Roaded Cave Fish
-[*]Rock Crab Salad
 [*]Shadowed Stew
 [*]Stonefish Suprise
 [*]Sunshine Stew
+[/list]
+Finally, the following recipes can be purchased from Dwarf. Some recipes become available after 3 hearts with Dwarf.
+[list]
+[*]Bug Meat Stew
+[*]Cave Soup
+[*]Meaty Stew
+[*]Roaded Cave Fish
+[*]Rock Crab Salad
 [/list]
 
 Note: The following recipes change if you have the Animal Husbandry patch for Dwarven Expansion:
@@ -463,7 +602,7 @@ These are new artisan goods that can be crafted and sold for profit at the Jewlr
 [size=3]Mod Supported Minerals[/size]
 [list]
 Minerals from several other mods are supported and create their own types of jewelry.
-See the coorisponding patch mod for details.
+See the corresponding patch mod for details.
 [/list]
 [size=3]Miscellanous[/size]
 [list]

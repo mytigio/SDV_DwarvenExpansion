@@ -221,6 +221,8 @@ Can be used as a space to process or store goods, similar to a shed. Floors and 
 A large furnace, heated with the activated magic of solar essances.  This furnace never needs additional fuel beyond the solar essances it is constructed with, and it can smelt multiple materials at the same time.
 Functions like a Mill, with products being processed and retrieved for the following morning.
 
+It is capable of processing each of the recipes below at the same time, so while it is no better then a standard furnace for a single ore, it can process all types of ore and quartz simultaniously.
+
 Each day it can simultaniously process:
 Up to 100 Copper Bars
 Up to 30 Iron Bars
@@ -230,15 +232,35 @@ Up to 6 Radioactive Bars
 Up to 32 Refined Quartz from regular Quartz
 Up to 96 Refined Quartz from Fire Quartz
 
+[size=3] Additional recipes after Dwarf fixes your Furnace[/size]
+3 Copper Dust -> 1 Copper Bar (Up to 100 per day)
+3 Iron Dust -> 1 Iron Bar (Up to 30 per day)
+3 Gold Dust -> 1 Gold Bar (Up to 10 per day)
+3 Iridium Dust -> 1 Iridium Bar (Up to 6 per day)
+10 Prismatic Dust -> 1 Prismatic Shard (Up to 1 per day)
+
 However this machine takes up a 5x5 area, so the primary gain is in the farmer's time to load and unload materials.
 
 [size=5]New Events[/size]
 
-5 new events.
+6 new events.
 [list]
 [*] 1 event as your friendship with Dwarf grows.  He gives you a gift.
 [*] 4 events as you explore or leave the mines.  Each gives 1 dwarven scroll and makes getting the Dwarvish Translation Guide less random.
+[*] 1 event after you complete a Special Order. He fixes your Dwarven Furnace and unlocks new recipes.
 [/list]
+
+[size=5]New Special Orders[/size]
+
+7 new Special Orders.
+
+1 to bring Dwarf a Dwarven Feast, in exchange he provides you a cookbook of fine dwarven cuisine. (unlocks all fine dwarven cuisine recipes).
+1 repeatable quest to bring Dwarf a food item from the mod.
+1 to slay 100 Shadow Brutes and 50 Shadow Shamans. Dwarf rewards you with a Dwarven Sword.
+1 repeatable quest to slay either 50 Shadow Brutes or 25 Shadow Shamans.
+1 repeatable quest to brew Dwarf a potion and deliver it. The first time you get a letter with the recipe for One Perfect Day.
+1 to bring Dwarf a One Perfect Day potion.  Dwarf rewards you with a book of advanced alchemy techniques, increasing reagent yeilds on the alchemy bench.
+1 from Lewis to ship 100,000g worth of Dwarven Jewelry. Lewis rewards you with a book of advanced jewelcrafting techniques, increasing the value multiplier on the jewelery bench.
 
 [size=5]New Items[/size]
 
@@ -264,8 +286,8 @@ Gold -> Iridium (5 gold bars to make 1 iridium bar. Unlocked at mining 8)
 Iron -> Copper (1 Iron produces 2 Copper. Unlocked at mining 3)
 Gold -> Iron (1 Gold produces 2 Iron. Unlocked at mining 5)
 Iridium -> Gold (1 Iridium produces 3 Gold. Unlocked at mining 7)
-RadioActive -> Iridium (1 Radioactive Bar to make 2 Iridium Bars. Unlocked at mining 9)
-Iridium -> Radioactive (3 Iridium Bars to make 1 Radioactive Bar.  Unlocked at mining 10)
+RadioActive -> Iridium (1 Radioactive Bar to make 2 Iridium Bars. Unlocked at mining 9 if enabled in config)
+Iridium -> Radioactive (3 Iridium Bars to make 1 Radioactive Bar.  Unlocked at mining 10 if enabled in config)
 Prismatic -> Iridium (1 Prismatic Bar to make 2 Iridium Bars. Unlocked at mining 9. Only if you have Prismatic Tools Continued)
 Iridium -> Prismatic (3 Iridium Bars to make 1 Prismatic Bar.  Unlocked at mining 10.  Only if you have Prismatic Tools Continued)
 
@@ -300,10 +322,11 @@ Several new cooking recipes have been added themed around ingredients sourced fr
 These new drinks are created in the Dwarven Still
 [list]
 [*]Dwarven Spirits - made by distilling ore dust and a cave carrot mash into a strong alcohol.
-[*]Infused Dwarven Spirits - made by distilling gem dust and cave carrot mash into a strong alcohol.
+[*]Infused Dwarven Spirits - made by infusing Dwarven Spirits with ore or gem dust in a Dwarven Infuser.
+[*]Voidberry Cider - a light alcohol made with voidberries.
 [/list]
 [size=4]Potions[/size]
-These potions are made from reagents created at the alchemy bench.  They are unlocked at mining level 9 after receiving a letter from Gunther.
+These potions are made from reagents created at the alchemy bench.  All but One Perfect Day are unlocked at mining level 9 after receiving a letter from Gunther. The final potion is unlocked as a quest reward.
 [list]
 [*]One Perfect Day - improve all skills and attributes for 1 full day.
 [*]Shadowed Elixer - improved combat defense skills

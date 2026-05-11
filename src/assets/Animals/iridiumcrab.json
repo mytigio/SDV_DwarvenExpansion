@@ -217,7 +217,7 @@
 					"ShopDescription": "{{i18n:IridiumCrab.ShopDescription}}",
 					"ShopMissingBuildingDescription": "{{i18n:IridiumCrab.ShopMissingBuildingDescription}}",
 					"RequiredBuilding": "{{BigCrabHouse}}",
-					"UnlockCondition": "MINE_LOWEST_LEVEL_REACHED 120",
+					"UnlockCondition": "MINE_LOWEST_LEVEL_REACHED 121",
 					"EggItemIds": [
 						"{{ModId}}_Animals_CrabEgg_Iridium"
 					],

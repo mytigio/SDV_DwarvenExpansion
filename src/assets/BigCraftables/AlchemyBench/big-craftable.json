@@ -639,7 +639,7 @@
                 "Dwarf_Potion_Delivery": {
                     "Name": "[Dwarf_Potion_Delivery.Name]",
                     "Requester": "Dwarf",
-                    "Duration": "Week",
+                    "Duration": "ThreeDays",
                     "Repeatable": true,
                     "RequiredTags": "",
                     "Condition": "PLAYER_STAT Current {{ModId}}_Book_PotionRecipes 1",
@@ -723,7 +723,7 @@
                         {
                             "Type": "Mail",
                             "Data": {
-                                "MailReceived": "{{ModId}}_DwarvenPotionDelivery",
+                                "MailReceived": "{{ModId}}_DwarfsDayOut",
                                 "NoLetter": "false"
                             }
                         }
