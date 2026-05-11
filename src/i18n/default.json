@@ -23,6 +23,13 @@
     "Dialog.Dwarf.Event.22021001.03": "Please take this. It is a tool my people made. This one was used by my father for many years.",
     "Dialog.Dwarf.Event.22021001.04": "It should help you as you explore the dark places below the earth.",
 
+    "Dialog.Dwarf.Event.Forge_Fix_1_1": "Hello human.  I was out looking for things to sell when I noticed your lovely forge.  It is my people's design if I'm not mistaken!",
+    "Dialog.Dwarf.Event.Forge_Fix_1_2": "I noticed your hypercompression manifold was installed improperly and your quantum-pressure injection scaffold was misaligned.",
+    "Dialog.Dwarf.Event.Forge_Fix_1_3": "Ha! I bet you could barely forge from pure ore dust at all! This should be fixed now.",
+    "Dialog.Dwarf.Event.Forge_Fix_1_4": "Your solar essences were activated well, now that your injectors and manifold are fixed I imagine you could even form prismatic shards from pure pristmastic dust.",
+    "Dialog.Dwarf.Event.Forge_Fix_1_5": "Back to my search, good night human.",
+    
+
     "Mail.Dwarf.DwarfCooking.LetterText": "Human,^I wish to share one of my people's foods.^I hope you enjoy its flavors.^- Your friend in the mine",
     "Mail.Dwarf.DwarfCooking.LetterName": "Dwarven Recipe",
 
@@ -37,6 +44,9 @@
 
     "Mail.SO.Dwarf.DwarfsDayOut.LetterText": "Human,^Your skill as an alchemist grows.  I have opted to give you my mothers old textbook. She was a master alchemist and I trust it will serve your studies as well.^-Your friend in the mine",
     "Mail.SO.Dwarf.DwarfsDayOut.LetterName": "Alchemical Studies",
+    
+    "Mail.SO.Lewis.MasterJeweler.LetterText": "Congratulations!^Your efforts in crafting and selling fine dwarven jewelry have placed Stardew Valley on the map of the Zuzu fashion scene!^You are paving the way for young artisans to enter the fine trade of jewelcrafting!^In addition to the sum already paid, the Stardew Valley Economic Society has assembled educational materials on advanced jewelcrafting techniques.^It is our hope you will master these skills and pass them on to others in your community!^                  - Lewis",
+    "Mail.SO.Lewis.MasterJeweler.LetterName": "Advanced Jewelcrafting Educational Materials",
 
     "Mail.Gunther.DwarfPotions.LetterText": "@,^I was going through the books in the museum and thought you may find this interesting, so I made you a copy.^The scientist who found the originals believed they were a collection of dwarven alchemical recipes. Potions, if you will.^I hope you find these writing as fascinating as I did.^- Gunther",
     "Mail.Gunther.DwarfPotions.LetterName": "Ancient Alchemy",
@@ -465,8 +475,8 @@
     "SO_Dwarfs_Day_Out.Text": "Brew and bring to me a most powerful potion.  My people call it One Perfect Day.                     -Dwarf",
     "SO_Dwarfs_Day_Out.Objective_0_Text": "Deliver a One Perfect Day Potion to Dwarf.",
 
-    "SO_Jewelry_Bananza.Name": "Jewelery Bonanza",
-    "SO_Jewelry_Bananza.Text": "Dwarven Style Jewelry has become all the rage in Zuzu fashion circles.  The Stardew Valley Economic Society will supply a bonus and jewelrycrafting educational materials to anyone who can put our town on the map as a premium source for handmade jewelry.",
+    "SO_Jewelry_Bananza.Name": "Jewelry Bonanza",
+    "SO_Jewelry_Bananza.Text": "Dwarven Style Jewelry has become all the rage in Zuzu fashion circles.  The Stardew Valley Economic Society will supply a bonus and jewelry-crafting educational materials to anyone who can put our town on the map as a premium source for handmade jewelry.",
     "SO_Jewelry_Bananza.Objective_0_Text": "Ship 100,000g worth of Dwarvish Jewelry"
 
 }

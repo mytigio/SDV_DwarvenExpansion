@@ -135,7 +135,7 @@
 							"RequiredTags": [
 								"id_o_378"
 							],
-							"RequiredCount": 4,
+							"RequiredCount": 5,
 							"MaxDailyConversions": 100,
 							"SourceChest": "Input",
 							"DestinationChest": "Output",
@@ -167,7 +167,7 @@
 							"RequiredTags": [
 								"id_o_380"
 							],
-							"RequiredCount": 4,
+							"RequiredCount": 5,
 							"MaxDailyConversions": 30,
 							"SourceChest": "Input",
 							"DestinationChest": "Output",
@@ -199,7 +199,7 @@
 							"RequiredTags": [
 								"id_o_384"
 							],
-							"RequiredCount": 4,
+							"RequiredCount": 5,
 							"MaxDailyConversions": 10,
 							"SourceChest": "Input",
 							"DestinationChest": "Output",
@@ -231,7 +231,7 @@
 							"RequiredTags": [
 								"id_o_386"
 							],
-							"RequiredCount": 4,
+							"RequiredCount": 5,
 							"MaxDailyConversions": 6,
 							"SourceChest": "Input",
 							"DestinationChest": "Output",
@@ -263,7 +263,7 @@
 							"RequiredTags": [
 								"id_o_909"
 							],
-							"RequiredCount": 4,
+							"RequiredCount": 5,
 							"MaxDailyConversions": 6,
 							"SourceChest": "Input",
 							"DestinationChest": "Output",
@@ -442,15 +442,146 @@
 							"PerItemCondition": null
 						}
 					]
+				},
+				"ForgeCopperDust": {
+					"Id": "ForgeCopperDust",
+					"RequiredTags": [
+						"id_o_{{ModId}}_MineralDust_CopperDust"
+					],
+					"RequiredCount": 3,
+					"MaxDailyConversions": 1,
+					"SourceChest": "Input",
+					"DestinationChest": "Output",
+					"ProducedItems": [
+						{
+							"Condition": null,
+							"Id": "(O)334",
+							"ItemId": "(O)334",
+							"RandomItemId": null,
+							"MaxItems": null,
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Quality": -1,
+							"ObjectInternalName": null,
+							"ObjectDisplayName": null,
+							"ToolUpgradeLevel": -1,
+							"IsRecipe": false,
+							"StackModifiers": null,
+							"StackModifierMode": "Stack",
+							"QualityModifiers": null,
+							"QualityModifierMode": "Stack",
+							"ModData": null,
+							"PerItemCondition": null
+						}
+					]
+				},
+				"ForgeIronDust": {
+					"Id": "ForgeIronDust",
+					"RequiredTags": [
+						"id_o_{{ModId}}_MineralDust_IronDust"
+					],
+					"RequiredCount": 3,
+					"MaxDailyConversions": 1,
+					"SourceChest": "Input",
+					"DestinationChest": "Output",
+					"ProducedItems": [
+						{
+							"Condition": null,
+							"Id": "(O)335",
+							"ItemId": "(O)335",
+							"RandomItemId": null,
+							"MaxItems": null,
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Quality": -1,
+							"ObjectInternalName": null,
+							"ObjectDisplayName": null,
+							"ToolUpgradeLevel": -1,
+							"IsRecipe": false,
+							"StackModifiers": null,
+							"StackModifierMode": "Stack",
+							"QualityModifiers": null,
+							"QualityModifierMode": "Stack",
+							"ModData": null,
+							"PerItemCondition": null
+						}
+					]
+				},
+				"ForgeGoldDust": {
+					"Id": "ForgeGoldDust",
+					"RequiredTags": [
+						"id_o_{{ModId}}_MineralDust_GoldDust"
+					],
+					"RequiredCount": 3,
+					"MaxDailyConversions": 1,
+					"SourceChest": "Input",
+					"DestinationChest": "Output",
+					"ProducedItems": [
+						{
+							"Condition": null,
+							"Id": "(O)336",
+							"ItemId": "(O)336",
+							"RandomItemId": null,
+							"MaxItems": null,
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Quality": -1,
+							"ObjectInternalName": null,
+							"ObjectDisplayName": null,
+							"ToolUpgradeLevel": -1,
+							"IsRecipe": false,
+							"StackModifiers": null,
+							"StackModifierMode": "Stack",
+							"QualityModifiers": null,
+							"QualityModifierMode": "Stack",
+							"ModData": null,
+							"PerItemCondition": null
+						}
+					]
+				},
+				"ForgeIridiumDust": {
+					"Id": "ForgeIridiumDust",
+					"RequiredTags": [
+						"id_o_{{ModId}}_MineralDust_IridiumDust"
+					],
+					"RequiredCount": 3,
+					"MaxDailyConversions": 1,
+					"SourceChest": "Input",
+					"DestinationChest": "Output",
+					"ProducedItems": [
+						{
+							"Condition": null,
+							"Id": "(O)337",
+							"ItemId": "(O)337",
+							"RandomItemId": null,
+							"MaxItems": null,
+							"MinStack": 1,
+							"MaxStack": 1,
+							"Quality": -1,
+							"ObjectInternalName": null,
+							"ObjectDisplayName": null,
+							"ToolUpgradeLevel": -1,
+							"IsRecipe": false,
+							"StackModifiers": null,
+							"StackModifierMode": "Stack",
+							"QualityModifiers": null,
+							"QualityModifierMode": "Stack",
+							"ModData": null,
+							"PerItemCondition": null
+						}
+					]
 				}
+			},
+			"When": {
+				"HasSeenEvent": "{{ModID}}_Forge_Fix"
 			}
 		},
 		{
-            "Action": "EditData",
-            "Target": "Data/Events/Farm",
-            "Entries": {
-                "{{ModID}}_Forge_Fix/DaysPlayed 112/Friendship Dwarf 2000/Time 2000 2600/GameStateQuery BUILDINGS_CONSTRUCTED All {{ModId}}_DwarvenFurnace 1 false/LocalMail {{ModId}}_MasterJeweler": "Upper_Ambient/64 15/farmer 64 16 2 Dwarf 64 18 0/pause 1500/speak Dwarf \"{{i18n:Dialog.Dwarf.Event.Forge_Fix_1_1}}\"/pause 500/speak Dwarf \"{{i18n:Dialog.Dwarf.Event.Forge_Fix_1_1}}\"/end"
-            }
-        }
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"Entries": {
+				"{{ModID}}_Forge_Fix/DaysPlayed 112/Friendship Dwarf 2000/Time 2000 2600/GameStateQuery BUILDINGS_CONSTRUCTED All {{ModId}}_DwarvenFurnace 1/LocalMail {{ModId}}_MasterJeweler": "Upper_Ambient/64 15/farmer 64 16 2 Dwarf 64 18 0/pause 1500/speak Dwarf \"{{i18n:Dialog.Dwarf.Event.Forge_Fix_1_1}}\"/pause 200/speak Dwarf \"{{i18n:Dialog.Dwarf.Event.Forge_Fix_1_2}}\"/pause 200/speak Dwarf \"{{i18n:Dialog.Dwarf.Event.Forge_Fix_1_3}}\"/pause 200/emote Dwarf 32 continue/speak Dwarf \"{{i18n:Dialog.Dwarf.Event.Forge_Fix_1_4}}\"/pause 200/speak Dwarf \"{{i18n:Dialog.Dwarf.Event.Forge_Fix_1_5}}\"/end"
+			}
+		}
 	]
 }

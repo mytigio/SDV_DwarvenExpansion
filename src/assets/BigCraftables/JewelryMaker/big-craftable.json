@@ -70,6 +70,13 @@
         },
         {
             "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "{{ModId}}_MasterJeweler": "{{i18n:Mail.SO.Lewis.MasterJeweler.LetterText}}^%item id {{ModId}}_Book_AdvancedJeweler 1 %%[#]{{i18n:Mail.SO.Lewis.MasterJeweler.LetterName}}",
+            }
+        },
+        {
+            "Action": "EditData",
             "Target": "Data/SpecialOrders",
             "Entries": {
                 "Jewelry_Bananza": {
@@ -104,17 +111,10 @@
                             }
                         },
                         {
-                            "Type": "Object",
-                            "Data": {
-                                "Item": "{{ModId}}_Book_AdvancedJeweler",
-                                "Amount": "1"
-                            }
-                        },
-                        {
                             "Type": "Mail",
                             "Data": {
                                 "MailReceived": "{{ModId}}_MasterJeweler",
-                                "NoLetter": "true"
+                                "NoLetter": "false"
                             }
                         }
                     ],
