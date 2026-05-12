@@ -449,7 +449,7 @@
 						"id_o_{{ModId}}_MineralDust_CopperDust"
 					],
 					"RequiredCount": 3,
-					"MaxDailyConversions": 1,
+					"MaxDailyConversions": 100,
 					"SourceChest": "Input",
 					"DestinationChest": "Output",
 					"ProducedItems": [
@@ -481,7 +481,7 @@
 						"id_o_{{ModId}}_MineralDust_IronDust"
 					],
 					"RequiredCount": 3,
-					"MaxDailyConversions": 1,
+					"MaxDailyConversions": 30,
 					"SourceChest": "Input",
 					"DestinationChest": "Output",
 					"ProducedItems": [
@@ -513,7 +513,7 @@
 						"id_o_{{ModId}}_MineralDust_GoldDust"
 					],
 					"RequiredCount": 3,
-					"MaxDailyConversions": 1,
+					"MaxDailyConversions": 10,
 					"SourceChest": "Input",
 					"DestinationChest": "Output",
 					"ProducedItems": [
@@ -545,7 +545,7 @@
 						"id_o_{{ModId}}_MineralDust_IridiumDust"
 					],
 					"RequiredCount": 3,
-					"MaxDailyConversions": 1,
+					"MaxDailyConversions": 6,
 					"SourceChest": "Input",
 					"DestinationChest": "Output",
 					"ProducedItems": [
